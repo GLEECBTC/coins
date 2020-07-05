@@ -203,8 +203,9 @@ Ethereum protocol specific coin/project add request are the most simplest. `"coi
 - The RPC node URL can either be a DNS or an IP address with port.
 
 
-### [Komodo electrumX monitoring portal](https://eyelectrumx.herokuapp.com/).
+### Komodo [electrumX monitoring portal](https://eyelectrumx.herokuapp.com/).
 
 - eyelectrumx folder is monitored by parser in order to automatically rebuild/deploy the portal on any changes to the current integration of coins to the DEX ecosystem.
 - It contains json data for parser with up-to-date adex-mob and adex-pro coins integrations as well as all-tickers with available electrum servers that are not yet in our DEX products.
-- I'm planning to maintain this folder [myself](https://github.com/dathbezumniy), but if any other contributors wish to help, please feel free.
+- The maintainer of this folder is [dathbezumniy](https://github.com/dathbezumniy), but if any other contributors wish to help, feel free.
+- [Projects repo](https://github.com/dathbezumniy/eyelectrumx)
