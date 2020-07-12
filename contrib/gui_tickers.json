@@ -6,7 +6,7 @@
                                     "MUE",    "MSHARK", "NAV",   "NINJA",  "NMC",    "OOT",   "PANGEA",   "PGT",   "PTX",
                                     "QTUM",   "REVS",   "RFOX",  "RICK",   "RVN",    "SMART", "SUPERNET", "THC",   "UFO",
                                     "VRSC",   "VTC",    "WLC",   "XBC",    "XZC",    "ZEC",   "ZER",      "ZILLA", 
-                                    "ETH",    "AWC",    "BUSD",  "PAX",    "DAI",    "SAI",   "TUSD",     "USDC",  "BAT"],
+                                    "ETH",    "AWC",    "BUSD",  "PAX",    "DAI",    "SAI",   "TUSD",     "USDC",   "BAT"],
 
                           "UTXO":  ["KMD", "BTC", "AXE", "BCH", "DASH", "DGB", "DOGE", "ECA",  "FTC", "LTC", "NAV", "QTUM", "RVN", "VRSC", "ZEC", "XZC", "ZER"],
                           "SMART": ["ZILLA", "DEX", "HUSH", "LABS", "KOIN", "MCL", "RFOX", "SUPERNET", "OOT", "MORTY", "RICK"],
