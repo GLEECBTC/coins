@@ -5,7 +5,7 @@
 
 ## About this repository
 
-This repository is the coins database which is accessed by [AtomicDEX API](https://github.com/KomodoPlatform/atomicDEX-API/) and graphical applications like [AtomicDEX Mobile](https://github.com/KomodoPlatform/atomicDEX), [AtomicDEX-PRO](https://github.com/KomodoPlatform/atomicDEX-Pro), HyperDEX etc. to enable coins for trading.
+This repository is the coins database which is accessed by [AtomicDEX API](https://github.com/KomodoPlatform/atomicDEX-API/) and graphical applications like [AtomicDEX Mobile](https://github.com/KomodoPlatform/atomicDEX), [atomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop), DogeDEX etc. to enable coins for trading.
 
 ## Prerequisites for a coin to be compatible with AtomicDEX-API
 
@@ -37,7 +37,11 @@ When submitting your coin addition request, please submit the URLs of the 5 tran
 
 You can learn about performing an atomic swap from our documentation at [this link](https://developers.komodoplatform.com/basic-docs/atomicdex/atomicdex-tutorials/introduction-to-atomicdex.html)
 
-If you have any questions, please ask in the `#support` channel in [our Discord server](https://komodoplatform.com/discord) or you can get help from the team at coinintegration@komodoplatform.com or one of the service providers listed at [https://komodoplatform.com/ecosystem/#service-providers](https://komodoplatform.com/ecosystem/#service-providers).
+Activating a coin: [https://developers.komodoplatform.com/basic-docs/atomicdex-api-legacy/coin_activation.html](https://developers.komodoplatform.com/basic-docs/atomicdex-api-legacy/coin_activation.html)
+
+Walkthrough: [https://developers.komodoplatform.com/basic-docs/atomicdex/atomicdex-tutorials/atomicdex-walkthrough.html](https://developers.komodoplatform.com/basic-docs/atomicdex/atomicdex-tutorials/atomicdex-walkthrough.html)
+
+If you have any questions, please ask in the `#support` channel in [our Discord server](https://komodoplatform.com/discord) or you can get help from the team at coinintegration@komodoplatform.com or partners@komodplatform.com .
 
 ## 1. Coin info added to `coins` file (Required)
 You need the following info in JSON format added to the [coins](coins) file:
@@ -94,6 +98,7 @@ You need the following info in JSON format added to the [coins](coins) file:
                 "fname": "USD Coin",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 1,
                 "required_confirmations": 3,
                 "avg_blocktime": 0.25,
                 "protocol": {
@@ -115,6 +120,7 @@ You need the following info in JSON format added to the [coins](coins) file:
                 "fname": "USD Coin",
                 "rpcport": 80,
                 "mm2": 1,
+                "chain_id": 56,
                 "avg_blocktime": 0.05,
                 "required_confirmations": 3,
                 "protocol": {
@@ -163,6 +169,7 @@ You need the following info in JSON format added to the [coins](coins) file:
 - `"requires_notarization"` tells AtomicDEX to wait for a notarization during the swap. This only works with dPoW coins and `"required_confirmations"` must be set to `2` or higher.
 - `"decimals"` defines the number of digits after the decimal point that should be used to display the orderbook amounts, balance, and the value of inputs to be used in the case of order creation or a `withdraw` transaction. The default value used for a UTXO type coin (Bitcoin Protocol) is `8` and the default value used for a ERC20 Token is `18`. It is very important for this value to be set correctly. For example, if this value was set as `9` for BTC, a command to withdraw `1 BTC` tries to withdraw `10^9` satoshis of Bitcoin, i.e., `10 BTC`
 - `"protocol"` contains the coin protocol `"type"` (UTXO, ETH, etc.) and specific protocol configuration - `"protocol_data"` object that can have arbitrary format. 
+- `"orderbook_ticker"` - If set, coins with the same value will share the same orderbook. For example, if `BTC-Segwit` and `BTC-BEP20` are set with  `"orderbook_ticker":"BTC"` the same orderbook is returned for KMD/BTC, KMD/BTC-BEP20 and KMD/BTC-Segwit pairs. 
 
 ## Bitcoin Protocol specific JSON
 
@@ -186,6 +193,7 @@ You need the following info in JSON format added to the [coins](coins) file:
 ## Ethereum Protocol specific JSON
 
 - Ethereum protocol specific coin/project add request are the simplest. `"coin"`, `"name"`, and `"fname"` information is same as explained in bitcoin protocol specific json section.
+- `chain_id` - ID of the chain, see [Chainlist](https://chainlist.org/)
 - Protocol `"type"` field: `"ETH"` or `"ERC20"`
 - Protocol `"protocol_data"` field (ERC20 only): `"platform"` - `"ETH"`, `"ETC"` or other Ethereum forks. `"contract_address"` - ERC20 token [checksummed](https://coincodex.com/article/2078/ethereum-address-checksum-explained/) smart contract address.
 
@@ -286,11 +294,3 @@ You need the following info in JSON format added to the [coins](coins) file:
 - At least minimum 2 or more URLs of RPC nodes must be provided.
 - Contact information must be provided in case the server admin needs to be contacted in urgent cases. It can be any contact information out of the examples provided. Or may be add your own service/contact information as suites you.
 - The RPC node URL can either be a DNS or an IP address with port.
-
-
-### Komodo [electrumX monitoring portal](https://eyelectrumx.herokuapp.com/).
-
-- [Projects repo](https://github.com/dathbezumniy/eyelectrumx)
-- [This file](https://github.com/komodoplatform/coins/blob/master/contrib/gui_tickers.json) is monitored by parser in order to automatically rebuild/deploy the portal on any changes to the current integration of coins to the DEX ecosystem.
-- It contains json data for parser with up-to-date adex-mob and adex-pro coins integrations as well as all-tickers with available electrum servers that are not yet in our DEX products.
-- The maintainer of this file is [dathbezumniy](https://github.com/dathbezumniy).
