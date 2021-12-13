@@ -1054,7 +1054,7 @@
                 "pubtype": 58,
                 "p2shtype": 50,
                 "wiftype": 128,
-                "segwit": true,
+                "segwit": false,
                 "decimals": 18
         },
         {
