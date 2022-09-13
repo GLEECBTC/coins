@@ -5806,7 +5806,7 @@
     "protocol": {
       "type": "UTXO"
     }
-  },  
+  },
   {
     "coin": "MIR-ERC20",
     "name": "mir_erc20",
@@ -6172,6 +6172,32 @@
         "platform": "BNB",
         "contract_address": "0x1Fa4a73a3F0133f0025378af00236f3aBDEE5D63"
       }
+    }
+  },
+  {
+    "coin": "NEX",
+    "name": "nexa",
+    "fname": "Nexa",
+    "rpcport": 7228,
+    "pubtype": 25,
+    "p2shtype": 68,
+    "wiftype": 35,
+    "txfee": 0,
+    "segwit": false,
+    "bech32_hrp": "nexa",
+    "mm2": 1,
+    "decimals": 2,
+    "avg_blocktime": 2,
+    "enable_spv_proof": true,
+    "required_confirmations": 1,
+    "mature_confirmations": 5001,
+    "sign_message_prefix": "Bitcoin Signed Message:\n",
+    "protocol": {
+      "type": "UTXO"
+    },
+    "address_format": {
+      "format": "cashaddress",
+      "network": "nexa"
     }
   },
   {
