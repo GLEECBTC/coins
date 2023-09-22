@@ -5202,8 +5202,7 @@
     "pubtype": 36,
     "p2shtype": 5,
     "wiftype": 128,
-    "txfee": 10000,
-    "dust": 10000,
+    "txfee": 0,
     "segwit": true,
     "bech32_hrp": "grs",
     "mm2": 1,
@@ -5228,8 +5227,7 @@
     "pubtype": 36,
     "p2shtype": 5,
     "wiftype": 128,
-    "txfee": 10000,
-    "dust": 10000,
+    "txfee": 0,
     "segwit": true,
     "bech32_hrp": "grs",
     "address_format": {
@@ -9470,6 +9468,34 @@
     },
     "derivation_path": "m/44'/143'"
   },
+
+  {
+    "coin": "RXD",
+    "name": "Radiant",
+    "fname": "Radiant",
+    "rpcport": 7334,
+    "pubtype": 0,
+    "p2shtype": 5,
+    "wiftype": 128,
+    "txfee": 0.003,
+    "dust": 0.00001,
+    "segwit": true,
+    "mm2": 1,
+    "address_format": {
+        "format": "segwit"
+      },
+  
+    "required_confirmations": 2,
+    "avg_blocktime": 300,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/0'",
+    "links": {
+        "github": "https://github.com/RadiantBlockchain",
+        "homepage": "https://radiantblockchain.org"
+      }
+  },
   {
     "coin": "NFTX",
     "asset": "NFTX",
@@ -9697,7 +9723,6 @@
     "wiftype": 128,
     "segwit": true,
     "txfee": 1000000,
-    "dust": 1000000,
     "mm2": 1,
     "required_confirmations": 3,
     "avg_blocktime": 60,
@@ -11794,7 +11819,6 @@
     "p2shtype": 5,
     "wiftype": 128,
     "txfee": 100000,
-    "dust": 100000,
     "segwit": true,
     "bech32_hrp": "vtc",
     "mm2": 1,
@@ -11820,7 +11844,6 @@
     "p2shtype": 5,
     "wiftype": 128,
     "txfee": 100000,
-    "dust": 100000,
     "segwit": true,
     "bech32_hrp": "vtc",
     "address_format": {
