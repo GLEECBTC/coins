@@ -36,9 +36,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -82,7 +79,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -324,7 +321,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -371,7 +368,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -416,9 +413,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -568,9 +562,6 @@
         "nodes": [
             {
                 "url": "https://rpc.fantom.network"
-            },
-            {
-                "url": "https://rpc2.fantom.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -702,7 +693,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -947,9 +938,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -1049,7 +1037,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -1152,7 +1140,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -1301,7 +1289,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -1450,9 +1438,6 @@
         "nodes": [
             {
                 "url": "https://rpc.fantom.network"
-            },
-            {
-                "url": "https://rpc2.fantom.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -1496,7 +1481,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -1849,7 +1834,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -2023,9 +2008,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -2181,7 +2163,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -2705,7 +2687,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -2900,9 +2882,6 @@
         "nodes": [
             {
                 "url": "https://rpc.fantom.network"
-            },
-            {
-                "url": "https://rpc2.fantom.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -2946,7 +2925,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -2991,9 +2970,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -3187,7 +3163,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -3622,7 +3598,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -3791,7 +3767,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -4588,7 +4564,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -4797,7 +4773,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -4844,7 +4820,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -4890,9 +4866,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/",
@@ -5641,7 +5614,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -5838,9 +5811,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -5882,9 +5852,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -5925,7 +5892,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver.public.blastapi.io"
+                "url": "https://rpc.moonriver.moonbeam.network"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network"
@@ -6079,7 +6046,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -6183,7 +6150,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -6565,7 +6532,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -7006,7 +6973,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -7153,7 +7120,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -7243,9 +7210,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -7441,7 +7405,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -7588,7 +7552,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -7689,9 +7653,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -7733,9 +7694,6 @@
         "nodes": [
             {
                 "url": "https://rpc.fantom.network"
-            },
-            {
-                "url": "https://rpc2.fantom.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -7823,7 +7781,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -8105,9 +8063,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -8256,9 +8211,6 @@
         "nodes": [
             {
                 "url": "https://rpc.fantom.network"
-            },
-            {
-                "url": "https://rpc2.fantom.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -8343,7 +8295,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver.public.blastapi.io"
+                "url": "https://rpc.moonriver.moonbeam.network"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network"
@@ -8390,7 +8342,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -8685,7 +8637,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -10322,7 +10274,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -10555,9 +10507,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -10679,9 +10628,6 @@
         "nodes": [
             {
                 "url": "https://rpc.fantom.network"
-            },
-            {
-                "url": "https://rpc2.fantom.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -10813,7 +10759,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -10917,7 +10863,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -11026,7 +10972,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -11320,7 +11266,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -12202,9 +12148,6 @@
         "nodes": [
             {
                 "url": "https://rpc.fantom.network"
-            },
-            {
-                "url": "https://rpc2.fantom.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -12459,7 +12402,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -12504,9 +12447,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -12547,7 +12487,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver.public.blastapi.io"
+                "url": "https://rpc.moonriver.moonbeam.network"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network"
@@ -12592,9 +12532,6 @@
         "nodes": [
             {
                 "url": "https://rpc.fantom.network"
-            },
-            {
-                "url": "https://rpc2.fantom.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -12919,7 +12856,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -13059,9 +12996,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -13165,7 +13099,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -13212,7 +13146,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -13411,8 +13345,7 @@
         "pubtype": 36,
         "p2shtype": 5,
         "wiftype": 128,
-        "txfee": 10000,
-        "dust": 10000,
+        "txfee": 0,
         "segwit": true,
         "bech32_hrp": "grs",
         "mm2": 1,
@@ -13490,8 +13423,7 @@
         "pubtype": 36,
         "p2shtype": 5,
         "wiftype": 128,
-        "txfee": 10000,
-        "dust": 10000,
+        "txfee": 0,
         "segwit": true,
         "bech32_hrp": "grs",
         "address_format": {
@@ -13589,9 +13521,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -13740,7 +13669,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -14008,7 +13937,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -14111,7 +14040,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -14402,7 +14331,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -14638,7 +14567,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -14685,7 +14614,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -15088,7 +15017,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -15182,7 +15111,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -15279,7 +15208,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -15327,7 +15256,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -15373,9 +15302,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -15524,7 +15450,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -15572,7 +15498,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -15618,9 +15544,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -15769,7 +15692,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -15922,7 +15845,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -15970,7 +15893,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -16018,7 +15941,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -16066,7 +15989,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -16114,7 +16037,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -16162,7 +16085,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -16210,7 +16133,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -16258,7 +16181,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -16304,9 +16227,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/",
@@ -16351,7 +16271,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -16454,7 +16374,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -16501,7 +16421,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -16549,7 +16469,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -16597,7 +16517,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -16645,7 +16565,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -17018,7 +16938,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -17063,9 +16983,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -17564,7 +17481,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -17671,7 +17588,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -17771,9 +17688,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -17862,9 +17776,6 @@
         "nodes": [
             {
                 "url": "https://rpc.fantom.network"
-            },
-            {
-                "url": "https://rpc2.fantom.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -17996,7 +17907,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -18200,7 +18111,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -18914,7 +18825,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -19065,7 +18976,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -19147,7 +19058,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -19801,9 +19712,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -20056,9 +19964,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -20147,7 +20052,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver.public.blastapi.io"
+                "url": "https://rpc.moonriver.moonbeam.network"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network"
@@ -20194,7 +20099,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -20339,7 +20244,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver.public.blastapi.io"
+                "url": "https://rpc.moonriver.moonbeam.network"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network"
@@ -20737,7 +20642,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -21219,7 +21124,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -21374,7 +21279,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -21482,7 +21387,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -21764,7 +21669,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -21919,7 +21824,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -22202,7 +22107,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -22309,7 +22214,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -22466,7 +22371,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -22616,7 +22521,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -24065,7 +23970,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -24318,7 +24223,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -24421,7 +24326,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -24658,7 +24563,6 @@
         "wiftype": 128,
         "segwit": true,
         "txfee": 1000000,
-        "dust": 1000000,
         "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 60,
@@ -24714,6 +24618,73 @@
         ],
         "explorer_block_url": "block/"
     },
+
+        "RXD": {
+        "coin": "RXD",
+        "type": "UTXO",
+        "name": "Radiant",
+        "coinpaprika_id": "rxd-radiant",
+        "coingecko_id": "radiant",
+        "livecoinwatch_id": "RXD",
+        "explorer_url": "https://radiantexplorer.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Radiant Signed Message:\n",
+        "fname": "Radiant",
+        "rpcport": 7334,
+        "pubtype": 0,
+        "p2shtype": 5,
+        "wiftype": 128,
+        "segwit": true,
+        "txfee": 0,
+        "estimate_fee_mode": "ECONOMICAL",
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 300,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/0'",
+        "links": {
+            "github": "https://github.com/RadiantBlockchain",
+            "homepage": "https://radiantblockchain.org"
+              },
+        "electrum": [
+            {
+                "url": "electrumx-dex01.radiantexplorer.com:40001",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "info@radiant4people.com"
+                    },
+                    {
+                        "discord": "mehdi25000"
+                    }
+                ],
+                "ws_url": "electrumx-dex01.radiantexplorer.com:40002"
+            },
+            {
+                "url": "electrumx-dex02.radiantexplorer.com:40001",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "info@radiant4people.com"
+                    },
+                    {
+                        "discord": "mehdi25000"
+                    }
+                ],
+                "ws_url": "electrumx-dex01.radiantexplorer.com:40002"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+
     "SAND-ERC20": {
         "coin": "SAND-ERC20",
         "type": "ERC-20",
@@ -24857,7 +24828,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -24998,9 +24969,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -25150,9 +25118,6 @@
         "nodes": [
             {
                 "url": "https://rpc.fantom.network"
-            },
-            {
-                "url": "https://rpc2.fantom.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -25240,7 +25205,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -25335,7 +25300,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -25566,7 +25531,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -25684,9 +25649,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -25836,9 +25798,6 @@
         "nodes": [
             {
                 "url": "https://rpc.fantom.network"
-            },
-            {
-                "url": "https://rpc2.fantom.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -25923,7 +25882,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver.public.blastapi.io"
+                "url": "https://rpc.moonriver.moonbeam.network"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network"
@@ -25970,7 +25929,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -26678,7 +26637,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -27179,9 +27138,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/",
@@ -27274,7 +27230,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -27531,9 +27487,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -27575,9 +27528,6 @@
         "nodes": [
             {
                 "url": "https://rpc.fantom.network"
-            },
-            {
-                "url": "https://rpc2.fantom.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -27709,7 +27659,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -27864,7 +27814,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -27947,9 +27897,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -28049,7 +27996,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -28094,9 +28041,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -28335,7 +28279,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -28430,9 +28374,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -28474,9 +28415,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -28624,9 +28562,6 @@
         "nodes": [
             {
                 "url": "https://rpc.fantom.network"
-            },
-            {
-                "url": "https://rpc2.fantom.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -28755,7 +28690,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver.public.blastapi.io"
+                "url": "https://rpc.moonriver.moonbeam.network"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network"
@@ -28802,7 +28737,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -28950,7 +28885,7 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver.public.blastapi.io"
+                "url": "https://rpc.moonriver.moonbeam.network"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network"
@@ -28995,9 +28930,6 @@
         "nodes": [
             {
                 "url": "https://rpc.fantom.network"
-            },
-            {
-                "url": "https://rpc2.fantom.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -29129,7 +29061,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -29214,9 +29146,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -29258,9 +29187,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -29688,7 +29614,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -30031,7 +29957,6 @@
         "p2shtype": 5,
         "wiftype": 128,
         "txfee": 100000,
-        "dust": 100000,
         "segwit": true,
         "bech32_hrp": "vtc",
         "mm2": 1,
@@ -30087,7 +30012,6 @@
         "p2shtype": 5,
         "wiftype": 128,
         "txfee": 100000,
-        "dust": 100000,
         "segwit": true,
         "bech32_hrp": "vtc",
         "address_format": {
@@ -30273,7 +30197,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -30430,9 +30354,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -30522,9 +30443,6 @@
         "nodes": [
             {
                 "url": "https://rpc.fantom.network"
-            },
-            {
-                "url": "https://rpc2.fantom.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -30568,7 +30486,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -30891,7 +30809,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -31414,7 +31332,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -31762,9 +31680,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -31914,9 +31829,6 @@
         "nodes": [
             {
                 "url": "https://rpc.fantom.network"
-            },
-            {
-                "url": "https://rpc2.fantom.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -32004,7 +31916,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
@@ -32450,9 +32362,6 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
-            },
-            {
-                "url": "https://avalanche.blockpi.network/v1/rpc/public"
             }
         ],
         "explorer_block_url": "block/"
@@ -32557,7 +32466,7 @@
                 "url": "https://polygon-rpc.com"
             },
             {
-                "url": "https://polygon.blockpi.network/v1/rpc/public"
+                "url": "https://polygon.rpc.blxrbdn.com"
             },
             {
                 "url": "https://polygon.llamarpc.com"
