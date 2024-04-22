@@ -1,0 +1,32 @@
+[
+  {
+    "url": "electrumx.dpowcore.org:22002",
+    "protocol": "SSL",
+    "contact": [
+          { "email": "mraksoll@gmail.com" },
+          { "discord": "mraksoll" },
+          { "github": "https://github.com/dpowcore-project/electrumx/issues" }
+    ],
+    "ws_url": "electrumx.dpowcore.org:22003"
+  },
+  {
+    "url": "electrumx1.dpowcore.org:22002",
+    "protocol": "SSL",
+    "contact": [
+        { "email": "mraksoll@gmail.com" },
+        { "discord": "mraksoll" },
+        { "github": "https://github.com/dpowcore-project/electrumx/issues" }
+    ],
+    "ws_url": "electrumx1.dpowcore.org:22003"
+  },
+  {
+    "url": "electrumx2.dpowcore.org:22002",
+    "protocol": "SSL",
+    "contact": [
+        { "email": "mraksoll@gmail.com" },
+        { "discord": "mraksoll" },
+        { "github": "https://github.com/dpowcore-project/electrumx/issues" }
+    ],
+    "ws_url": "electrumx2.dpowcore.org:22003"
+  }
+]

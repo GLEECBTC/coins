@@ -1,0 +1,5 @@
+[Taker fee (KMD)](https://kmdexplorer.io/tx/7c90641e43a9f26489601231cdcb10523013c98db7d55c555c357d98877df0c6)
+[Maker payment (DPC)](https://explorer.dpowcore.org/tx/cd565b8144b56f76655974279dcc8869124cd1b70bb79de20a6b8e84051ff38a)
+[Taker payment (KMD)](https://kmdexplorer.io/tx/daddc8242b68406aef9ab9da83166fed7f347bc3e49a7c83845f46d6707fcba8)
+[Taker payment spend (KMD)](https://kmdexplorer.io/tx/3b0b959824e450bbf8003229cb3f2be2e76ecf3e42cd82078f7d5e9744a7f193)
+[Maker payment spend (DPC)](https://explorer.dpowcore.org/tx/c7e019af0c0fc189f1301265b85e8384b679fff0fd1a0c4cd4f4e180da282908)
