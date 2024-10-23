@@ -1,5 +1,58 @@
 [
   {
+    "coin": "BTC-lightning",
+    "mm2": 1,
+    "decimals": 11,
+    "channel_options": {
+        "announced_channel": false
+    },
+    "our_channels_config": {
+        "inbound_channels_confirmations": 3,
+        "max_inbound_in_flight_htlc_percent": 90
+    },
+    "counterparty_channel_config_limits": {
+        "outbound_channels_confirmations": 3,
+        "force_announced_channel_preference": false
+    },
+    "protocol": {
+        "type": "LIGHTNING",
+        "protocol_data":{
+            "platform": "BTC-segwit",
+            "network": "mainnet",
+            "confirmation_targets": {
+                "background": 12,
+                "normal": 6,
+                "high_priority": 1
+            }
+        }
+    }
+  },
+  {
+    "coin": "tBTC-lightning",
+    "mm2": 1,
+    "decimals": 11,
+    "our_channels_configs": {
+        "inbound_channels_confirmations": 3,
+        "max_inbound_in_flight_htlc_percent": 90,
+        "their_channel_reserve_sats": 1000
+    },
+    "counterparty_channel_config_limits": { 
+        "outbound_channels_confirmations": 3
+    },
+    "protocol": {
+        "type": "LIGHTNING",
+        "protocol_data":{
+            "platform": "tBTC-segwit",
+            "network": "testnet",
+            "confirmation_targets": {
+                "background": 12,
+                "normal": 6,
+                "high_priority": 1
+            }
+        }
+    }
+  },
+  {
     "coin": "1INCH-AVX20",
     "name": "1inch_avx20",
     "fname": "1Inch",
@@ -12533,6 +12586,7 @@
     "wiftype": 239,
     "segwit": true,
     "bech32_hrp": "tb",
+    "avg_blocktime": 600,
     "address_format": {
       "format": "segwit"
     },
