@@ -9529,12 +9529,10 @@
     "links": {
       "homepage": "https://moonbeam.network/networks/moonriver/"
     },
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
         "eth_payment": 100000,
-        "eth_receiver_spend": 700000,
-        "eth_sender_refund": 700000
+        "eth_receiver_spend": 100000,
+        "eth_sender_refund": 100000
     }
   },
   {
