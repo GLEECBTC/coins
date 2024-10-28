@@ -9533,8 +9533,8 @@
     "max_eth_tx_type": 2,
     "gas_limit": {
         "eth_payment": 100000,
-        "eth_receiver_spend": 200000,
-        "eth_sender_refund": 200000
+        "eth_receiver_spend": 300000,
+        "eth_sender_refund": 300000
     }
   },
   {
