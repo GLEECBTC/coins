@@ -1,5 +1,20 @@
 [
     {
+        "url": "electrum1.valhala.is:50002",
+        "ws_url": "electrum1.valhala.is:50004",
+        "protocol": "SSL",
+        "contact": [
+          { "discord": "388437778624413706" }
+        ]
+    },
+    {
+        "url": "electrum1.valhala.is:50001",
+        "protocol": "TCP",
+        "contact": [
+          { "discord": "388437778624413706" }
+        ]
+    },
+    {
         "url": "electrumx.aur.ewmcx.info:50002",
         "protocol": "SSL",
         "disable_cert_verification": true,

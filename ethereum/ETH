@@ -7,6 +7,10 @@
             "gui_auth": true
         },
         {
+            "url": "https://ethereum-rpc.publicnode.com",
+            "ws_url": "wss://ethereum-rpc.publicnode.com"
+        },
+        {
             "url": "https://eth1.cipig.net:18555",
             "ws_url": "wss://eth1.cipig.net:38555",
             "contact": {

@@ -1,6 +1,15 @@
 [
   {
-    "url": "electrumx.cryptocollider.com:10001",
+    "url": "v2.cryptocollider.com:10001",
+    "contact": [
+      { "email": "electrumx@cryptocollider.com" },
+      { "discord": "collider#6160" }
+    ]
+  },
+  {
+    "url": "v2.cryptocollider.com:8443",
+    "protocol": "SSL",
+    "ws_url": "v2.cryptocollider.com:5001",
     "contact": [
       { "email": "electrumx@cryptocollider.com" },
       { "discord": "collider#6160" }
