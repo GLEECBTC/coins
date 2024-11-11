@@ -1,5 +1,19 @@
 [
   {
+    "coin": "TSIA",
+    "asset": "TSIA",
+    "fname": "TSIA",
+    "rpcport": 59842,
+    "mm2": 1,
+    "required_confirmations": 6,
+    "avg_blocktime": 600,
+    "decimals": 24,
+    "derivation_path": "m/44'/1991'",
+    "protocol": {
+      "type": "SIA"
+    }
+  },
+  {
     "coin": "1INCH-AVX20",
     "name": "1inch_avx20",
     "fname": "1Inch",
@@ -8535,6 +8549,28 @@
     }
   },
   {
+    "coin": "LOLS-BEP20",
+    "name": "lols_bep20",
+    "fname": "LOLSmash",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x19961cf3B822d37e16E310AB7C6C0277F95f31c3"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://lolsmash.net"
+    }
+  },
+  {
     "coin": "LOOP-BEP20",
     "name": "loop_bep20",
     "fname": "LoopNetwork",
@@ -9543,8 +9579,8 @@
     "max_eth_tx_type": 2,
     "gas_limit": {
         "eth_payment": 100000,
-        "eth_receiver_spend": 100000,
-        "eth_sender_refund": 100000
+        "eth_receiver_spend": 500000,
+        "eth_sender_refund": 500000
     }
   },
   {
@@ -10397,6 +10433,78 @@
       }
     },
     "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "PEPE-ERC20",
+    "name": "pepe_erc20",
+    "fname": "Pepe",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x6982508145454Ce325dDbE47a25d4ec3d2311933"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://www.pepe.vip"
+    }
+  },
+  {
+    "coin": "PEPE-BEP20",
+    "name": "pepe_bep20",
+    "fname": "Pepe",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://www.pepe.vip"
+    }
+  },
+  {
+    "coin": "PEPE-ARB20",
+    "name": "pepe_arb20",
+    "fname": "Pepe",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0x25d887Ce7a35172C62FeBFD67a1856F20FaEbB00"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://www.pepe.vip"
+    },
+    "gas_limit": {
+        "eth_send_erc20": 150000,
+        "erc20_payment": 300000,
+        "erc20_receiver_spend": 250000,
+        "erc20_sender_refund": 250000
+    }
   },
   {
     "coin": "PINK",
@@ -11943,6 +12051,33 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "SPACE-PLG20_OLD",
+    "name": "space_plg20_old",
+    "fname": "Space Token (OLD)",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xB53Ec4aCe420a62Cfb75aFdEba600D284777cd65"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "use_access_list": true,
+    "max_eth_tx_type": 2,
+    "gas_limit": {
+        "eth_send_erc20": 55000,
+        "erc20_payment": 110000,
+        "erc20_receiver_spend": 85000,
+        "erc20_sender_refund": 85000
+    }
+  },
+  {
     "coin": "SPACE-PLG20",
     "name": "space_plg20",
     "fname": "Space Token",
@@ -11956,7 +12091,7 @@
       "type": "ERC20",
       "protocol_data": {
         "platform": "MATIC",
-        "contract_address": "0xB53Ec4aCe420a62Cfb75aFdEba600D284777cd65"
+        "contract_address": "0x1D1498166DDCEeE616a6d99868e1E0677300056f"
       }
     },
     "derivation_path": "m/44'/60'",
@@ -15121,7 +15256,7 @@
     "overwintered": 1,
     "version_group_id": "0x892f2085",
     "consensus_branch_id": "0xc2d6d0b4",
-    "txfee": 10000,
+    "txfee": 100000,
     "mm2": 1,
     "required_confirmations": 3,
     "avg_blocktime": 75,

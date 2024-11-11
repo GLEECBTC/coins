@@ -189,7 +189,7 @@ class CoinConfig:
                 }
             }
         )
-        if self.coin_type in ["UTXO", "QRC20", "BCH", "QTUM"]:
+        if self.coin_type in ["UTXO", "QRC20", "BCH", "QTUM", "SIA"]:
             try:
                 if self.coin_data["sign_message_prefix"]:
                     self.data[self.ticker].update(
@@ -212,6 +212,8 @@ class CoinConfig:
                 )
             else:
                 self.data[self.ticker].update({"light_wallet_d_servers": []})
+        elif self.coin_type in ["SIA"]:
+            self.data[self.ticker].update({"nodes": ["SIA"]})
 
     def get_protocol_info(self):
         if "protocol_data" in self.coin_data["protocol"]:
@@ -422,33 +424,38 @@ class CoinConfig:
             else:
                 coin = "QTUM"
 
-        if coin in electrum_scan_report:
+        if coin in electrum_coins:
             with open(f"{repo_path}/electrums/{coin}", "r") as f:
                 electrums = json.load(f)
-                valid_electrums = []
-                for x in ["tcp", "ssl", "wss"]:
-                    # This also filers ws with tcp/ssl server it is grouped with if valid.
-                    for k, v in electrum_scan_report[coin][x].items():
-                        if (
-                            current_time - v["last_connection"] < 604800
-                        ):  # 1 week grace period
-                            for electrum in electrums:
-                                electrum["protocol"] = x.upper()
-                                e = deepcopy(electrum)
-                                if "url" in e:
-                                    if e["url"] == k:
-                                        if "ws_url" in e:
-                                            del e["ws_url"]
-                                        valid_electrums.append(e)
-                                e = deepcopy(electrum)
-                                if "ws_url" in e:
-                                    e["protocol"] = "WSS"
-                                    if e["ws_url"] == k:
-                                        e["url"] = k
+                
+        if coin in electrum_scan_report:
+            valid_electrums = []
+            for x in ["tcp", "ssl", "wss"]:
+                # This also filers ws with tcp/ssl server it is grouped with if valid.
+                for k, v in electrum_scan_report[coin][x].items():
+                    if (
+                        current_time - v["last_connection"] < 604800
+                    ):  # 1 week grace period
+                        for electrum in electrums:
+                            electrum["protocol"] = x.upper()
+                            e = deepcopy(electrum)
+                            if "url" in e:
+                                if e["url"] == k:
+                                    if "ws_url" in e:
                                         del e["ws_url"]
-                                        valid_electrums.append(e)
-
-                self.data[self.ticker].update({"electrum": valid_electrums})
+                                    valid_electrums.append(e)
+                            e = deepcopy(electrum)
+                            if "ws_url" in e:
+                                e["protocol"] = "WSS"
+                                if e["ws_url"] == k:
+                                    e["url"] = k
+                                    del e["ws_url"]
+                                    valid_electrums.append(e)
+            if len(valid_electrums) > 0:
+                valid_electrums = sort_dicts_list(valid_electrums, "url")                 
+            self.data[self.ticker].update({"electrum": valid_electrums})
+        elif self.coin_type in ["SIA"]:
+            self.data[self.ticker].update({"nodes": electrums})
 
     def get_bchd_urls(self):
         if self.ticker in bchd_urls:
@@ -484,7 +491,9 @@ class CoinConfig:
                     key = "rpc_urls"
                 else:
                     key = "nodes"
-                self.data[self.ticker].update({key: contract_data["rpc_nodes"]})
+                    
+                values = sort_dicts_list(contract_data["rpc_nodes"], "url")       
+                self.data[self.ticker].update({key: values})
 
     def get_explorers(self):
         explorers = None
@@ -592,12 +601,13 @@ def filter_ssl(coins_config):
             electrums = []
             for i in coins_config[coin]["electrum"]:
                 if "protocol" in i:
-                    # For web, we only want SSL.
                     if i["protocol"] == "SSL":
                         electrums.append(i)
-            coins_config_ssl[coin]["electrum"] = electrums[:3]
             if len(coins_config_ssl[coin]["electrum"]) == 0:
                 del coins_config_ssl[coin]
+            else:
+                electrums = filter_duplicate_domains(electrums)
+                coins_config_ssl[coin]["electrum"] = electrums
 
         if "nodes" in coins_config[coin]:
             coins_config_ssl[coin]["nodes"] = [
@@ -627,6 +637,24 @@ def item_exists(i, electrums):
     return False
 
 
+def filter_duplicate_domains(electrums):
+    domains = {}
+    for i in electrums:
+        domain = i["url"].split(":")[0]
+        if domain not in domains:
+            domains.update({domain: {i['protocol']: i['url']}})
+        else:
+            domains[domain].update({i['protocol']: i['url']})
+    for i in domains:
+        if "SSL" in domains[i] and "TCP" in domains[i]:
+            for e in electrums:
+                if e["url"].startswith(i) and e["protocol"] == "TCP":
+                    electrums.remove(e)
+    return electrums
+    
+
+    
+
 def filter_tcp(coins_config, coins_config_ssl):
     coins_config_tcp = {}
     for coin in coins_config:
@@ -635,7 +663,7 @@ def filter_tcp(coins_config, coins_config_ssl):
         if "nodes" in coins_config[coin]:
             coins_config_tcp[coin]["nodes"] = [
                 i for i in coins_config[coin]["nodes"] if "gui_auth" not in i
-            ][:3]
+            ]
         if "electrum" in coins_config[coin]:
             electrums = []
             # Prefer SSL
@@ -654,9 +682,11 @@ def filter_tcp(coins_config, coins_config_ssl):
                     else:
                         electrums.append(i)
 
-            coins_config_tcp[coin]["electrum"] = electrums[:3]
             if len(coins_config_tcp[coin]["electrum"]) == 0:
                 del coins_config_tcp[coin]
+            else:
+                electrums = filter_duplicate_domains(electrums)
+                coins_config_tcp[coin]["electrum"] = electrums
 
     with open(f"{script_path}/coins_config_tcp.json", "w+") as f:
         json.dump(coins_config_tcp, f, indent=4)
@@ -666,7 +696,6 @@ def filter_tcp(coins_config, coins_config_ssl):
 def filter_wss(coins_config):
     coins_config_wss = {}
     for coin in coins_config:
-        coins_config_wss.update({coin: coins_config[coin]})
         if "electrum" in coins_config[coin]:
             electrums = []
             for i in coins_config[coin]["electrum"]:
@@ -675,9 +704,9 @@ def filter_wss(coins_config):
                         electrums.append(i)
                 else:
                     print(i)
-            coins_config_wss[coin]["electrum"] = electrums[:3]
-            if len(coins_config_wss[coin]["electrum"]) == 0:
-                del coins_config_wss[coin]
+            if len(electrums) > 0:
+                coins_config_wss.update({coin: coins_config[coin]})
+                coins_config_wss[coin]["electrum"] = electrums
 
     with open(f"{script_path}/coins_config_wss.json", "w+") as f:
         json.dump(coins_config_wss, f, indent=4)
@@ -722,6 +751,14 @@ def generate_binance_api_ids(coins_config):
     # Valid interval values are listed at https://binance-docs.github.io/apidocs/spot/en/#public-api-definitions
 
 
+def sort_dict(d):
+    return {k: d[k] for k in sorted(d)}
+
+def sort_dicts_list(data, sort_key):
+    return sorted(data, key=lambda x: x[sort_key])
+
+
+
 if __name__ == "__main__":
     ensure_chainids()
     coins_config, nodata = parse_coins_repo()
@@ -741,9 +778,9 @@ if __name__ == "__main__":
     coins_config_tcp = filter_tcp(deepcopy(coins_config), coins_config_ssl)
     for coin in coins_config:
         if (
-            coin in coins_config_ssl
+            coin in coins_config_tcp
             and coin in coins_config_ssl
-            and coin in coins_config_ssl
+            and coin in coins_config_wss
         ):
             color = "green"
         else:

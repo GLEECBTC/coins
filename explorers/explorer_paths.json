@@ -153,5 +153,8 @@
 		"explorer_tx_url": "nucleus/transactions/",
 		"explorer_address_url": "nucleus/accounts/",
 		"explorer_block_url": "nucleus/blocks/"
+	},
+	"https://sia-walletd.komodo.earth/api/": {
+		"explorer_tx_url": "events/"
 	}
 }
