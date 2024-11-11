@@ -5,7 +5,7 @@
         "contact": [
             {
                 "github": "https://github.com/doichain/electrum-doi/issues",
-                "twitter": "example_username"
+                "twitter": "doichain"
             }
         ],
         "ws-url": "itchy-jellyfish-89.doi.works:50004"
@@ -16,7 +16,7 @@
         "contact": [
             {
                 "github": "https://github.com/doichain/electrum-doi/issues",
-                "twitter": "example_username"
+                "twitter": "doichain"
             }
         ],
         "ws-url": "big-parrot-60.doi.works:50004"
@@ -26,8 +26,8 @@
         "protocol": "SSL",
         "contact": [
             {
-                "github": "https://github.com/namecoin/electrum-nmc/issues",
-                "twitter": "example_username"
+                "github": "https://github.com/doichain/electrum-doi/issues",
+                "twitter": "doichain"
             }
         ],
         "ws-url": "pink-deer-69.doi.works:50004"
@@ -37,8 +37,8 @@
         "protocol": "TCP",
         "contact": [
             {
-                "github": "https://github.com/namecoin/electrum-nmc/issues",
-                "twitter": "example_username"
+                "github": "https://github.com/doichain/electrum-doi/issues",
+                "twitter": "doichain"
             }
         ]
     },
@@ -48,7 +48,7 @@
         "contact": [
             {
                 "github": "https://github.com/doichain/electrum-doi/issues",
-                "twitter": "example_username"
+                "twitter": "doichain"
             }
         ],
         "ws-url": "ugly-bird-70.doi.works:50004"
