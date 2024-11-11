@@ -798,10 +798,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 150000,
-        "erc20_payment": 300000,
-        "erc20_receiver_spend": 250000,
-        "erc20_sender_refund": 250000
+        "eth_send_erc20": 300000,
+        "erc20_payment": 600000,
+        "erc20_receiver_spend": 500000,
+        "erc20_sender_refund": 500000
     }
   },
   {
@@ -3113,10 +3113,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 150000,
-        "erc20_payment": 300000,
-        "erc20_receiver_spend": 250000,
-        "erc20_sender_refund": 250000
+        "eth_send_erc20": 300000,
+        "erc20_payment": 600000,
+        "erc20_receiver_spend": 500000,
+        "erc20_sender_refund": 500000
     }
   },
   {
@@ -3594,10 +3594,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 150000,
-        "erc20_payment": 300000,
-        "erc20_receiver_spend": 250000,
-        "erc20_sender_refund": 250000
+        "eth_send_erc20": 300000,
+        "erc20_payment": 600000,
+        "erc20_receiver_spend": 500000,
+        "erc20_sender_refund": 500000
     }
   },
   {
@@ -4343,10 +4343,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 150000,
-        "erc20_payment": 300000,
-        "erc20_receiver_spend": 250000,
-        "erc20_sender_refund": 250000
+        "eth_send_erc20": 300000,
+        "erc20_payment": 600000,
+        "erc20_receiver_spend": 500000,
+        "erc20_sender_refund": 500000
     }
   },
   {
@@ -4936,10 +4936,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_coins": 100000,
-        "eth_payment": 250000,
-        "eth_receiver_spend": 250000,
-        "eth_sender_refund": 250000
+        "eth_send_erc20": 300000,
+        "erc20_payment": 600000,
+        "erc20_receiver_spend": 500000,
+        "erc20_sender_refund": 500000
     }
   },
   {
@@ -6258,10 +6258,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 150000,
-        "erc20_payment": 300000,
-        "erc20_receiver_spend": 250000,
-        "erc20_sender_refund": 250000
+        "eth_send_erc20": 300000,
+        "erc20_payment": 600000,
+        "erc20_receiver_spend": 500000,
+        "erc20_sender_refund": 500000
     }
   },
   {
@@ -6354,10 +6354,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 150000,
-        "erc20_payment": 300000,
-        "erc20_receiver_spend": 250000,
-        "erc20_sender_refund": 250000
+        "eth_send_erc20": 300000,
+        "erc20_payment": 600000,
+        "erc20_receiver_spend": 500000,
+        "erc20_sender_refund": 500000
     }
   },
   {
@@ -6493,10 +6493,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 150000,
-        "erc20_payment": 300000,
-        "erc20_receiver_spend": 250000,
-        "erc20_sender_refund": 250000
+        "eth_send_erc20": 300000,
+        "erc20_payment": 600000,
+        "erc20_receiver_spend": 500000,
+        "erc20_sender_refund": 500000
     }
   },
   {
@@ -9552,10 +9552,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 150000,
-        "erc20_payment": 300000,
-        "erc20_receiver_spend": 250000,
-        "erc20_sender_refund": 250000
+        "eth_send_erc20": 300000,
+        "erc20_payment": 600000,
+        "erc20_receiver_spend": 500000,
+        "erc20_sender_refund": 500000
     }
   },
   {
@@ -10390,10 +10390,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 150000,
-        "erc20_payment": 300000,
-        "erc20_receiver_spend": 250000,
-        "erc20_sender_refund": 250000
+        "eth_send_erc20": 300000,
+        "erc20_payment": 600000,
+        "erc20_receiver_spend": 500000,
+        "erc20_sender_refund": 500000
     }
   },
   {
@@ -10500,10 +10500,10 @@
       "homepage": "https://www.pepe.vip"
     },
     "gas_limit": {
-        "eth_send_erc20": 150000,
-        "erc20_payment": 300000,
-        "erc20_receiver_spend": 250000,
-        "erc20_sender_refund": 250000
+        "eth_send_erc20": 300000,
+        "erc20_payment": 600000,
+        "erc20_receiver_spend": 500000,
+        "erc20_sender_refund": 500000
     }
   },
   {
@@ -13492,10 +13492,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 150000,
-        "erc20_payment": 300000,
-        "erc20_receiver_spend": 250000,
-        "erc20_sender_refund": 250000
+        "eth_send_erc20": 300000,
+        "erc20_payment": 600000,
+        "erc20_receiver_spend": 500000,
+        "erc20_sender_refund": 500000
     }
   },
   {
@@ -13873,10 +13873,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 150000,
-        "erc20_payment": 300000,
-        "erc20_receiver_spend": 250000,
-        "erc20_sender_refund": 250000
+        "eth_send_erc20": 300000,
+        "erc20_payment": 600000,
+        "erc20_receiver_spend": 500000,
+        "erc20_sender_refund": 500000
     }
   },
   {
@@ -14473,10 +14473,10 @@
     "use_access_list": true,
     "max_eth_tx_type": 2,
     "gas_limit": {
-        "eth_send_erc20": 150000,
-        "erc20_payment": 300000,
-        "erc20_receiver_spend": 250000,
-        "erc20_sender_refund": 250000
+        "eth_send_erc20": 300000,
+        "erc20_payment": 600000,
+        "erc20_receiver_spend": 500000,
+        "erc20_sender_refund": 500000
     }
   },
   {
