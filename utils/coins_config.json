@@ -14169,6 +14169,7 @@
         "protocol": {
             "type": "UTXO"
         },
+        "derivation_path": "m/44'/7070'",
         "electrum": [
             {
                 "url": "big-parrot-60.doi.works:50002",
@@ -14176,7 +14177,7 @@
                 "contact": [
                     {
                         "github": "https://github.com/doichain/electrum-doi/issues",
-                        "twitter": "example_username"
+                        "twitter": "doichain"
                     }
                 ],
                 "ws-url": "big-parrot-60.doi.works:50004"
@@ -14187,7 +14188,7 @@
                 "contact": [
                     {
                         "github": "https://github.com/doichain/electrum-doi/issues",
-                        "twitter": "example_username"
+                        "twitter": "doichain"
                     }
                 ],
                 "ws-url": "itchy-jellyfish-89.doi.works:50004"
@@ -14198,7 +14199,7 @@
                 "contact": [
                     {
                         "github": "https://github.com/doichain/electrum-doi/issues",
-                        "twitter": "example_username"
+                        "twitter": "doichain"
                     }
                 ],
                 "ws-url": "ugly-bird-70.doi.works:50004"
