@@ -935,6 +935,10 @@
             {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL"
+            },
+            {
+                "url": "electrumx-three.artbyte.live:50012",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -4752,6 +4756,24 @@
             "homepage": "https://bitblocksproject.com"
         },
         "electrum": [
+            {
+                "url": "bbk-ex-three.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "bbk-ex-two.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
             {
                 "url": "bbk-one.ewm-cx.net:50001",
                 "protocol": "TCP",
@@ -39779,6 +39801,15 @@
             {
                 "url": "lenoir.ecoincore.com:10892",
                 "protocol": "SSL"
+            },
+            {
+                "url": "xmy-two.ewm-cx.net:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -39821,6 +39852,15 @@
             {
                 "url": "lenoir.ecoincore.com:10892",
                 "protocol": "SSL"
+            },
+            {
+                "url": "xmy-two.ewm-cx.net:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block.dws?"
