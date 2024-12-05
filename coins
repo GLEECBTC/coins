@@ -16690,29 +16690,22 @@
     }
   },
   {
-    "coin": "BKC",
-    "name": "bunkercoin",
-    "fname": "Bunkercoin",
-    "sign_message_prefix": "Bunkercoin Signed Message:\n",
-    "rpcport": 22555,
-    "pubtype": 25,
-    "p2shtype": 22,
-    "wiftype": 158,
-    "txfee": 1000000,
-    "force_min_relay_fee": true,
-    "dust": 1000000,
-    "mm2": 1,
-    "required_confirmations": 10,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/3'",
-    "links": {
-      "github": "https://github.com/bunkercoin/bunkercoin",
-      "homepage": "https://bunkercoin.org"
-    }
-  },
+		"coin": "BKC",
+		"name": "briskcoin",
+		"fname": "Briskcoin",
+		"rpcport": 8552,
+		"pubtype": 25,
+		"p2shtype": 33,
+		"wiftype": 153,
+		"txfee": 0,
+		"segwit": true,
+		"mm2": 1,
+		"required_confirmations": 1,
+		"avg_blocktime": 30,
+		"protocol": {
+			"type": "UTXO"
+		}
+	},
   {
     "coin": "KIIRO",
     "name": "kiiro",
