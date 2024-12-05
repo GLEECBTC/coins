@@ -16690,22 +16690,28 @@
     }
   },
   {
-		"coin": "BKC",
-		"name": "briskcoin",
-		"fname": "Briskcoin",
-		"rpcport": 8552,
-		"pubtype": 25,
-		"p2shtype": 33,
-		"wiftype": 153,
-		"txfee": 0,
-		"segwit": true,
-		"mm2": 1,
-		"required_confirmations": 1,
-		"avg_blocktime": 30,
-		"protocol": {
-			"type": "UTXO"
-		}
+	"coin": "BKC",
+	"name": "briskcoin",
+	"fname": "Briskcoin",
+	"rpcport": 8552,
+	"pubtype": 25,
+	"p2shtype": 33,
+	"wiftype": 153,
+	"txfee": 0,
+	"segwit": true,
+	"mm2": 1,
+	"required_confirmations": 1,
+	"avg_blocktime": 30,
+	"protocol": {
+		"type": "UTXO"
 	},
+	"derivation_path": "m/44'/0'",
+	"trezor_coin": "Briskcoin",
+   	"links": {
+      		"github": "https://github.com/briskcoin-project/briskcoin",
+      		"homepage": "https://briskcoin.org"
+    	}
+  },
   {
     "coin": "KIIRO",
     "name": "kiiro",
