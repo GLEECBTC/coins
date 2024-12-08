@@ -10862,24 +10862,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "PRUX",
-    "name": "prux",
-    "fname": "PRUX",
-    "rpcport": 19595,
-    "pubtype": 55,
-    "p2shtype": 117,
-    "wiftype": 183,
-    "txfee": 10000,
-    "segwit": false,
-    "bech32_hrp": "pr",
-    "mm2": 1,
-    "required_confirmations": 9,
-    "avg_blocktime": 9,
-    "protocol": {
-      "type": "UTXO"
-    }
-  },
-  {
     "coin": "PYR-ERC20",
     "name": "pyr_erc20",
     "fname": "Vulcan Forged",
