@@ -8138,23 +8138,6 @@
     }
   },
   {
-    "coin": "LABS",
-    "sign_message_prefix": "Komodo Signed Message:\n",
-    "asset": "LABS",
-    "fname": "KMD Labs",
-    "rpcport": 40265,
-    "txversion": 4,
-    "overwintered": 1,
-    "mm2": 1,
-    "required_confirmations": 5,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/141'",
-    "trezor_coin": "Komodo"
-  },
-  {
     "coin": "LBC",
     "name": "lbrycrd",
     "fname": "LBRY Credits",
