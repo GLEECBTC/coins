@@ -640,7 +640,7 @@
     "XCN-BEP20": "chain-2",
     "XCN-ERC20": "chain-2",
     "XEC": "ecash",
-    "XEP-segwit": "electra-protocol",
+    "XEP": "electra-protocol",
     "XEP-BEP20": "electra-protocol",
     "XIDR-ERC20": "straitsx-indonesia-rupiah",
     "XIDR-PLG20": "straitsx-indonesia-rupiah",
