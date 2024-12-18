@@ -295,6 +295,7 @@
     "IOTX-BEP20": "iotx-iotex",
     "IOTX-PLG20": "iotx-iotex",
     "IRIS": "iris-irisnet",
+    "IRIS-BEP20": "iris-irisnet",
     "JASMY-BEP20": "jasmy-jasmycoin",
     "JASMY-ERC20": "jasmy-jasmycoin",
     "JDB-BEP20": "jdb-jeet-detector-bot",
