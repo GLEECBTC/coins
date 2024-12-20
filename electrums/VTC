@@ -8,6 +8,15 @@
         }
     ]
   },
+    {
+      "url": "electrumx-vtc.cryptoverted.com:55001",
+      "ws_url": "electrumx-vtc.cryptoverted.com:55004",
+      "contact": [
+          {
+              "discord": "alviemahmud"
+          }
+      ]
+    },
   {
     "url": "88.99.26.209:5028"
   }

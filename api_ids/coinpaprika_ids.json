@@ -77,6 +77,7 @@
     "BEST-ERC20": "best-bitpanda-ecosystem-token",
     "BIDR-BEP20": "bidr-binanceidr",
     "BITN": "bit-bitnet",
+    "BKC": "bkc-briskcoin",
     "BLK-BEP20": "blk-blackcoin",
     "BLK": "blk-blackcoin",
     "BLOCX": "blocx-blocx",
@@ -294,6 +295,7 @@
     "IOTX-BEP20": "iotx-iotex",
     "IOTX-PLG20": "iotx-iotex",
     "IRIS": "iris-irisnet",
+    "IRIS-BEP20": "iris-irisnet",
     "JASMY-BEP20": "jasmy-jasmycoin",
     "JASMY-ERC20": "jasmy-jasmycoin",
     "JDB-BEP20": "jdb-jeet-detector-bot",
@@ -433,7 +435,6 @@
     "PRCY-BEP20": "prcy-privacy-coin",
     "PRCY-ERC20": "prcy-privacy-coin",
     "PRCY-PLG20": "prcy-privacy-coin",
-    "PRUX": "prux-prux-coin",
     "PUT-QRC20": "put-profile-utility-token",
     "PYR-ERC20": "pyr-vulcan-forged",
     "QBT-QRC20": "qbt-qbao",
@@ -609,6 +610,7 @@
     "WOO-PLG20": "woo-wootrade",
     "XCN-ERC20": "xcn-chain",
     "XEC": "xec-ecash",
+    "XEP": "xep-electra-protocol",
     "XEP-BEP20": "xep-electra-protocol",
     "XIDR-ERC20": "xidr-straitsx-indonesia-rupiah",
     "XLM-BEP20": "xlm-stellar",
@@ -643,6 +645,5 @@
     "ZOIN": "zoin-zoin",
     "ZRX-AVX20": "zrx-0x",
     "ZRX-ERC20": "zrx-0x",
-    "ZRX-PLG20": "zrx-0x",
-    "BKC": "bkc-bunkercoin"
+    "ZRX-PLG20": "zrx-0x"
 }

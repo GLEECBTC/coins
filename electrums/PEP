@@ -1,20 +1,59 @@
 [
     {
         "url": "electrum.pepeblocks.com:50001",
-        "protocol": "TCP"
+        "protocol": "TCP",
+        "contact": [
+            {
+                "discord": "realmasterkush"
+            }
+        ]
     },
     {
         "url": "electrum.pepeblocks.com:50002",
         "protocol": "SSL",
-        "ws_url": "electrum.pepeblocks.com:50004"
+        "ws_url": "electrum.pepeblocks.com:50004",
+        "contact": [
+            {
+                "discord": "realmasterkush"
+            }
+        ]
     },
     {
         "url": "electrum.pepelum.site:50001",
-        "protocol": "TCP"
+        "protocol": "TCP",
+        "contact": [
+            {
+                "discord": "emgi2"
+            }
+        ]
     },
     {
         "url": "electrum.pepelum.site:50002",
         "protocol": "SSL",
-        "ws_url": "electrum.pepelum.site:50004"
+        "ws_url": "electrum.pepelum.site:50004",
+        "contact": [
+            {
+                "discord": "emgi2"
+            }
+        ]
+    },
+    {
+        "url": "electrum.pepe.tips:50001",
+        "protocol": "TCP",
+        "contact": [
+            {
+                "discord": "squidicuz"
+            }
+        ]
+    },
+    {
+        "url": "electrum.pepe.tips:50002",
+        "protocol": "SSL",
+        "ws_url": "electrum.pepe.tips:50004",
+        "contact": [
+            {
+                "discord": "squidicuz"
+            }
+        ]
     }
 ]

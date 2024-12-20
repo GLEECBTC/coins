@@ -1,6 +1,8 @@
 [
     {
-        "url": "electrumx.dimecoinnetwork.com:50001",
+        "url": "electrumx1.dimecoinnetwork.com:50002",
+	"ws_url": "electrumx1.dimecoinnetwork.com:50004",
+	"protocol": "SSL",
         "contact": [
             {
                 "email": "developer@dimecoinnetwork.com"

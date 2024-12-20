@@ -1,11 +1,10 @@
 [
-    {
-        "url": "bunkerelectrum.bunker.mt:50001",
-        "protocol": "TCP",
-        "contact": [
-            {
-                "discord": "bunkermatty#5308"
-            }
-        ]
-    }
+  {
+    "url": "electrumx1.briskcoin.org:50001",
+    "protocol": "TCP"
+  },
+  {
+    "url": "electrumx2.briskcoin.org:50001",
+    "protocol": "TCP"
+  }
 ]
