@@ -525,6 +525,7 @@
     "SPACE-BEP20": "space-token-bsc",
     "SPACE-FTM20": "space-token-bsc",
     "SPACE-PLG20": "space-token-bsc",
+    "SPACE-PLG20_OLD": "space-token-bsc",
     "SPICE-SLP": "spice",
     "SRM-ERC20": "serum",
     "SRM-PLG20": "serum",
