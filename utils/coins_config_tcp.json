@@ -5961,8 +5961,7 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/",
-        "forex_id": "BRL"
+        "explorer_block_url": "block/"
     },
     "BRZ-ERC20": {
         "coin": "BRZ-ERC20",
@@ -6032,8 +6031,7 @@
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "BRL"
+        "explorer_block_url": "block/"
     },
     "BRZ-PLG20": {
         "coin": "BRZ-PLG20",
@@ -6094,8 +6092,7 @@
                 "url": "https://polygon-rpc.com"
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "BRL"
+        "explorer_block_url": "block/"
     },
     "BRZ-AVX20": {
         "coin": "BRZ-AVX20",
@@ -6140,8 +6137,7 @@
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "BRL"
+        "explorer_block_url": "block/"
     },
     "BSTY": {
         "coin": "BSTY",
@@ -13524,8 +13520,7 @@
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "EUR"
+        "explorer_block_url": "block/"
     },
     "EUROE-PLG20": {
         "coin": "EUROE-PLG20",
@@ -13661,8 +13656,7 @@
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "EUR"
+        "explorer_block_url": "block/"
     },
     "EURS-PLG20": {
         "coin": "EURS-PLG20",
@@ -13723,8 +13717,7 @@
                 "url": "https://polygon-rpc.com"
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "EUR"
+        "explorer_block_url": "block/"
     },
     "EWT": {
         "coin": "EWT",
@@ -16122,8 +16115,8 @@
         "coin": "GLEEC-OLD",
         "type": "Smart Chain",
         "name": "Gleec (OLD)",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
+        "coinpaprika_id": "gleec-gleec-coin",
+        "coingecko_id": "gleec-coin",
         "livecoinwatch_id": "GLEEC",
         "explorer_url": "https://gleec.explorer.dexstats.info/",
         "explorer_tx_url": "",
@@ -17888,6 +17881,64 @@
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
             }
         ],
+        "explorer_block_url": "block/"
+    },
+    "GURU-BEP20": {
+        "coin": "GURU-BEP20",
+        "type": "BEP-20",
+        "name": "MobilityGuru",
+        "coinpaprika_id": "guru-mobilityguru-token",
+        "coingecko_id": "",
+        "livecoinwatch_id": "_GURU",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "MobilityGuru",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 18,
+        "avg_blocktime": 3,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0xc166A8dd8e48355774ac95933f746b57A724A464"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "links": {
+            "homepage": "https://mobilityguru.org"
+        },
+        "contract_address": "0xc166A8dd8e48355774ac95933f746b57A724A464",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://block-proxy.komodo.earth/rpc/bnb",
+                "ws_url": "wss://block-proxy.komodo.earth/rpc/bnb/websocket"
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
     "GUSD-ERC20": {
@@ -20556,8 +20607,7 @@
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "GBP"
+        "explorer_block_url": "block/"
     },
     "JGBP-PLG20": {
         "coin": "JGBP-PLG20",
@@ -20618,8 +20668,7 @@
                 "url": "https://polygon-rpc.com"
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "GBP"
+        "explorer_block_url": "block/"
     },
     "JGOLD-PLG20": {
         "coin": "JGOLD-PLG20",
@@ -21066,8 +21115,7 @@
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "JPY"
+        "explorer_block_url": "block/"
     },
     "JPYC-PLG20": {
         "coin": "JPYC-PLG20",
@@ -21128,8 +21176,7 @@
                 "url": "https://polygon-rpc.com"
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "JPY"
+        "explorer_block_url": "block/"
     },
     "JRT-ERC20": {
         "coin": "JRT-ERC20",
@@ -32435,8 +32482,8 @@
         "coin": "SPACE-ARB20",
         "type": "Arbitrum",
         "name": "Space Token",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
+        "coinpaprika_id": "space-space-token",
+        "coingecko_id": "space-token-bsc",
         "livecoinwatch_id": "__SPACE",
         "explorer_url": "https://arbiscan.io/",
         "explorer_tx_url": "",
@@ -32641,8 +32688,8 @@
         "coin": "SPACE-PLG20_OLD",
         "type": "Matic",
         "name": "Space Token (OLD)",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
+        "coinpaprika_id": "space-space-token",
+        "coingecko_id": "space-token-bsc",
         "livecoinwatch_id": "__SPACE",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "tx/",
@@ -35048,8 +35095,7 @@
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "TRY"
+        "explorer_block_url": "block/"
     },
     "TRYB-BEP20": {
         "coin": "TRYB-BEP20",
@@ -35103,8 +35149,7 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/",
-        "forex_id": "TRY"
+        "explorer_block_url": "block/"
     },
     "TRYB-PLG20": {
         "coin": "TRYB-PLG20",
@@ -35165,8 +35210,7 @@
                 "url": "https://polygon-rpc.com"
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "TRY"
+        "explorer_block_url": "block/"
     },
     "TRYB-ERC20": {
         "coin": "TRYB-ERC20",
@@ -35235,8 +35279,7 @@
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "TRY"
+        "explorer_block_url": "block/"
     },
     "TUSD-BEP20": {
         "coin": "TUSD-BEP20",
@@ -39426,8 +39469,7 @@
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "IDR"
+        "explorer_block_url": "block/"
     },
     "XIDR-PLG20": {
         "coin": "XIDR-PLG20",
@@ -40031,8 +40073,7 @@
                 "ws_url": "wss://ethereum-rpc.publicnode.com"
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "SGD"
+        "explorer_block_url": "block/"
     },
     "XSGD-PLG20": {
         "coin": "XSGD-PLG20",
@@ -40093,8 +40134,7 @@
                 "url": "https://polygon-rpc.com"
             }
         ],
-        "explorer_block_url": "block/",
-        "forex_id": "SGD"
+        "explorer_block_url": "block/"
     },
     "XTZ-BEP20": {
         "coin": "XTZ-BEP20",
