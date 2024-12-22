@@ -7,7 +7,8 @@
       "gui_auth": true
     },
     {
-      "url": "https://polygon-rpc.com"
+      "url": "https://polygon.drpc.org",
+      "ws_url": "wss://polygon.drpc.org"
     },
     {
       "url": "https://block-proxy.komodo.earth/rpc/matic",
