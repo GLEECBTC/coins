@@ -1060,6 +1060,16 @@
                 ]
             },
             {
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "elec-seeder-one.artbytecoin.org:50013",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL"
             },
@@ -46225,6 +46235,10 @@
             {
                 "url": "electrumx.mainnet.primecoin.org:50011",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.primecoin.org:50001",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
@@ -46975,8 +46989,16 @@
         "derivation_path": "m/44'/77'",
         "electrum": [
             {
-                "url": "88.99.26.209:5036",
+                "url": "electrum-verge.cloud:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrum-verge.cloud:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum-verge.cloud:50004",
+                "protocol": "WSS"
             },
             {
                 "url": "electrumx-verge.cloud:50001",

@@ -1039,6 +1039,11 @@
                 ]
             },
             {
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
                 "protocol": "SSL"
             },
@@ -41040,6 +41045,10 @@
         },
         "derivation_path": "m/44'/77'",
         "electrum": [
+            {
+                "url": "electrum-verge.cloud:50002",
+                "protocol": "SSL"
+            },
             {
                 "url": "electrumx-verge.cloud:50002",
                 "protocol": "SSL"
