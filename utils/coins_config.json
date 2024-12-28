@@ -7040,6 +7040,7 @@
         "wiftype": 153,
         "txfee": 0,
         "segwit": true,
+        "bech32_hrp": "bc",
         "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 30,
@@ -46563,18 +46564,6 @@
             {
                 "url": "88.99.26.209:5036",
                 "protocol": "TCP"
-            },
-            {
-                "url": "electrum-verge.cloud:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum-verge.cloud:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrum-verge.cloud:50004",
-                "protocol": "WSS"
             },
             {
                 "url": "electrumx-verge.cloud:50001",

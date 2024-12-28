@@ -6296,6 +6296,7 @@
         "wiftype": 153,
         "txfee": 0,
         "segwit": true,
+        "bech32_hrp": "bc",
         "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 30,
@@ -40536,10 +40537,6 @@
         },
         "derivation_path": "m/44'/77'",
         "electrum": [
-            {
-                "url": "electrum-verge.cloud:50002",
-                "protocol": "SSL"
-            },
             {
                 "url": "electrumx-verge.cloud:50002",
                 "protocol": "SSL"

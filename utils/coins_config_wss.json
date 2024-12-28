@@ -6996,10 +6996,6 @@
         "derivation_path": "m/44'/77'",
         "electrum": [
             {
-                "url": "electrum-verge.cloud:50004",
-                "protocol": "WSS"
-            },
-            {
                 "url": "electrumx-verge.cloud:50004",
                 "protocol": "WSS"
             }
