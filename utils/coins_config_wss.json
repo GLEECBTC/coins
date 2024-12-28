@@ -40,6 +40,11 @@
                 ]
             },
             {
+                "url": "elec-seeder-one.artbytecoin.org:50013",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "elec-seeder-two.artbytecoin.org:50013",
                 "protocol": "WSS"
             },

@@ -156,7 +156,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -530,7 +531,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -595,7 +597,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -992,7 +995,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -1054,6 +1058,16 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "elec-seeder-one.artbytecoin.org:50012",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "elec-seeder-one.artbytecoin.org:50013",
+                "protocol": "WSS",
+                "disable_cert_verification": true
             },
             {
                 "url": "elec-seeder-two.artbytecoin.org:50012",
@@ -1459,7 +1473,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -1590,7 +1605,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -1912,7 +1928,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -2168,7 +2185,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -2503,7 +2521,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -2866,7 +2885,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -3400,7 +3420,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -4149,7 +4170,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -4450,7 +4472,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -4739,7 +4762,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -5224,7 +5248,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -5469,7 +5494,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -6550,7 +6576,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -6822,7 +6849,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -7095,6 +7123,7 @@
         "wiftype": 153,
         "txfee": 0,
         "segwit": true,
+        "bech32_hrp": "bc",
         "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 30,
@@ -7970,7 +7999,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -8389,7 +8419,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -8529,7 +8560,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -9075,7 +9107,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -9206,7 +9239,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -9730,7 +9764,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -9905,7 +9940,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -10422,7 +10458,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -10597,7 +10634,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -11095,7 +11133,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -11829,7 +11868,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -12266,7 +12306,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -14798,7 +14839,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -15409,7 +15451,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -15549,7 +15592,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -15688,7 +15732,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -15832,7 +15877,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -16330,7 +16376,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -17938,7 +17985,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -18361,7 +18409,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -19007,7 +19056,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -19181,7 +19231,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -19434,7 +19485,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -19560,7 +19612,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -20816,7 +20869,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -21221,7 +21275,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -21352,7 +21407,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -21689,7 +21745,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -21883,7 +21940,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -22153,7 +22211,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -22210,7 +22269,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -22737,7 +22797,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -22993,7 +23054,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -23115,7 +23177,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -23181,7 +23244,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -23425,7 +23489,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -23490,7 +23555,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -23734,7 +23800,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -23928,7 +23995,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -23985,7 +24053,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -24051,7 +24120,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -24109,7 +24179,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -24175,7 +24246,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -24241,7 +24313,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -24299,7 +24372,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -24357,7 +24431,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -24472,7 +24547,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -24602,7 +24678,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -24659,7 +24736,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -24725,7 +24803,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -24783,7 +24862,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -24841,7 +24921,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -25360,7 +25441,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -26053,7 +26135,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -26222,7 +26305,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -26605,7 +26689,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -26917,7 +27002,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -27809,7 +27895,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -28003,7 +28090,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -28098,7 +28186,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -29155,7 +29244,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -29439,7 +29529,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -30266,7 +30357,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -31114,7 +31206,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -31401,7 +31494,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -31603,7 +31697,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -31739,7 +31834,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -32078,7 +32174,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -32276,7 +32373,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -33134,7 +33232,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -33269,7 +33368,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -33462,7 +33562,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -33677,7 +33778,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -33816,7 +33918,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -34056,7 +34159,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -35557,7 +35661,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -36151,7 +36256,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -36290,7 +36396,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -36922,7 +37029,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -37393,7 +37501,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -37513,7 +37622,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -38011,7 +38121,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -38076,7 +38187,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -38207,7 +38319,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -38651,7 +38764,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -39070,7 +39184,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -39745,7 +39860,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -40078,7 +40194,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -40784,7 +40901,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -41238,7 +41356,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -41428,7 +41547,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -41660,7 +41780,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -41994,7 +42115,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -42603,7 +42725,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -42660,7 +42783,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -43042,7 +43166,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -44019,7 +44144,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -44947,7 +45073,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -45379,7 +45506,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -45797,7 +45925,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -46105,6 +46234,10 @@
             },
             {
                 "url": "electrumx.mainnet.primecoin.org:50011",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.primecoin.org:50001",
                 "protocol": "TCP"
             }
         ],
@@ -46470,7 +46603,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -46854,10 +46988,6 @@
         },
         "derivation_path": "m/44'/77'",
         "electrum": [
-            {
-                "url": "88.99.26.209:5036",
-                "protocol": "TCP"
-            },
             {
                 "url": "electrum-verge.cloud:50001",
                 "protocol": "TCP"
@@ -47296,7 +47426,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -48095,7 +48226,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -53459,7 +53591,8 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon-rpc.com"
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
             }
         ],
         "explorer_block_url": "block/"
