@@ -94,6 +94,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             },
@@ -640,6 +644,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -1327,6 +1335,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -3105,6 +3117,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             },
@@ -4442,6 +4458,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -6821,6 +6841,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             },
@@ -8026,6 +8050,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             },
@@ -8836,6 +8864,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -10022,6 +10054,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             },
@@ -10784,6 +10820,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             },
@@ -11331,6 +11371,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -14936,6 +14980,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             },
@@ -17817,6 +17865,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             },
@@ -19130,6 +19182,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -20461,6 +20517,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -23041,6 +23101,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             },
@@ -23350,6 +23414,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -24226,6 +24294,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -25237,6 +25309,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             },
@@ -26138,6 +26214,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -28714,6 +28794,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             },
@@ -29081,6 +29165,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -36855,6 +36943,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             },
@@ -37598,6 +37690,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             },
@@ -38070,6 +38166,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -38882,6 +38982,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -40432,6 +40536,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             },
@@ -40805,6 +40913,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -41299,6 +41411,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             },
@@ -41478,6 +41594,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -41934,6 +42054,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             },
@@ -41981,6 +42105,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -42935,6 +43063,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             },
@@ -42982,6 +43114,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -44914,6 +45050,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             },
@@ -46704,6 +46844,10 @@
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
+            },
+            {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/avax/websocket"
             },
@@ -47670,6 +47814,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
@@ -52850,6 +52998,10 @@
         "nodes": [
             {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
+                "url": "https://avalanche-c-chain-rpc.publicnode.com",
+                "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
             {
                 "url": "https://block-proxy.komodo.earth/rpc/avax",
