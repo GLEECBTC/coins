@@ -11634,6 +11634,7 @@
     "segwit": true,
     "txfee": 1000000,
     "dust": 1000000,
+    "force_min_relay_fee": true,
     "mm2": 1,
     "required_confirmations": 3,
     "avg_blocktime": 60,
