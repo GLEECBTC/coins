@@ -6351,44 +6351,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "BSTY": {
-        "coin": "BSTY",
-        "type": "UTXO",
-        "name": "GlobalBoost-Y",
-        "coinpaprika_id": "bsty-globalboost-y",
-        "coingecko_id": "globalboost",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://insight.globalboost.info/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "GlobalBoost-Y",
-        "rpcport": 8225,
-        "pubtype": 77,
-        "p2shtype": 139,
-        "wiftype": 208,
-        "txfee": 200000,
-        "segwit": true,
-        "bech32_hrp": "gb",
-        "mm2": 1,
-        "required_confirmations": 1,
-        "avg_blocktime": 600,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/664'",
-        "electrum": [
-            {
-                "url": "electrumserver02.globalboost.info:50014",
-                "protocol": "SSL"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "BTC": {
         "coin": "BTC",
         "type": "UTXO",
@@ -32068,6 +32030,7 @@
         "segwit": true,
         "txfee": 1000000,
         "dust": 1000000,
+        "force_min_relay_fee": true,
         "mm2": 1,
         "required_confirmations": 3,
         "avg_blocktime": 60,
@@ -39207,7 +39170,37 @@
         "trezor_coin": "Komodo",
         "electrum": [
             {
+                "url": "electrum.grms.pw:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            },
+            {
                 "url": "electrum1.grms.pw:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@grms.pw"
+                    },
+                    {
+                        "discord": "miner113#7864"
+                    },
+                    {
+                        "github": "Miner113"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.grms.pw:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -41003,17 +40996,7 @@
         "protocol": {
             "type": "UTXO"
         },
-        "electrum": [
-            {
-                "url": "xvc-ex-seven.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
         "explorer_block_url": "block.dws?"
     },
     "XVC-BEP20": {
@@ -41990,17 +41973,7 @@
         "protocol": {
             "type": "UTXO"
         },
-        "electrum": [
-            {
-                "url": "zet-ex-three.ewmci.online:50012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
         "explorer_block_url": "block.dws?"
     },
     "ZIL-BEP20": {
