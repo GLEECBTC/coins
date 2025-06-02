@@ -19,7 +19,7 @@ supported_platforms = {
     "BNB": 56,
     "ERC20": 1,
     "FTM": 250,
-    "MATIC": 137,
+    "POL": 137,
     "AVAX": 43114,
     "KCS": 321,
     "ETH-ARB20": 42161,

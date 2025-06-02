@@ -49,7 +49,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xaFf5Ed00c57b0E0c22123dbA28Cb6A5B26651Bbd"
       }
     },
@@ -172,7 +172,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x9c2C5fd7b07E95EE044DDeba0E97a665F142394f"
       }
     },
@@ -199,7 +199,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xc1c93D475dc82Fe72DBC7074d55f5a734F8cEEAE"
       }
     },
@@ -354,7 +354,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B"
       }
     },
@@ -519,7 +519,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4"
       }
     },
@@ -567,7 +567,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x190Eb8a183D22a4bdf278c6791b152228857c033"
       }
     },
@@ -693,7 +693,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x101A023270368c0D50BFfb62780F4aFd4ea79C35"
       }
     },
@@ -786,7 +786,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xB7b31a6BC18e48888545CE79e83E06003bE70930"
       }
     },
@@ -903,7 +903,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xEE800B277A96B0f490a1A732e1D6395FAD960A26"
       }
     },
@@ -1019,7 +1019,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xac51C4c48Dc3116487eD4BC16542e27B5694Da1b"
       }
     },
@@ -1186,7 +1186,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x752DC265EAf6Da2Db0F8e4a32D5596D3f18e8701"
       }
     },
@@ -1414,7 +1414,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3"
       }
     },
@@ -1524,7 +1524,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xA8b1E0764f85f53dfe21760e8AfE5446D82606ac"
       }
     },
@@ -1629,7 +1629,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x3Cef98bb43d732E2F285eE605a8158cDE967D219"
       }
     },
@@ -1811,7 +1811,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x218645F85Ff27FC456ef46c3CdacBF5c40B2F9E8"
       }
     },
@@ -1912,7 +1912,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x2C8a46eF99Cb64928eB3Dd50A925327e02296F63"
       }
     },
@@ -2281,7 +2281,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xc26D47d5c33aC71AC5CF9F776D63Ba292a4F7842"
       }
     },
@@ -2361,7 +2361,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x4eD141110F6EeeAbA9A1df36d8c26f684d2475Dc"
       }
     },
@@ -2697,7 +2697,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xFdc26CDA2d2440d0E83CD1DeE8E8bE48405806DC"
       }
     },
@@ -2872,7 +2872,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xdAb529f40E671A1D4bF91361c21bf9f0C9712ab7"
       }
     },
@@ -2910,7 +2910,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x9de41aFF9f55219D5bf4359F167d1D0c772A396D"
       }
     },
@@ -3047,7 +3047,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xF7B5991c676929BF98BF3E2e2e386789BB16912a"
       }
     },
@@ -3085,7 +3085,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xD85d1e945766Fea5Eda9103F918Bd915FbCa63E6"
       }
     },
@@ -3290,7 +3290,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x67Ce67ec4fCd4aCa0Fcb738dD080b2a21ff69D75"
       }
     },
@@ -3347,7 +3347,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xf1938Ce12400f9a761084E7A80d37e732a4dA056"
       }
     },
@@ -3529,7 +3529,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x8505b9d2254A7Ae468c0E9dd10Ccea3A837aef5c"
       }
     },
@@ -3594,7 +3594,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xAdA58DF0F643D959C2A47c9D4d4c1a4deFe3F11C"
       }
     },
@@ -3741,7 +3741,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x172370d5Cd63279eFa6d502DAB29171933a610AF"
       }
     },
@@ -4004,7 +4004,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
       }
     },
@@ -4115,7 +4115,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x27f485b62C4A7E635F561A87560Adf5090239E93"
       }
     },
@@ -4892,7 +4892,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x7eC26842F195c852Fa843bB9f6D8B583a274a157"
       }
     },
@@ -5116,7 +5116,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
       }
     },
@@ -5162,7 +5162,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x18ec0A6E18E5bc3784fDd3a3634b31245ab704F6"
       }
     },
@@ -5208,7 +5208,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x820802Fa8a99901F52e39acD21177b0BE6EE2974"
       }
     },
@@ -5259,7 +5259,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99"
       }
     },
@@ -5434,7 +5434,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x7583FEDDbceFA813dc18259940F76a02710A8905"
       }
     },
@@ -5927,7 +5927,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x1a3acf6D19267E2d3e7f898f42803e90C9219062"
       }
     },
@@ -6075,7 +6075,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x8d1566569d5b695d44a9a234540f68D393cDC40D"
       }
     },
@@ -6251,7 +6251,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x0B220b82F3eA3B7F6d9A1D8ab58930C064A2b5Bf"
       }
     },
@@ -6315,7 +6315,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x714DB550b574b3E927af3D93E26127D15721D4C2"
       }
     },
@@ -6419,7 +6419,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x5FFD62D3C3eE2E81C00A7b9079FB248e7dF024A8"
       }
     },
@@ -6465,7 +6465,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xE5417Af564e4bFDA1c483642db72007871397896"
       }
     },
@@ -6666,7 +6666,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x5fe2B58c013d7601147DcdD68C143A77499f5531"
       }
     },
@@ -6796,7 +6796,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x23D29D30e35C5e8D321e1dc9A8a61BFD846D4C5C"
       }
     },
@@ -6842,7 +6842,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x0C51f415cF478f8D08c246a6C6Ee180C5dC3A012"
       }
     },
@@ -6962,7 +6962,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x2088C47Fc0c78356c622F79dBa4CbE1cCfA84A91"
       }
     },
@@ -7019,7 +7019,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x554cd6bdD03214b10AafA3e0D4D42De0C5D2937b"
       }
     },
@@ -7111,7 +7111,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x2bAa79e7C13C302210436455925E68aD8fA687F0"
       }
     },
@@ -7130,7 +7130,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x0483Ddbb510d22b206f2F3bDAC18528C952c4213"
       }
     },
@@ -7310,7 +7310,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xf6372cDb9c1d3674E83842e3800F2A62aC9F3C66"
       }
     },
@@ -7393,7 +7393,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xCB7F1Ef7246D1497b985f7FC45A1A31F04346133"
       }
     },
@@ -7439,7 +7439,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xf2f77FE7b8e66571E0fca7104c4d670BF1C8d722"
       }
     },
@@ -7466,7 +7466,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x8ca194A3b22077359b5732DE53373D4afC11DeE3"
       }
     },
@@ -7550,7 +7550,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xbD1463F02f61676d53fd183C2B19282BFF93D099"
       }
     },
@@ -7577,7 +7577,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x84526c812D8f6c4fD6C1a5B68713AFF50733E772"
       }
     },
@@ -7661,7 +7661,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x4e3Decbb3645551B8A19f0eA1678079FCB33fB4c"
       }
     },
@@ -7726,7 +7726,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x767058F11800FBA6A682E73A6e79ec5eB74Fac8c"
       }
     },
@@ -7753,7 +7753,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x192Ef3FFF1708456D3A1F21354FA8d6bFd86b45c"
       }
     },
@@ -7772,7 +7772,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x8343091F2499FD4b6174A46D067A920a3b851FF9"
       }
     },
@@ -7799,7 +7799,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xa22f6bc96f13bcC84dF36109c973d3c0505a067E"
       }
     },
@@ -7818,7 +7818,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xBD1fe73e1f12bD2bc237De9b626F056f21f86427"
       }
     },
@@ -7845,7 +7845,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x6b526Daf03B4C47AF2bcc5860B12151823Ff70E0"
       }
     },
@@ -7872,7 +7872,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x486880FB16408b47f928F472f57beC55AC6089d1"
       }
     },
@@ -7891,7 +7891,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x08E6d1F0c4877Ef2993Ad733Fc6F1D022d0E9DBf"
       }
     },
@@ -7929,7 +7929,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB"
       }
     },
@@ -7974,7 +7974,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x596eBE76e2DB4470966ea395B0d063aC6197A8C5"
       }
     },
@@ -7993,7 +7993,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x197E5d6CcfF265AC3E303a34Db360ee1429f5d1A"
       }
     },
@@ -8012,7 +8012,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xa926db7a4CC0cb1736D5ac60495ca8Eb7214B503"
       }
     },
@@ -8039,7 +8039,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x2A227fc77Bb2cf8f1881a04eCC8fA01EC57EC9fc"
       }
     },
@@ -8058,7 +8058,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xc948EE9a0687C292ac4d8C1e2557aD652D6baf44"
       }
     },
@@ -8302,7 +8302,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x1C954E8fe737F99f68Fa1CCda3e51ebDB291948C"
       }
     },
@@ -8593,7 +8593,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756"
       }
     },
@@ -8663,7 +8663,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x06D02e9D62A13fC76BB229373FB3BBBD1101D2fC"
       }
     },
@@ -8796,7 +8796,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39"
       }
     },
@@ -8915,7 +8915,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x84e1670F61347CDaeD56dcc736FB990fBB47ddC1"
       }
     },
@@ -9161,7 +9161,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4"
       }
     },
@@ -9226,7 +9226,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x2B9E7ccDF0F4e5B24757c1E1a80e311E34Cb10c7"
       }
     },
@@ -9241,9 +9241,9 @@
     }
   },
   {
-    "coin": "MATICTEST",
-    "name": "matic testnet",
-    "fname": "Matic Testnet",
+    "coin": "POLTEST",
+    "name": "polygon testnet",
+    "fname": "Polygon Testnet",
     "is_testnet": true,
     "rpcport": 80,
     "mm2": 1,
@@ -9256,8 +9256,8 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "MATIC",
-    "name": "matic",
+    "coin": "POL",
+    "name": "polygon",
     "fname": "Polygon",
     "rpcport": 80,
     "mm2": 1,
@@ -9276,9 +9276,32 @@
     }
   },
   {
+    "coin": "POL-ERC20",
+    "name": "pol_erc20",
+    "fname": "Polygon",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "decimals": 18,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "trezor_coin": "Polygon Token",
+    "links": {
+      "homepage": "https://polygon.technology/"
+    }
+  },
+  {
     "coin": "MATIC-BEP20",
     "name": "matic_bep20",
-    "fname": "Polygon",
+    "fname": "Polygon (OLD)",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
@@ -9304,7 +9327,7 @@
   {
     "coin": "MATIC-ERC20",
     "name": "matic_erc20",
-    "fname": "Polygon",
+    "fname": "Polygon (OLD)",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -9323,45 +9346,6 @@
     "links": {
       "homepage": "https://polygon.technology/"
     }
-  },
-  {
-    "coin": "MATIC-HCO20",
-    "name": "matic_hco20",
-    "fname": "Polygon",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 128,
-    "decimals": 18,
-    "avg_blocktime": 3,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "HT",
-        "contract_address": "0xdB11743fe8B129b49b11236E8a715004BDabe7e5"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "MATIC-KRC20",
-    "name": "matic_krc20",
-    "fname": "Polygon",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 321,
-    "decimals": 18,
-    "avg_blocktime": 3,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "KCS",
-        "contract_address": "0x1B8e27ABA297466fc6765Ce55BD12A8E216759da"
-      }
-    },
-    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "MC-ERC20",
@@ -9635,7 +9619,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x6f7C932e7684666C9fd1d44527765433e01fF61d"
       }
     },
@@ -9742,7 +9726,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x5647Fe4281F8F6F01E84BCE775AD4b828A7b8927"
       }
     },
@@ -10053,7 +10037,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x41b3966B4FF7b427969ddf5da3627d6AEAE9a48E"
       }
     },
@@ -10243,7 +10227,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xeaFE31Cd9e8E01C8f0073A2C974f728Fb80e9DcE"
       }
     },
@@ -10348,7 +10332,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x282d8efCe846A88B159800bd4130ad77443Fa1A1"
       }
     },
@@ -10413,7 +10397,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xC3Ec80343D2bae2F8E680FDADDe7C17E71E114ea"
       }
     },
@@ -10464,7 +10448,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x62414D03084EeB269E18C970a21f45D2967F0170"
       }
     },
@@ -10585,7 +10569,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x6F3B3286fd86d8b47EC737CEB3D0D354cc657B3e"
       }
     },
@@ -10647,7 +10631,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x553d3D295e0f695B9228246232eDF400ed3560B5"
       }
     },
@@ -10965,7 +10949,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xd7c8469c7eC40f853dA5f651DE81b45aeD47e5aB"
       }
     },
@@ -11015,7 +10999,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x0AaB8DC887D34f00D50E19aee48371a941390d14"
       }
     },
@@ -11080,7 +11064,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x91E7E32C710661C44ae44D10Aa86135d91C3Ed65"
       }
     },
@@ -11153,7 +11137,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xdFC3829b127761a3218bFceE7fc92e1232c9D116"
       }
     },
@@ -11191,7 +11175,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x430EF9263E76DAE63c84292C3409D61c598E9682"
       }
     },
@@ -11277,7 +11261,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x6f8a06447Ff6FcF75d803135a7de15CE88C1d4ec"
       }
     },
@@ -11715,7 +11699,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xB25e20De2F2eBb4CfFD4D16a55C7B395e8a94762"
       }
     },
@@ -11867,7 +11851,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xbe662058e00849C3Eef2AC9664f37fEfdF2cdbFE"
       }
     },
@@ -11905,7 +11889,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x61299774020dA444Af134c82fa83E3810b309991"
       }
     },
@@ -12092,7 +12076,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683"
       }
     },
@@ -12273,7 +12257,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x50B728D8D964fd00C2d0AAD81718b71311feF68a"
       }
     },
@@ -12319,7 +12303,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x7DfF46370e9eA5f0Bad3C4E29711aD50062EA7A4"
       }
     },
@@ -12465,7 +12449,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xB53Ec4aCe420a62Cfb75aFdEba600D284777cd65"
       }
     },
@@ -12492,7 +12476,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x1D1498166DDCEeE616a6d99868e1E0677300056f"
       }
     },
@@ -12538,7 +12522,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x6Bf2eb299E51Fc5DF30Dec81D9445dDe70e3F185"
       }
     },
@@ -12677,7 +12661,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a"
       }
     },
@@ -12813,7 +12797,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xf8F9efC0db77d8881500bb06FF5D6ABc3070E695"
       }
     },
@@ -12992,7 +12976,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b"
       }
     },
@@ -13101,7 +13085,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xdF7837DE1F2Fa4631D716CF2502f8b230F1dcc32"
       }
     },
@@ -13358,7 +13342,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x4Fb71290Ac171E1d144F7221D882BECAc7196EB5"
       }
     },
@@ -13523,7 +13507,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x2e1AD108fF1D8C782fcBbB89AAd783aC49586756"
       }
     },
@@ -13584,7 +13568,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x7FBc10850caE055B27039aF31bD258430e714c62"
       }
     },
@@ -13689,7 +13673,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x3066818837c5e6eD6601bd5a91B0762877A6B731"
       }
     },
@@ -13807,7 +13791,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xb33EaAd8d922B1083446DC23f610c2567fB5180f"
       }
     },
@@ -14050,7 +14034,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
       }
     },
@@ -14077,7 +14061,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
       }
     },
@@ -14213,7 +14197,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
       }
     },
@@ -14487,7 +14471,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x054c42b6414747F5263b4A86f21B1aFAD00326Bf"
       }
     },
@@ -14746,7 +14730,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6"
       }
     },
@@ -14896,7 +14880,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x1B815d120B3eF02039Ee11dC2d33DE7aA4a8C603"
       }
     },
@@ -15026,7 +15010,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x2c826035c1C36986117A0e949bD6ad4baB54afE2"
       }
     },
@@ -15263,7 +15247,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xDC3326e71D45186F113a2F448984CA0e8D201995"
       }
     },
@@ -15540,7 +15524,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0xDA537104D6A5edd53c6fBba9A898708E465260b6"
       }
     },
@@ -15773,7 +15757,7 @@
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
-        "platform": "MATIC",
+        "platform": "POL",
         "contract_address": "0x5559Edb74751A0edE9DeA4DC23aeE72cCA6bE3D5"
       }
     },
@@ -17377,8 +17361,8 @@
     }
   },
   {
-    "coin": "NFT_MATIC",
-    "name": "nft_matic",
+    "coin": "NFT_POL",
+    "name": "nft_pol",
     "fname": "Polygon",
     "rpcport": 80,
     "mm2": 1,
@@ -17388,7 +17372,7 @@
     "protocol": {
       "type": "NFT",
       "protocol_data": {
-        "platform": "MATIC"
+        "platform": "POL"
       }
     },
     "derivation_path": "m/44'/966'",
