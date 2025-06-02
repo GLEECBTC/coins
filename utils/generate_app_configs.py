@@ -28,6 +28,7 @@ BINANCE_DELISTED_COINS = [
     "GRS",
     "IRIS",
     "LOOM",
+    "MATIC",
     "MC",
     "MDX",
     "MIR",
