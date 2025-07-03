@@ -5485,7 +5485,6 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/75'",
-    "trezor_coin": "Fujicoin",
     "links": {
       "github": "https://github.com/fujicoin/fujicoin",
       "homepage": "https://fujicoin.org"
@@ -5668,7 +5667,6 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/8'",
-    "trezor_coin": "Feathercoin",
     "links": {
       "github": "https://github.com/FeatherCoin/Feathercoin",
       "homepage": "https://feathercoin.com"
@@ -8032,7 +8030,6 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/0'",
-    "trezor_coin": "Kylacoin",
     "links": {
       "github": "https://github.com/kylacoin/kylacoin",
       "homepage": "https://kylacoin.com"
@@ -8063,7 +8060,6 @@
       "type": "UTXO"
     },
     "derivation_path": "m/84'/0'",
-    "trezor_coin": "Kylacoin",
     "links": {
       "github": "https://github.com/kylacoin/kylacoin",
       "homepage": "https://kylacoin.com"
@@ -8420,7 +8416,6 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/0'",
-    "trezor_coin": "Lyncoin",
     "links": {
       "github": "https://github.com/lyncoin/lyncoin",
       "homepage": "https://lyncoin.com"
@@ -8451,7 +8446,6 @@
       "type": "UTXO"
     },
     "derivation_path": "m/84'/0'",
-    "trezor_coin": "Lyncoin",
     "links": {
       "github": "https://github.com/lyncoin/lyncoin",
       "homepage": "https://lyncoin.com"
@@ -8953,7 +8947,6 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/2'",
-    "trezor_coin": "Litecoin",
     "links": {
       "github": "https://github.com/litecoin-project/litecoin",
       "homepage": "https://litecoin.org"
@@ -9698,7 +9691,6 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/22'",
-    "trezor_coin": "Monacoin",
     "links": {
       "github": "https://github.com/monacoinproject/monacoin",
       "homepage": "https://monacoin.org"
@@ -10074,7 +10066,6 @@
       "type": "UTXO"
     },
     "derivation_path": "m/84'/7'",
-    "trezor_coin": "Namecoin",
     "links": {
       "github": "https://github.com/namecoin/namecoin-core",
       "homepage": "https://namecoin.org"
@@ -12849,7 +12840,6 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/57'",
-    "trezor_coin": "Syscoin",
     "links": {
       "github": "https://github.com/syscoin/syscoin",
       "homepage": "https://syscoin.org"
@@ -14484,7 +14474,6 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/14'",
-    "trezor_coin": "Viacoin",
     "links": {
       "github": "https://github.com/viacoin",
       "homepage": "https://viacoin.org"
@@ -14602,7 +14591,6 @@
       "type": "UTXO"
     },
     "derivation_path": "m/44'/28'",
-    "trezor_coin": "Vertcoin",
     "links": {
       "github": "https://github.com/vertcoin-project/vertcoin-core",
       "homepage": "https://vertcoin.org"
