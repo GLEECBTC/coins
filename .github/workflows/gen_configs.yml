@@ -10,6 +10,10 @@ on:
       - 'utils/coins_config_wss.json'
       - 'utils/coins_config_unfiltered.json'
       - 'utils/electrum_scan_report.json'
+      - 'utils/spritemap.json'
+      - 'utils/spritemap.png'
+      - 'utils/icon_checksums.json'
+
   schedule:
     - cron:  '0 0 * * *'
   workflow_dispatch:
@@ -20,13 +24,36 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install cargo
+        shell: bash
+        run: |
+          DEBIAN_FRONTEND=noninteractive
+          sudo apt update
+          sudo apt install cargo cmake autoconf automake libtool nasm make pkg-config rustc -y
+
+      - name: Install oxipng
+        shell: bash
+        run: |
+          cargo install oxipng
+          echo "$HOME/.cargo/bin" >> $GITHUB_PATH
+
       - name: Create 128x128 images in icons dir
         shell: bash
         run:  ${GITHUB_WORKSPACE}/utils/icons_resize.sh
 
+      - name: Install dependencies
+        shell: bash
+        run: pip3 install -r ${GITHUB_WORKSPACE}/utils/requirements.txt
+
+      - name: Validate seed nodes
+        shell: bash
+        run: |
+          echo "Validating seed-nodes.json before generating configs..."
+          python3 ${GITHUB_WORKSPACE}/utils/validate_seed_nodes.py
+
       - name: Generate configs
         shell: bash
-        run:  pip3 install -r ${GITHUB_WORKSPACE}/utils/requirements.txt && ${GITHUB_WORKSPACE}/utils/generate_app_configs.py
+        run: ${GITHUB_WORKSPACE}/utils/generate_app_configs.py
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
@@ -41,6 +68,7 @@ jobs:
           body: |
             - Coins JSON config auto-generated on merge to master
             - Electrum scan report updated
+            - Icon spritemap updated
           labels: |
             config-update
           reviewers: cipig, smk762, gcharang

@@ -1,6 +1,6 @@
 [
     {
-        "url": "electrum3.cipig.net:20022",
+        "url": "gleecold.electrum3.cipig.net:20022",
         "protocol": "SSL",
         "contact": [
             {
@@ -10,10 +10,10 @@
                 "discord": "cipi#4502"
             }
         ],
-        "ws_url": "electrum3.cipig.net:30022"
+        "ws_url": "gleecold.electrum3.cipig.net:30022"
     },
     {
-        "url": "electrum1.cipig.net:10022",
+        "url": "gleecold.electrum1.cipig.net:10022",
         "protocol": "TCP",
         "contact": [
             {
@@ -25,7 +25,7 @@
         ]
     },
     {
-        "url": "electrum2.cipig.net:10022",
+        "url": "gleecold.electrum2.cipig.net:10022",
         "protocol": "TCP",
         "contact": [
             {
@@ -37,7 +37,7 @@
         ]
     },
     {
-        "url": "electrum3.cipig.net:10022",
+        "url": "gleecold.electrum3.cipig.net:10022",
         "protocol": "TCP",
         "contact": [
             {
@@ -49,7 +49,7 @@
         ]
     },
     {
-        "url": "electrum1.cipig.net:20022",
+        "url": "gleecold.electrum1.cipig.net:20022",
         "protocol": "SSL",
         "contact": [
             {
@@ -59,10 +59,10 @@
                 "discord": "cipi#4502"
             }
         ],
-        "ws_url": "electrum1.cipig.net:30022"
+        "ws_url": "gleecold.electrum1.cipig.net:30022"
     },
     {
-        "url": "electrum2.cipig.net:20022",
+        "url": "gleecold.electrum2.cipig.net:20022",
         "protocol": "SSL",
         "contact": [
             {
@@ -72,7 +72,7 @@
                 "discord": "cipi#4502"
             }
         ],
-        "ws_url": "electrum2.cipig.net:30022"
+        "ws_url": "gleecold.electrum2.cipig.net:30022"
     }
 ]
 

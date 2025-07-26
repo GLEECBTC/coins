@@ -15,8 +15,8 @@
     ]
   },
   {
-    "url": "electrum3.cipig.net:20075",
-    "ws_url": "electrum3.cipig.net:30075",
+    "url": "clam.electrum3.cipig.net:20075",
+    "ws_url": "clam.electrum3.cipig.net:30075",
     "protocol": "SSL",
     "contact": [
       { "email": "cipi@komodoplatform.com" },

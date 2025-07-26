@@ -1,6 +1,6 @@
 [
     {
-        "url": "electrum3.cipig.net:10068",
+        "url": "testbtc.electrum3.cipig.net:10068",
         "contact": [
             {
                 "email": "cipi@komodoplatform.com"
@@ -15,7 +15,7 @@
         "protocol": "TCP"
     },
     {
-        "url": "electrum3.cipig.net:20068",
+        "url": "testbtc.electrum3.cipig.net:20068",
         "protocol": "SSL",
         "contact": [
             {
@@ -25,6 +25,6 @@
                 "discord": "cipi#4502"
             }
         ],
-        "ws_url": "electrum3.cipig.net:30068"
+        "ws_url": "testbtc.electrum3.cipig.net:30068"
     }
 ]

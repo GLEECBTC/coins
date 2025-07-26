@@ -1,4 +1,13 @@
 [
+  {
+    "url": "btx.electrum3.cipig.net:20069",
+    "ws_url": "btx.electrum3.cipig.net:30069",
+    "protocol": "SSL",
+    "contact": [
+      { "email": "cipi@komodoplatform.com" },
+      { "discord": "cipi#4502" }
+    ]
+  },
     {
         "url": "btx-electrumx.coinsmunity.com:50002",
         "protocol": "SSL",

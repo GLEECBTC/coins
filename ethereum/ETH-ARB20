@@ -10,8 +10,12 @@
             "url": "https://arb1.arbitrum.io/rpc"
         },
         {
-            "url": "https://arbitrum-one.publicnode.com",
-            "ws_url": "wss://arbitrum-one.publicnode.com"
+            "url": "https://arbitrum-one-rpc.publicnode.com",
+            "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
+        },
+        {
+            "url": "https://arbitrum.meowrpc.com",
+            "ws_url": "wss://arbitrum.callstaticrpc.com"
         }
     ]
 }

@@ -13,18 +13,6 @@
         "ws_url": "electrum1.lcnxp.com:52004"
     },
     {
-        "url": "electrum1.lcnxp.com:52001",
-        "contact": [
-            {
-                "email": "jaybitron@gmail.com"
-            },
-            {
-                "discord": "jaybitron"
-            }
-        ],
-        "ws_url": "electrum1.lcnxp.com:52003"
-    },
-    {
         "url": "electrum2.lcnxp.com:52002",
         "protocol": "SSL",
         "contact": [
@@ -36,18 +24,6 @@
             }
         ],
         "ws_url": "electrum2.lcnxp.com:52004"
-    },
-    {
-        "url": "electrum2.lcnxp.com:52001",
-        "contact": [
-            {
-                "email": "jaybitron@gmail.com"
-            },
-            {
-                "discord": "jaybitron"
-            }
-        ],
-        "ws_url": "electrum2.lcnxp.com:52003"
     },
     {
         "url": "electrum3.lcnxp.com:52002",
@@ -63,18 +39,6 @@
         "ws_url": "electrum3.lcnxp.com:52004"
     },
     {
-        "url": "electrum3.lcnxp.com:52001",
-        "contact": [
-            {
-                "email": "jaybitron@gmail.com"
-            },
-            {
-                "discord": "jaybitron"
-            }
-        ],
-        "ws_url": "electrum3.lcnxp.com:52003"
-    },
-    {
         "url": "electrum4.lcnxp.com:52002",
         "protocol": "SSL",
         "contact": [
@@ -88,18 +52,6 @@
         "ws_url": "electrum4.lcnxp.com:52004"
     },
     {
-        "url": "electrum4.lcnxp.com:52001",
-        "contact": [
-            {
-                "email": "jaybitron@gmail.com"
-            },
-            {
-                "discord": "jaybitron"
-            }
-        ],
-        "ws_url": "electrum4.lcnxp.com:52003"
-    },
-    {
         "url": "electrum5.lcnxp.com:52002",
         "protocol": "SSL",
         "contact": [
@@ -111,17 +63,5 @@
             }
         ],
         "ws_url": "electrum5.lcnxp.com:52004"
-    },
-    {
-        "url": "electrum5.lcnxp.com:52001",
-        "contact": [
-            {
-                "email": "jaybitron@gmail.com"
-            },
-            {
-                "discord": "jaybitron"
-            }
-        ],
-        "ws_url": "electrum5.lcnxp.com:52003"
     }
 ]

@@ -1,6 +1,6 @@
 [
     {
-        "url": "electrum3.cipig.net:20071",
+        "url": "tqtum.electrum3.cipig.net:20071",
         "protocol": "SSL",
         "contact": [
             {
@@ -10,10 +10,10 @@
                 "discord": "cipi#4502"
             }
         ],
-        "ws_url": "electrum3.cipig.net:30071"
+        "ws_url": "tqtum.electrum3.cipig.net:30071"
     },
     {
-        "url": "electrum3.cipig.net:10071",
+        "url": "tqtum.electrum3.cipig.net:10071",
         "contact": [
             {
                 "email": "cipi@komodoplatform.com"

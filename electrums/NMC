@@ -9,6 +9,10 @@
         "disable_cert_verification": true
     },
     {
+        "url": "namecoin.stackwallet.com:57002",
+        "protocol": "SSL"
+    },
+    {
         "url": "electrumx1.nmc.dotbit.zone:50001",
         "protocol": "TCP",
         "contact": [

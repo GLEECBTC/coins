@@ -1,0 +1,5 @@
+[taker fee (DGB)](https://chainz.cryptoid.info/dgb/tx.dws?1f8bfedff38acfd48b2bb4b5a2b30bdd134cc0f544fb8abe8a64babd7b3b3d4a.htm)
+[maker payment (CAS)](https://casplorer.com/tx/9a07ac95187f06c20e6f698c0241d36dd7868eeb25bd6e1f223a3a131310c2d7)
+[taker payment (DGB)](https://chainz.cryptoid.info/dgb/tx.dws?182c8acbcfdfad773759bfac5bc50b367460d846407087d4b132b382a91a3034.htm)
+[taker payment spent (CAS)](https://casplorer.com/tx/7be13e3fd3b484a2cf298c850becc06109123500b3bced15f5dbd5cd69988194)
+[maker payment spent (DGB)](https://chainz.cryptoid.info/dgb/tx.dws?3528c89c8e56bb48b37eb134a2969af43b9c706f6060df191c3245762e97daeb.htm)

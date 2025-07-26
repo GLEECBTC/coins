@@ -1,4 +1,4 @@
-## What is the coins repository for?
+# What is the coins repository for?
 
 This repository is the coins database which is used to define parameters for coins compatible with the [Komodo DeFi Framework](https://github.com/KomodoPlatform/komodo-defi-framework/), and listed within the apps below:
 
@@ -16,7 +16,7 @@ The status of currently listed [ElectrumX](https://electrumx.readthedocs.io/en/l
 
 
 
-### Currently supported coins & protocols
+## Currently supported coins & protocols
 
 AtomicDEX is a true non-custodial, cross-chain, cross-protocol Decentralized Exchange (DEX), allowing for trades between coins and tokens across many platforms and ecosystems, including:
 
@@ -33,9 +33,10 @@ AtomicDEX is a true non-custodial, cross-chain, cross-protocol Decentralized Exc
 - [QTUM](https://www.qtum.org/) & QRC20 tokens
 - "ZHTLC" coins (e.g. [ARRR](https://pirate.black/) & ZOMBIE)
 - [COSMOS](https://cosmos.network/) / [Tendermint](https://tendermint.com/)
-- [SmartBCH](https://smartbch.org/) & SLP tokens
+- [SmartBCH](https://smartbch.org/)
+- [ERC721 / ERC1155 NFTs](https://github.com/KomodoPlatform/komodo-defi-framework/issues/900)
 
-### Future coins & protocols
+## Future coins & protocols
 
 - [Emercoin](https://github.com/KomodoPlatform/komodo-defi-framework/issues/1700)
 - [TRON & TRC20 tokens](https://github.com/KomodoPlatform/komodo-defi-framework/issues/1542)
@@ -48,6 +49,33 @@ AtomicDEX is a true non-custodial, cross-chain, cross-protocol Decentralized Exc
 - [XMR](https://github.com/KomodoPlatform/komodo-defi-framework/issues/956)
 - [Zano](https://github.com/KomodoPlatform/komodo-defi-framework/issues/942)
 - [SysCoin Tokens](https://github.com/KomodoPlatform/komodo-defi-framework/issues/938)
-- [ERC721 / ERC1155 NFTs](https://github.com/KomodoPlatform/komodo-defi-framework/issues/900)
 - [XTZ](https://github.com/KomodoPlatform/komodo-defi-framework/issues/632)
 - [SIA](https://github.com/KomodoPlatform/komodo-defi-framework/pull/2221)
+
+## Seed Nodes
+
+The `seed-nodes.json` file contains a list of seed nodes used by the Komodo DeFi Framework. Each seed node entry includes the node name, host address (domain name or IP address), and contact information.
+
+### Validating Seed Nodes
+
+A Python validation script is provided to ensure the `seed-nodes.json` file conforms to the defined JSON schema:
+
+#### Installation
+
+Install the required dependencies:
+
+```bash
+cd utils
+pip install -r requirements.txt
+```
+
+#### Usage
+
+```bash
+# Validate using default paths (seed-nodes.json and utils/seed_nodes_schema.json)
+python3 utils/validate_seed_nodes.py
+
+# Validate with custom file paths
+python3 utils/validate_seed_nodes.py path/to/seed-nodes.json path/to/schema.json
+```
+

@@ -13,18 +13,6 @@
         "ws_url": "electrum1.kcnxp.com:51004"
     },
     {
-        "url": "electrum1.kcnxp.com:51001",
-        "contact": [
-            {
-                "email": "jaybitron@gmail.com"
-            },
-            {
-                "discord": "jaybitron"
-            }
-        ],
-        "ws_url": "electrum1.kcnxp.com:51003"
-    },
-    {
         "url": "electrum2.kcnxp.com:51002",
         "protocol": "SSL",
         "contact": [
@@ -36,18 +24,6 @@
             }
         ],
         "ws_url": "electrum2.kcnxp.com:51004"
-    },
-    {
-        "url": "electrum2.kcnxp.com:51001",
-        "contact": [
-            {
-                "email": "jaybitron@gmail.com"
-            },
-            {
-                "discord": "jaybitron"
-            }
-        ],
-        "ws_url": "electrum2.kcnxp.com:51003"
     },
     {
         "url": "electrum3.kcnxp.com:51002",
@@ -63,18 +39,6 @@
         "ws_url": "electrum3.kcnxp.com:51004"
     },
     {
-        "url": "electrum3.kcnxp.com:51001",
-        "contact": [
-            {
-                "email": "jaybitron@gmail.com"
-            },
-            {
-                "discord": "jaybitron"
-            }
-        ],
-        "ws_url": "electrum3.kcnxp.com:51003"
-    },
-    {
         "url": "electrum4.kcnxp.com:51002",
         "protocol": "SSL",
         "contact": [
@@ -88,18 +52,6 @@
         "ws_url": "electrum4.kcnxp.com:51004"
     },
     {
-        "url": "electrum4.kcnxp.com:51001",
-        "contact": [
-            {
-                "email": "jaybitron@gmail.com"
-            },
-            {
-                "discord": "jaybitron"
-            }
-        ],
-        "ws_url": "electrum4.kcnxp.com:51003"
-    },
-    {
         "url": "electrum5.kcnxp.com:51002",
         "protocol": "SSL",
         "contact": [
@@ -111,17 +63,5 @@
             }
         ],
         "ws_url": "electrum5.kcnxp.com:51004"
-    },
-    {
-        "url": "electrum5.kcnxp.com:51001",
-        "contact": [
-            {
-                "email": "jaybitron@gmail.com"
-            },
-            {
-                "discord": "jaybitron"
-            }
-        ],
-        "ws_url": "electrum5.kcnxp.com:51003"
     }
 ]

@@ -1,0 +1,278 @@
+name: Validate Seed Nodes Configuration
+
+on:
+  push:
+    branches: ["master", "main"]
+    paths:
+      - "seed-nodes.json"
+      - "utils/seed_nodes_schema.json"
+      - "utils/validate_seed_nodes.py"
+  pull_request:
+    branches: ["master", "main"]
+    paths:
+      - "seed-nodes.json"
+      - "utils/seed_nodes_schema.json"
+      - "utils/validate_seed_nodes.py"
+  schedule:
+    # Run every 2 hours at minute 0 (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-22.04
+    name: Validate Seed Nodes Configuration
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip3 install -r utils/requirements.txt
+
+      - name: Check seed nodes file exists
+        run: |
+          if [ ! -f "seed-nodes.json" ]; then
+            echo "❌ seed-nodes.json file not found!"
+            exit 1
+          fi
+          echo "✓ seed-nodes.json file exists"
+
+      - name: Check schema file exists
+        run: |
+          if [ ! -f "utils/seed_nodes_schema.json" ]; then
+            echo "❌ utils/seed_nodes_schema.json file not found!"
+            exit 1
+          fi
+          echo "✓ utils/seed_nodes_schema.json file exists"
+
+      - name: Validate seed nodes JSON schema and WSS connectivity
+        run: |
+          echo "Validating seed-nodes.json against schema and testing WSS connectivity..."
+          echo "Note: WSS connectivity tests run for nodes with 'wss': true"
+
+          # Capture script output and exit code
+          set +e  # Don't exit on error so we can capture the output
+          python3 utils/validate_seed_nodes.py 2>&1 | tee validation_output.txt
+          SCRIPT_EXIT_CODE=${PIPESTATUS[0]}
+          set -e  # Re-enable exit on error
+
+          # Store the output for later steps
+          echo "VALIDATION_OUTPUT<<EOF" >> $GITHUB_ENV
+          cat validation_output.txt >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+          # Store exit code
+          echo "SCRIPT_EXIT_CODE=$SCRIPT_EXIT_CODE" >> $GITHUB_ENV
+
+          # Exit with the original script exit code
+          exit $SCRIPT_EXIT_CODE
+
+      - name: Validation Summary
+        run: |
+          echo "🎉 All seed nodes validation checks passed!"
+          echo "✓ Schema validation successful"
+          echo "✓ All seed nodes are properly formatted"
+          echo "✓ Host addresses are valid (domains/IPs)"
+          echo "✓ Host types are correctly classified (domain/ipv4/ipv6)"
+          echo "✓ netids are valid (1-14428 range)"
+          echo "✓ Contact information is properly structured"
+          echo "✓ WSS connectivity verified for all WSS-enabled seed nodes"
+
+      - name: Send Discord Success Notification
+        if: success() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+        run: |
+          WEBHOOK_URL="${{ secrets.DISCORD_WEBHOOK_URL }}"
+          if [ -z "$WEBHOOK_URL" ]; then
+            echo "Warning: DISCORD_WEBHOOK_URL secret not set, skipping Discord notification"
+            exit 0
+          fi
+
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          COMMIT_SHA="${{ github.sha }}"
+          COMMIT_SHORT="${COMMIT_SHA:0:7}"
+          REPO_URL="${{ github.server_url }}/${{ github.repository }}"
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+          # Extract key metrics from validation output
+          TOTAL_NODES=$(echo "$VALIDATION_OUTPUT" | grep -oP "Found \K\d+" | head -1 || echo "N/A")
+          WSS_SUMMARY=$(echo "$VALIDATION_OUTPUT" | grep "WSS Connectivity Summary:" | grep -oP "\d+/\d+" | head -1 || echo "N/A")
+          TCP_SUMMARY=$(echo "$VALIDATION_OUTPUT" | grep "TCP Connectivity Summary:" | grep -oP "\d+/\d+" | head -1 || echo "N/A")
+
+          # Create concise summary
+          SUMMARY="**✅ All validations passed successfully!**
+          📊 **${TOTAL_NODES}** seed nodes validated
+          🔗 **TCP:** ${TCP_SUMMARY} reachable
+          🔐 **WSS:** ${WSS_SUMMARY} reachable with valid SSL certificates
+
+          📋 [View workflow logs]($RUN_URL)"
+
+          # Create detailed validation log file
+          cat > validation_success.txt << 'EOF'
+          Komodo Seed Nodes Validation Report - SUCCESS
+          ============================================
+          EOF
+          echo "Timestamp: $TIMESTAMP" >> validation_success.txt
+          echo "Repository: ${{ github.repository }}" >> validation_success.txt
+          echo "Commit: $COMMIT_SHORT ($COMMIT_SHA)" >> validation_success.txt
+          echo "Workflow Run: $RUN_URL" >> validation_success.txt
+          echo "" >> validation_success.txt
+          echo "Summary:" >> validation_success.txt
+          echo "- Total seed nodes: $TOTAL_NODES" >> validation_success.txt
+          echo "- TCP connectivity: $TCP_SUMMARY" >> validation_success.txt
+          echo "- WSS connectivity: $WSS_SUMMARY" >> validation_success.txt
+          echo "" >> validation_success.txt
+          echo "Detailed Output:" >> validation_success.txt
+          echo "===============" >> validation_success.txt
+          echo "$VALIDATION_OUTPUT" >> validation_success.txt
+
+          # Create Discord embed payload
+          DISCORD_PAYLOAD=$(jq -n \
+            --arg title "✅ Seed Nodes Validation Successful" \
+            --arg description "$SUMMARY" \
+            --arg repo "${{ github.repository }}" \
+            --arg commit_short "$COMMIT_SHORT" \
+            --arg commit_sha "$COMMIT_SHA" \
+            --arg repo_url "$REPO_URL" \
+            --arg run_url "$RUN_URL" \
+            --arg timestamp "$TIMESTAMP" \
+            '{
+              embeds: [{
+                title: $title,
+                description: $description,
+                color: 3066993,
+                fields: [
+                  {
+                    name: "Repository",
+                    value: "[\($repo)](\($repo_url))",
+                    inline: true
+                  },
+                  {
+                    name: "Commit",
+                    value: "[\($commit_short)](\($repo_url)/commit/\($commit_sha))",
+                    inline: true
+                  },
+                  {
+                    name: "Workflow Run",
+                    value: "[View Details](\($run_url))",
+                    inline: true
+                  }
+                ],
+                timestamp: $timestamp,
+                footer: {
+                  text: "Komodo Platform Seed Nodes Monitor"
+                }
+              }]
+            }')
+
+          # Send message with embed and file attachment
+          curl -X POST "$WEBHOOK_URL" \
+            --form-string "payload_json=$DISCORD_PAYLOAD" \
+            -F "file=@validation_success.txt"
+
+      - name: Send Discord Failure Notification
+        if: failure() && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+        run: |
+          WEBHOOK_URL="${{ secrets.DISCORD_WEBHOOK_URL }}"
+          if [ -z "$WEBHOOK_URL" ]; then
+            echo "Warning: DISCORD_WEBHOOK_URL secret not set, skipping Discord notification"
+            exit 0
+          fi
+
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          COMMIT_SHA="${{ github.sha }}"
+          COMMIT_SHORT="${COMMIT_SHA:0:7}"
+          REPO_URL="${{ github.server_url }}/${{ github.repository }}"
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+          # Extract key metrics and errors from validation output
+          TOTAL_NODES=$(echo "$VALIDATION_OUTPUT" | grep -oP "Found \K\d+" | head -1 || echo "N/A")
+          WSS_SUMMARY=$(echo "$VALIDATION_OUTPUT" | grep "WSS Connectivity Summary:" | grep -oP "\d+/\d+" | head -1 || echo "N/A")
+          TCP_SUMMARY=$(echo "$VALIDATION_OUTPUT" | grep "TCP Connectivity Summary:" | grep -oP "\d+/\d+" | head -1 || echo "N/A")
+
+          # Extract key error messages
+          ERRORS=$(echo "$VALIDATION_OUTPUT" | grep -E "^(✗|❌)" | head -5 || echo "No specific errors found")
+
+                    # Create concise failure summary with key errors only
+          ERROR_PREVIEW=$(echo "$ERRORS" | head -3 | sed 's/^/• /')
+
+          SUMMARY="**❌ Seed nodes validation failed!**
+          📊 **${TOTAL_NODES}** seed nodes found
+          🔗 **TCP:** ${TCP_SUMMARY} reachable  
+          🔐 **WSS:** ${WSS_SUMMARY} reachable
+
+          **🚨 Key Issues:**
+          $ERROR_PREVIEW
+
+          📋 [View workflow logs]($RUN_URL)"
+
+          # Create detailed validation log file
+          cat > validation_failure.txt << 'EOF'
+          Komodo Seed Nodes Validation Report - FAILURE
+          =============================================
+          EOF
+          echo "Timestamp: $TIMESTAMP" >> validation_failure.txt
+          echo "Repository: ${{ github.repository }}" >> validation_failure.txt
+          echo "Commit: $COMMIT_SHORT ($COMMIT_SHA)" >> validation_failure.txt
+          echo "Workflow Run: $RUN_URL" >> validation_failure.txt
+          echo "" >> validation_failure.txt
+          echo "Summary:" >> validation_failure.txt
+          echo "- Total seed nodes: $TOTAL_NODES" >> validation_failure.txt
+          echo "- TCP connectivity: $TCP_SUMMARY" >> validation_failure.txt
+          echo "- WSS connectivity: $WSS_SUMMARY" >> validation_failure.txt
+          echo "" >> validation_failure.txt
+          echo "Errors Found:" >> validation_failure.txt
+          echo "=============" >> validation_failure.txt
+          echo "$ERRORS" >> validation_failure.txt
+          echo "" >> validation_failure.txt
+          echo "Full Validation Output:" >> validation_failure.txt
+          echo "======================" >> validation_failure.txt
+          echo "$VALIDATION_OUTPUT" >> validation_failure.txt
+
+          # Create Discord embed payload
+          DISCORD_PAYLOAD=$(jq -n \
+            --arg content "<@423176312354635779> <@419964976397156352>" \
+            --arg title "❌ Seed Nodes Validation Failed" \
+            --arg description "$SUMMARY" \
+            --arg repo "${{ github.repository }}" \
+            --arg commit_short "$COMMIT_SHORT" \
+            --arg commit_sha "$COMMIT_SHA" \
+            --arg repo_url "$REPO_URL" \
+            --arg run_url "$RUN_URL" \
+            --arg timestamp "$TIMESTAMP" \
+            '{
+              content: $content,
+              embeds: [{
+                title: $title,
+                description: $description,
+                color: 15158332,
+                fields: [
+                  {
+                    name: "Repository",
+                    value: "[\($repo)](\($repo_url))",
+                    inline: true
+                  },
+                  {
+                    name: "Commit",
+                    value: "[\($commit_short)](\($repo_url)/commit/\($commit_sha))",
+                    inline: true
+                  },
+                  {
+                    name: "Workflow Run",
+                    value: "[View Details](\($run_url))",
+                    inline: true
+                  }
+                ],
+                timestamp: $timestamp,
+                footer: {
+                  text: "Komodo Platform Seed Nodes Monitor"
+                }
+              }]
+            }')
+
+          # Send message with embed and file attachment
+          curl -X POST "$WEBHOOK_URL" \
+            --form-string "payload_json=$DISCORD_PAYLOAD" \
+            -F "file=@validation_failure.txt"

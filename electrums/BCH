@@ -15,7 +15,7 @@
         "ws_url": "cashnode.bch.ninja:50004"
     },
     {
-        "url": "electrum3.cipig.net:20055",
+        "url": "bch.electrum3.cipig.net:20055",
         "protocol": "SSL",
         "contact": [
             {
@@ -25,10 +25,10 @@
                 "discord": "cipi#4502"
             }
         ],
-        "ws_url": "electrum3.cipig.net:30055"
+        "ws_url": "bch.electrum3.cipig.net:30055"
     },
     {
-        "url": "electrum3.cipig.net:10055",
+        "url": "bch.electrum3.cipig.net:10055",
         "contact": [
             {
                 "email": "cipi@komodoplatform.com"

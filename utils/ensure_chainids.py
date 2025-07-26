@@ -28,7 +28,7 @@ supported_platforms = {
     "IRIS": 6688,
 }
 
-exclude_protocols = ['UTXO', 'QRC20', "SLPTOKEN", "ZHTLC", "BCH", "QTUM", "tQTUM"]
+exclude_protocols = ['UTXO', 'QRC20', "ZHTLC", "QTUM", "tQTUM"]
 
 def ensure_chainids():
     url = "https://chainid.network/chains_mini.json"
@@ -68,7 +68,7 @@ def ensure_chainids():
                         continue
                 print(f"Chain ID not found for {ticker}")
                 suffix = None
-                if suffix in ['QRC20', 'SLP']:
+                if suffix in ['QRC20']:
                     continue
                 if suffix in supported_networks:
                     network = supported_networks[suffix]

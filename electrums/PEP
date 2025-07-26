@@ -1,5 +1,14 @@
 [
     {
+      "url": "pep.electrum3.cipig.net:20076",
+      "ws_url": "pep.electrum3.cipig.net:30076",
+      "protocol": "SSL",
+      "contact": [
+          { "email": "cipi@komodoplatform.com" },
+          { "discord": "cipi#4502" }
+      ]
+    },
+    {
         "url": "electrum.pepeblocks.com:50001",
         "protocol": "TCP",
         "contact": [

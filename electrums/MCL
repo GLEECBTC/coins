@@ -1,6 +1,6 @@
 [
     {
-        "url": "electrum2.cipig.net:10023",
+        "url": "mcl.electrum2.cipig.net:10023",
         "contact": [
             {
                 "email": "cipi@komodoplatform.com"
@@ -11,7 +11,7 @@
         ]
     },
     {
-        "url": "electrum3.cipig.net:20023",
+        "url": "mcl.electrum3.cipig.net:20023",
         "protocol": "SSL",
         "contact": [
             {
@@ -21,10 +21,10 @@
                 "discord": "cipi#4502"
             }
         ],
-        "ws_url": "electrum3.cipig.net:30023"
+        "ws_url": "mcl.electrum3.cipig.net:30023"
     },
     {
-        "url": "electrum3.cipig.net:10023",
+        "url": "mcl.electrum3.cipig.net:10023",
         "contact": [
             {
                 "email": "cipi@komodoplatform.com"
@@ -35,7 +35,7 @@
         ]
     },
     {
-        "url": "electrum1.cipig.net:20023",
+        "url": "mcl.electrum1.cipig.net:20023",
         "protocol": "SSL",
         "contact": [
             {
@@ -45,10 +45,10 @@
                 "discord": "cipi#4502"
             }
         ],
-        "ws_url": "electrum1.cipig.net:30023"
+        "ws_url": "mcl.electrum1.cipig.net:30023"
     },
     {
-        "url": "electrum2.cipig.net:20023",
+        "url": "mcl.electrum2.cipig.net:20023",
         "protocol": "SSL",
         "contact": [
             {
@@ -58,10 +58,10 @@
                 "discord": "cipi#4502"
             }
         ],
-        "ws_url": "electrum2.cipig.net:30023"
+        "ws_url": "mcl.electrum2.cipig.net:30023"
     },
     {
-        "url": "electrum1.cipig.net:10023",
+        "url": "mcl.electrum1.cipig.net:10023",
         "contact": [
             {
                 "email": "cipi@komodoplatform.com"
