@@ -302,26 +302,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "AAVE-HCO20",
-    "name": "aave_hco20",
-    "fname": "AAVE",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 128,
-    "decimals": 18,
-    "avg_blocktime": 3,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "HT",
-        "contract_address": "0x202b4936fE1a82A4965220860aE46d7d3939Bb25"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "AAVE-KRC20",
     "name": "aave_krc20",
     "fname": "AAVE",
@@ -1827,26 +1807,6 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "BCH-HCO20",
-    "name": "bch_hco20",
-    "fname": "Bitcoin Cash",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 128,
-    "avg_blocktime": 3,
-    "decimals": 18,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "HT",
-        "contract_address": "0xeF3CEBD77E0C52cb6f60875d9306397B5Caca375"
       }
     },
     "derivation_path": "m/44'/60'"
@@ -3862,26 +3822,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "DAI-HCO20",
-    "name": "dai_hco20",
-    "fname": "Dai",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 128,
-    "decimals": 18,
-    "avg_blocktime": 3,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "HT",
-        "contract_address": "0x3D760a45D0887DFD89A2F5385a236B29Cb46ED2a"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "DAI-MVR20",
     "name": "dai_mvr20",
     "fname": "Dai",
@@ -4555,26 +4495,6 @@
     }
   },
   {
-    "coin": "DOT-HCO20",
-    "name": "dot_hco20",
-    "fname": "Polkadot",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 128,
-    "decimals": 18,
-    "avg_blocktime": 3,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "HT",
-        "contract_address": "0xA2c49cEe16a5E5bDEFDe931107dc1fae9f7773E3"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "DP",
     "sign_message_prefix": "Komodo Signed Message:\n",
     "asset": "DP",
@@ -4995,26 +4915,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "ETH-HCO20",
-    "name": "eth_hco20",
-    "fname": "Ethereum",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 128,
-    "decimals": 18,
-    "avg_blocktime": 3,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "HT",
-        "contract_address": "0x64FF637fB478863B7468bc97D30a5bF3A428a1fD"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "ETH-KRC20",
     "name": "eth_krc20",
     "fname": "Ethereum",
@@ -5414,26 +5314,6 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0x8E16bf47065Fe843A82f4399bAF5aBac4E0822B7"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "FIL-HCO20",
-    "name": "fil_hco20",
-    "fname": "Filecoin",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 128,
-    "decimals": 18,
-    "avg_blocktime": 3,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "HT",
-        "contract_address": "0xae3a768f9aB104c69A7CD6041fE16fFa235d1810"
       }
     },
     "derivation_path": "m/44'/60'"
@@ -6794,49 +6674,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "HT",
-    "name": "huobi-token",
-    "fname": "Huobi Token",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 128,
-    "required_confirmations": 3,
-    "avg_blocktime": 3,
-    "protocol": {
-      "type": "ETH",
-      "protocol_data": {
-        "chain_id": 128
-      }
-    },
-    "derivation_path": "m/44'/60'",
-    "trezor_coin": "Huobi ECO Chain",
-    "links": {
-      "homepage": "https://www.hecochain.com"
-    }
-  },
-  {
-    "coin": "HT-ERC20",
-    "name": "huobi-token",
-    "fname": "Huobi Token",
-    "required_confirmations": 3,
-    "avg_blocktime": 15,
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 1,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH",
-        "contract_address": "0x6f259637dcD74C767781E37Bc6133cd6A68aa161"
-      }
-    },
-    "derivation_path": "m/44'/60'",
-    "trezor_coin": "Huobi Token",
-    "links": {
-      "homepage": "https://www.hbg.com"
-    }
-  },
-  {
     "coin": "HUSD-ERC20",
     "name": "husd_erc20",
     "fname": "HUSD",
@@ -6852,26 +6689,6 @@
       "protocol_data": {
         "platform": "ETH",
         "contract_address": "0xdF574c24545E5FfEcb9a659c229253D4111d87e1"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "HUSD-HCO20",
-    "name": "husd_hco20",
-    "fname": "HUSD",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 128,
-    "decimals": 8,
-    "avg_blocktime": 3,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "HT",
-        "contract_address": "0x0298c2b32eaE4da002a15f36fdf7615BEa3DA047"
       }
     },
     "derivation_path": "m/44'/60'"
@@ -8702,26 +8519,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "LINK-HCO20",
-    "name": "link_hco20",
-    "fname": "Chainlink",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 128,
-    "decimals": 18,
-    "avg_blocktime": 3,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "HT",
-        "contract_address": "0x9e004545c59D359F6B7BFB06a26390b087717b42"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "LINK-KRC20",
     "name": "link_krc20",
     "fname": "Chainlink",
@@ -9287,26 +9084,6 @@
     "links": {
       "homepage": "https://polygon.technology/"
     }
-  },
-  {
-    "coin": "MATIC-HCO20",
-    "name": "matic_hco20",
-    "fname": "Polygon",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 128,
-    "decimals": 18,
-    "avg_blocktime": 3,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "HT",
-        "contract_address": "0xdB11743fe8B129b49b11236E8a715004BDabe7e5"
-      }
-    },
-    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "MATIC-KRC20",
@@ -11644,26 +11421,6 @@
     }
   },
   {
-    "coin": "REN-HCO20",
-    "name": "ren_hco20",
-    "fname": "Ren",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 128,
-    "decimals": 18,
-    "avg_blocktime": 3,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "HT",
-        "contract_address": "0x212208bcc81F3a2D0188afF76A2d39351eb53b96"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "REP-ERC20",
     "name": "rep_erc20",
     "fname": "Augur",
@@ -13504,26 +13261,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "TUSD-HCO20",
-    "name": "tusd_hco20",
-    "fname": "TrueUSD",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 128,
-    "decimals": 18,
-    "avg_blocktime": 3,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "HT",
-        "contract_address": "0x5eE41aB6edd38cDfB9f6B4e6Cf7F75c87E170d98"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "TUSD-KRC20",
     "name": "tusd_krc20",
     "fname": "TrueUSD",
@@ -13788,26 +13525,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "UNI-HCO20",
-    "name": "uni_hco20",
-    "fname": "Uniswap",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 128,
-    "decimals": 18,
-    "avg_blocktime": 3,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "HT",
-        "contract_address": "0x22C54cE8321A4015740eE1109D9cBc25815C46E6"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "UNI-KRC20",
     "name": "uni_krc20",
     "fname": "Uniswap",
@@ -14011,26 +13728,6 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "USDC-HCO20",
-    "name": "usdc_hco20",
-    "fname": "USD Coin",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 128,
-    "avg_blocktime": 3,
-    "decimals": 6,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "HT",
-        "contract_address": "0x9362Bbef4B8313A8Aa9f0c9808B80577Aa26B73B"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "USDC-KRC20",
     "name": "usdc_krc20",
     "fname": "USD Coin",
@@ -14189,26 +13886,6 @@
       "protocol_data": {
         "platform": "FTM",
         "contract_address": "0x049d68029688eAbF473097a2fC38ef61633A3C7A"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "USDT-HCO20",
-    "name": "usdt_hco20",
-    "fname": "Tether",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 128,
-    "avg_blocktime": 3,
-    "decimals": 18,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "HT",
-        "contract_address": "0xa71EdC38d189767582C38A3145b5873052c3e47a"
       }
     },
     "derivation_path": "m/44'/60'"

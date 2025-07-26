@@ -11,7 +11,6 @@ supported_networks = {
     "AVX20": 43114,
     "AVX20_OLD": 43114,
     "KRC20": 321,
-    "HRC20": 128,
     "MVR20": 1285
 }
 
@@ -24,7 +23,6 @@ supported_platforms = {
     "KCS": 321,
     "ETH-ARB20": 42161,
     "MOVR": 1285,
-    "HT": 128,
     "IRIS": 6688,
 }
 
