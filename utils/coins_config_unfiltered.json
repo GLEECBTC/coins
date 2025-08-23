@@ -15915,7 +15915,8 @@
         "fallback_swap_contract": "0x304896fc2F242f13dd852b412E7B60C5F495B79c",
         "nodes": [
             {
-                "url": "https://rpc.energyweb.org"
+                "url": "https://rpc.energyweb.org",
+                "ws_url": "wss://rpc.energyweb.org/ws"
             }
         ],
         "explorer_block_url": "block/"
@@ -30003,6 +30004,10 @@
         "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "nodes": [
             {
+                "url": "https://moonbeam.drpc.org",
+                "ws_url": "wss://moonbeam.drpc.org"
+            },
+            {
                 "url": "https://moonbeam.public.blastapi.io",
                 "ws_url": "wss://moonbeam.public.blastapi.io"
             },
@@ -31765,9 +31770,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://1rpc.io/one"
-            },
             {
                 "url": "https://api.harmony.one"
             },
@@ -52750,7 +52752,10 @@
                 "protocol": "TCP",
                 "contact": [
                     {
-                        "discord": "1155906841625239684"
+                        "discord": "1061740404439007403"
+                    },
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
                     }
                 ]
             },
@@ -52758,6 +52763,9 @@
                 "url": "electrum1.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
+                    {
+                        "discord": "1061740404439007403"
+                    },
                     {
                         "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
                     }
@@ -52768,6 +52776,21 @@
                 "protocol": "SSL",
                 "contact": [
                     {
+                        "discord": "1061740404439007403"
+                    },
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.kiirocoin.org:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "1061740404439007403"
+                    },
+                    {
                         "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
                     }
                 ]
@@ -52776,6 +52799,9 @@
                 "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
+                    {
+                        "discord": "1061740404439007403"
+                    },
                     {
                         "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
                     }

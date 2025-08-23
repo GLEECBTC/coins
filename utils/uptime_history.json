@@ -2141,6 +2141,9 @@
     "by_server": {
       "https://rpc.energyweb.org": {
         "1755770395": "online"
+      },
+      "wss://rpc.energyweb.org/ws": {
+        "1755987934": "online"
       }
     }
   },
@@ -2518,11 +2521,17 @@
   "GLMR": {
     "all": {},
     "by_server": {
+      "https://moonbeam.drpc.org": {
+        "1755987934": "online"
+      },
       "https://moonbeam.public.blastapi.io": {
         "1755770395": "online"
       },
       "https://rpc.api.moonbeam.network": {
         "1755770395": "online"
+      },
+      "wss://moonbeam.drpc.org": {
+        "1755987934": "online"
       },
       "wss://moonbeam.public.blastapi.io": {
         "1755770395": "online"
@@ -3161,7 +3170,8 @@
         "1755770395": "online"
       },
       "electrum2.kiirocoin.org:50004": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1755987934": "online"
       },
       "electrum3.kiirocoin.org:50002": {
         "1755770395": "online"
@@ -4562,7 +4572,8 @@
     "all": {},
     "by_server": {
       "https://1rpc.io/one": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1755987934": "offline"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
