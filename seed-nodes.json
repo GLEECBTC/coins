@@ -36,6 +36,18 @@
         ]
     },
     {
+        "name": "drogon-dragon-seed",
+        "host": "drogon.dragon-seed.com",
+        "type": "domain",
+        "wss": true,
+        "netid": 8762,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
+    },
+    {
         "name": "falkor-dragon-seed",
         "host": "falkor.dragon-seed.com",
         "type": "domain",
@@ -48,8 +60,80 @@
         ]
     },
     {
-        "name": "drogon-dragon-seed",
-        "host": "drogon.dragon-seed.com",
+        "name": "icefyre-dragon-seed",
+        "host": "icefyre.dragon-seed.com",
+        "type": "domain",
+        "wss": true,
+        "netid": 8762,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
+    },
+    {
+        "name": "kalessin-dragon-seed",
+        "host": "kalessin.dragon-seed.com",
+        "type": "domain",
+        "wss": true,
+        "netid": 8762,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
+    },
+    {
+        "name": "karrigvestrit-dragon-seed",
+        "host": "karrigvestrit.dragon-seed.com",
+        "type": "domain",
+        "wss": true,
+        "netid": 8762,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
+    },
+    {
+        "name": "relpda-dragon-seed",
+        "host": "relpda.dragon-seed.com",
+        "type": "domain",
+        "wss": true,
+        "netid": 8762,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
+    },
+    {
+        "name": "sintara-dragon-seed",
+        "host": "sintara.dragon-seed.com",
+        "type": "domain",
+        "wss": true,
+        "netid": 8762,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
+    },
+    {
+        "name": "tintaglia-dragon-seed",
+        "host": "tintaglia.dragon-seed.com",
+        "type": "domain",
+        "wss": true,
+        "netid": 8762,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
+    },
+    {
+        "name": "viserion-dragon-seed",
+        "host": "viserion.dragon-seed.com",
         "type": "domain",
         "wss": true,
         "netid": 8762,

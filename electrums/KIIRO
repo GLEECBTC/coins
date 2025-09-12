@@ -3,13 +3,15 @@
     "url": "electrum1.kiirocoin.org:50001",
     "protocol": "TCP",
     "contact": [
-      { "discord": "1155906841625239684" }
+      { "discord": "1061740404439007403" },
+      { "github": "https://github.com/kiirocoin/electrum-kiiro/issues" }
     ]
   },
   {
     "url": "electrum1.kiirocoin.org:50002",
     "protocol": "SSL",
     "contact": [
+      { "discord": "1061740404439007403" },
       { "github": "https://github.com/kiirocoin/electrum-kiiro/issues" }
     ],
     "ws_url": "electrum1.kiirocoin.org:50004"
@@ -18,6 +20,7 @@
     "url": "electrum2.kiirocoin.org:50002",
     "protocol": "SSL",
     "contact": [
+      { "discord": "1061740404439007403" },
       { "github": "https://github.com/kiirocoin/electrum-kiiro/issues" }
     ],
     "ws_url": "electrum2.kiirocoin.org:50004"
@@ -26,6 +29,7 @@
     "url": "electrum3.kiirocoin.org:50002",
     "protocol": "SSL",
     "contact": [
+      { "discord": "1061740404439007403" },
       { "github": "https://github.com/kiirocoin/electrum-kiiro/issues" }
     ],
     "ws_url": "electrum3.kiirocoin.org:50004"

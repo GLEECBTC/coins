@@ -10,6 +10,7 @@ from PIL import Image
 from scan_electrums import get_electrums_report
 from ensure_chainids import ensure_chainids
 from logger import logger
+from uptime_tracker import UptimeTracker, format_contact_info
 
 
 current_time = time.time()
@@ -29,6 +30,7 @@ BINANCE_DELISTED_COINS = [
     "GFT",
     "GRS",
     "IRIS",
+    "KMD",
     "LOOM",
     "MATIC",
     "MC",
@@ -127,9 +129,10 @@ with open(f"{repo_path}/api_ids/coinpaprika_ids.json", "r") as f:
 
 
 class CoinConfig:
-    def __init__(self, coin_data: dict, electrum_scan_report: dict):
+    def __init__(self, coin_data: dict, electrum_scan_report: dict, uptime_tracker: UptimeTracker = None):
         self.coin_data = coin_data
         self.electrum_scan_report = electrum_scan_report
+        self.uptime_tracker = uptime_tracker
         self.data = {}
         self.is_testnet = self.is_testnet_network()
         self.ticker = self.coin_data["coin"].replace("-TEST", "")
@@ -143,7 +146,6 @@ class CoinConfig:
             "EWT": "EWT",
             "FTM": "FTM-20",
             "GLMR": "Moonbeam",
-            "HT": "HecoChain",
             "KCS": "KRC-20",
             "POL": "Polygon",
             "MOVR": "Moonriver",
@@ -352,6 +354,34 @@ class CoinConfig:
                 {"wallet_only": self.coin_data["wallet_only"]}
             )
 
+    def get_scan_coin_for_status_check(self):
+        """
+        Get the coin name to check in electrum_scan_report for connectivity status.
+        For token coins, this returns the parent chain coin.
+        """
+        # For token coins, we need to check parent chain status
+        if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-PLG20", "-AVX20")):
+            if self.ticker.endswith("-QRC20"):
+                return "tQTUM" if self.is_testnet else "QTUM"
+            elif self.ticker.endswith("-ERC20"):
+                return "ETH"
+            elif self.ticker.endswith("-BEP20"):
+                return "BNB"
+            elif self.ticker.endswith("-PLG20"):
+                return "MATIC"
+            elif self.ticker.endswith("-AVX20"):
+                return "AVAX"
+        
+        # For electrum coins, use the actual coin name (with segwit handling)
+        coin = self.ticker.replace("-segwit", "")
+        if self.data[self.ticker]["type"] == "QRC-20":
+            if self.is_testnet:
+                coin = "tQTUM"
+            else:
+                coin = "QTUM"
+        
+        return coin
+
     def get_parent_coin(self):
         """Used for getting filename for related coins/ethereum folder"""
         token_type = self.data[self.ticker]["type"]
@@ -401,40 +431,84 @@ class CoinConfig:
             else:
                 coin = "QTUM"
 
-        if not coin in electrum_coins:
-            logger.warning(f"{coin} not found in electrum_coins")
-            return
-        with open(f"{repo_path}/electrums/{coin}", "r") as f:
-            electrums = json.load(f)
-                
-        if coin in electrum_scan_report:
-            valid_electrums = []
-            for x in ["tcp", "ssl", "wss"]:
-                # This also filers ws with tcp/ssl server it is grouped with if valid.
-                for k, v in electrum_scan_report[coin][x].items():
-                    if (
-                        current_time - v["last_connection"] < 604800
-                    ):  # 1 week grace period
-                        for electrum in electrums:
-                            electrum["protocol"] = x.upper()
-                            e = deepcopy(electrum)
-                            if "url" in e:
-                                if e["url"] == k:
-                                    if "ws_url" in e:
+        # Only process if this is actually an electrum coin
+        if coin in electrum_coins:
+            with open(f"{repo_path}/electrums/{coin}", "r") as f:
+                electrums = json.load(f)
+                    
+            if coin in self.electrum_scan_report:
+                valid_electrums = []
+                current_time_local = time.time()  # Use local time to avoid scope issues
+                for x in ["tcp", "ssl", "wss"]:
+                    # This also filters ws with tcp/ssl server it is grouped with if valid.
+                    if x not in self.electrum_scan_report[coin]:
+                        continue
+                    for k, v in self.electrum_scan_report[coin][x].items():
+                        is_server_online = (v["last_connection"] > 0 and current_time_local - v["last_connection"] < 604800)  # 1 week grace period
+                        
+                        if is_server_online:
+                            for electrum in electrums:
+                                # Check URL match for current protocol
+                                e = deepcopy(electrum)
+                                if "url" in e:
+                                    if e["url"] == k:
+                                        e["protocol"] = x.upper()
+                                        if "ws_url" in e:
+                                            del e["ws_url"]
+                                        valid_electrums.append(e)
+                                        
+                                        # Track server uptime
+                                        if self.uptime_tracker:
+                                            contact_info = electrum.get("contact")
+                                            self.uptime_tracker.update_server_status(
+                                                self.ticker, k, True, contact_info
+                                            )
+                                # Check WSS URL match
+                                if "ws_url" in electrum:
+                                    e = deepcopy(electrum)
+                                    if e["ws_url"] == k:
+                                        e["protocol"] = "WSS"
+                                        e["url"] = k
                                         del e["ws_url"]
-                                    valid_electrums.append(e)
-                            e = deepcopy(electrum)
-                            if "ws_url" in e:
-                                e["protocol"] = "WSS"
-                                if e["ws_url"] == k:
-                                    e["url"] = k
-                                    del e["ws_url"]
-                                    valid_electrums.append(e)
-            if len(valid_electrums) > 0:
-                valid_electrums = sort_dicts_list(valid_electrums, "url")                 
-            self.data[self.ticker].update({"electrum": valid_electrums})
-        elif self.coin_type in ["SIA"]:
-            self.data[self.ticker].update({"nodes": electrums})
+                                        valid_electrums.append(e)
+                                        
+                                        # Track server uptime for WSS
+                                        if self.uptime_tracker:
+                                            contact_info = electrum.get("contact")
+                                            self.uptime_tracker.update_server_status(
+                                                self.ticker, k, True, contact_info
+                                            )
+                        else:
+                            # Track offline servers
+                            if self.uptime_tracker:
+                                for electrum in electrums:
+                                    if ("url" in electrum and electrum["url"] == k) or \
+                                       ("ws_url" in electrum and electrum["ws_url"] == k):
+                                        contact_info = electrum.get("contact")
+                                        self.uptime_tracker.update_server_status(
+                                            self.ticker, k, False, contact_info
+                                        )
+                
+                if len(valid_electrums) > 0:
+                    valid_electrums = sort_dicts_list(valid_electrums, "url")                 
+                    self.data[self.ticker].update({"electrum": valid_electrums})
+                    
+                    # Track coin as online
+                    if self.uptime_tracker:
+                        self.uptime_tracker.update_coin_status(self.ticker, True)
+                else:
+                    logger.warning(f"No working electrum servers found for {self.ticker}, marking as delisted")
+                    self.data[self.ticker].update({"electrum": [], "delisted": True})
+                    
+                    # Track coin as offline
+                    if self.uptime_tracker:
+                        self.uptime_tracker.update_coin_status(self.ticker, False)
+            elif self.coin_type in ["SIA"]:
+                # SIA uses static nodes list
+                self.data[self.ticker].update({"nodes": electrums})
+            else:
+                logger.warning(f"{coin} not found in electrum_scan_report!")
+        # For non-electrum coins (EVM, Tendermint), nodes are handled in get_swap_contracts()
 
     def get_swap_contracts(self):
         contract_data = None
@@ -467,8 +541,89 @@ class CoinConfig:
                 else:
                     key = "nodes"
                     
-                values = sort_dicts_list(contract_data["rpc_nodes"], "url")       
-                self.data[self.ticker].update({key: values})
+                # Filter nodes based on scan report
+                # For token coins, check parent chain connectivity instead of the token itself
+                scan_coin = self.get_scan_coin_for_status_check()
+                valid_nodes = []
+                
+                if scan_coin in electrum_scan_report:
+                    # If parent chain is working, inherit all configured nodes for token
+                    if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-PLG20", "-AVX20")):
+                        # For token coins, check if parent chain has working nodes
+                        parent_has_working_nodes = False
+                        for protocol in ["ssl", "wss", "tcp"]:
+                            for node_url, node_data in electrum_scan_report[scan_coin][protocol].items():
+                                if (current_time - node_data["last_connection"] < 604800):
+                                    parent_has_working_nodes = True
+                                    break
+                            if parent_has_working_nodes:
+                                break
+                        
+                        if parent_has_working_nodes:
+                            # Parent chain is working, use all configured nodes for this token
+                            valid_nodes = contract_data["rpc_nodes"]
+                            logger.debug(f"Token {self.ticker} inheriting connectivity from working parent chain {scan_coin}")
+                        else:
+                            logger.warning(f"Parent chain {scan_coin} for token {self.ticker} has no working nodes")
+                    else:
+                        # For non-token coins, check each node individually
+                        for node in contract_data["rpc_nodes"]:
+                            node_url = node["url"]
+                            # Check if this node appears in the scan report as working
+                            node_found_working = False
+                            
+                            # Check in ssl section (HTTPS nodes)
+                            if node_url in electrum_scan_report[scan_coin]["ssl"]:
+                                node_data = electrum_scan_report[scan_coin]["ssl"][node_url]
+                                if (current_time - node_data["last_connection"] < 604800):  # 1 week grace period
+                                    valid_nodes.append(node)
+                                    node_found_working = True
+                            
+                            # Check in wss section (WSS nodes) 
+                            if not node_found_working and "ws_url" in node:
+                                ws_url = node["ws_url"]
+                                if ws_url in electrum_scan_report[scan_coin]["wss"]:
+                                    node_data = electrum_scan_report[scan_coin]["wss"][ws_url]
+                                    if (current_time - node_data["last_connection"] < 604800):  # 1 week grace period
+                                        valid_nodes.append(node)
+                                        node_found_working = True
+                            
+                            # Check in tcp section (HTTP nodes)
+                            if not node_found_working and node_url in electrum_scan_report[scan_coin]["tcp"]:
+                                node_data = electrum_scan_report[scan_coin]["tcp"][node_url]
+                                if (current_time - node_data["last_connection"] < 604800):  # 1 week grace period
+                                    valid_nodes.append(node)
+                                    node_found_working = True
+                            
+                            # Track server uptime for RPC nodes
+                            if self.uptime_tracker:
+                                contact_info = node.get("contact")
+                                self.uptime_tracker.update_server_status(
+                                    self.ticker, node_url, node_found_working, contact_info
+                                )
+                                
+                                # Also track WSS URL if present
+                                if "ws_url" in node:
+                                    ws_url = node["ws_url"]
+                                    ws_working = ws_url in electrum_scan_report[scan_coin]["wss"] and \
+                                               (current_time - electrum_scan_report[scan_coin]["wss"][ws_url]["last_connection"] < 604800)
+                                    self.uptime_tracker.update_server_status(
+                                        self.ticker, ws_url, ws_working, contact_info
+                                    )
+                                    
+                            if not node_found_working:
+                                logger.warning(f"Node {node_url} for {self.ticker} not found working in scan report")
+                else:
+                    # If not in scan report, use all nodes (fallback for coins not scanned)
+                    valid_nodes = contract_data["rpc_nodes"]
+                    logger.warning(f"{scan_coin} not found in electrum_scan_report, using all configured nodes for {self.ticker}")
+                
+                if valid_nodes:
+                    values = sort_dicts_list(valid_nodes, "url")       
+                    self.data[self.ticker].update({key: values})
+                else:
+                    logger.warning(f"No working nodes found for {self.ticker}, marking as delisted")
+                    self.data[self.ticker].update({key: [], "delisted": True})
 
     def get_explorers(self):
         explorers = None
@@ -500,7 +655,7 @@ class CoinConfig:
                     self.data[self.ticker].update({i[0]: i[1]})
 
 
-def parse_coins_repo(electrum_scan_report):
+def parse_coins_repo(electrum_scan_report, uptime_tracker=None):
     ensure_chainids()
     errors = []
     coins_config = {}
@@ -508,7 +663,7 @@ def parse_coins_repo(electrum_scan_report):
         coins_data = json.load(f)
 
     for item in coins_data:
-        config = CoinConfig(item, electrum_scan_report)
+        config = CoinConfig(item, electrum_scan_report, uptime_tracker)
         config.get_generics()
         config.get_protocol_info()
         config.clean_name()
@@ -530,31 +685,53 @@ def parse_coins_repo(electrum_scan_report):
         config.get_links()
         coins_config.update(config.data)
 
-    nodata = []
+    delisted_coins = []
+    working_coins = []
     for coin in coins_config:
         if not coins_config[coin]["explorer_url"]:
             logger.warning(f"{coin} has no explorers!")
         
-        for field in ["nodes", "electrum", "light_wallet_d_servers", "rpc_urls"]:
-            if field in coins_config[coin]:
-                if not coins_config[coin][field]:
-                    nodata.append(coin)
-        if (
-            "nodes" not in coins_config[coin]
-            and "electrum" not in coins_config[coin]
-            and "rpc_urls" not in coins_config[coin]
-        ):
-            nodata.append(coin)
+        # Check if coin is delisted (no working nodes/electrums)
+        if coins_config[coin].get("delisted", False):
+            delisted_coins.append(coin)
+        else:
+            # Check if coin has any connection methods
+            has_connection = False
+            for field in ["nodes", "electrum", "light_wallet_d_servers", "rpc_urls"]:
+                if field in coins_config[coin]:
+                    if coins_config[coin][field]:  # Non-empty list
+                        has_connection = True
+                        break
+            
+            if has_connection:
+                working_coins.append(coin)
+            else:
+                # No working connections found, mark as delisted
+                coins_config[coin]["delisted"] = True
+                delisted_coins.append(coin)
 
-    logger.warning(
-        f"The following coins are missing required data or failing connections for nodes/electrums {nodata}"
-    )
-    logger.warning(f"They will not be included in the output")
+    logger.info(f"Working coins: {len(working_coins)}")
+    logger.warning(f"Delisted coins (no working connections): {len(delisted_coins)} - {delisted_coins}")
+    
+    # Update scan summary with delisted coins if it exists
+    scan_summary_path = f"{script_path}/scan_summary.json"
+    if os.path.exists(scan_summary_path):
+        try:
+            with open(scan_summary_path, "r") as f:
+                scan_summary = json.load(f)
+            
+            scan_summary["delisted_coins"] = delisted_coins
+            
+            with open(scan_summary_path, "w") as f:
+                json.dump(scan_summary, f, indent=4)
+        except Exception as e:
+            logger.warning(f"Failed to update scan summary: {e}")
+    
     if errors:
         logger.error(f"Errors:")
         for error in errors:
             logger.error(error)
-    return coins_config, nodata
+    return coins_config, delisted_coins
 
 
 def get_desktop_repo_coins_data():
@@ -572,6 +749,10 @@ def get_desktop_repo_coins_data():
 def filter_ssl(coins_config):
     coins_config_ssl = {}
     for coin in coins_config:
+        # Skip delisted coins
+        if coins_config[coin].get("delisted", False):
+            continue
+            
         coins_config_ssl.update({coin: coins_config[coin]})
         if "electrum" in coins_config[coin]:
             electrums = []
@@ -634,6 +815,10 @@ def filter_duplicate_domains(electrums):
 def filter_tcp(coins_config, coins_config_ssl):
     coins_config_tcp = {}
     for coin in coins_config:
+        # Skip delisted coins
+        if coins_config[coin].get("delisted", False):
+            continue
+            
         coins_config_tcp.update({coin: coins_config[coin]})
         # Omit komodo_proxy: true nodes - these are web only.
         if "nodes" in coins_config[coin]:
@@ -672,6 +857,10 @@ def filter_tcp(coins_config, coins_config_ssl):
 def filter_wss(coins_config):
     coins_config_wss = {}
     for coin in coins_config:
+        # Skip delisted coins
+        if coins_config[coin].get("delisted", False):
+            continue
+            
         if "electrum" in coins_config[coin]:
             electrums = []
             for i in coins_config[coin]["electrum"]:
@@ -1094,37 +1283,68 @@ if __name__ == "__main__":
         # Use existing scan data
         with open(f"{script_path}/electrum_scan_report.json", "r") as f:
             electrum_scan_report = json.load(f)
+        
+        # Note: scan_summary will be generated after uptime tracker initialization
 
-    coins_config, nodata = parse_coins_repo(electrum_scan_report)
-    # Includes failing servers
-    with open(f"{script_path}/coins_config_unfiltered.json", "w+") as f:
-        json.dump(coins_config, f, indent=4)
-    generate_binance_api_ids(coins_config)
-
-    # Remove failing servers
-    for coin in nodata:
-        del coins_config[coin]
+    # Initialize uptime tracking
+    uptime_tracker = UptimeTracker(f"{script_path}/uptime_history.json")
+    
+    # Generate scan summary with uptime tracker as source of truth
+    from scan_electrums import generate_scan_summary
+    current_time = int(time.time())
+    scan_summary = generate_scan_summary(electrum_scan_report, current_time, uptime_tracker)
+    with open(f"{script_path}/scan_summary.json", "w") as f:
+        json.dump(scan_summary, f, indent=4)
+    
+    coins_config, delisted_coins = parse_coins_repo(electrum_scan_report, uptime_tracker)
+    
+    # Generate and log uptime alerts
+    alerts = uptime_tracker.generate_alerts()
+    if alerts:
+        logger.warning("=== UPTIME ALERTS ===")
+        for alert in alerts:
+            if "CRITICAL" in alert:
+                logger.error(alert)
+            else:
+                logger.warning(alert)
+        logger.warning("=== END UPTIME ALERTS ===")
+    
+    # Save uptime data
+    uptime_tracker.save()
+    
+    # Always save the complete config (including delisted coins with empty node lists)
     with open(f"{script_path}/coins_config.json", "w+") as f:
         json.dump(coins_config, f, indent=4)
+    
+    # Also save an unfiltered version for backwards compatibility
+    with open(f"{script_path}/coins_config_unfiltered.json", "w+") as f:
+        json.dump(coins_config, f, indent=4)
+    
+    generate_binance_api_ids(coins_config)
         
     coins_config_ssl = filter_ssl(deepcopy(coins_config))
     coins_config_wss = filter_wss(deepcopy(coins_config))
     coins_config_tcp = filter_tcp(deepcopy(coins_config), coins_config_ssl)
 
+    working_coins_count = 0
     for coin in coins_config:
         r = f"{coin}: [SSL {coin in coins_config_ssl}] [TCP {coin in coins_config_tcp}] [WSS {coin in coins_config_wss}]"
-        if (
+        if coins_config[coin].get("delisted", False):
+            logger.warning(f"{coin}: [DELISTED - No working nodes]")
+        elif (
             coin in coins_config_tcp
             and coin in coins_config_ssl
             and coin in coins_config_wss
         ):
             logger.info(r)
+            working_coins_count += 1
         else:
             logger.calc(r)
-    for coin in nodata:
-        logger.warning(f"{coin}: [SSL False] [TCP False] [WSS False]")
+            working_coins_count += 1
     
     logger.info(f"\nTotal coins: {len(coins_config)}")
+    logger.info(f"Working coins: {working_coins_count}")
+    logger.info(f"Delisted coins: {len(delisted_coins)}")
     logger.info(f"Total coins with SSL: {len(coins_config_ssl)}")
     logger.info(f"Total coins with TCP: {len(coins_config_tcp)}")
     logger.info(f"Total coins with WSS: {len(coins_config_wss)}")

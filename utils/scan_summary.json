@@ -1,0 +1,27 @@
+{
+    "delisted_coins": [
+        "AIBC",
+        "ANEY",
+        "BITN",
+        "BLOCX",
+        "COLX",
+        "DIMI",
+        "FLO",
+        "GBX",
+        "FRC",
+        "MATICTEST",
+        "NINJA",
+        "PINK",
+        "PRCY",
+        "GRR",
+        "GRMS",
+        "SEPOLIAETH",
+        "UFO",
+        "ZDEEX",
+        "NITO-segwit",
+        "IRISTEST",
+        "LUPA",
+        "ZOIN"
+    ],
+    "days_since_connection": {}
+}

@@ -1854,5 +1854,21 @@
   "sc.png": {
     "original": "cd5a675a2295047b174cae7effaac7a3bb8d7f61f84229936368b5d23ce5c8ae",
     "processed": "a52af53fbaf3e23e839598006c2691cdbc6b1abb548f2e7f34a2eb4a199d72fa"
+  },
+  "sui.png": {
+    "original": "8e51b2446b4f90988d38171f21b5a3b48670a018480b720b1e60c5e21362fc1b",
+    "processed": "4e4fe43f80d4ca1a5f5a557ba5bec7fbba07d85d312ee10e21996ed15a750a4f"
+  },
+  "hbar.png": {
+    "original": "392185155a3eef8b9cb42e877ea1bcefd82f1e79da0d45d2af126f0a606067fb",
+    "processed": "15a759f3111d1526a185719af54a79009efba02fd85b4810b54738bba53fcf96"
+  },
+  "beamx.png": {
+    "original": "2eb120655206c52cf6997fc80f8db2f598e19cc7684f7d16ba76d5c8d86c17e2",
+    "processed": "7f38b7a74316a309efda1b048d10fea65a5c931c481c7ecb99476431599cdcb6"
+  },
+  "lpt.png": {
+    "original": "0e5bfc8f342df7ca60adb098741e15c6a08f7088eb3bade3477094ad93d2a679",
+    "processed": "aabd60e21f4dfca14bf62d00df7c4e76308dc466d41055ede872254b26ec5ab5"
   }
 }

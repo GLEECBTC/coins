@@ -17,5 +17,13 @@
   {
     "url": "188.166.117.139:50001",
     "protocol": "TCP"
+  },
+  {
+    "url": "electrum-lcc.cascoin.net:50002",
+    "ws_url": "electrum-lcc.cascoin.net:50003",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "635448663543644170" }
+    ]
   }
 ]
