@@ -1603,6 +1603,7 @@
     "txfee": 1000,
     "segwit": false,
     "fork_id": "0x40",
+    "signature_version": "fork_id",
     "address_format": {
       "format": "cashaddress",
       "network": "bitcoincash"
@@ -14885,6 +14886,7 @@
     "txfee": 10,
     "segwit": false,
     "fork_id": "0x40",
+    "signature_version": "fork_id",
     "address_format": {
       "format": "cashaddress",
       "network": "ergon"
@@ -16314,6 +16316,7 @@
     "estimate_fee_blocks": 2,
     "segwit": false,
     "fork_id": "0x40",
+    "signature_version": "fork_id",
     "address_format": {
       "format": "cashaddress",
       "network": "bchtest"
@@ -16420,6 +16423,7 @@
     "estimate_fee_blocks": 2,
     "segwit": false,
     "fork_id": "0x40",
+    "signature_version": "fork_id",
     "address_format": {
       "format": "cashaddress",
       "network": "ecash"
