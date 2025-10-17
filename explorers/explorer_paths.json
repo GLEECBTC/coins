@@ -154,7 +154,7 @@
 		"explorer_address_url": "#/address/",
 		"explorer_block_url": "#/blocks/"
 	},
-	"https://nucleus.explorer.komodo.earth/": {
+	"https://nucleus-explorer.komodo.earth/": {
 		"explorer_tx_url": "nucleus/transactions/",
 		"explorer_address_url": "nucleus/accounts/",
 		"explorer_block_url": "nucleus/blocks/"
