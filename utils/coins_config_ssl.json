@@ -6330,7 +6330,7 @@
         "txfee": 0,
         "estimate_fee_mode": "ECONOMICAL",
         "mm2": 1,
-        "required_confirmations": 1,
+        "required_confirmations": 0,
         "avg_blocktime": 600,
         "protocol": {
             "type": "UTXO"
@@ -6460,7 +6460,7 @@
         "txfee": 0,
         "estimate_fee_mode": "ECONOMICAL",
         "mm2": 1,
-        "required_confirmations": 1,
+        "required_confirmations": 0,
         "avg_blocktime": 600,
         "protocol": {
             "type": "UTXO"
@@ -12040,7 +12040,7 @@
         "txfee": 1000000,
         "dust": 1000000,
         "mm2": 1,
-        "required_confirmations": 2,
+        "required_confirmations": 0,
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
@@ -14104,6 +14104,50 @@
             {
                 "url": "https://polygon.gateway.tenderly.co",
                 "ws_url": "wss://polygon.gateway.tenderly.co"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "EWT": {
+        "coin": "EWT",
+        "type": "EWT",
+        "name": "Energy Web",
+        "coinpaprika_id": "ewt-energy-web-token",
+        "coingecko_id": "energy-web-token",
+        "livecoinwatch_id": "EWT",
+        "explorer_url": "https://explorer.energyweb.org/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Energy Web",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 246,
+        "use_access_list": true,
+        "max_eth_tx_type": 2,
+        "required_confirmations": 3,
+        "avg_blocktime": 5,
+        "protocol": {
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 246
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "trezor_coin": "Energy Web",
+        "links": {
+            "homepage": "https://www.energyweb.org"
+        },
+        "swap_contract_address": "0x304896fc2F242f13dd852b412E7B60C5F495B79c",
+        "fallback_swap_contract": "0x304896fc2F242f13dd852b412E7B60C5F495B79c",
+        "nodes": [
+            {
+                "url": "https://rpc.energyweb.org",
+                "ws_url": "wss://rpc.energyweb.org/ws"
             }
         ],
         "explorer_block_url": "block/"
@@ -24121,7 +24165,7 @@
         "segwit": true,
         "bech32_hrp": "ltc",
         "mm2": 1,
-        "required_confirmations": 2,
+        "required_confirmations": 0,
         "avg_blocktime": 150,
         "protocol": {
             "type": "UTXO"
@@ -24204,7 +24248,7 @@
         },
         "orderbook_ticker": "LTC",
         "mm2": 1,
-        "required_confirmations": 2,
+        "required_confirmations": 0,
         "avg_blocktime": 150,
         "protocol": {
             "type": "UTXO"
@@ -37127,7 +37171,7 @@
         "chain_id": 42161,
         "decimals": 6,
         "avg_blocktime": 0.25,
-        "required_confirmations": 10,
+        "required_confirmations": 0,
         "protocol": {
             "type": "ERC20",
             "protocol_data": {
@@ -37180,7 +37224,7 @@
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 43114,
-        "required_confirmations": 3,
+        "required_confirmations": 0,
         "avg_blocktime": 2.4,
         "decimals": 6,
         "protocol": {
@@ -37233,7 +37277,7 @@
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 43114,
-        "required_confirmations": 3,
+        "required_confirmations": 0,
         "avg_blocktime": 2.4,
         "decimals": 6,
         "protocol": {
@@ -37286,7 +37330,7 @@
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 1,
-        "required_confirmations": 3,
+        "required_confirmations": 0,
         "avg_blocktime": 15,
         "protocol": {
             "type": "ERC20",
@@ -37356,7 +37400,7 @@
         "mm2": 1,
         "chain_id": 56,
         "avg_blocktime": 3,
-        "required_confirmations": 3,
+        "required_confirmations": 0,
         "protocol": {
             "type": "ERC20",
             "protocol_data": {
@@ -37416,7 +37460,7 @@
         "mm2": 1,
         "chain_id": 250,
         "avg_blocktime": 1.8,
-        "required_confirmations": 3,
+        "required_confirmations": 0,
         "protocol": {
             "type": "ERC20",
             "protocol_data": {
@@ -37466,7 +37510,7 @@
         "chain_id": 321,
         "avg_blocktime": 3,
         "decimals": 18,
-        "required_confirmations": 3,
+        "required_confirmations": 0,
         "protocol": {
             "type": "ERC20",
             "protocol_data": {
@@ -37510,7 +37554,7 @@
         "chain_id": 1285,
         "avg_blocktime": 6,
         "decimals": 6,
-        "required_confirmations": 6,
+        "required_confirmations": 0,
         "protocol": {
             "type": "ERC20",
             "protocol_data": {
@@ -37560,7 +37604,7 @@
         "chain_id": 137,
         "decimals": 6,
         "avg_blocktime": 1.8,
-        "required_confirmations": 20,
+        "required_confirmations": 0,
         "protocol": {
             "type": "ERC20",
             "protocol_data": {
@@ -37626,7 +37670,7 @@
         "chain_id": 137,
         "decimals": 6,
         "avg_blocktime": 1.8,
-        "required_confirmations": 20,
+        "required_confirmations": 0,
         "protocol": {
             "type": "ERC20",
             "protocol_data": {
@@ -37804,7 +37848,7 @@
         "chain_id": 1285,
         "avg_blocktime": 6,
         "decimals": 6,
-        "required_confirmations": 6,
+        "required_confirmations": 0,
         "protocol": {
             "type": "ERC20",
             "protocol_data": {
@@ -37854,7 +37898,7 @@
         "chain_id": 250,
         "decimals": 6,
         "avg_blocktime": 1.8,
-        "required_confirmations": 3,
+        "required_confirmations": 0,
         "protocol": {
             "type": "ERC20",
             "protocol_data": {
@@ -37904,7 +37948,7 @@
         "chain_id": 321,
         "avg_blocktime": 3,
         "decimals": 18,
-        "required_confirmations": 3,
+        "required_confirmations": 0,
         "protocol": {
             "type": "ERC20",
             "protocol_data": {
@@ -37948,7 +37992,7 @@
         "chain_id": 137,
         "decimals": 6,
         "avg_blocktime": 1.8,
-        "required_confirmations": 20,
+        "required_confirmations": 0,
         "protocol": {
             "type": "ERC20",
             "protocol_data": {
@@ -38014,7 +38058,7 @@
         "chain_id": 42161,
         "decimals": 6,
         "avg_blocktime": 0.25,
-        "required_confirmations": 10,
+        "required_confirmations": 0,
         "protocol": {
             "type": "ERC20",
             "protocol_data": {
@@ -38067,7 +38111,7 @@
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 43114,
-        "required_confirmations": 3,
+        "required_confirmations": 0,
         "avg_blocktime": 2.4,
         "decimals": 6,
         "protocol": {
@@ -38128,7 +38172,7 @@
         "rpcport": 80,
         "mm2": 1,
         "chain_id": 43114,
-        "required_confirmations": 3,
+        "required_confirmations": 0,
         "avg_blocktime": 2.4,
         "decimals": 6,
         "protocol": {
@@ -38182,7 +38226,7 @@
         "mm2": 1,
         "chain_id": 56,
         "avg_blocktime": 3,
-        "required_confirmations": 3,
+        "required_confirmations": 0,
         "protocol": {
             "type": "ERC20",
             "protocol_data": {
@@ -38242,7 +38286,7 @@
         "mm2": 1,
         "chain_id": 1,
         "avg_blocktime": 15,
-        "required_confirmations": 3,
+        "required_confirmations": 0,
         "protocol": {
             "type": "ERC20",
             "protocol_data": {

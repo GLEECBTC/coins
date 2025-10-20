@@ -2395,13 +2395,15 @@
     "by_server": {
       "https://rpc.energyweb.org": {
         "1755770395": "online",
-        "1760919297": "offline"
+        "1760919297": "offline",
+        "1760989061": "online"
       },
       "wss://rpc.energyweb.org/ws": {
         "1755987838": "online",
         "1760350495": "offline",
         "1760400771": "online",
-        "1760919297": "offline"
+        "1760919297": "offline",
+        "1760989061": "online"
       }
     }
   },
