@@ -7,9 +7,6 @@
       "ws_url": "wss://cosmos-rpc.alpha.komodo.earth/websocket"
     },
     {
-      "url": "https://cosmoshub.rpc.stakin-nodes.com/"
-    },
-    {
       "url": "https://node.komodo.earth:8080/cosmos",
       "komodo_proxy": true
     }
