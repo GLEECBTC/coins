@@ -3,10 +3,6 @@
   "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
   "rpc_nodes": [
     {
-      "url": "https://node.komodo.earth:8080/polygon",
-      "komodo_proxy": true
-    },
-    {
       "url": "https://polygon.drpc.org",
       "ws_url": "wss://polygon.drpc.org"
     },
