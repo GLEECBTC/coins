@@ -1,0 +1,58 @@
+name: Sync master from GLEECBTC/coins
+
+permissions:
+  contents: write
+
+on:
+  # Run every 15 minutes (UTC)
+  schedule:
+    - cron: "*/15 * * * *"
+
+  # Allow manual trigger from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout fork (KomodoPlatform/coins)
+        uses: actions/checkout@v4
+        with:
+          # We're already in KomodoPlatform/coins, no need to specify repository
+          ref: master
+          fetch-depth: 0  # full history so merge works properly
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Add upstream remote (GLEECBTC/coins) and fetch
+        run: |
+          # Add upstream only if it doesn't exist
+          if ! git remote | grep -q "^upstream$"; then
+            git remote add upstream https://github.com/GLEECBTC/coins.git
+          fi
+
+          git fetch upstream master
+
+      - name: Merge upstream/master into master
+        run: |
+          set -e
+          git checkout master
+
+          # If there are no new commits upstream, this will be a no-op
+          git merge upstream/master --no-edit || {
+            echo "Merge conflict detected. Please resolve manually in KomodoPlatform/coins.";
+            exit 1
+          }
+
+      - name: Push changes back to KomodoPlatform/coins
+        run: |
+          # Only push if there are new commits to avoid unnecessary pushes
+          if [ -n "$(git log origin/master..master)" ]; then
+            git push origin master
+          else
+            echo "No new commits to push; origin/master already up-to-date."
+          fi

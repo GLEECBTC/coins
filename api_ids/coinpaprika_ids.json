@@ -239,6 +239,7 @@
     "FJC-BEP20": "fjc-fujicoin",
     "FJC": "fjc-fujicoin",
     "FJCB-BEP20": "fjcb-fjcb-fujicoin",
+    "FLC": "flc-flokicoin",
     "FLOKI-BEP20": "floki-floki-inu",
     "FLOP": "flop-flopcoin",
     "FLOW-BEP20": "flow-flow",
@@ -655,4 +656,3 @@
     "ZRX-ERC20": "zrx-0x",
     "ZRX-PLG20": "zrx-0x"
 }
-

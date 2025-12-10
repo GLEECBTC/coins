@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.io/tx/140d61449d7bf5f530cc3311477e90e38acc9cf93acfff9acd9acb4705c629b5)
+[maker payment (FLC)](https://flokichain.info/tx/ef56c97ad34851d5760295ffa1e3c4853171d38b94fcc9bf06f4e9cfda24a0f2)
+[taker payment (KMD)](https://kmdexplorer.io/tx/31f32a9bf4f8fd5c2916948b2200da190be07fc78289fa537293b5d2ab188bc0)
+[taker payment spent (KMD)](https://kmdexplorer.io/tx/f7acecca53e4190cefc90fb2a2e67cd193ca015aaf07427ed4102528d9e20998)
+[maker payment spent (FLC)](https://flokichain.info/tx/602f284f8651465a1b20eccd5a3d972f24a29aa271d0e2b9c475c799cab556a8)

@@ -5718,6 +5718,31 @@
     },
     "derivation_path": "m/44'/60'"
   },
+    {
+    "coin": "FLC",
+    "name": "flokicoin",
+    "fname": "Flokicoin",
+    "rpcport": 15213,
+    "pubtype": 35,
+    "p2shtype": 5,
+    "wiftype": 128,
+    "segwit": true,
+    "bech32_hrp": "fc",
+    "txfee": 0,
+    "mm2": 1,
+    "sign_message_prefix": "Flokicoin Signed Message:\n",
+    "required_confirmations": 5,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "dust": 1000,
+    "derivation_path": "m/44'/0'",
+    "links": {
+      "github": "https://github.com/flokiorg/go-flokicoin",
+      "homepage": "https://flokicoin.org"
+    }
+  },
   {
     "coin": "FLOKI-BEP20",
     "name": "floki_bep20",

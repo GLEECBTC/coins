@@ -1,0 +1,30 @@
+[
+  {
+    "url": "electrum.myfloki.com:50002",
+    "protocol": "SSL",
+    "contact": [
+      {"email": "electrum@myfloki.com"}
+    ]
+  },
+  {
+    "url": "electrum.myfloki.com:50001",
+    "protocol": "TCP",
+    "contact": [
+      {"email": "electrum@myfloki.com"}
+    ]
+  },
+  {
+    "url": "electrum-flc.hashboard.space:50002",
+    "protocol": "SSL",
+    "contact": [
+      {"email": "listing@hashboard.space"}
+    ]
+  },
+  {
+    "url": "electrum-flc.hashboard.space:50001",
+    "protocol": "TCP",
+    "contact": [
+      {"email": "listing@hashboard.space"}
+    ]
+  }
+]
