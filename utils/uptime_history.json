@@ -2068,7 +2068,8 @@
         "1760163826": "offline",
         "1762013934": "online",
         "1762820073": "offline",
-        "1764587127": "online"
+        "1764587127": "online",
+        "1765587976": "offline"
       },
       "electrumx1.dimecoinnetwork.com:50002": {
         "1755770395": "offline",
@@ -2078,7 +2079,8 @@
         "1760163826": "offline",
         "1762013934": "online",
         "1762820073": "offline",
-        "1764587127": "online"
+        "1764587127": "online",
+        "1765587976": "offline"
       },
       "electrumx1.dimecoinnetwork.com:50004": {
         "1755770395": "offline",
@@ -2088,7 +2090,8 @@
         "1760163826": "offline",
         "1762013934": "online",
         "1762820073": "offline",
-        "1764587127": "online"
+        "1764587127": "online",
+        "1765587976": "offline"
       },
       "electrumx2.dimecoinnetwork.com:50001": {
         "1755770395": "online"
@@ -3883,12 +3886,18 @@
         "electrum1.kiirocoin.org:50004": {
           "contact": [
             {
+              "discord": "1061740404439007403"
+            },
+            {
               "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
             }
           ]
         },
         "electrum2.kiirocoin.org:50004": {
           "contact": [
+            {
+              "discord": "1061740404439007403"
+            },
             {
               "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
             }
@@ -3910,14 +3919,16 @@
       },
       "electrum1.kiirocoin.org:50004": {
         "1755770395": "offline",
-        "1756167205": "online"
+        "1756167205": "online",
+        "1765587976": "offline"
       },
       "electrum2.kiirocoin.org:50002": {
         "1755770395": "online"
       },
       "electrum2.kiirocoin.org:50004": {
         "1755770395": "offline",
-        "1755987838": "online"
+        "1755987838": "online",
+        "1765587976": "offline"
       },
       "electrum3.kiirocoin.org:50002": {
         "1755770395": "online"
@@ -4670,14 +4681,16 @@
         "1760706938": "offline",
         "1762474464": "online",
         "1763079262": "offline",
-        "1764312754": "online"
+        "1764312754": "online",
+        "1765587976": "offline"
       },
       "meowelectrum.xyz:50004": {
         "1755770395": "online",
         "1760706938": "offline",
         "1762474464": "online",
         "1763079262": "offline",
-        "1764312754": "online"
+        "1764312754": "online",
+        "1765587976": "offline"
       }
     }
   },
@@ -5473,7 +5486,8 @@
         "1761579168": "online",
         "1763783058": "offline",
         "1763831050": "online",
-        "1765110311": "offline"
+        "1765110311": "offline",
+        "1765587976": "online"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
