@@ -3272,7 +3272,8 @@
     "all": {},
     "by_server": {
       "https://moonbeam.drpc.org": {
-        "1755987838": "online"
+        "1755987838": "online",
+        "1766625043": "offline"
       },
       "https://moonbeam.public.blastapi.io": {
         "1755770395": "online",
@@ -6087,7 +6088,8 @@
         "1763783058": "offline",
         "1763831050": "online",
         "1765110311": "offline",
-        "1766366022": "online"
+        "1766366022": "online",
+        "1766625043": "offline"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
