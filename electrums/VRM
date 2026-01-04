@@ -1,0 +1,23 @@
+[
+  {
+    "url": "electrumx-vrm1.vericonomy.com:51002",
+    "protocol": "SSL",
+    "contact": [
+      {
+        "email": "dev@vericonomy.com"
+      }
+    ],
+    "ws_url": "electrumx-vrm1.vericonomy.com:51004"
+  },
+  {
+    "url": "electrumx-vrm2.vericonomy.com:52002",
+    "protocol": "SSL",
+    "contact": [
+      {
+        "email": "dev@vericonomy.com"
+      }
+    ],
+    "ws_url": "electrumx-vrm2.vericonomy.com:52004"
+  }
+]
+

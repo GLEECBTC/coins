@@ -186,5 +186,15 @@
 			"explorer_tx_url": "tx/",
 			"explorer_address_url": "address/",
 			"explorer_block_url": "block/"
+	},
+	"https://verium-explorer.vericonomy.com/": {
+		"explorer_tx_url": "tx/",
+		"explorer_address_url": "address/",
+		"explorer_block_url": "block-height/"
+	},
+	"https://explorer-vrm.vericonomy.com/": {
+		"explorer_tx_url": "transaction/",
+		"explorer_address_url": "address/",
+		"explorer_block_url": "block/"
 	}
 }
