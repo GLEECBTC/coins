@@ -1,0 +1,21 @@
+                                                                               
+  [                                                                             
+      {                                                                         
+          "url": "129.80.40.193:50002",                                         
+          "ws_url": "129.80.40.193:50004",                                      
+          "protocol": "SSL",                                                    
+          "contact": [                                                          
+              {                                                                 
+                  "email": "info@wattxchange.app"                               
+              }                                                                 
+          ]                                                                     
+      },                                                                        
+      {                                                                         
+          "url": "129.80.40.193:50001",                                         
+          "contact": [                                                          
+              {                                                                 
+                  "email": "info@wattxchange.app"                               
+              }                                                                 
+          ]                                                                     
+      }                                                                         
+  ]                                          
