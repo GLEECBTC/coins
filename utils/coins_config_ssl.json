@@ -4204,15 +4204,6 @@
         },
         "electrum": [
             {
-                "url": "explorer.bitcoin-ii.org:50009",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "1391871602127540236"
-                    }
-                ]
-            },
-            {
                 "url": "infra1.bitcoin-ii.org:50009",
                 "protocol": "SSL",
                 "contact": [
@@ -4264,15 +4255,6 @@
             "homepage": "https://bitcoin-ii.org"
         },
         "electrum": [
-            {
-                "url": "explorer.bitcoin-ii.org:50009",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "1391871602127540236"
-                    }
-                ]
-            },
             {
                 "url": "infra1.bitcoin-ii.org:50009",
                 "protocol": "SSL",
@@ -12239,11 +12221,6 @@
         "electrum": [
             {
                 "url": "electrum1.egulden.org:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "electrum3.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -43501,18 +43478,6 @@
             "homepage": "https://www.runebase.io"
         },
         "electrum": [
-            {
-                "url": "electrum2.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
             {
                 "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",

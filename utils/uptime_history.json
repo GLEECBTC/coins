@@ -704,6 +704,27 @@
               "discord": "777703913125314580"
             }
           ]
+        },
+        "explorer.bitcoin-ii.org:50008": {
+          "contact": [
+            {
+              "discord": "1391871602127540236"
+            }
+          ]
+        },
+        "explorer.bitcoin-ii.org:50009": {
+          "contact": [
+            {
+              "discord": "1391871602127540236"
+            }
+          ]
+        },
+        "explorer.bitcoin-ii.org:50010": {
+          "contact": [
+            {
+              "discord": "1391871602127540236"
+            }
+          ]
         }
       },
       "electrum-02.bitcoinii.network:40003": {
@@ -737,13 +758,16 @@
         "1760163826": "online"
       },
       "explorer.bitcoin-ii.org:50008": {
-        "1764337728": "online"
+        "1764337728": "online",
+        "1769649857": "offline"
       },
       "explorer.bitcoin-ii.org:50009": {
-        "1764337728": "online"
+        "1764337728": "online",
+        "1769649857": "offline"
       },
       "explorer.bitcoin-ii.org:50010": {
-        "1764337728": "online"
+        "1764337728": "online",
+        "1769649857": "offline"
       },
       "infra1.bitcoin-ii.org:50008": {
         "1764337728": "online"
@@ -782,6 +806,27 @@
               "discord": "777703913125314580"
             }
           ]
+        },
+        "explorer.bitcoin-ii.org:50008": {
+          "contact": [
+            {
+              "discord": "1391871602127540236"
+            }
+          ]
+        },
+        "explorer.bitcoin-ii.org:50009": {
+          "contact": [
+            {
+              "discord": "1391871602127540236"
+            }
+          ]
+        },
+        "explorer.bitcoin-ii.org:50010": {
+          "contact": [
+            {
+              "discord": "1391871602127540236"
+            }
+          ]
         }
       },
       "electrum-02.bitcoinii.network:40003": {
@@ -815,13 +860,16 @@
         "1760163826": "online"
       },
       "explorer.bitcoin-ii.org:50008": {
-        "1764337728": "online"
+        "1764337728": "online",
+        "1769649857": "offline"
       },
       "explorer.bitcoin-ii.org:50009": {
-        "1764337728": "online"
+        "1764337728": "online",
+        "1769649857": "offline"
       },
       "explorer.bitcoin-ii.org:50010": {
-        "1764337728": "online"
+        "1764337728": "online",
+        "1769649857": "offline"
       },
       "infra1.bitcoin-ii.org:50008": {
         "1764337728": "online"
@@ -2770,7 +2818,8 @@
         "1767483691": "offline",
         "1767567872": "online",
         "1768871563": "offline",
-        "1768958087": "online"
+        "1768958087": "online",
+        "1769649857": "offline"
       },
       "electrum3.egulden.org:50004": {
         "1755770395": "online",
@@ -2779,7 +2828,8 @@
         "1767483691": "offline",
         "1767567872": "online",
         "1768871563": "offline",
-        "1768958087": "online"
+        "1768958087": "online",
+        "1769649857": "offline"
       },
       "electrum5.egulden.org:11017": {
         "1755770395": "offline"
@@ -5717,7 +5767,8 @@
         "1769130853": "offline",
         "1769143421": "online",
         "1769476724": "offline",
-        "1769498555": "online"
+        "1769498555": "online",
+        "1769649857": "offline"
       },
       "wss://moonriver.unitedbloc.com": {
         "1755770395": "online",
@@ -7261,7 +7312,8 @@
         "1761086724": "offline",
         "1761145426": "online",
         "1768612207": "offline",
-        "1769044482": "online"
+        "1769044482": "online",
+        "1769649857": "offline"
       },
       "electrum2.runebase.io:50002": {
         "1755770395": "online",
@@ -7270,7 +7322,8 @@
         "1761086724": "offline",
         "1761145426": "online",
         "1768612207": "offline",
-        "1769044482": "online"
+        "1769044482": "online",
+        "1769649857": "offline"
       },
       "electrum2.runebase.io:50004": {
         "1755770395": "online",
@@ -7279,7 +7332,8 @@
         "1761086724": "offline",
         "1761145426": "online",
         "1768612207": "offline",
-        "1769044482": "online"
+        "1769044482": "online",
+        "1769649857": "offline"
       },
       "electrum3.runebase.io:50001": {
         "1755770395": "online",
