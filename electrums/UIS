@@ -3,5 +3,15 @@
         "url": "uis-ex-one.ewmci.online:50002",
         "protocol": "SSL",
         "ws_url": "uis-ex-one.ewmci.online:50003"
+    },
+    {
+        "url": "failover.trc-uis.ewmcx.biz:50002",
+        "protocol": "SSL",
+        "ws_url": "failover.trc-uis.ewmcx.biz:50003"
+    },
+    {
+        "url": "uis-uno.ewmcx.net:50002",
+        "protocol": "SSL",
+        "ws_url": "uis-uno.ewmcx.net:50003"
     }
 ]

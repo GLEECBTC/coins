@@ -8,7 +8,7 @@ with open('../coins', 'r') as f:
 # Process each coin in the list
 for coin in coins:
     protocol = coin.get("protocol", {})
-    if protocol.get("type") in ["ETH", "AVAX", "MATIC", "BNB", "KCS", "FTM"]:
+    if protocol.get("type") in ["ETH", "AVAX", "MATIC", "BNB", "KCS"]:
         # Ensure protocol_data exists
         protocol_data = protocol.setdefault("protocol_data", {})
         # Duplicate chain_id if it exists at top level

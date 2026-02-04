@@ -1,0 +1,30 @@
+[
+  {
+    "url": "electrumx1.mydogecoin.fun:60001",
+    "protocol": "TCP",
+    "contact": [
+        {
+                "email": "support@mydogecoin.fun"
+        }
+      ]
+  },
+  {
+    "url": "electrumx2.mydogecoin.fun:60001",
+    "protocol": "TCP",
+     "contact": [
+        {
+                "email": "support@mydogecoin.fun"
+        }
+      ]
+  },
+  {
+    "url": "electrumx1.mydogecoin.fun:60002",
+    "protocol": "SSL",
+    "ws_url": "electrumx1.mydogecoin.fun:60003"
+  },
+  {
+    "url": "electrumx2.mydogecoin.fun:60002",
+    "protocol": "SSL",
+    "ws_url": "electrumx2.mydogecoin.fun:60003"
+  }
+]

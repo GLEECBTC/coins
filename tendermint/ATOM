@@ -1,17 +1,7 @@
 {
   "rpc_nodes": [
     {
-      "url": "https://cosmos-rpc.alpha.komodo.earth/",
-      "api_url": "https://cosmos-api.alpha.komodo.earth/",
-      "grpc_url": "https://cosmos-grpc.alpha.komodo.earth/",
-      "ws_url": "wss://cosmos-rpc.alpha.komodo.earth/websocket"
-    },
-    {
-      "url": "https://cosmoshub.rpc.stakin-nodes.com/"
-    },
-    {
-      "url": "https://node.komodo.earth:8080/cosmos",
-      "komodo_proxy": true
+      "url": "https://rpc.cosmos.directory/cosmoshub"
     }
   ]
 }

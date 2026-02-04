@@ -1,46 +1,26 @@
 [
-    {
-        "url": "bitexplorer.io:50001",
-        "protocol": "TCP",
-        "ws_url": "bitexplorer.io:50004",
-        "contact": [
-            {
-                "discord": "c4pt#7855"
-            }
-        ]
-    },
-    {
-        "url": "bitchair.io:50001",
-        "protocol": "TCP",
-        "ws_url": "bitchair.io:50004",
-        "contact": [
-            {
-                "discord": "c4pt#7855"
-            }
-        ]
-    },
-    {
-        "url": "194.163.178.204:50001",
-        "protocol": "TCP",
-        "ws_url": "194.163.178.204:50004",
-        "contact": [
-            {
-                "discord": "c4pt#7855"
-            }
-        ]
-    },
-
-    {
-        "url": "194.163.176.151:50001",
-        "protocol": "TCP",
-        "ws_url": "194.163.176.151:50004",
-        "contact": [
-            {
-                "discord": "c4pt#7855"
-            }
-        ]
-    }
-
- 
-
+  {
+    "url": "bitnet.outsidethebox.top:50002",
+    "protocol": "SSL",
+    "ws_url": "bitnet.outsidethebox.top:50004",
+    "contact": [
+      { "discord": "def#4726" }
+    ]
+  },
+  {
+    "url": "bit-e.minethepla.net:50002",
+    "protocol": "SSL",
+    "ws_url": "bit-e.minethepla.net:50004",
+    "contact": [
+      { "discord": "def#4726" }
+    ]
+  },
+  {
+    "url": "bit-e.outsidethebox.top:50002",
+    "protocol": "SSL",
+    "ws_url": "bit-e.outsidethebox.top:50004",
+    "contact": [
+      { "discord": "def#4726" }
+    ]
+  }
 ]

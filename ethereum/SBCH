@@ -4,15 +4,19 @@
     "rpc_nodes": [
         {
             "url":"https://rpc.smartbch.org",
-            "contact":{
-                "email":"contact@smartbch.org"
-            }
+            "contact": [
+                {
+                    "email":"contact@smartbch.org"
+                }
+            ]
         },
         {
             "url":"https://smartbch.greyh.at",
-            "contact":{
-                "email":"quest@mac.com"
-            }
+            "contact": [
+                {
+                    "email":"quest@mac.com"
+                }
+            ]
         }       
     ]
 }

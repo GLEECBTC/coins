@@ -1,5 +1,53 @@
 [
     {
+        "url": "bch.electrum2.cipig.net:20055",
+        "protocol": "SSL",
+        "contact": [
+            {
+                "email": "cipi@komodoplatform.com"
+            },
+            {
+                "discord": "cipi#4502"
+            }
+        ],
+        "ws_url": "bch.electrum2.cipig.net:30055"
+    },
+    {
+        "url": "bch.electrum2.cipig.net:10055",
+        "contact": [
+            {
+                "email": "cipi@komodoplatform.com"
+            },
+            {
+                "discord": "cipi#4502"
+            }
+        ]
+    },
+    {
+        "url": "bch.electrum1.cipig.net:20055",
+        "protocol": "SSL",
+        "contact": [
+            {
+                "email": "cipi@komodoplatform.com"
+            },
+            {
+                "discord": "cipi#4502"
+            }
+        ],
+        "ws_url": "bch.electrum1.cipig.net:30055"
+    },
+    {
+        "url": "bch.electrum1.cipig.net:10055",
+        "contact": [
+            {
+                "email": "cipi@komodoplatform.com"
+            },
+            {
+                "discord": "cipi#4502"
+            }
+        ]
+    },
+    {
         "url": "bch.imaginary.cash:50002",
         "protocol": "SSL",
         "ws_url": "bch.imaginary.cash:50004"

@@ -1,0 +1,42 @@
+[
+  {
+    "url": "electrumx.fixedcoin.org:50002",
+    "ws_url": "electrumx.fixedcoin.org:50004",
+    "protocol": "SSL",
+    "disable_cert_verification": false,
+    "contact": [
+      {
+        "email": "support@fixedcoin.org"
+      }
+    ]
+  },
+  {
+    "url": "electrumx.fixedcoin.org:50001",
+    "protocol": "TCP",
+    "contact": [
+      {
+        "email": "support@fixedcoin.org"
+      }
+    ]
+  },
+  {
+    "url": "electrumx.nitopool.fr:50002",
+    "ws_url": "electrumx.nitopool.fr:50004",
+    "protocol": "SSL",
+    "disable_cert_verification": false,
+    "contact": [
+      {
+        "email": "support@nitopool.fr"
+      }
+    ]
+  },
+  {
+    "url": "electrumx.nitopool.fr:50001",
+    "protocol": "TCP",
+    "contact": [
+      {
+        "email": "support@nitopool.fr"
+      }
+    ]
+  }
+]

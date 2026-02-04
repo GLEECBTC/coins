@@ -3,16 +3,16 @@
   "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
   "rpc_nodes": [
     {
-      "url": "https://moonriver-rpc.dwellir.com",
-      "ws_url": "wss://moonriver-rpc.dwellir.com"
+      "url": "https://moonriver.drpc.org",
+      "ws_url": "wss://moonriver.drpc.org"
     },
     {
       "url": "https://rpc.api.moonriver.moonbeam.network",
       "ws_url": "wss://wss.api.moonriver.moonbeam.network"
     },
     {
-      "url": "https://moonriver.unitedbloc.com",
-      "ws_url": "wss://moonriver.unitedbloc.com"
+      "url": "https://moonriver-rpc.publicnode.com",
+      "ws_url": "wss://moonriver-rpc.publicnode.com"
     }
   ]
 }

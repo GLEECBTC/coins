@@ -1,0 +1,20 @@
+{
+    "swap_contract_address": "0x4C54808911817402a0871c3C93D8790c19CAe75b",
+    "fallback_swap_contract": "0x4C54808911817402a0871c3C93D8790c19CAe75b",
+    "rpc_nodes": [
+        {
+            "url": "https://mainnet.base.org"
+        },
+        {
+            "url": "https://base.lava.build"
+        },
+        {
+            "url": "https://base.gateway.tenderly.co",
+            "ws_url": "wss://base.gateway.tenderly.co"
+        },
+        {
+            "url": "https://base-rpc.publicnode.com",
+            "ws_url": "wss://base-rpc.publicnode.com"
+        }
+    ]
+}

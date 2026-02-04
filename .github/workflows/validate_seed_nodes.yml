@@ -233,7 +233,7 @@ jobs:
 
           # Create Discord embed payload
           DISCORD_PAYLOAD=$(jq -n \
-            --arg content "<@423176312354635779> <@419964976397156352> <@448777271701143562>" \
+            --arg content "<@419964976397156352>" \
             --arg title "❌ Seed Nodes Validation Failed" \
             --arg description "$SUMMARY" \
             --arg repo "${{ github.repository }}" \

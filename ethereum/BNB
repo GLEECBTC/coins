@@ -7,8 +7,7 @@
             "ws_url": "wss://bsc1.cipig.net:38655"
         },
         {
-            "url": "https://bsc2.cipig.net:18655",
-            "ws_url": "wss://bsc2.cipig.net:38655"
+            "url": "https://bsc-dataseed3.bnbchain.org"
         },
         {
             "url": "https://bsc3.cipig.net:18655",

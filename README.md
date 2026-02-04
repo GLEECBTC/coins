@@ -22,7 +22,6 @@ AtomicDEX is a true non-custodial, cross-chain, cross-protocol Decentralized Exc
 
 - [UTXO](https://utxo-alliance.org/) based (e.g. [KMD](https://komodoplatform.com/), [BTC](https://www.bitcoin.com/), [LTC](https://litecoin.com/en/), [DASH](https://www.dash.org/), [DOGE](https://dogecoin.com/) & [DGB](https://digibyte.org/en-us/))
 - [Binance Smart Chain](https://www.binance.com/en/blog/ecosystem/introducing-bnb-chain-the-evolution-of-binance-smart-chain-421499824684903436) & BEP20 tokens
-- [Fantom](https://fantom.foundation/) & FTM20 tokens
 - [Harmony](https://github.com/harmony-one/HRC) & HRC20 tokens
 - [Ethereum](https://ethereum.org/en/) & ERC20 tokens
 - [KuCoin](https://www.kucoin.com/) & KRC20 tokens

@@ -1,0 +1,30 @@
+[
+  {
+    "url": "electrumx1.hypercoin.network:50001",
+    "protocol": "TCP",
+    "contact": [
+        {
+                "email": "support@hypercoin.network"
+        }
+      ]
+  },
+  {
+    "url": "electrumx2.hypercoin.network:50001",
+    "protocol": "TCP",
+     "contact": [
+        {
+                "email": "support@hypercoin.network"
+        }
+      ]
+  },
+  {
+    "url": "electrumx1.hypercoin.network:50002",
+    "protocol": "SSL",
+    "ws_url": "electrumx1.hypercoin.network:50003"
+  },
+  {
+    "url": "electrumx2.hypercoin.network:50002",
+    "protocol": "SSL",
+    "ws_url": "electrumx2.hypercoin.network:50003"
+  }
+]

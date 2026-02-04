@@ -66,6 +66,13 @@ lightwallet_coins = [
     f
     for f in os.listdir(f"{repo_path}/light_wallet_d")
     if os.path.isfile(f"{repo_path}/light_wallet_d/{f}")
+    and not f.endswith("_WSS")
+]
+lightwallet_wss_coins = [
+    f
+    for f in os.listdir(f"{repo_path}/light_wallet_d")
+    if os.path.isfile(f"{repo_path}/light_wallet_d/{f}")
+    and f.endswith("_WSS")
 ]
 electrum_coins = [
     f
@@ -143,8 +150,8 @@ class CoinConfig:
             "ETC": "Ethereum Classic",
             "ETH": "ERC-20",
             "ETH-ARB20": "Arbitrum",
+            "ETH-BASE": "Base",
             "EWT": "EWT",
-            "FTM": "FTM-20",
             "GLMR": "Moonbeam",
             "KCS": "KRC-20",
             "POL": "Polygon",
@@ -161,7 +168,6 @@ class CoinConfig:
         self.testnet_protocols = {
             "AVAXT": "AVX-20",
             "BNBT": "BEP-20",
-            "FTMT": "FTM-20",
             "tQTUM": "QRC-20",
             "IRISTEST": "TENDERMINT",
             "NUCLEUSTEST": "TENDERMINT",
@@ -206,8 +212,21 @@ class CoinConfig:
                 self.data[self.ticker].update(
                     {"light_wallet_d_servers": lightwallet_servers}
                 )
+                if f"{self.ticker}_WSS" in lightwallet_wss_coins:
+                    with open(f"{repo_path}/light_wallet_d/{self.ticker}_WSS", "r") as f:
+                        lightwallet_servers_wss = json.load(f)
+                    self.data[self.ticker].update(
+                        {"light_wallet_d_servers_wss": lightwallet_servers_wss}
+                    )
+                else:
+                    self.data[self.ticker].update({
+                        "light_wallet_d_servers_wss": []
+                    })
             else:
-                self.data[self.ticker].update({"light_wallet_d_servers": []})
+                self.data[self.ticker].update({
+                    "light_wallet_d_servers": [],
+                    "light_wallet_d_servers_wss": []
+                })
         elif self.coin_type in ["SIA"]:
             self.data[self.ticker].update({"nodes": ["SIA"]})
 
@@ -448,36 +467,47 @@ class CoinConfig:
                         
                         if is_server_online:
                             for electrum in electrums:
+                                # Get disabled protocols for this electrum
+                                disabled_protocols = [p.upper() for p in electrum.get("disabled", [])]
+                                
                                 # Check URL match for current protocol
                                 e = deepcopy(electrum)
                                 if "url" in e:
                                     if e["url"] == k:
-                                        e["protocol"] = x.upper()
-                                        if "ws_url" in e:
-                                            del e["ws_url"]
-                                        valid_electrums.append(e)
-                                        
-                                        # Track server uptime
-                                        if self.uptime_tracker:
-                                            contact_info = electrum.get("contact")
-                                            self.uptime_tracker.update_server_status(
-                                                self.ticker, k, True, contact_info
-                                            )
+                                        # Skip if this protocol is disabled
+                                        if x.upper() not in disabled_protocols:
+                                            e["protocol"] = x.upper()
+                                            if "ws_url" in e:
+                                                del e["ws_url"]
+                                            if "disabled" in e:
+                                                del e["disabled"]
+                                            valid_electrums.append(e)
+                                            
+                                            # Track server uptime
+                                            if self.uptime_tracker:
+                                                contact_info = electrum.get("contact")
+                                                self.uptime_tracker.update_server_status(
+                                                    self.ticker, k, True, contact_info
+                                                )
                                 # Check WSS URL match
                                 if "ws_url" in electrum:
                                     e = deepcopy(electrum)
                                     if e["ws_url"] == k:
-                                        e["protocol"] = "WSS"
-                                        e["url"] = k
-                                        del e["ws_url"]
-                                        valid_electrums.append(e)
-                                        
-                                        # Track server uptime for WSS
-                                        if self.uptime_tracker:
-                                            contact_info = electrum.get("contact")
-                                            self.uptime_tracker.update_server_status(
-                                                self.ticker, k, True, contact_info
-                                            )
+                                        # Skip if WSS is disabled
+                                        if "WSS" not in disabled_protocols:
+                                            e["protocol"] = "WSS"
+                                            e["url"] = k
+                                            del e["ws_url"]
+                                            if "disabled" in e:
+                                                del e["disabled"]
+                                            valid_electrums.append(e)
+                                            
+                                            # Track server uptime for WSS
+                                            if self.uptime_tracker:
+                                                contact_info = electrum.get("contact")
+                                                self.uptime_tracker.update_server_status(
+                                                    self.ticker, k, True, contact_info
+                                                )
                         else:
                             # Track offline servers
                             if self.uptime_tracker:
@@ -697,7 +727,7 @@ def parse_coins_repo(electrum_scan_report, uptime_tracker=None):
         else:
             # Check if coin has any connection methods
             has_connection = False
-            for field in ["nodes", "electrum", "light_wallet_d_servers", "rpc_urls"]:
+            for field in ["nodes", "electrum", "light_wallet_d_servers", "light_wallet_d_servers_wss", "rpc_urls"]:
                 if field in coins_config[coin]:
                     if coins_config[coin][field]:  # Non-empty list
                         has_connection = True
@@ -863,23 +893,29 @@ def filter_wss(coins_config):
             
         if "electrum" in coins_config[coin]:
             electrums = []
-            for i in coins_config[coin]["electrum"]:
-                if "protocol" in i:
-                    if i["protocol"] == "WSS":
-                        electrums.append(i)
+            for electrum_server in coins_config[coin]["electrum"]:
+                if "protocol" in electrum_server:
+                    if electrum_server["protocol"] == "WSS":
+                        electrums.append(electrum_server)
                 else:
-                    logger.warning(f"No protocol data in {i}")
+                    logger.warning(f"No protocol data in {electrum_server}")
             if len(electrums) > 0:
                 coins_config_wss.update({coin: coins_config[coin]})
                 coins_config_wss[coin]["electrum"] = electrums
         elif "nodes" in coins_config[coin]:
             nodes = []
-            for i in coins_config[coin]["nodes"]:
-                if "ws_url" in i:
-                    nodes.append(i)
+            for node in coins_config[coin]["nodes"]:
+                if "ws_url" in node:
+                    nodes.append(node)
             if len(nodes) > 0:
                 coins_config_wss.update({coin: coins_config[coin]})
                 coins_config_wss[coin]["nodes"] = nodes
+        elif "light_wallet_d_servers_wss" in coins_config[coin]:
+            coins_config_wss[coin]["light_wallet_d_servers_wss"] = [
+                server_url
+                for server_url in coins_config[coin]["light_wallet_d_servers_wss"]
+                if server_url.startswith("https")
+            ]
         else:
             logger.warning(f"{coin} not checked for WSS filter yet, including anyway.")
             coins_config_wss.update({coin: coins_config[coin]})
@@ -951,10 +987,10 @@ def normalize_coin_name(name):
     # First try specific protocol suffix removal
     suffixes_to_remove = [
         # Dash-separated suffixes
-        '-bep20', '-erc20', '-plg20', '-avx20', '-krc20', '-ftm20', '-hrc20', 
+        '-bep20', '-erc20', '-plg20', '-avx20', '-krc20', '-hrc20', 
         '-qrc20', '-arb20', '-test', '-testnet',
         # Underscore-separated suffixes  
-        '_bep20', '_erc20', '_plg20', '_avx20', '_krc20', '_ftm20', '_hrc20',
+        '_bep20', '_erc20', '_plg20', '_avx20', '_krc20', '_hrc20',
         '_qrc20', '_arb20', '_test', '_testnet'
     ]
     

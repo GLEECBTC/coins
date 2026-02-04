@@ -1,0 +1,32 @@
+[
+  {
+    "url": "api.dogecoinev.com:50003",
+    "ws_url": "api.dogecoinev.com:50002",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "1157581316175437884" }
+    ]
+  },
+  {
+    "url": "api.dogecoinev.com:50001",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "1157581316175437884" }
+    ]
+  },
+  {
+    "url": "api2.dogecoinev.com:50003",
+    "ws_url": "api2.dogecoinev.com:50002",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "1157581316175437884" }
+    ]
+  },
+  {
+    "url": "api2.dogecoinev.com:50001",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "1157581316175437884" }
+    ]
+  }
+]

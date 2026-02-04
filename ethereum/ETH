@@ -3,10 +3,6 @@
     "fallback_swap_contract": "0x8500AFc0bc5214728082163326C2FF0C73f4a871",
     "rpc_nodes": [
         {
-            "url": "https://node.komodo.earth:8080/ethereum",
-            "komodo_proxy": true
-        },
-        {
             "url": "https://ethereum-rpc.publicnode.com",
             "ws_url": "wss://ethereum-rpc.publicnode.com"
         },
@@ -25,9 +21,11 @@
         {
             "url": "https://eth3.cipig.net:18555",
             "ws_url": "wss://eth3.cipig.net:38555",
-            "contact": {
-                "email": "cipi@komodoplatform.com"
-            }
+            "contact": [
+                {
+                    "email": "cipi@komodoplatform.com"
+                }
+            ]
         }
     ]
 }

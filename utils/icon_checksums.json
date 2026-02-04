@@ -1143,10 +1143,6 @@
     "original": "790669f9eba9be9110dc87856db1f655e2c57acffdfed2ea92258b1c21f0ada6",
     "processed": "6c5171c670b868c82c2676af749e2ad1a9760f13c1cfbdc71d3b8e9a8a339804"
   },
-  "ht.png": {
-    "original": "22b6193f2b90dbaef04bf83e40fb101adc8de74887259af7cfa805230d8753c5",
-    "processed": "3a171621209088960cd8c5a9a0dd4d2d777b4b7f18ad95acf240b210004db9a8"
-  },
   "ubq.png": {
     "original": "0470576a8a94811dd8df8caad698386fd7314aa4931cf45126b393bd1056edae",
     "processed": "52f6f2fddbc454b31af75060b134fe9a7d8ef09e34feddec97257a9e9ad15645"
@@ -1870,5 +1866,49 @@
   "lpt.png": {
     "original": "0e5bfc8f342df7ca60adb098741e15c6a08f7088eb3bade3477094ad93d2a679",
     "processed": "aabd60e21f4dfca14bf62d00df7c4e76308dc466d41055ede872254b26ec5ab5"
+  },
+  "mydoge.png": {
+    "original": "5bc4534dde075c2b5cd8bb9aff0ad64440f892b807d90e98f770bcdf353cfde6",
+    "processed": "655b63cf0741421bc7a647deb02d526a445c917f0a912b2345d207699cbc4b13"
+  },
+  "dev.png": {
+    "original": "0bbef2c0c706672a538234dbfa0e4ae05be2966ab4554d0d17328f66b1050b77",
+    "processed": "cd39784c1486d66f1a40c7dcd14534cec2d92f766f44a8783112d08be8fbd0c2"
+  },
+  "bc2.png": {
+    "original": "a291f374c72f7428f34e4ffa6c67207b0251f6480140968acdd61dff70f5494c",
+    "processed": "055eb7c9d4cd66f8b122113f6efeb9c607660278163cf77b823d0015be326f7a"
+  },
+  "trmp.png": {
+    "original": "c99a3954130ab53051a5e264886b6ac55509fb3ca51d4c3e9b205241c8e25cc7",
+    "processed": "2f561eef55216d45c30409316d326ea111115506b11cf187322d71509111f65a"
+  },
+  "fix.png": {
+    "original": "8f72925baca90cae5d0753a5ee017380fa9e66700eacdc8c620fb1c3fb9d9b83",
+    "processed": "572ae80ab66f311743314d093bca6eebef33ec178476de1fda58fec617da3e9e"
+  },
+  "eurc.png": {
+    "original": "1139a6162682694bbf56b449b044e25f5f02f41621cda2d8ff7cda6e21af48fa",
+    "processed": "997ad13ec662b8e10f0f9c9b708ecce144b60335a55c2cd02071c183454dc1e7"
+  },
+  "base.png": {
+    "original": "f6acb5930909af087a49699f881937c7a366de2423923e079e4bf25a42909739",
+    "processed": "c8a84e7f58af85c82041121c738bce14aa5d68962377e23a0e8cadac29d01d02"
+  },
+  "utopia.png": {
+    "original": "9e23adf53641f343f97e36555645081c09f13a2f72c037af42aeef1cb23f0edd",
+    "processed": "6a9f8a84589538127603179e73fa66bafed786b0ad7a066f0cf2242e4b65b1a4"
+  },
+  "flc.png": {
+    "original": "a3c8ff3cb857241b7f863527cc2ff0c2f8b7e4913034fbdc95bf465906e55cbb",
+    "processed": "db1111edb0703f690f473fed4b784dea4e37b2d1c14df699ed670f83edc54ecc"
+  },
+  "vrm.png": {
+    "original": "84d213a7e92e62545bec168f9ddf1bcd9deff9f8e75c26c1694a84035ca84b93",
+    "processed": "5563db729cae0f1db1861a0e07d8595485fa4f461706b6681ffbffc7a9f1a1ba"
+  },
+  "hrc.png": {
+    "original": "96783c396b4ce0a295f2632c8b28fb1503291dec108a80cd76823422b9864d1d",
+    "processed": "0f8567c8149302ff6b47c40f999dfe6b614a1216f97a6bd3d66e7ce56f8d6501"
   }
 }

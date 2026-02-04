@@ -1,6 +1,9 @@
 {
   "rpc_nodes": [
     {
+      "url": "https://rpc.cosmos.directory/osmosis"
+    },
+    {
       "url": "https://rpc.osmosis.zone/"
     },
     {
@@ -8,12 +11,6 @@
     },
     {
       "url": "https://rpc-osmosis-ia.cosmosia.notional.ventures/"
-    },
-    {
-      "url": "https://osmosis-rpc.alpha.komodo.earth/",
-      "api_url": "https://osmosis-api.alpha.komodo.earth/",
-      "grpc_url": "https://osmosis-grpc.alpha.komodo.earth/",
-      "ws_url": "wss://osmosis-rpc.alpha.komodo.earth/websocket"
     }
   ]
 }

@@ -16,5 +16,14 @@
         "url": "electrumserver02.globalboost.info:50014",
         "protocol": "SSL",
 	"ws_url": "electrumserver02.globalboost.info:50013"
+    },
+    {
+        "url": "bsty-main.coinmunity.gold:50011",
+        "protocol": "TCP"
+    },
+    {
+        "url": "bsty-main.coinmunity.gold:50012",
+        "protocol": "SSL",
+        "ws_url": "bsty-main.coinmunity.gold:50013"
     }
 ]

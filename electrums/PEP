@@ -28,25 +28,6 @@
         ]
     },
     {
-        "url": "electrum.pepelum.site:50001",
-        "protocol": "TCP",
-        "contact": [
-            {
-                "discord": "emgi2"
-            }
-        ]
-    },
-    {
-        "url": "electrum.pepelum.site:50002",
-        "protocol": "SSL",
-        "ws_url": "electrum.pepelum.site:50004",
-        "contact": [
-            {
-                "discord": "emgi2"
-            }
-        ]
-    },
-    {
         "url": "electrum.pepe.tips:50001",
         "protocol": "TCP",
         "contact": [

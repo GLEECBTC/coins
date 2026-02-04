@@ -3,10 +3,6 @@
     "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
     "rpc_nodes": [
         {
-            "url": "https://node.komodo.earth:8080/arbitrum",
-            "komodo_proxy": true
-        },
-        {
             "url": "https://arb1.arbitrum.io/rpc"
         },
         {
@@ -14,8 +10,10 @@
             "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
         },
         {
-            "url": "https://arbitrum.meowrpc.com",
-            "ws_url": "wss://arbitrum.callstaticrpc.com"
+            "url": "https://arbitrum.drpc.org"
+        },
+        {
+            "url": "https://arb1.lava.build"
         }
     ]
 }

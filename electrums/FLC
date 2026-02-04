@@ -1,0 +1,32 @@
+[
+  {
+    "url": "electrum.myfloki.com:50002",
+    "protocol": "SSL",
+    "contact": [
+      {"email": "electrum@myfloki.com"}
+    ],
+    "ws_url": "electrum.myfloki.com:50004"
+  },
+  {
+    "url": "electrum.myfloki.com:50001",
+    "protocol": "TCP",
+    "contact": [
+      {"email": "electrum@myfloki.com"}
+    ]
+  },
+  {
+    "url": "electrum-flc.hashboard.space:50002",
+    "protocol": "SSL",
+    "contact": [
+      {"email": "listing@hashboard.space"}
+    ],
+    "ws_url": "electrum-flc.hashboard.space:50004"
+  },
+  {
+    "url": "electrum-flc.hashboard.space:50001",
+    "protocol": "TCP",
+    "contact": [
+      {"email": "listing@hashboard.space"}
+    ]
+  }
+]

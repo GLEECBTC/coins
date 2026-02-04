@@ -1,0 +1,32 @@
+[
+  {
+    "url": "explorer.bitcoin-ii.org:50009",
+    "ws_url": "explorer.bitcoin-ii.org:50010",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "1391871602127540236" }
+    ]
+  },
+  {
+    "url": "explorer.bitcoin-ii.org:50008",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "1391871602127540236" }
+    ]
+  },
+  {
+    "url": "infra1.bitcoin-ii.org:50009",
+    "ws_url": "infra1.bitcoin-ii.org:50010",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "1391871602127540236" }
+    ]
+  },
+  {
+    "url": "infra1.bitcoin-ii.org:50008",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "1391871602127540236" }
+    ]
+  }
+]

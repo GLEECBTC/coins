@@ -1,14 +1,14 @@
 [
   {
-    "url": "electrum.shibaexplorer.com:50003",
-    "ws_url": "electrum.shibaexplorer.com:50002",
+    "url": "electrum.shibacoinshic.org:50003",
+    "ws_url": "electrum.shibacoinshic.org:50002",
     "protocol": "SSL",
     "contact": [
       { "discord": "1157581316175437884" }
     ]
   },
   {
-    "url": "electrum.shibaexplorer.com:50001",
+    "url": "electrum.shibacoinshic.org:50001",
     "protocol": "TCP",
     "contact": [
       { "discord": "1157581316175437884" }

@@ -1,10 +1,10 @@
 {
-  "rpc_nodes": [
+  "rpc_nodes": [    
     {
-      "url": "https://iris-rpc.alpha.komodo.earth/",
-      "api_url": "https://iris-api.alpha.komodo.earth/",
-      "grpc_url": "https://iris-grpc.alpha.komodo.earth/",
-      "ws_url": "wss://iris-rpc.alpha.komodo.earth/websocket"
+      "url": "https://rpc.cosmos.directory/irisnet"
+    },
+    {
+      "url": "https://iris-rpc.publicnode.com"
     },
     {
       "url": "https://rpc.irishub-1.irisnet.org"

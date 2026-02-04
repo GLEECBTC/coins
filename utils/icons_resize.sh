@@ -195,7 +195,13 @@ for file in "${FILES_TO_PROCESS[@]}"; do
     echo "  ➤ mogrify: $file"
     # Needs imagemagick installed: sudo apt install imagemagick
     # Resize proportionally to fit within 128x128 (only shrink, never upscale), then pad with transparent background
-    mogrify -background transparent -strip -trim +repage -fuzz 20% -resize ${TARGET_SIZE}\> -gravity center -extent $TARGET_SIZE "$file"
+    filename="$(basename "$file")"
+    if [[ "$filename" == "base.png" ]]; then
+        # Preserve the white border on base.png by skipping -trim
+        mogrify -background transparent -strip +repage -fuzz 0% -resize ${TARGET_SIZE}\> -gravity center -extent $TARGET_SIZE "$file"
+    else
+        mogrify -background transparent -strip -trim +repage -fuzz 20% -resize ${TARGET_SIZE}\> -gravity center -extent $TARGET_SIZE "$file"
+    fi
 done
 
 echo "📦 Optimizing processed images with oxipng..."

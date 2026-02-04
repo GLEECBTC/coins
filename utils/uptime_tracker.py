@@ -273,22 +273,28 @@ class UptimeTracker:
                 if server_offline_duration > self.OFFLINE_REMOVAL_THRESHOLD:
                     alerts.append(f"CRITICAL: {coin} server {server_url} has been offline for {days_offline} days - consider removal")
                 elif server_offline_duration > self.OFFLINE_ALERT_THRESHOLD:
-                    contact_info = self.get_contact_info(coin, server_url)
-                    contact_str = ""
-                    if contact_info:
-                        contacts = []
-                        for contact in contact_info:
-                            if "email" in contact:
-                                contacts.append(f"email: {contact['email']}")
-                            if "discord" in contact:
-                                contacts.append(f"discord: {contact['discord']}")
-                            if "telegram" in contact:
-                                contacts.append(f"telegram: {contact['telegram']}")
-                        if contacts:
-                            contact_str = f" Contact: {', '.join(contacts)}"
-                    
-                    alerts.append(f"WARNING: {coin} server {server_url} has been offline for {days_offline} days.{contact_str}")
-        
+                    try:
+                        contact_info = self.get_contact_info(coin, server_url)
+                        if isinstance(contact_info, dict):
+                            print(f"contact_info is not a list for {coin} server {server_url}!")
+                            contact_info = [contact_info]
+                        contact_str = ""
+                        if contact_info:
+                            contacts = []
+                            for contact in contact_info:
+                                print(f"contact: {contact}")
+                                if "email" in contact:
+                                    contacts.append(f"email: {contact['email']}")
+                                if "discord" in contact:
+                                    contacts.append(f"discord: {contact['discord']}")
+                                if "telegram" in contact:
+                                    contacts.append(f"telegram: {contact['telegram']}")
+                            if contacts:
+                                contact_str = f" Contact: {', '.join(contacts)}"
+                        
+                        alerts.append(f"WARNING: {coin} server {server_url} has been offline for {days_offline} days.{contact_str}")
+                    except Exception as e:
+                        print(f"Error getting contact info for {coin} server {server_url}: {e}")
         return alerts
     
     def get_uptime_stats(self, coin: str, server_url: Optional[str] = None) -> Dict:

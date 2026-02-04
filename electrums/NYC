@@ -1,10 +1,10 @@
 [
   {
-    "url": "nyc.newyorkcoin.online:50002",
-    "ws_url": "nyc.newyorkcoin.online:50004",
+    "url": "electrum.newyorkcoin.online:50002",
     "protocol": "SSL",
     "contact": [
-      { "discord": "424152733218635787" }
-    ]
+      { "email": "admin@newyorkcoin.online" }
+    ],
+    "ws_url": "electrum.newyorkcoin.online:50004"
   }
 ]
