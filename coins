@@ -14219,7 +14219,6 @@
     "fname": "Tether",
     "rpcport": 80,
     "mm2": 1,
-    "wallet_only": true,
     "chain_id": 1,
     "avg_blocktime": 15,
     "required_confirmations": 3,
