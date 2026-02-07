@@ -3,19 +3,25 @@
     "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
     "rpc_nodes": [
         {
-            "url": "https://bsc1.cipig.net:18655",
-            "ws_url": "wss://bsc1.cipig.net:38655"
+            "url": "https://bsc-dataseed2.defibit.io"
         },
         {
             "url": "https://bsc-dataseed3.bnbchain.org"
         },
         {
-            "url": "https://bsc3.cipig.net:18655",
-            "ws_url": "wss://bsc3.cipig.net:38655"
+            "url": "https://bsc.api.pocket.network"
         },
         {
             "url": "https://bsc-rpc.publicnode.com",
             "ws_url": "wss://bsc-rpc.publicnode.com"
+        },
+        {
+            "url": "https://bsc1.cipig.net:18655",
+            "ws_url": "wss://bsc1.cipig.net:38655"
+        },
+        {
+            "url": "https://bsc3.cipig.net:18655",
+            "ws_url": "wss://bsc3.cipig.net:38655"
         }
     ]
 }

@@ -10,8 +10,14 @@
       "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
     },
     {
-      "url": "https://0xrpc.io/avax",
-      "ws_url": "wss://0xrpc.io/avax"
+      "url": "https://avalanche.drpc.org",
+      "ws_url": "wss://avalanche.drpc.org"
+    },
+    {
+      "url": "https://1rpc.io/avax/c"
+    },
+    {
+      "url": "https://avax.api.pocket.network"
     }
   ]
 }

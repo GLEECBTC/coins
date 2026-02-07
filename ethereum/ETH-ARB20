@@ -10,7 +10,8 @@
             "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
         },
         {
-            "url": "https://arbitrum.drpc.org"
+            "url": "https://arbitrum.drpc.org",
+            "ws_url": "wss://arbitrum.drpc.org"
         },
         {
             "url": "https://arb1.lava.build"

@@ -11,8 +11,7 @@
             "ws_url": "wss://eth.drpc.org"
         },
         {
-            "url": "https://0xrpc.io/eth",
-            "ws_url": "wss://0xrpc.io/eth"
+            "url": "https://rpc.fullsend.to"
         },
         {
             "url": "https://mainnet.gateway.tenderly.co",
