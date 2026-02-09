@@ -409,7 +409,8 @@
         "1767483691": "offline"
       },
       "https://1rpc.io/avax/c": {
-        "1770607407": "online"
+        "1770607407": "online",
+        "1770640434": "offline"
       },
       "https://api.avax.network/ext/bc/C/rpc": {
         "1755770395": "online"
@@ -3730,6 +3731,14 @@
       }
     }
   },
+  "GLEECT": {
+    "all": {},
+    "by_server": {
+      "https://rpc.gleec.dev": {
+        "1770640434": "online"
+      }
+    }
+  },
   "GLMR": {
     "all": {},
     "by_server": {
@@ -6685,7 +6694,8 @@
         "1769476724": "offline",
         "1769532251": "online",
         "1770600592": "offline",
-        "1770607407": "online"
+        "1770607407": "online",
+        "1770640434": "offline"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
