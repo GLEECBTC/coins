@@ -5926,7 +5926,8 @@
         "1769143421": "online",
         "1769476724": "offline",
         "1769498555": "online",
-        "1771131362": "offline"
+        "1771131362": "offline",
+        "1771205359": "online"
       },
       "https://moonriver.unitedbloc.com": {
         "1755770395": "online",
@@ -5959,7 +5960,8 @@
         "1769498555": "online",
         "1770427388": "offline",
         "1770600592": "online",
-        "1771131362": "offline"
+        "1771131362": "offline",
+        "1771205359": "online"
       },
       "wss://moonriver.unitedbloc.com": {
         "1755770395": "online",
@@ -8160,12 +8162,14 @@
       },
       "uis-ex-one.ewmci.online:50002": {
         "1755770395": "online",
-        "1770168231": "offline"
+        "1770168231": "offline",
+        "1771205359": "online"
       },
       "uis-ex-one.ewmci.online:50003": {
         "1755770395": "offline",
         "1760163826": "online",
-        "1770168231": "offline"
+        "1770168231": "offline",
+        "1771205359": "online"
       },
       "uis-uno.ewmcx.net:50002": {
         "1769144028": "online"

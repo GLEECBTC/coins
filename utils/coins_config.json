@@ -30600,6 +30600,10 @@
                 "ws_url": "wss://moonriver-rpc.publicnode.com"
             },
             {
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
+            },
+            {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
                 "ws_url": "wss://wss.api.moonriver.moonbeam.network"
             }
@@ -42299,6 +42303,14 @@
             },
             {
                 "url": "failover.trc-uis.ewmcx.biz:50003",
+                "protocol": "WSS"
+            },
+            {
+                "url": "uis-ex-one.ewmci.online:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "uis-ex-one.ewmci.online:50003",
                 "protocol": "WSS"
             },
             {
