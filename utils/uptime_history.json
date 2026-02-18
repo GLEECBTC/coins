@@ -5931,7 +5931,8 @@
         "1769476724": "offline",
         "1769498555": "online",
         "1771131362": "offline",
-        "1771205359": "online"
+        "1771205359": "online",
+        "1771378210": "offline"
       },
       "https://moonriver.unitedbloc.com": {
         "1755770395": "online",
@@ -5965,7 +5966,8 @@
         "1770427388": "offline",
         "1770600592": "online",
         "1771131362": "offline",
-        "1771205359": "online"
+        "1771205359": "online",
+        "1771378210": "offline"
       },
       "wss://moonriver.unitedbloc.com": {
         "1755770395": "online",
@@ -9093,7 +9095,8 @@
         "1762321286": "offline",
         "1763079262": "online",
         "1767483691": "offline",
-        "1768699088": "online"
+        "1768699088": "online",
+        "1771378210": "offline"
       },
       "zet-ex-three.ewmci.online:50012": {
         "1755770395": "offline",
@@ -9103,7 +9106,8 @@
         "1762321286": "offline",
         "1763079262": "online",
         "1767483691": "offline",
-        "1768699088": "online"
+        "1768699088": "online",
+        "1771378210": "offline"
       },
       "zet-ex-three.ewmci.online:50013": {
         "1755770395": "offline",
@@ -9113,7 +9117,8 @@
         "1762321286": "offline",
         "1763079262": "online",
         "1767483691": "offline",
-        "1768699088": "online"
+        "1768699088": "online",
+        "1771378210": "offline"
       }
     }
   },

@@ -5344,7 +5344,7 @@
         "coin": "HRC",
         "type": "UTXO",
         "name": "Hypercoin",
-        "coinpaprika_id": "",
+        "coinpaprika_id": "hrc-hypercoin",
         "coingecko_id": "",
         "livecoinwatch_id": "__HRC",
         "explorer_url": "https://explorer.hypercoin.network/",
@@ -26727,10 +26727,6 @@
                 "ws_url": "wss://moonriver-rpc.publicnode.com"
             },
             {
-                "url": "https://moonriver.drpc.org",
-                "ws_url": "wss://moonriver.drpc.org"
-            },
-            {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
                 "ws_url": "wss://wss.api.moonriver.moonbeam.network"
             }
@@ -41927,15 +41923,6 @@
         "electrum": [
             {
                 "url": "zet-ex-four.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
-                "url": "zet-ex-three.ewmci.online:50012",
                 "protocol": "SSL",
                 "contact": [
                     {
