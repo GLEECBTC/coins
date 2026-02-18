@@ -12141,7 +12141,7 @@
     "pubtype": 0,
     "p2shtype": 5,
     "wiftype": 128,
-    "txfee": 1000,
+    "txfee": 10000000,
     "segwit": false,
     "fork_id": "0x40",
     "signature_version": "fork_id_rxd",
