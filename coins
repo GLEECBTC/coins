@@ -12134,6 +12134,31 @@
     }
   },
   {
+    "coin": "RXD",
+    "name": "radiant",
+    "fname": "Radiant",
+    "rpcport": 7332,
+    "pubtype": 0,
+    "p2shtype": 5,
+    "wiftype": 128,
+    "txfee": 1000,
+    "segwit": false,
+    "fork_id": "0x40",
+    "signature_version": "fork_id_rxd",
+    "mm2": 1,
+    "sign_message_prefix": "Bitcoin Signed Message:\n",
+    "required_confirmations": 2,
+    "avg_blocktime": 300,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/512'",
+    "links": {
+      "github": "https://github.com/Radiant-Core/Radiant-Core",
+      "homepage": "https://radiantblockchain.org"
+    }
+  },
+  {
     "coin": "SAND-ERC20",
     "name": "sand_erc20",
     "fname": "The Sandbox",

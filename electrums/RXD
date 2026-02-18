@@ -1,0 +1,17 @@
+[
+  {
+    "url": "electrumx.radiant4people.com:50012",
+    "protocol": "SSL",
+    "ws_url": "electrumx.radiant4people.com:50022"
+  },
+  {
+    "url": "electrumx2.radiant4people.com:50012",
+    "protocol": "SSL",
+    "ws_url": "electrumx2.radiant4people.com:50022"
+  },
+  {
+    "url": "electrumx.rxd-radiant.com:50022",
+    "protocol": "SSL",
+    "ws_url": "electrumx.rxd-radiant.com:50023"
+  }
+]
