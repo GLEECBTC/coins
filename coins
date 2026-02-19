@@ -17398,4 +17398,24 @@
       "homepage": "https://cascoin.net"
     }
   }
+{
+  "coin": "AUR",
+  "name": "Aureus",
+  "fname": "Aureus Core",
+  "rpcport": 11995,
+  "pubtype": 23,
+  "p2shtype": 10,
+  "wiftype": 151,
+  "txfee": 1000,
+  "active": 1,
+  "mm2": 1,
+  "protocol": {
+    "type": "UTXO"
+  },
+  "asset": "AUR",
+  "bech32_hrp": "aur",
+  "explorer": [
+    "https://aurascan.gt.tc/tx/"
+  ]
+}
 ]
