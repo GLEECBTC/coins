@@ -411,7 +411,8 @@
       "https://1rpc.io/avax/c": {
         "1770607407": "online",
         "1770768082": "offline",
-        "1770794458": "online"
+        "1770794458": "online",
+        "1771550721": "offline"
       },
       "https://api.avax.network/ext/bc/C/rpc": {
         "1755770395": "online"
@@ -2319,7 +2320,8 @@
         "1755770395": "online",
         "1766366022": "offline",
         "1766452233": "online",
-        "1769476724": "offline"
+        "1769476724": "offline",
+        "1771550721": "online"
       },
       "electrumx.dgc.ewmcx.org:50002": {
         "1755770395": "online",
@@ -4463,17 +4465,53 @@
   },
   "JKC": {
     "all": {
-      "1755770395": "online"
+      "1755770395": "online",
+      "1771550721": "offline"
     },
     "by_server": {
+      "_metadata": {
+        "electrum.junkiewally.xyz:50003": {
+          "contact": [
+            {
+              "email": "nekohime@nodecattel.xyz"
+            },
+            {
+              "discord": "@moonether"
+            }
+          ]
+        },
+        "electrum.junkiewally.xyz:50004": {
+          "contact": [
+            {
+              "email": "nekohime@nodecattel.xyz"
+            },
+            {
+              "discord": "@moonether"
+            }
+          ]
+        },
+        "electrum.junkiewally.xyz:50005": {
+          "contact": [
+            {
+              "email": "nekohime@nodecattel.xyz"
+            },
+            {
+              "discord": "@moonether"
+            }
+          ]
+        }
+      },
       "electrum.junkiewally.xyz:50003": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1771550721": "offline"
       },
       "electrum.junkiewally.xyz:50004": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1771550721": "offline"
       },
       "electrum.junkiewally.xyz:50005": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1771550721": "offline"
       }
     }
   },
@@ -5635,7 +5673,8 @@
       "wss://polygon.gateway.tenderly.co": {
         "1755770395": "online",
         "1760400771": "offline",
-        "1760706938": "online"
+        "1760706938": "online",
+        "1771550721": "offline"
       }
     }
   },
@@ -5932,7 +5971,8 @@
         "1769498555": "online",
         "1771131362": "offline",
         "1771205359": "online",
-        "1771378210": "offline"
+        "1771378210": "offline",
+        "1771550721": "online"
       },
       "https://moonriver.unitedbloc.com": {
         "1755770395": "online",
@@ -5967,7 +6007,8 @@
         "1770600592": "online",
         "1771131362": "offline",
         "1771205359": "online",
-        "1771378210": "offline"
+        "1771378210": "offline",
+        "1771550721": "online"
       },
       "wss://moonriver.unitedbloc.com": {
         "1755770395": "online",
@@ -6743,7 +6784,8 @@
         "1770600592": "offline",
         "1770607407": "online",
         "1770768082": "offline",
-        "1770794458": "online"
+        "1770794458": "online",
+        "1771550721": "offline"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -7521,7 +7563,8 @@
         "1768612207": "offline",
         "1769044482": "online",
         "1770168231": "offline",
-        "1770254634": "online"
+        "1770254634": "online",
+        "1771550721": "offline"
       },
       "electrum2.runebase.io:50002": {
         "1755770395": "online",
@@ -7532,7 +7575,8 @@
         "1768612207": "offline",
         "1769044482": "online",
         "1770168231": "offline",
-        "1770254634": "online"
+        "1770254634": "online",
+        "1771550721": "offline"
       },
       "electrum2.runebase.io:50004": {
         "1755770395": "online",
@@ -7543,7 +7587,8 @@
         "1768612207": "offline",
         "1769044482": "online",
         "1770168231": "offline",
-        "1770254634": "online"
+        "1770254634": "online",
+        "1771550721": "offline"
       },
       "electrum3.runebase.io:50001": {
         "1755770395": "online",
@@ -8402,7 +8447,8 @@
         "1761579168": "offline",
         "1763165598": "online",
         "1764854330": "offline",
-        "1770427388": "online"
+        "1770427388": "online",
+        "1771550721": "offline"
       }
     }
   },
@@ -9096,7 +9142,8 @@
         "1763079262": "online",
         "1767483691": "offline",
         "1768699088": "online",
-        "1771378210": "offline"
+        "1771378210": "offline",
+        "1771550721": "online"
       },
       "zet-ex-three.ewmci.online:50012": {
         "1755770395": "offline",
@@ -9107,7 +9154,8 @@
         "1763079262": "online",
         "1767483691": "offline",
         "1768699088": "online",
-        "1771378210": "offline"
+        "1771378210": "offline",
+        "1771550721": "online"
       },
       "zet-ex-three.ewmci.online:50013": {
         "1755770395": "offline",
@@ -9118,7 +9166,8 @@
         "1763079262": "online",
         "1767483691": "offline",
         "1768699088": "online",
-        "1771378210": "offline"
+        "1771378210": "offline",
+        "1771550721": "online"
       }
     }
   },

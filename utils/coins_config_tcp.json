@@ -2828,9 +2828,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://1rpc.io/avax/c"
-            },
-            {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
@@ -4625,58 +4622,6 @@
             {
                 "url": "https://polygon.gateway.tenderly.co",
                 "ws_url": "wss://polygon.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "JKC": {
-        "coin": "JKC",
-        "type": "UTXO",
-        "name": "JunkCoin",
-        "coinpaprika_id": "jkc-junkcoin",
-        "coingecko_id": "junkcoin",
-        "livecoinwatch_id": "JKC",
-        "explorer_url": "https://explorer.junk-coin.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "JunkCoin Signed Message:\n",
-        "fname": "JunkCoin",
-        "rpcport": 9771,
-        "pubtype": 16,
-        "p2shtype": 5,
-        "wiftype": 144,
-        "decimals": 8,
-        "txfee": 100000,
-        "dust": 100000,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "mature_confirmations": 70,
-        "derivation_path": "m/44'/2013'",
-        "links": {
-            "github": "https://github.com/Junkcoin-Foundation/junkcoin-core",
-            "homepage": "https://junk-coin.com"
-        },
-        "electrum": [
-            {
-                "url": "electrum.junkiewally.xyz:50004",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "nekohime@nodecattel.xyz"
-                    },
-                    {
-                        "discord": "@moonether"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -11210,6 +11155,10 @@
                 "url": "failover.dgc.ewmcx.biz:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
+            },
+            {
+                "url": "electrumx.dgc.ewmcx.org:50001",
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -26727,6 +26676,10 @@
                 "ws_url": "wss://moonriver-rpc.publicnode.com"
             },
             {
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
+            },
+            {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
                 "ws_url": "wss://wss.api.moonriver.moonbeam.network"
             }
@@ -28354,9 +28307,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://1rpc.io/one"
-            },
             {
                 "url": "https://api.harmony.one"
             },
@@ -41931,6 +41881,15 @@
                 ]
             },
             {
+                "url": "zet-ex-three.ewmci.online:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
             }
@@ -44914,18 +44873,6 @@
             "homepage": "https://www.runebase.io"
         },
         "electrum": [
-            {
-                "url": "electrum2.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
             {
                 "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
