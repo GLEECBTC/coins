@@ -17419,7 +17419,7 @@
       ],
       "address": "aurascan.gt.tc",
       "ws_uri": "wss://aurascan.gt.tc/wss",
-      "tcp_port": 185.27.135.219:50001
+      "tcp_port": 50001
     }
   ]
 }
