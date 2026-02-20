@@ -17402,7 +17402,7 @@
 {
   "coin": "AURE",
   "name": "Aureus",
-  "rpcport": 11559,
+  "p2pport": 11995,
   "pubtype": 23,
   "p2shtype": 58,
   "wiftype": 151,
