@@ -17398,24 +17398,28 @@
       "homepage": "https://cascoin.net"
     }
   }
+]
 {
-  "coin": "AUR",
+  "coin": "AURE",
   "name": "Aureus",
-  "fname": "Aureus Core",
-  "rpcport": 11995,
+  "rpcport": 11559,
   "pubtype": 23,
-  "p2shtype": 10,
+  "p2shtype": 58,
   "wiftype": 151,
-  "txfee": 1000,
-  "active": 1,
-  "mm2": 1,
-  "protocol": {
-    "type": "UTXO"
-  },
-  "asset": "AUR",
-  "bech32_hrp": "aur",
-  "explorer": [
-    "https://aurascan.gt.tc/tx/"
+  "txversion": 4,
+  "overwintered": 0,
+  "mmversion": 0,
+  "synced": 1,
+  "electrums": [
+    {
+      "contact": [
+        {
+          "email": "manger@auracoin.gt.tc"
+        }
+      ],
+      "address": "aurascan.gt.tc",
+      "ws_uri": "wss://aurascan.gt.tc/wss",
+      "tcp_port": 185.27.135.219:50001
+    }
   ]
 }
-]
