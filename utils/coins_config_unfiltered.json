@@ -3081,9 +3081,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://1rpc.io/avax/c"
-            },
-            {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
@@ -5164,44 +5161,8 @@
             "github": "https://github.com/Junkcoin-Foundation/junkcoin-core",
             "homepage": "https://junk-coin.com"
         },
-        "electrum": [
-            {
-                "url": "electrum.junkiewally.xyz:50003",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "nekohime@nodecattel.xyz"
-                    },
-                    {
-                        "discord": "@moonether"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.junkiewally.xyz:50004",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "nekohime@nodecattel.xyz"
-                    },
-                    {
-                        "discord": "@moonether"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.junkiewally.xyz:50005",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "nekohime@nodecattel.xyz"
-                    },
-                    {
-                        "discord": "@moonether"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "BBK": {
@@ -13092,6 +13053,10 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "electrumx.dgc.ewmcx.org:50001",
+                "protocol": "TCP"
             },
             {
                 "url": "failover.dgc.ewmcx.biz:50002",
@@ -30627,6 +30592,10 @@
                 "ws_url": "wss://moonriver-rpc.publicnode.com"
             },
             {
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
+            },
+            {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
                 "ws_url": "wss://wss.api.moonriver.moonbeam.network"
             }
@@ -32538,9 +32507,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://1rpc.io/one"
-            },
             {
                 "url": "https://api.harmony.one"
             },
@@ -45086,22 +45052,6 @@
                     }
                 ],
                 "disable_cert_verification": false
-            },
-            {
-                "url": "el2.verus.io:17488",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ],
-                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block/"
@@ -48297,6 +48247,33 @@
             {
                 "url": "zet-ex-four.ewmci.online:50002",
                 "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "zet-ex-three.ewmci.online:50011",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "zet-ex-three.ewmci.online:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "zet-ex-three.ewmci.online:50013",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "475820011634819072"
@@ -52225,42 +52202,6 @@
             {
                 "url": "electrum1.runebase.io:50001",
                 "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.runebase.io:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.runebase.io:50004",
-                "protocol": "WSS",
                 "contact": [
                     {
                         "email": "support@runebase.io"
