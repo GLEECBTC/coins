@@ -17399,3 +17399,27 @@
     }
   }
 ]
+{
+  "coin": "AURE",
+  "name": "Aureus",
+  "p2pport": 11995,
+  "pubtype": 23,
+  "p2shtype": 58,
+  "wiftype": 151,
+  "txversion": 4,
+  "overwintered": 0,
+  "mmversion": 0,
+  "synced": 1,
+  "electrums": [
+    {
+      "contact": [
+        {
+          "email": "manger@auracoin.gt.tc"
+        }
+      ],
+      "address": "aurascan.gt.tc",
+      "ws_uri": "wss://aurascan.gt.tc/wss",
+      "tcp_port": 50001
+    }
+  ]
+}

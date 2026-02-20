@@ -1,0 +1,5 @@
+]
+      "address": "aurascan.gt.tc",
+      "ws_uri": "wss://aurascan.gt.tc/wss",
+      "tcp_port": 50001
+  ]
