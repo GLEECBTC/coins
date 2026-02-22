@@ -412,7 +412,8 @@
         "1770607407": "online",
         "1770768082": "offline",
         "1770794458": "online",
-        "1771550721": "offline"
+        "1771550721": "offline",
+        "1771723761": "online"
       },
       "https://api.avax.network/ext/bc/C/rpc": {
         "1755770395": "online"
@@ -5674,7 +5675,8 @@
         "1755770395": "online",
         "1760400771": "offline",
         "1760706938": "online",
-        "1771550721": "offline"
+        "1771550721": "offline",
+        "1771723761": "online"
       }
     }
   },
@@ -6785,7 +6787,8 @@
         "1770607407": "online",
         "1770768082": "offline",
         "1770794458": "online",
-        "1771550721": "offline"
+        "1771550721": "offline",
+        "1771723761": "online"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
