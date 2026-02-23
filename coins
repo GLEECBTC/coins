@@ -17421,5 +17421,15 @@
       "ws_uri": "wss://aurascan.gt.tc/wss",
       "tcp_port": 50001
     }
+{
+      "contact": [
+        {
+          "email": "support@aureuscoin.site"
+        }
+      ],
+      "address": "aureuscoin.site",
+      "ws_uri": "wss://aureuscoin.site/wss",
+      "tcp_port": 50001
+    }
   ]
 }
