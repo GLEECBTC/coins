@@ -2828,6 +2828,9 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://1rpc.io/avax/c"
+            },
+            {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
@@ -4348,6 +4351,15 @@
         },
         "electrum": [
             {
+                "url": "bitcoinii.ddns.net:50009",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "1391871602127540236"
+                    }
+                ]
+            },
+            {
                 "url": "infra1.bitcoin-ii.org:50009",
                 "protocol": "SSL",
                 "contact": [
@@ -4399,6 +4411,15 @@
             "homepage": "https://bitcoin-ii.org"
         },
         "electrum": [
+            {
+                "url": "bitcoinii.ddns.net:50009",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "1391871602127540236"
+                    }
+                ]
+            },
             {
                 "url": "infra1.bitcoin-ii.org:50009",
                 "protocol": "SSL",
@@ -27135,15 +27156,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.nmc.dotbit.zone:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/namecoin/electrum-nmc/issues"
-                    }
-                ]
-            },
-            {
                 "url": "namecoin.stackwallet.com:57002",
                 "protocol": "SSL"
             },
@@ -27196,15 +27208,6 @@
             "homepage": "https://namecoin.org"
         },
         "electrum": [
-            {
-                "url": "electrumx1.nmc.dotbit.zone:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/namecoin/electrum-nmc/issues"
-                    }
-                ]
-            },
             {
                 "url": "namecoin.stackwallet.com:57002",
                 "protocol": "SSL"
@@ -28189,6 +28192,9 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://1rpc.io/one"
+            },
             {
                 "url": "https://api.harmony.one"
             },
@@ -44836,47 +44842,6 @@
         ],
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
-    },
-    "ATOM": {
-        "coin": "ATOM",
-        "type": "TENDERMINT",
-        "name": "Cosmos",
-        "coinpaprika_id": "atom-cosmos",
-        "coingecko_id": "cosmos",
-        "livecoinwatch_id": "ATOM",
-        "explorer_url": "https://www.mintscan.io/cosmos/",
-        "explorer_tx_url": "txs/",
-        "explorer_address_url": "account/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "avg_blocktime": 7,
-        "fname": "Cosmos",
-        "mm2": 1,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 6,
-                "denom": "uatom",
-                "account_prefix": "cosmos",
-                "chain_id": "cosmoshub-4",
-                "chain_registry_name": "cosmoshub",
-                "ibc_channels": {
-                    "iaa": 91,
-                    "osmo": 141
-                }
-            }
-        },
-        "derivation_path": "m/44'/118'",
-        "rpc_urls": [
-            {
-                "url": "https://rpc.cosmos.directory/cosmoshub"
-            }
-        ],
-        "explorer_block_url": "block/",
-        "binance_id": "ATOM"
     },
     "IRIS": {
         "coin": "IRIS",
