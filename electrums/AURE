@@ -4,11 +4,11 @@
     "protocol": "SSL"
   },
   {
-    "url": "aureuscoin.site/wss",
+    "url": "aureuscoin.site/wss:443",
     "protocol": "WSS"
   },
   {
-    "url": "aurascan.gt.tc/wss",
+    "url": "aurascan.gt.tc/wss:443",
     "protocol": "WSS"
   }
 ]
