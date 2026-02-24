@@ -1,0 +1,10 @@
+[
+  {
+    "url": "aureuscoin.site:50001",
+    "protocol": "TCP"
+  },
+  {
+    "url": "aurascan.gt.tc:50001",
+    "protocol": "TCP"
+  }
+]
