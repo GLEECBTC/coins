@@ -1,0 +1,17 @@
+[
+  {
+    "url": "fulcrum.aureuscoin.site:50002",
+    "ws_url": "fulcrum.aureuscoin.site:50004",
+    "protocol": "SSL"
+  },
+  {
+    "url": "aureuscoin.site:50002",
+    "ws_url": "aureuscoin.site:50004",
+    "protocol": "SSL"
+  },
+  {
+    "url": "aurascan.gt.tc:50002",
+    "ws_url": "aurascan.gt.tc:50004",
+    "protocol": "SSL"
+  }
+]

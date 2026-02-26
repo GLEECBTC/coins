@@ -1036,6 +1036,30 @@
     "derivation_path": "m/44'/85'"
   },
   {
+    "coin": "AURE",
+    "name": "aureus",
+    "fname": "Aureus",
+    "sign_message_prefix": "Aureus Signed Message:\n",
+    "rpcport": 8332,
+    "pubtype": 23,
+    "p2shtype": 10,
+    "wiftype": 151,
+    "txfee": 1000,
+    "segwit": true,
+    "bech32_hrp": "aur",
+    "mm2": 1,
+    "required_confirmations": 3,
+    "avg_blocktime": 600,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/11995'",
+    "links": {
+      "github": "https://github.com/sipherapex/aureus-core",
+      "homepage": "https://aureuscoin.site"
+    }
+  },
+  {
     "coin": "AVA-BEP20",
     "name": "ava_bep20",
     "fname": "Travala.com",
