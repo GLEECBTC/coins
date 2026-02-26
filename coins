@@ -4484,6 +4484,30 @@
     }
   },
   {
+    "coin": "WJK",
+    "name": "wojakcoin",
+    "fname": "WojakCoin",
+    "sign_message_prefix": "WojakCoin Signed Message:\n",
+    "rpcport": 20760,
+    "pubtype": 73,
+    "p2shtype": 5,
+    "wiftype": 201,
+    "segwit": false,
+    "txfee": 100000,
+    "dust": 100000,
+    "mm2": 1,
+    "required_confirmations": 3,
+    "avg_blocktime": 120,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/20760'",
+    "links": {
+      "github": "https://github.com/reallyshadydev/wojakcore",
+      "homepage": "https://wojakcoin.cash"
+    }
+  },
+  {
     "coin": "DEV",
     "name": "dogecoinev",
     "fname": "DogecoinEV",
