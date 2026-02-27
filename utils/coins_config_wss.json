@@ -714,15 +714,6 @@
         },
         "electrum": [
             {
-                "url": "aby-ex-four.ewmci.online:50013",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
                 "url": "elec-seeder-one.artbytecoin.org:50013",
                 "protocol": "WSS",
                 "disable_cert_verification": true
@@ -10767,6 +10758,63 @@
         ],
         "explorer_block_url": "block/",
         "binance_id": "DOGE"
+    },
+    "WJK": {
+        "coin": "WJK",
+        "type": "UTXO",
+        "name": "WojakCoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "WJK",
+        "explorer_url": "https://explorer.wojakcoin.cash/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "WojakCoin Signed Message:\n",
+        "fname": "WojakCoin",
+        "rpcport": 20760,
+        "pubtype": 73,
+        "p2shtype": 5,
+        "wiftype": 201,
+        "segwit": false,
+        "txfee": 100000,
+        "dust": 100000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 120,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/20760'",
+        "links": {
+            "github": "https://github.com/wojakcoinproj/wojakcore",
+            "homepage": "https://wojakcoin.cash"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.wojakcoin.cash:50102",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "danny_utxo"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.wojakcoin.cash:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "danny_utxo"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
     },
     "DEV": {
         "coin": "DEV",

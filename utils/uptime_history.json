@@ -51,31 +51,36 @@
       "aby-ex-four.ewmci.online:50011": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1768699088": "online"
+        "1768699088": "online",
+        "1772219758": "offline"
       },
       "aby-ex-four.ewmci.online:50012": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1768699088": "online"
+        "1768699088": "online",
+        "1772219758": "offline"
       },
       "aby-ex-four.ewmci.online:50013": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1768699088": "online"
+        "1768699088": "online",
+        "1772219758": "offline"
       },
       "aby-ex-three.ewmci.online:50001": {
         "1755770395": "online",
         "1762013934": "offline",
         "1763079262": "online",
         "1766366022": "offline",
-        "1768612207": "online"
+        "1768612207": "online",
+        "1772219758": "offline"
       },
       "aby-ex-three.ewmci.online:50002": {
         "1755770395": "online",
         "1762013934": "offline",
         "1763079262": "online",
         "1766366022": "offline",
-        "1768612207": "online"
+        "1768612207": "online",
+        "1772219758": "offline"
       },
       "aby-ex-three.ewmci.online:50003": {
         "1755770395": "offline"
@@ -8672,6 +8677,31 @@
       },
       "electrumx2.cointest.com:50002": {
         "1755770395": "online"
+      }
+    }
+  },
+  "WJK": {
+    "all": {
+      "1772219758": "online"
+    },
+    "by_server": {
+      "electrum1.wojakcoin.cash:50101": {
+        "1772219758": "online"
+      },
+      "electrum1.wojakcoin.cash:50102": {
+        "1772219758": "online"
+      },
+      "electrum1.wojakcoin.cash:50103": {
+        "1772219758": "online"
+      },
+      "electrum2.wojakcoin.cash:50001": {
+        "1772219758": "online"
+      },
+      "electrum2.wojakcoin.cash:50002": {
+        "1772219758": "online"
+      },
+      "electrum2.wojakcoin.cash:50003": {
+        "1772219758": "online"
       }
     }
   },
