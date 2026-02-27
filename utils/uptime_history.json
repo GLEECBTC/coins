@@ -338,7 +338,8 @@
       },
       "https://rpc.cosmos.directory/cosmoshub": {
         "1763521637": "online",
-        "1771824489": "offline"
+        "1771824489": "offline",
+        "1772144114": "online"
       },
       "wss://cosmos-rpc.alpha.komodo.earth/websocket": {
         "1755770395": "online"
@@ -402,6 +403,31 @@
       }
     }
   },
+  "AURE": {
+    "all": {
+      "1772144114": "online"
+    },
+    "by_server": {
+      "aurascan.gt.tc:50002": {
+        "1772144114": "online"
+      },
+      "aurascan.gt.tc:50004": {
+        "1772144114": "online"
+      },
+      "aureuscoin.site:50002": {
+        "1772144114": "online"
+      },
+      "aureuscoin.site:50004": {
+        "1772144114": "online"
+      },
+      "fulcrum.aureuscoin.site:50002": {
+        "1772144114": "online"
+      },
+      "fulcrum.aureuscoin.site:50004": {
+        "1772144114": "online"
+      }
+    }
+  },
   "AVAX": {
     "all": {},
     "by_server": {
@@ -414,7 +440,8 @@
         "1770768082": "offline",
         "1770794458": "online",
         "1771550721": "offline",
-        "1771824489": "online"
+        "1771824489": "online",
+        "1772144114": "offline"
       },
       "https://api.avax.network/ext/bc/C/rpc": {
         "1755770395": "online"
@@ -1050,6 +1077,13 @@
             }
           ]
         },
+        "bit-e.minethepla.net:50002": {
+          "contact": [
+            {
+              "discord": "def#4726"
+            }
+          ]
+        },
         "bit-e.minethepla.net:50004": {
           "contact": [
             {
@@ -1108,11 +1142,13 @@
         }
       },
       "bit-e.minethepla.net:50002": {
-        "1768093005": "online"
+        "1768093005": "online",
+        "1772144114": "offline"
       },
       "bit-e.minethepla.net:50004": {
         "1768093005": "offline",
-        "1768180562": "online"
+        "1768180562": "online",
+        "1772144114": "offline"
       },
       "bit-e.outsidethebox.top:50002": {
         "1768093005": "online"
@@ -2359,7 +2395,8 @@
         "1766366022": "offline",
         "1766452233": "online",
         "1770168231": "offline",
-        "1770254634": "online"
+        "1770254634": "online",
+        "1772144114": "offline"
       },
       "failover.dgc.ewmcx.biz:50003": {
         "1755770395": "online",
@@ -2368,7 +2405,8 @@
         "1766366022": "offline",
         "1766452233": "online",
         "1770168231": "offline",
-        "1770254634": "online"
+        "1770254634": "online",
+        "1772144114": "offline"
       }
     }
   },
@@ -2820,12 +2858,14 @@
       "ugly-bird-70.doi.works:50002": {
         "1755770395": "online",
         "1770168231": "offline",
-        "1770600592": "online"
+        "1770600592": "online",
+        "1772144114": "offline"
       },
       "ugly-bird-70.doi.works:50004": {
         "1755770395": "online",
         "1770168231": "offline",
-        "1770600592": "online"
+        "1770600592": "online",
+        "1772144114": "offline"
       }
     }
   },
@@ -6011,7 +6051,8 @@
       },
       "wss://moonriver-rpc.publicnode.com": {
         "1763783058": "online",
-        "1771824489": "offline"
+        "1771824489": "offline",
+        "1772144114": "online"
       },
       "wss://moonriver.drpc.org": {
         "1763783058": "online",
@@ -6814,7 +6855,8 @@
         "1770768082": "offline",
         "1770794458": "online",
         "1771550721": "offline",
-        "1771824489": "online"
+        "1771824489": "online",
+        "1772144114": "offline"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -6960,18 +7002,21 @@
   "PINK": {
     "all": {
       "1755770395": "offline",
-      "1758289389": "online"
+      "1758289389": "online",
+      "1772144114": "offline"
     },
     "by_server": {
       "pink-one.ewm-cx.net:50001": {
         "1755770395": "offline",
-        "1758289389": "online"
+        "1758289389": "online",
+        "1772144114": "offline"
       },
       "pink-two.ewm-cx.net:50001": {
         "1755770395": "offline",
         "1758289389": "online",
         "1760163826": "offline",
-        "1760350495": "online"
+        "1760350495": "online",
+        "1772144114": "offline"
       }
     }
   },
@@ -7593,7 +7638,8 @@
         "1769044482": "online",
         "1770168231": "offline",
         "1770254634": "online",
-        "1771550721": "offline"
+        "1771550721": "offline",
+        "1772144114": "online"
       },
       "electrum2.runebase.io:50002": {
         "1755770395": "online",
@@ -7605,7 +7651,8 @@
         "1769044482": "online",
         "1770168231": "offline",
         "1770254634": "online",
-        "1771550721": "offline"
+        "1771550721": "offline",
+        "1772144114": "online"
       },
       "electrum2.runebase.io:50004": {
         "1755770395": "online",
@@ -7617,7 +7664,8 @@
         "1769044482": "online",
         "1770168231": "offline",
         "1770254634": "online",
-        "1771550721": "offline"
+        "1771550721": "offline",
+        "1772144114": "online"
       },
       "electrum3.runebase.io:50001": {
         "1755770395": "online",
@@ -8758,6 +8806,18 @@
       "1755770395": "online"
     },
     "by_server": {
+      "_metadata": {
+        "electrumx3.neurai.top:50002": {
+          "contact": [
+            {
+              "email": "alarm@neurai.org"
+            },
+            {
+              "discord": "456566604809895947"
+            }
+          ]
+        }
+      },
       "electrumx-dex-01.neuraiexplorer.com:50001": {
         "1755770395": "online"
       },
@@ -8774,7 +8834,8 @@
         "1755770395": "online"
       },
       "electrumx3.neurai.top:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1772144114": "offline"
       }
     }
   },
