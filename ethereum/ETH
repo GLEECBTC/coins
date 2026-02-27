@@ -7,11 +7,7 @@
             "ws_url": "wss://ethereum-rpc.publicnode.com"
         },
         {
-            "url": "https://eth.drpc.org",
-            "ws_url": "wss://eth.drpc.org"
-        },
-        {
-            "url": "https://rpc.fullsend.to"
+            "url": "https://eth.rpc.blxrbdn.com"
         },
         {
             "url": "https://mainnet.gateway.tenderly.co",
