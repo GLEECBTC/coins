@@ -23861,10 +23861,6 @@
                 "ws_url": "wss://moonriver-rpc.publicnode.com"
             },
             {
-                "url": "https://moonriver.drpc.org",
-                "ws_url": "wss://moonriver.drpc.org"
-            },
-            {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
                 "ws_url": "wss://wss.api.moonriver.moonbeam.network"
             }
@@ -34878,6 +34874,22 @@
             },
             {
                 "url": "el1.verus.io:17488",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "0x03-ctrlc@protonmail.com"
+                    },
+                    {
+                        "discord": "0x03#8822"
+                    },
+                    {
+                        "keybase": "bloodynora"
+                    }
+                ],
+                "disable_cert_verification": false
+            },
+            {
+                "url": "el2.verus.io:17488",
                 "protocol": "WSS",
                 "contact": [
                     {
