@@ -51,31 +51,36 @@
       "aby-ex-four.ewmci.online:50011": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1768699088": "online"
+        "1768699088": "online",
+        "1772219758": "offline"
       },
       "aby-ex-four.ewmci.online:50012": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1768699088": "online"
+        "1768699088": "online",
+        "1772219758": "offline"
       },
       "aby-ex-four.ewmci.online:50013": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1768699088": "online"
+        "1768699088": "online",
+        "1772219758": "offline"
       },
       "aby-ex-three.ewmci.online:50001": {
         "1755770395": "online",
         "1762013934": "offline",
         "1763079262": "online",
         "1766366022": "offline",
-        "1768612207": "online"
+        "1768612207": "online",
+        "1772219758": "offline"
       },
       "aby-ex-three.ewmci.online:50002": {
         "1755770395": "online",
         "1762013934": "offline",
         "1763079262": "online",
         "1766366022": "offline",
-        "1768612207": "online"
+        "1768612207": "online",
+        "1772219758": "offline"
       },
       "aby-ex-three.ewmci.online:50003": {
         "1755770395": "offline"
@@ -441,7 +446,8 @@
         "1770794458": "online",
         "1771550721": "offline",
         "1771824489": "online",
-        "1772144114": "offline"
+        "1772144114": "offline",
+        "1772355424": "online"
       },
       "https://api.avax.network/ext/bc/C/rpc": {
         "1755770395": "online"
@@ -2859,13 +2865,15 @@
         "1755770395": "online",
         "1770168231": "offline",
         "1770600592": "online",
-        "1772144114": "offline"
+        "1772144114": "offline",
+        "1772355424": "online"
       },
       "ugly-bird-70.doi.works:50004": {
         "1755770395": "online",
         "1770168231": "offline",
         "1770600592": "online",
-        "1772144114": "offline"
+        "1772144114": "offline",
+        "1772355424": "online"
       }
     }
   },
@@ -6033,7 +6041,9 @@
         "1771131362": "offline",
         "1771205359": "online",
         "1771378210": "offline",
-        "1771550721": "online"
+        "1771550721": "online",
+        "1772241499": "offline",
+        "1772355424": "online"
       },
       "https://moonriver.unitedbloc.com": {
         "1755770395": "online",
@@ -6071,7 +6081,9 @@
         "1771131362": "offline",
         "1771205359": "online",
         "1771378210": "offline",
-        "1771550721": "online"
+        "1771550721": "online",
+        "1772241499": "offline",
+        "1772355424": "online"
       },
       "wss://moonriver.unitedbloc.com": {
         "1755770395": "online",
@@ -6856,7 +6868,8 @@
         "1770794458": "online",
         "1771550721": "offline",
         "1771824489": "online",
-        "1772144114": "offline"
+        "1772144114": "offline",
+        "1772355424": "online"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -8525,7 +8538,8 @@
         "1763165598": "online",
         "1764854330": "offline",
         "1770427388": "online",
-        "1771550721": "offline"
+        "1771550721": "offline",
+        "1772241499": "online"
       }
     }
   },
@@ -8672,6 +8686,34 @@
       },
       "electrumx2.cointest.com:50002": {
         "1755770395": "online"
+      }
+    }
+  },
+  "WJK": {
+    "all": {
+      "1772219758": "online"
+    },
+    "by_server": {
+      "electrum1.wojakcoin.cash:50101": {
+        "1772219758": "online"
+      },
+      "electrum1.wojakcoin.cash:50102": {
+        "1772219758": "online"
+      },
+      "electrum1.wojakcoin.cash:50103": {
+        "1772219758": "online"
+      },
+      "electrum1.wojakcoin.cash:50104": {
+        "1772355424": "online"
+      },
+      "electrum2.wojakcoin.cash:50001": {
+        "1772219758": "online"
+      },
+      "electrum2.wojakcoin.cash:50002": {
+        "1772219758": "online"
+      },
+      "electrum2.wojakcoin.cash:50003": {
+        "1772219758": "online"
       }
     }
   },

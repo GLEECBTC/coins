@@ -1,0 +1,32 @@
+[
+ {
+ "url": "electrum1.wojakcoin.cash:50102",
+ "ws_url": "electrum1.wojakcoin.cash:50104",
+ "protocol": "SSL",
+ "contact": [
+ { "discord": "danny_utxo" }
+ ]
+ },
+ {
+ "url": "electrum1.wojakcoin.cash:50101",
+ "protocol": "TCP",
+ "contact": [
+ { "discord": "danny_utxo" }
+ ]
+ },
+ {
+ "url": "electrum2.wojakcoin.cash:50002",
+ "ws_url": "electrum2.wojakcoin.cash:50003",
+ "protocol": "SSL",
+ "contact": [
+ { "discord": "danny_utxo" }
+ ]
+ },
+ {
+ "url": "electrum2.wojakcoin.cash:50001",
+ "protocol": "TCP",
+ "contact": [
+ { "discord": "danny_utxo" }
+ ]
+ }
+]
