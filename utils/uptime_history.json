@@ -446,7 +446,8 @@
         "1770794458": "online",
         "1771550721": "offline",
         "1771824489": "online",
-        "1772144114": "offline"
+        "1772144114": "offline",
+        "1772355424": "online"
       },
       "https://api.avax.network/ext/bc/C/rpc": {
         "1755770395": "online"
@@ -2864,13 +2865,15 @@
         "1755770395": "online",
         "1770168231": "offline",
         "1770600592": "online",
-        "1772144114": "offline"
+        "1772144114": "offline",
+        "1772355424": "online"
       },
       "ugly-bird-70.doi.works:50004": {
         "1755770395": "online",
         "1770168231": "offline",
         "1770600592": "online",
-        "1772144114": "offline"
+        "1772144114": "offline",
+        "1772355424": "online"
       }
     }
   },
@@ -6039,7 +6042,8 @@
         "1771205359": "online",
         "1771378210": "offline",
         "1771550721": "online",
-        "1772241499": "offline"
+        "1772241499": "offline",
+        "1772355424": "online"
       },
       "https://moonriver.unitedbloc.com": {
         "1755770395": "online",
@@ -6078,7 +6082,8 @@
         "1771205359": "online",
         "1771378210": "offline",
         "1771550721": "online",
-        "1772241499": "offline"
+        "1772241499": "offline",
+        "1772355424": "online"
       },
       "wss://moonriver.unitedbloc.com": {
         "1755770395": "online",
@@ -6863,7 +6868,8 @@
         "1770794458": "online",
         "1771550721": "offline",
         "1771824489": "online",
-        "1772144114": "offline"
+        "1772144114": "offline",
+        "1772355424": "online"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -8696,6 +8702,9 @@
       },
       "electrum1.wojakcoin.cash:50103": {
         "1772219758": "online"
+      },
+      "electrum1.wojakcoin.cash:50104": {
+        "1772355424": "online"
       },
       "electrum2.wojakcoin.cash:50001": {
         "1772219758": "online"
