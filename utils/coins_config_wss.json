@@ -10796,7 +10796,7 @@
         },
         "electrum": [
             {
-                "url": "electrum1.wojakcoin.cash:50102",
+                "url": "electrum1.wojakcoin.cash:50104",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -11197,6 +11197,16 @@
         "electrum": [
             {
                 "url": "itchy-jellyfish-89.doi.works:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/doichain/electrum-doi/issues",
+                        "twitter": "doichain"
+                    }
+                ]
+            },
+            {
+                "url": "ugly-bird-70.doi.works:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -23859,6 +23869,10 @@
             {
                 "url": "https://moonriver-rpc.publicnode.com",
                 "ws_url": "wss://moonriver-rpc.publicnode.com"
+            },
+            {
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
