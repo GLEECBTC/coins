@@ -14,7 +14,7 @@
       "ws_url": "wss://avalanche.drpc.org"
     },
     {
-      "url": "https://1rpc.io/avax/c"
+      "url": "https://rpc.sentio.xyz/avalanche"
     },
     {
       "url": "https://avax.api.pocket.network"
