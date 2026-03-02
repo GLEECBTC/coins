@@ -447,7 +447,8 @@
         "1771550721": "offline",
         "1771824489": "online",
         "1772144114": "offline",
-        "1772355424": "online"
+        "1772355424": "online",
+        "1772414773": "offline"
       },
       "https://api.avax.network/ext/bc/C/rpc": {
         "1755770395": "online"
@@ -6869,7 +6870,8 @@
         "1771550721": "offline",
         "1771824489": "online",
         "1772144114": "offline",
-        "1772355424": "online"
+        "1772355424": "online",
+        "1772414773": "offline"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
