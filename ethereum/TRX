@@ -1,0 +1,7 @@
+{
+  "rpc_nodes": [
+    {
+      "url": "https://api.trongrid.io"
+    }
+  ]
+}
