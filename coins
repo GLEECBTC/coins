@@ -11922,6 +11922,63 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "RIN",
+    "name": "rincoin",
+    "fname": "Rincoin",
+    "is_privacy_coin": true,
+    "sign_message_prefix": "rincoin Signed Message:\n",
+    "rpcport": 9556,
+    "pubtype": 60,
+    "p2shtype": 122,
+    "wiftype": 188,
+    "txfee": 10000,
+    "dust": 5460,
+    "segwit": true,
+    "bech32_hrp": "rin",
+    "mm2": 1,
+    "wallet_only": false,
+    "required_confirmations": 2,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/9555'",
+    "links": {
+      "github": "https://github.com/Rin-coin/rincoin",
+      "homepage": "https://rincoin.net"
+    }
+  },
+  {
+    "coin": "RIN-segwit",
+    "name": "rincoin",
+    "fname": "Rincoin",
+    "is_privacy_coin": true,
+    "sign_message_prefix": "rincoin Signed Message:\n",
+    "rpcport": 9556,
+    "pubtype": 60,
+    "p2shtype": 122,
+    "wiftype": 188,
+    "txfee": 10000,
+    "dust": 5460,
+    "segwit": true,
+    "bech32_hrp": "rin",
+    "address_format": {
+      "format": "segwit"
+    },
+    "orderbook_ticker": "RIN",
+    "mm2": 1,
+    "required_confirmations": 2,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/84'/9555'",
+    "links": {
+      "github": "https://github.com/Rin-coin/rincoin",
+      "homepage": "https://rincoin.net"
+    }
+  },
+  {
     "coin": "DOC",
     "asset": "DOC",
     "fname": "DOC",
