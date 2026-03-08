@@ -449,7 +449,8 @@
         "1772144114": "offline",
         "1772355424": "online",
         "1772587456": "offline",
-        "1772673982": "online"
+        "1772673982": "online",
+        "1772933252": "offline"
       },
       "https://api.avax.network/ext/bc/C/rpc": {
         "1755770395": "online"
@@ -3503,7 +3504,8 @@
     "all": {
       "1755770395": "online",
       "1770168231": "offline",
-      "1770600592": "online"
+      "1770600592": "online",
+      "1772933252": "offline"
     },
     "by_server": {
       "_metadata": {
@@ -3539,7 +3541,8 @@
       "electrumx1.flopcoin.net:10001": {
         "1755770395": "online",
         "1770168231": "offline",
-        "1770600592": "online"
+        "1770600592": "online",
+        "1772933252": "offline"
       },
       "electrumx1.flopcoin.net:10003": {
         "1755770395": "online",
@@ -3548,7 +3551,8 @@
       "electrumx1.flopcoin.net:10004": {
         "1755770395": "online",
         "1770168231": "offline",
-        "1770600592": "online"
+        "1770600592": "online",
+        "1772933252": "offline"
       },
       "electrumx2.flopcoin.net:10001": {
         "1755770395": "online",
@@ -4483,12 +4487,14 @@
       "il9p.electrumx.transcenders.name:50002": {
         "1755770395": "online",
         "1758502268": "offline",
-        "1758586414": "online"
+        "1758586414": "online",
+        "1772933252": "offline"
       },
       "il9p.electrumx.transcenders.name:50003": {
         "1755770395": "online",
         "1758502268": "offline",
-        "1758586414": "online"
+        "1758586414": "online",
+        "1772933252": "offline"
       }
     }
   },
@@ -6886,7 +6892,8 @@
         "1772144114": "offline",
         "1772355424": "online",
         "1772587456": "offline",
-        "1772673982": "online"
+        "1772673982": "online",
+        "1772933252": "offline"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
