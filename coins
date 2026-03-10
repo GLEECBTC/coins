@@ -4530,6 +4530,63 @@
     }
   },
   {
+    "coin": "DSV",
+    "name": "doriancoin",
+    "fname": "Doriancoin",
+    "is_privacy_coin": true,
+    "sign_message_prefix": "Doriancoin Signed Message:\n",
+    "rpcport": 1948,
+    "pubtype": 30,
+    "p2shtype": 28,
+    "wiftype": 176,
+    "txfee": 1000,
+    "dust": 5460,
+    "segwit": true,
+    "bech32_hrp": "dsv",
+    "mm2": 1,
+    "wallet_only": false,
+    "required_confirmations": 2,
+    "avg_blocktime": 150,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/1948'",
+    "links": {
+      "github": "https://github.com/doriancoin-project/doriancoin",
+      "homepage": "https://doriancoin.org"
+    }
+  },
+  {
+    "coin": "DSV-segwit",
+    "name": "doriancoin",
+    "fname": "Doriancoin",
+    "is_privacy_coin": true,
+    "sign_message_prefix": "Doriancoin Signed Message:\n",
+    "rpcport": 1948,
+    "pubtype": 30,
+    "p2shtype": 28,
+    "wiftype": 176,
+    "txfee": 1000,
+    "dust": 5460,
+    "segwit": true,
+    "bech32_hrp": "dsv",
+    "address_format": {
+      "format": "segwit"
+    },
+    "orderbook_ticker": "DSV",
+    "mm2": 1,
+    "required_confirmations": 2,
+    "avg_blocktime": 150,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/84'/1948'",
+    "links": {
+      "github": "https://github.com/doriancoin-project/doriancoin",
+      "homepage": "https://doriancoin.org"
+    }
+  },
+  {
     "coin": "WJK",
     "name": "wojakcoin",
     "fname": "WojakCoin",
