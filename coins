@@ -13559,6 +13559,74 @@
     }
   },
   {
+    "coin": "TRX",
+    "name": "tron",
+    "fname": "TRON",
+    "mm2": 1,
+    "wallet_only": true,
+    "decimals": 6,
+    "avg_blocktime": 3,
+    "required_confirmations": 1,
+    "derivation_path": "m/44'/195'",
+    "protocol": {
+      "type": "TRX",
+      "protocol_data": {
+        "network": "Mainnet"
+      }
+    }
+  },
+  {
+    "coin": "USDT-TRC20",
+    "name": "usdt_trc20",
+    "fname": "Tether",
+    "mm2": 1,
+    "wallet_only": true,
+    "decimals": 6,
+    "derivation_path": "m/44'/195'",
+    "protocol": {
+      "type": "TRC20",
+      "protocol_data": {
+        "platform": "TRX",
+        "contract_address": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t"
+      }
+    }
+  },
+  {
+    "coin": "TRXT",
+    "name": "tron_test",
+    "fname": "TRON Testnet",
+    "is_testnet": true,
+    "mm2": 1,
+    "wallet_only": true,
+    "decimals": 6,
+    "avg_blocktime": 3,
+    "required_confirmations": 1,
+    "derivation_path": "m/44'/195'",
+    "protocol": {
+      "type": "TRX",
+      "protocol_data": {
+        "network": "Nile"
+      }
+    }
+  },
+  {
+    "coin": "TESTUSDT-TRC20",
+    "name": "testusdt_trc20",
+    "fname": "Tether Testnet",
+    "is_testnet": true,
+    "mm2": 1,
+    "wallet_only": true,
+    "decimals": 6,
+    "derivation_path": "m/44'/195'",
+    "protocol": {
+      "type": "TRC20",
+      "protocol_data": {
+        "platform": "TRXT",
+        "contract_address": "TXYZopYRdj2D9XRtbG411XZZ3kM5VkAeBf"
+      }
+    }
+  },
+  {
     "coin": "TRYB-AVX20",
     "name": "tryb_avx20",
     "fname": "BiLira",
@@ -17535,29 +17603,29 @@
     }
   },
   {
-	"coin": "VRM",
-	"name": "veriumreserve",
-	"fname": "Verium Reserve",
-	"rpcport": 33987,
-	"pubtype": 70,
-	"p2shtype": 132,
-	"wiftype": 198,
-	"txfee": 1000000,
+    "coin": "VRM",
+    "name": "veriumreserve",
+    "fname": "Verium Reserve",
+    "rpcport": 33987,
+    "pubtype": 70,
+    "p2shtype": 132,
+    "wiftype": 198,
+    "txfee": 1000000,
     "isPoS": 1,
-	"segwit": false,
-	"force_min_relay_fee": true,
-	"mm2": 1,
-	"confpath": "USERHOME/.verium/verium.conf",
-	"required_confirmations": 5,
-	"avg_blocktime": 240,
-	"protocol": {
-	  "type": "UTXO"
-	},
-   	"derivation_path": "m/44'/8750'",
+    "segwit": false,
+    "force_min_relay_fee": true,
+    "mm2": 1,
+    "confpath": "USERHOME/.verium/verium.conf",
+    "required_confirmations": 5,
+    "avg_blocktime": 240,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/8750'",
     "links": {
       "github": "https://github.com/VeriConomy/verium-current",
       "homepage": "https://vericonomy.com"
-     }
+    }
   },
   {
     "coin": "CAS",
