@@ -914,6 +914,15 @@
         },
         "electrum": [
             {
+                "url": "aby-ex-four.ewmci.online:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "elec-seeder-one.artbytecoin.org:50012",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -8072,11 +8081,6 @@
                 "url": "seattle.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
-            },
-            {
-                "url": "woolloomooloo.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -8135,11 +8139,6 @@
             },
             {
                 "url": "seattle.ecoincore.com:34333",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "woolloomooloo.ecoincore.com:34333",
                 "protocol": "SSL",
                 "disable_cert_verification": true
             }
@@ -12148,7 +12147,7 @@
         },
         "electrum": [
             {
-                "url": "electrum1.wojakcoin.cash:50102",
+                "url": "electrum2.wojakcoin.cash:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -12157,8 +12156,8 @@
                 ]
             },
             {
-                "url": "electrum2.wojakcoin.cash:50002",
-                "protocol": "SSL",
+                "url": "electrum1.wojakcoin.cash:50101",
+                "protocol": "TCP",
                 "contact": [
                     {
                         "discord": "danny_utxo"
@@ -15226,15 +15225,6 @@
                         "discord": "motty#8318"
                     }
                 ]
-            },
-            {
-                "url": "electrumx2.fujicoin.org:50003",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "motty#8318"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -15282,15 +15272,6 @@
         "electrum": [
             {
                 "url": "electrumx1.fujicoin.org:50003",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "motty#8318"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.fujicoin.org:50003",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -19068,28 +19049,6 @@
         "electrum": [
             {
                 "url": "il8p.electrumx.transcenders.name:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "coins@ewmci.com"
-                    },
-                    {
-                        "discord": "[CryptoStan]#9341"
-                    },
-                    {
-                        "twitter": "EwmciL"
-                    },
-                    {
-                        "reddit": "InfiniLooP"
-                    },
-                    {
-                        "github": "WikiMin3R"
-                    }
-                ]
-            },
-            {
-                "url": "il9p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true,
                 "contact": [
@@ -28778,53 +28737,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "FLOP": {
-        "coin": "FLOP",
-        "type": "UTXO",
-        "name": "Flopcoin",
-        "coinpaprika_id": "flop-flopcoin",
-        "coingecko_id": "",
-        "livecoinwatch_id": "FLOP",
-        "explorer_url": "https://explorer.flopcoin.net/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Flopcoin Signed Message:\n",
-        "fname": "Flopcoin",
-        "rpcport": 32552,
-        "pubtype": 35,
-        "p2shtype": 22,
-        "wiftype": 158,
-        "segwit": false,
-        "txfee": 1000000,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/3'",
-        "links": {
-            "github": "https://github.com/Flopcoin/Flopcoin",
-            "homepage": "https://flopcoin.net"
-        },
-        "electrum": [
-            {
-                "url": "electrumx1.flopcoin.net:10004",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "technovision"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "PEP": {
         "coin": "PEP",
         "type": "UTXO",
@@ -34439,6 +34351,14 @@
         "fallback_swap_contract": "0x25bF2AAB8749AD2e4360b3e0B738f3Cd700C4D68",
         "nodes": [
             {
+                "url": "https://rpc.smartbch.org",
+                "contact": [
+                    {
+                        "email": "contact@smartbch.org"
+                    }
+                ]
+            },
+            {
                 "url": "https://smartbch.greyh.at",
                 "contact": [
                     {
@@ -35596,55 +35516,6 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
-    "TKL": {
-        "coin": "TKL",
-        "type": "Smart Chain",
-        "name": "Tokel",
-        "coinpaprika_id": "tkl-tokel",
-        "coingecko_id": "tokel",
-        "livecoinwatch_id": "TKL",
-        "explorer_url": "https://explorer.tokel.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "TOKEL",
-        "fname": "Tokel",
-        "is_privacy_coin": true,
-        "rpcport": 29405,
-        "pubtype": 60,
-        "p2shtype": 85,
-        "wiftype": 188,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "1.eu.tokel.electrum.dexstats.info:11077",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "chmex@dexstats.info"
-                    },
-                    {
-                        "discord": "chmex#0686"
-                    }
-                ]
-            }
-        ],
         "explorer_block_url": "block/"
     },
     "TON-ERC20": {
@@ -37238,11 +37109,6 @@
             "homepage": "https://unobtanium.uno"
         },
         "electrum": [
-            {
-                "url": "uno-bkp.coinmunity.gold:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
             {
                 "url": "uno-ex-one.ewmci.online:50002",
                 "protocol": "SSL"
@@ -40919,15 +40785,6 @@
             {
                 "url": "electrumx2.vanillacash.info:50012",
                 "protocol": "SSL"
-            },
-            {
-                "url": "xvc-ex-seven.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -41865,24 +41722,6 @@
             "homepage": "https://zetacoin.io"
         },
         "electrum": [
-            {
-                "url": "zet-ex-four.ewmci.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
-                "url": "zet-ex-three.ewmci.online:50012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
             {
                 "url": "207.180.252.200:50011",
                 "protocol": "TCP"
@@ -44868,42 +44707,6 @@
         },
         "electrum": [
             {
-                "url": "electrum2.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
-                "url": "electrum4.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
                 "url": "electrum1.runebase.io:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -45429,7 +45232,8 @@
         },
         "electrum": [
             {
-                "url": "electrum1.nito.network:50001",
+                "url": "electrum1.nito.network:50003",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "email": "biigbang0001@zemzar.net"
@@ -45437,11 +45241,11 @@
                     {
                         "discord": "biigbang0001"
                     }
-                ],
-                "protocol": "TCP"
+                ]
             },
             {
-                "url": "electrum1.nitopool.fr:50001",
+                "url": "electrum1.nitopool.fr:50003",
+                "protocol": "SSL",
                 "contact": [
                     {
                         "email": "biigbang0001@zemzar.net"
@@ -45449,8 +45253,7 @@
                     {
                         "discord": "biigbang0001"
                     }
-                ],
-                "protocol": "TCP"
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -45698,15 +45501,6 @@
             },
             {
                 "url": "meowcoinelectrum.xyz:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "Meowmancer#2099"
-                    }
-                ]
-            },
-            {
-                "url": "meowelectrum.xyz:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
