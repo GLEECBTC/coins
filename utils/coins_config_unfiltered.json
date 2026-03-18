@@ -41473,7 +41473,7 @@
     },
     "TRX": {
         "coin": "TRX",
-        "type": "TRC-20",
+        "type": "TRX",
         "name": "TRON",
         "coinpaprika_id": "",
         "coingecko_id": "",
@@ -41535,7 +41535,7 @@
     },
     "TRXT": {
         "coin": "TRXT",
-        "type": "TRC-20",
+        "type": "TRX",
         "name": "TRON Testnet",
         "coinpaprika_id": "",
         "coingecko_id": "",
