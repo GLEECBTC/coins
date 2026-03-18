@@ -453,10 +453,12 @@
         "1772355424": "online",
         "1772587456": "offline",
         "1772673982": "online",
-        "1773828034": "offline"
+        "1773828034": "offline",
+        "1773845398": "online"
       },
       "https://api.avax.network/ext/bc/C/rpc": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1773845398": "offline"
       },
       "https://avalanche-c-chain-rpc.publicnode.com": {
         "1755770395": "online"
@@ -6995,7 +6997,8 @@
         "1772355424": "online",
         "1772587456": "offline",
         "1772673982": "online",
-        "1773828034": "offline"
+        "1773828034": "offline",
+        "1773845398": "online"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
