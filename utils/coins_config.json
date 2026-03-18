@@ -41317,7 +41317,8 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "TRX"
     },
     "TRX-BEP20": {
         "coin": "TRX-BEP20",
@@ -41383,11 +41384,12 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "TRX"
     },
     "TRX": {
         "coin": "TRX",
-        "type": "",
+        "type": "TRC-20",
         "name": "TRON",
         "coinpaprika_id": "",
         "coingecko_id": "",
@@ -41413,7 +41415,8 @@
             }
         },
         "nodes": [],
-        "delisted": true
+        "delisted": true,
+        "binance_id": "TRX"
     },
     "USDT-TRC20": {
         "coin": "USDT-TRC20",
@@ -41448,7 +41451,7 @@
     },
     "TRXT": {
         "coin": "TRXT",
-        "type": "",
+        "type": "TRC-20",
         "name": "TRON Testnet",
         "coinpaprika_id": "",
         "coingecko_id": "",

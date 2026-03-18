@@ -279,7 +279,7 @@ class CoinConfig:
             if self.parent_coin != self.ticker:
                 self.data[self.ticker].update({"parent_coin": self.parent_coin})
 
-        if self.coin_data["protocol"]["type"] in ["ETH", "QTUM"]:
+        if self.coin_data["protocol"]["type"] in ["ETH", "QTUM", "TRX"]:
             if self.ticker in self.protocols:
                 coin_type = self.protocols[self.ticker]
             elif self.ticker in self.testnet_protocols:

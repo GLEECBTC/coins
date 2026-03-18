@@ -31910,7 +31910,8 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "TRX"
     },
     "TRX-BEP20": {
         "coin": "TRX-BEP20",
@@ -31967,7 +31968,8 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "TRX"
     },
     "TRYB-AVX20": {
         "coin": "TRYB-AVX20",
