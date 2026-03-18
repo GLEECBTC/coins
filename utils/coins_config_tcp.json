@@ -2870,9 +2870,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://1rpc.io/avax/c"
-            },
-            {
                 "url": "https://api.avax.network/ext/bc/C/rpc"
             },
             {
@@ -15225,6 +15222,15 @@
                         "discord": "motty#8318"
                     }
                 ]
+            },
+            {
+                "url": "electrumx2.fujicoin.org:50003",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "motty#8318"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -15272,6 +15278,15 @@
         "electrum": [
             {
                 "url": "electrumx1.fujicoin.org:50003",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "motty#8318"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.fujicoin.org:50003",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -28304,9 +28319,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://1rpc.io/one"
-            },
-            {
                 "url": "https://api.harmony.one"
             },
             {
@@ -35516,6 +35528,55 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
+    "TKL": {
+        "coin": "TKL",
+        "type": "Smart Chain",
+        "name": "Tokel",
+        "coinpaprika_id": "tkl-tokel",
+        "coingecko_id": "tokel",
+        "livecoinwatch_id": "TKL",
+        "explorer_url": "https://explorer.tokel.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "TOKEL",
+        "fname": "Tokel",
+        "is_privacy_coin": true,
+        "rpcport": 29405,
+        "pubtype": 60,
+        "p2shtype": 85,
+        "wiftype": 188,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "1.eu.tokel.electrum.dexstats.info:11077",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "chmex@dexstats.info"
+                    },
+                    {
+                        "discord": "chmex#0686"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "TON-ERC20": {
@@ -44708,6 +44769,30 @@
             "homepage": "https://www.runebase.io"
         },
         "electrum": [
+            {
+                "url": "electrum2.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
             {
                 "url": "electrum1.runebase.io:50001",
                 "protocol": "TCP",

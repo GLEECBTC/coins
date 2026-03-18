@@ -452,7 +452,8 @@
         "1772144114": "offline",
         "1772355424": "online",
         "1772587456": "offline",
-        "1772673982": "online"
+        "1772673982": "online",
+        "1773828034": "offline"
       },
       "https://api.avax.network/ext/bc/C/rpc": {
         "1755770395": "online"
@@ -3457,15 +3458,18 @@
       },
       "electrumx2.fujicoin.org:50001": {
         "1755770395": "online",
-        "1773700082": "offline"
+        "1773700082": "offline",
+        "1773828034": "online"
       },
       "electrumx2.fujicoin.org:50003": {
         "1755770395": "online",
-        "1773700082": "offline"
+        "1773700082": "offline",
+        "1773828034": "online"
       },
       "electrumx2.fujicoin.org:50005": {
         "1755770395": "online",
-        "1773700082": "offline"
+        "1773700082": "offline",
+        "1773828034": "online"
       }
     }
   },
@@ -3508,15 +3512,18 @@
       },
       "electrumx2.fujicoin.org:50001": {
         "1755770395": "online",
-        "1773700082": "offline"
+        "1773700082": "offline",
+        "1773828034": "online"
       },
       "electrumx2.fujicoin.org:50003": {
         "1755770395": "online",
-        "1773700082": "offline"
+        "1773700082": "offline",
+        "1773828034": "online"
       },
       "electrumx2.fujicoin.org:50005": {
         "1755770395": "online",
-        "1773700082": "offline"
+        "1773700082": "offline",
+        "1773828034": "online"
       }
     }
   },
@@ -6987,7 +6994,8 @@
         "1772144114": "offline",
         "1772355424": "online",
         "1772587456": "offline",
-        "1772673982": "online"
+        "1772673982": "online",
+        "1773828034": "offline"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -7771,7 +7779,8 @@
         "1770254634": "online",
         "1771550721": "offline",
         "1772144114": "online",
-        "1773700082": "offline"
+        "1773700082": "offline",
+        "1773828034": "online"
       },
       "electrum2.runebase.io:50002": {
         "1755770395": "online",
@@ -7785,7 +7794,8 @@
         "1770254634": "online",
         "1771550721": "offline",
         "1772144114": "online",
-        "1773700082": "offline"
+        "1773700082": "offline",
+        "1773828034": "online"
       },
       "electrum2.runebase.io:50004": {
         "1755770395": "online",
@@ -7799,7 +7809,8 @@
         "1770254634": "online",
         "1771550721": "offline",
         "1772144114": "online",
-        "1773700082": "offline"
+        "1773700082": "offline",
+        "1773828034": "online"
       },
       "electrum3.runebase.io:50001": {
         "1755770395": "online",
@@ -7807,7 +7818,8 @@
         "1757600932": "online",
         "1770168231": "offline",
         "1770254634": "online",
-        "1773700082": "offline"
+        "1773700082": "offline",
+        "1773828034": "online"
       },
       "electrum3.runebase.io:50002": {
         "1755770395": "online",
@@ -7815,7 +7827,8 @@
         "1757600932": "online",
         "1770168231": "offline",
         "1770254634": "online",
-        "1773700082": "offline"
+        "1773700082": "offline",
+        "1773828034": "online"
       },
       "electrum3.runebase.io:50004": {
         "1755770395": "online",
@@ -7823,7 +7836,8 @@
         "1757600932": "online",
         "1770168231": "offline",
         "1770254634": "online",
-        "1773700082": "offline"
+        "1773700082": "offline",
+        "1773828034": "online"
       },
       "electrum4.runebase.io:50001": {
         "1755770395": "offline",
@@ -8151,7 +8165,8 @@
       "1766538588": "online",
       "1769476724": "offline",
       "1769498555": "online",
-      "1773700082": "offline"
+      "1773700082": "offline",
+      "1773828034": "online"
     },
     "by_server": {
       "1.eu.tokel.electrum.dexstats.info:10077": {
@@ -8160,7 +8175,8 @@
         "1766538588": "online",
         "1769476724": "offline",
         "1769498555": "online",
-        "1773700082": "offline"
+        "1773700082": "offline",
+        "1773828034": "online"
       },
       "1.eu.tokel.electrum.dexstats.info:11077": {
         "1755770395": "online",
@@ -8168,7 +8184,8 @@
         "1766538588": "online",
         "1769476724": "offline",
         "1769498555": "online",
-        "1773700082": "offline"
+        "1773700082": "offline",
+        "1773828034": "online"
       },
       "1.eu.tokel.electrum.dexstats.info:9077": {
         "1755770395": "online",
@@ -8176,7 +8193,8 @@
         "1766538588": "online",
         "1769476724": "offline",
         "1769498555": "online",
-        "1773700082": "offline"
+        "1773700082": "offline",
+        "1773828034": "online"
       },
       "2.eu.tokel.electrum.dexstats.info:10077": {
         "1755770395": "offline"
