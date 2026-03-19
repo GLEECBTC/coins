@@ -454,7 +454,8 @@
         "1772587456": "offline",
         "1772673982": "online",
         "1773828034": "offline",
-        "1773845398": "online"
+        "1773845398": "online",
+        "1773961404": "offline"
       },
       "https://api.avax.network/ext/bc/C/rpc": {
         "1755770395": "online",
@@ -801,7 +802,8 @@
       },
       "bitcoinii.ddns.net:50008": {
         "1771824489": "online",
-        "1773700082": "offline"
+        "1773700082": "offline",
+        "1773961404": "online"
       },
       "bitcoinii.ddns.net:50009": {
         "1771824489": "online"
@@ -928,7 +930,8 @@
       },
       "bitcoinii.ddns.net:50008": {
         "1771824489": "online",
-        "1773700082": "offline"
+        "1773700082": "offline",
+        "1773961404": "online"
       },
       "bitcoinii.ddns.net:50009": {
         "1771824489": "online"
@@ -5863,7 +5866,8 @@
         "1760400771": "offline",
         "1760706938": "online",
         "1771550721": "offline",
-        "1771824489": "online"
+        "1771824489": "online",
+        "1773961404": "offline"
       }
     }
   },
@@ -6087,7 +6091,8 @@
         "1767669664": "online",
         "1770168231": "offline",
         "1770427388": "online",
-        "1773700082": "offline"
+        "1773700082": "offline",
+        "1773961404": "online"
       },
       "meowelectrum.xyz:50004": {
         "1755770395": "online",
@@ -6998,7 +7003,8 @@
         "1772587456": "offline",
         "1772673982": "online",
         "1773828034": "offline",
-        "1773845398": "online"
+        "1773845398": "online",
+        "1773961404": "offline"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
