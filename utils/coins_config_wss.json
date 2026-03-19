@@ -3707,15 +3707,6 @@
         },
         "electrum": [
             {
-                "url": "bitcoinii.ddns.net:50010",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "1391871602127540236"
-                    }
-                ]
-            },
-            {
                 "url": "infra1.bitcoin-ii.org:50010",
                 "protocol": "WSS",
                 "contact": [
@@ -3767,15 +3758,6 @@
             "homepage": "https://bitcoin-ii.org"
         },
         "electrum": [
-            {
-                "url": "bitcoinii.ddns.net:50010",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "1391871602127540236"
-                    }
-                ]
-            },
             {
                 "url": "infra1.bitcoin-ii.org:50010",
                 "protocol": "WSS",
@@ -9719,11 +9701,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "failover.dgc.ewmcx.biz:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -32849,11 +32826,6 @@
         },
         "electrum": [
             {
-                "url": "uno-bkp.coinmunity.gold:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
-            },
-            {
                 "url": "uno-main.coinmunity.gold:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
@@ -36015,15 +35987,6 @@
             {
                 "url": "electrumx2.vanillacash.info:50013",
                 "protocol": "WSS"
-            },
-            {
-                "url": "xvc-ex-seven.ewmci.online:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"

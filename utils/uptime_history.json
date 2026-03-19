@@ -742,6 +742,13 @@
     },
     "by_server": {
       "_metadata": {
+        "bitcoinii.ddns.net:50010": {
+          "contact": [
+            {
+              "discord": "1391871602127540236"
+            }
+          ]
+        },
         "electrum-02.bitcoinii.network:40104": {
           "contact": [
             {
@@ -792,7 +799,8 @@
         "1771824489": "online"
       },
       "bitcoinii.ddns.net:50010": {
-        "1771824489": "online"
+        "1771824489": "online",
+        "1773958007": "offline"
       },
       "electrum-02.bitcoinii.network:40003": {
         "1759220463": "online"
@@ -853,6 +861,13 @@
     },
     "by_server": {
       "_metadata": {
+        "bitcoinii.ddns.net:50010": {
+          "contact": [
+            {
+              "discord": "1391871602127540236"
+            }
+          ]
+        },
         "electrum-02.bitcoinii.network:40104": {
           "contact": [
             {
@@ -903,7 +918,8 @@
         "1771824489": "online"
       },
       "bitcoinii.ddns.net:50010": {
-        "1771824489": "online"
+        "1771824489": "online",
+        "1773958007": "offline"
       },
       "electrum-02.bitcoinii.network:40003": {
         "1759220463": "online"
@@ -2416,7 +2432,8 @@
         "1769476724": "offline",
         "1771550721": "online",
         "1772587456": "offline",
-        "1773016924": "online"
+        "1773016924": "online",
+        "1773958007": "offline"
       },
       "electrumx.dgc.ewmcx.org:50002": {
         "1755770395": "online",
@@ -2436,7 +2453,8 @@
         "1770168231": "offline",
         "1770254634": "online",
         "1772144114": "offline",
-        "1772587456": "online"
+        "1772587456": "online",
+        "1773958007": "offline"
       },
       "failover.dgc.ewmcx.biz:50003": {
         "1755770395": "online",
@@ -2447,7 +2465,8 @@
         "1770168231": "offline",
         "1770254634": "online",
         "1772144114": "offline",
-        "1772587456": "online"
+        "1772587456": "online",
+        "1773958007": "offline"
       }
     }
   },
@@ -7969,7 +7988,8 @@
       },
       "https://rpc.smartbch.org": {
         "1755770395": "online",
-        "1766366022": "offline"
+        "1766366022": "offline",
+        "1773958007": "online"
       },
       "https://smartbch.greyh.at": {
         "1755770395": "online"
@@ -8561,10 +8581,12 @@
     },
     "by_server": {
       "uno-bkp.coinmunity.gold:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1773958007": "offline"
       },
       "uno-bkp.coinmunity.gold:50003": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1773958007": "offline"
       },
       "uno-ex-one.ewmci.online:50001": {
         "1755770395": "online"
@@ -8902,11 +8924,21 @@
       "1772219758": "online"
     },
     "by_server": {
+      "_metadata": {
+        "electrum1.wojakcoin.cash:50102": {
+          "contact": [
+            {
+              "discord": "danny_utxo"
+            }
+          ]
+        }
+      },
       "electrum1.wojakcoin.cash:50101": {
         "1772219758": "online"
       },
       "electrum1.wojakcoin.cash:50102": {
-        "1772219758": "online"
+        "1772219758": "online",
+        "1773958007": "offline"
       },
       "electrum1.wojakcoin.cash:50103": {
         "1772219758": "online"
@@ -9221,17 +9253,20 @@
       "xvc-ex-seven.ewmci.online:50001": {
         "1755770395": "online",
         "1758413660": "offline",
-        "1760163826": "online"
+        "1760163826": "online",
+        "1773958007": "offline"
       },
       "xvc-ex-seven.ewmci.online:50002": {
         "1755770395": "online",
         "1758413660": "offline",
-        "1760163826": "online"
+        "1760163826": "online",
+        "1773958007": "offline"
       },
       "xvc-ex-seven.ewmci.online:50003": {
         "1755770395": "online",
         "1758413660": "offline",
-        "1760163826": "online"
+        "1760163826": "online",
+        "1773958007": "offline"
       }
     }
   },
@@ -9459,7 +9494,8 @@
         "1767483691": "offline",
         "1768612207": "online",
         "1771127316": "offline",
-        "1771248350": "online"
+        "1771248350": "online",
+        "1773958007": "offline"
       },
       "zet-ex-four.ewmci.online:50002": {
         "1755770395": "online",
@@ -9468,7 +9504,8 @@
         "1767483691": "offline",
         "1768612207": "online",
         "1771127316": "offline",
-        "1771248350": "online"
+        "1771248350": "online",
+        "1773958007": "offline"
       },
       "zet-ex-four.ewmci.online:50003": {
         "1755770395": "offline"
