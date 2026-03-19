@@ -395,7 +395,7 @@ class CoinConfig:
             elif self.ticker.endswith("-PLG20"):
                 return "MATIC"
             elif self.ticker.endswith("-TRC20"):
-                return "TRX"
+                return "TRXT" if self.is_testnet else "TRX"
             elif self.ticker.endswith("-AVX20"):
                 return "AVAX"
             elif self.ticker.endswith("-GRC20"):
@@ -593,7 +593,7 @@ class CoinConfig:
                 
                 if scan_coin in electrum_scan_report:
                     # If parent chain is working, inherit all configured nodes for token
-                    if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-PLG20", "-AVX20", "-GRC20")):
+                    if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-PLG20", "-AVX20", "-GRC20", "-TRC20")):
                         # For token coins, check if parent chain has working nodes
                         parent_has_working_nodes = False
                         for protocol in ["ssl", "wss", "tcp"]:
