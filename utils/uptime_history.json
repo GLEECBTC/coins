@@ -459,7 +459,8 @@
       "https://api.avax.network/ext/bc/C/rpc": {
         "1755770395": "online",
         "1773845398": "offline",
-        "1773964971": "online"
+        "1773964971": "online",
+        "1773965279": "offline"
       },
       "https://avalanche-c-chain-rpc.publicnode.com": {
         "1755770395": "online"
