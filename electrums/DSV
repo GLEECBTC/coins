@@ -1,0 +1,65 @@
+[
+  {
+    "url": "electrumx.doriancoin.com:50002",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "cloudhax#8411" }
+    ]
+  },
+  {
+    "url": "electrumx.doriancoin.com:50001",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "cloudhax#8411" }
+    ]
+  },
+  {
+    "url": "electrumx.doriancoin.com:50004",
+    "protocol": "WSS",
+    "contact": [
+      { "discord": "cloudhax#8411" }
+    ]
+  },
+  {
+    "url": "node1.doriancoin.com:50002",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "cloudhax#8411" }
+    ]
+  },
+  {
+    "url": "node1.doriancoin.com:50001",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "cloudhax#8411" }
+    ]
+  },
+  {
+    "url": "node1.doriancoin.com:50004",
+    "protocol": "WSS",
+    "contact": [
+      { "discord": "cloudhax#8411" }
+    ]
+  },
+  {
+    "url": "node2.doriancoin.com:50002",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "cloudhax#8411" }
+    ]
+  },
+  {
+    "url": "node2.doriancoin.com:50001",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "cloudhax#8411" }
+    ]
+  },
+  {
+    "url": "node2.doriancoin.com:50004",
+    "protocol": "WSS",
+    "contact": [
+      { "discord": "cloudhax#8411" }
+    ]
+  }
+]

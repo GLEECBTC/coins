@@ -4530,6 +4530,63 @@
     }
   },
   {
+    "coin": "DSV",
+    "name": "doriancoin",
+    "fname": "Doriancoin",
+    "is_privacy_coin": true,
+    "sign_message_prefix": "Doriancoin Signed Message:\n",
+    "rpcport": 1948,
+    "pubtype": 30,
+    "p2shtype": 28,
+    "wiftype": 176,
+    "txfee": 1000,
+    "dust": 5460,
+    "segwit": true,
+    "bech32_hrp": "dsv",
+    "mm2": 1,
+    "wallet_only": false,
+    "required_confirmations": 2,
+    "avg_blocktime": 150,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/1948'",
+    "links": {
+      "github": "https://github.com/doriancoin-project/doriancoin",
+      "homepage": "https://doriancoin.org"
+    }
+  },
+  {
+    "coin": "DSV-segwit",
+    "name": "doriancoin",
+    "fname": "Doriancoin",
+    "is_privacy_coin": true,
+    "sign_message_prefix": "Doriancoin Signed Message:\n",
+    "rpcport": 1948,
+    "pubtype": 30,
+    "p2shtype": 28,
+    "wiftype": 176,
+    "txfee": 1000,
+    "dust": 5460,
+    "segwit": true,
+    "bech32_hrp": "dsv",
+    "address_format": {
+      "format": "segwit"
+    },
+    "orderbook_ticker": "DSV",
+    "mm2": 1,
+    "required_confirmations": 2,
+    "avg_blocktime": 150,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/84'/1948'",
+    "links": {
+      "github": "https://github.com/doriancoin-project/doriancoin",
+      "homepage": "https://doriancoin.org"
+    }
+  },
+  {
     "coin": "WJK",
     "name": "wojakcoin",
     "fname": "WojakCoin",
@@ -11922,6 +11979,63 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "RIN",
+    "name": "rincoin",
+    "fname": "Rincoin",
+    "is_privacy_coin": true,
+    "sign_message_prefix": "rincoin Signed Message:\n",
+    "rpcport": 9556,
+    "pubtype": 60,
+    "p2shtype": 122,
+    "wiftype": 188,
+    "txfee": 10000,
+    "dust": 5460,
+    "segwit": true,
+    "bech32_hrp": "rin",
+    "mm2": 1,
+    "wallet_only": false,
+    "required_confirmations": 2,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/9555'",
+    "links": {
+      "github": "https://github.com/Rin-coin/rincoin",
+      "homepage": "https://rincoin.net"
+    }
+  },
+  {
+    "coin": "RIN-segwit",
+    "name": "rincoin",
+    "fname": "Rincoin",
+    "is_privacy_coin": true,
+    "sign_message_prefix": "rincoin Signed Message:\n",
+    "rpcport": 9556,
+    "pubtype": 60,
+    "p2shtype": 122,
+    "wiftype": 188,
+    "txfee": 10000,
+    "dust": 5460,
+    "segwit": true,
+    "bech32_hrp": "rin",
+    "address_format": {
+      "format": "segwit"
+    },
+    "orderbook_ticker": "RIN",
+    "mm2": 1,
+    "required_confirmations": 2,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/84'/9555'",
+    "links": {
+      "github": "https://github.com/Rin-coin/rincoin",
+      "homepage": "https://rincoin.net"
+    }
+  },
+  {
     "coin": "DOC",
     "asset": "DOC",
     "fname": "DOC",
@@ -17102,29 +17216,56 @@
     }
   },
   {
-    "coin": "NITO-segwit",
+    "coin": "NITO",
     "name": "nito",
     "fname": "NITO",
-    "sign_message_prefix": "Nito Signed Message:\n",
     "rpcport": 8825,
     "pubtype": 0,
     "p2shtype": 5,
     "wiftype": 128,
+    "segwit": true,
+    "bech32_hrp": "nito",
     "txfee": 10000,
-    "wallet_only": true,
+    "dust": 10000,
+    "mm2": 1,
+    "required_confirmations": 3,
+    "mature_confirmations": 101,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/0'",
+    "sign_message_prefix": "Nito Signed Message:\n",
+    "links": {
+      "github": "https://github.com/NitoNetwork/Nito-core",
+      "homepage": "https://nito.network"
+    }
+  },
+  {
+    "coin": "NITO-segwit",
+    "name": "nito",
+    "fname": "NITO",
+    "rpcport": 8825,
+    "pubtype": 0,
+    "p2shtype": 5,
+    "wiftype": 128,
     "segwit": true,
     "bech32_hrp": "nito",
     "address_format": {
       "format": "segwit"
     },
     "orderbook_ticker": "NITO",
+    "txfee": 10000,
+    "dust": 10000,
     "mm2": 1,
     "required_confirmations": 3,
+    "mature_confirmations": 101,
     "avg_blocktime": 60,
     "protocol": {
       "type": "UTXO"
     },
     "derivation_path": "m/84'/0'",
+    "sign_message_prefix": "Nito Signed Message:\n",
     "links": {
       "github": "https://github.com/NitoNetwork/Nito-core",
       "homepage": "https://nito.network"

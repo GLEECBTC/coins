@@ -196,5 +196,25 @@
 		"explorer_tx_url": "transaction/",
 		"explorer_address_url": "address/",
 		"explorer_block_url": "block/"
+	},
+	"https://explorer.rincoin.net/": {
+		"explorer_tx_url": "tx/",
+		"explorer_address_url": "address/",
+		"explorer_block_url": "block/"
+	},
+	"https://explorer.rincoin.net/": {
+		"explorer_tx_url": "tx/",
+		"explorer_address_url": "address/",
+		"explorer_block_url": "block/"
+	},
+	"https://www.rinscan.org/": {
+		"explorer_tx_url": "tx/",
+		"explorer_address_url": "address/",
+		"explorer_block_url": "block/"
+	},
+	"https://old.rinscan.net/": {
+		"explorer_tx_url": "tx/",
+		"explorer_address_url": "address/",
+		"explorer_block_url": "block/"
 	}
 }

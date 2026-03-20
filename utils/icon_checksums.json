@@ -532,8 +532,8 @@
     "processed": "7b33860498b3eea717c69157d891f6e1f0457e02a59dc6fdaef0f5e35e48d793"
   },
   "nito.png": {
-    "original": "82e0ec6ac1b42188a26597bc3847a0d6969c113b94ecb9ba4c81269430d64e49",
-    "processed": "7780bf18b9490fe76eac4435cd545a6bc641296f5b0d54b5dcd33f827369a321"
+    "original": "af32051d94f2943289ad0f0debc52171acfd0b5734cce6044c5c562f18842d38",
+    "processed": "09839ca55afb663d26752590a0638b9b82f5c5c515bc78e06971a95315508d01"
   },
   "jjpy.png": {
     "original": "92bac2d0639d030e730d80fc72589a1852a372086fdf2238324fb3b125675e71",
@@ -1922,5 +1922,13 @@
   "wjk.png": {
     "original": "2c3b611b881b4a1f7c97e4ef5cc915e3c4d4fa909223cb22561d4e50ed7d2ab5",
     "processed": "7ebaf6bfd6187d0a8ffa02152129616d740b72f7f0d88436b38103393a96d61c"
+  },
+  "rin.png": {
+    "original": "e3d9b5fcc476c686ca09636ea59c7506f290997cccc4a7588baa5e09df5f4180",
+    "processed": "1bd79cff89f21f92dffaa059467ba63eb0d413f0d62aaf0b077e1b8796e7e852"
+  },
+  "dsv.png": {
+    "original": "ddfbf93a42cf9521986ab39f9f8640270dff18f341d7356f5edb3ce03ad58f64",
+    "processed": "34462fae666e2a7c6c3aa39f5787880a1b407295fa77e807b141d3a4b614d3a1"
   }
 }
