@@ -3080,6 +3080,9 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://api.avax.network/ext/bc/C/rpc"
+            },
+            {
                 "url": "https://avalanche-c-chain-rpc.publicnode.com",
                 "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
             },
@@ -12947,6 +12950,10 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "electrumx.dgc.ewmcx.org:50001",
+                "protocol": "TCP"
             },
             {
                 "url": "failover.dgc.ewmcx.biz:50002",
@@ -28818,10 +28825,6 @@
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
             {
-                "url": "https://polygon.drpc.org",
-                "ws_url": "wss://polygon.drpc.org"
-            },
-            {
                 "url": "https://polygon.gateway.tenderly.co",
                 "ws_url": "wss://polygon.gateway.tenderly.co"
             }
@@ -41422,9 +41425,9 @@
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "TRX",
-        "explorer_url": "",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_url": "https://tronscan.org/",
+        "explorer_tx_url": "#/transaction/",
+        "explorer_address_url": "#/address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -41450,6 +41453,7 @@
                 "url": "https://tron-rpc.publicnode.com"
             }
         ],
+        "explorer_block_url": "#/block/",
         "binance_id": "TRX"
     },
     "USDT-TRC20": {
@@ -41459,9 +41463,9 @@
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "USDT",
-        "explorer_url": "",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_url": "https://tronscan.org/",
+        "explorer_tx_url": "#/transaction/",
+        "explorer_address_url": "#/address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
@@ -41487,7 +41491,8 @@
             {
                 "url": "https://tron-rpc.publicnode.com"
             }
-        ]
+        ],
+        "explorer_block_url": "#/block/"
     },
     "TRXT": {
         "coin": "TRXT",
@@ -41496,9 +41501,9 @@
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
-        "explorer_url": "",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_url": "https://nile.tronscan.org/",
+        "explorer_tx_url": "#/transaction/",
+        "explorer_address_url": "#/address/",
         "supported": [],
         "active": false,
         "is_testnet": true,
@@ -41523,7 +41528,8 @@
             {
                 "url": "https://nile.trongrid.io"
             }
-        ]
+        ],
+        "explorer_block_url": "#/block/"
     },
     "TESTUSDT-TRC20": {
         "coin": "TESTUSDT-TRC20",
@@ -41532,9 +41538,9 @@
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
-        "explorer_url": "",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
+        "explorer_url": "https://nile.tronscan.org/",
+        "explorer_tx_url": "#/transaction/",
+        "explorer_address_url": "#/address/",
         "supported": [],
         "active": false,
         "is_testnet": true,
@@ -41560,7 +41566,8 @@
             {
                 "url": "https://nile.trongrid.io"
             }
-        ]
+        ],
+        "explorer_block_url": "#/block/"
     },
     "TRYB-AVX20": {
         "coin": "TRYB-AVX20",
@@ -42854,6 +42861,16 @@
             "homepage": "https://unobtanium.uno"
         },
         "electrum": [
+            {
+                "url": "uno-bkp.coinmunity.gold:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "uno-bkp.coinmunity.gold:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
             {
                 "url": "uno-ex-one.ewmci.online:50001",
                 "protocol": "TCP"

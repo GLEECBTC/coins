@@ -460,7 +460,8 @@
         "1755770395": "online",
         "1773845398": "offline",
         "1773964971": "online",
-        "1773965279": "offline"
+        "1773965279": "offline",
+        "1774368443": "online"
       },
       "https://avalanche-c-chain-rpc.publicnode.com": {
         "1755770395": "online"
@@ -2454,7 +2455,8 @@
         "1766452233": "online",
         "1769476724": "offline",
         "1771550721": "online",
-        "1772587456": "offline"
+        "1772587456": "offline",
+        "1774368443": "online"
       },
       "electrumx.dgc.ewmcx.org:50002": {
         "1755770395": "online",
@@ -5938,7 +5940,8 @@
         "1755770395": "online"
       },
       "https://polygon.drpc.org": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1774368443": "offline"
       },
       "https://polygon.gateway.tenderly.co": {
         "1755770395": "online"
@@ -5952,14 +5955,16 @@
       "wss://polygon.drpc.org": {
         "1755770395": "online",
         "1761629732": "offline",
-        "1762013934": "online"
+        "1762013934": "online",
+        "1774368443": "offline"
       },
       "wss://polygon.gateway.tenderly.co": {
         "1755770395": "online",
         "1760400771": "offline",
         "1760706938": "online",
         "1771550721": "offline",
-        "1771824489": "online"
+        "1771824489": "online",
+        "1774368443": "offline"
       }
     }
   },
@@ -8715,11 +8720,13 @@
     "by_server": {
       "uno-bkp.coinmunity.gold:50002": {
         "1755770395": "online",
-        "1773700082": "offline"
+        "1773700082": "offline",
+        "1774368443": "online"
       },
       "uno-bkp.coinmunity.gold:50003": {
         "1755770395": "online",
-        "1773700082": "offline"
+        "1773700082": "offline",
+        "1774368443": "online"
       },
       "uno-ex-one.ewmci.online:50001": {
         "1755770395": "online"
