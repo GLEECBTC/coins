@@ -216,5 +216,15 @@
 		"explorer_tx_url": "tx/",
 		"explorer_address_url": "address/",
 		"explorer_block_url": "block/"
+	},
+	"https://tronscan.org/": {
+		"explorer_tx_url": "#/transaction/",
+		"explorer_address_url": "#/address/",
+		"explorer_block_url": "#/block/"
+	},
+	"https://nile.tronscan.org/": {
+		"explorer_tx_url": "#/transaction/",
+		"explorer_address_url": "#/address/",
+		"explorer_block_url": "#/block/"
 	}
 }
