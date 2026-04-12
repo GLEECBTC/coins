@@ -17520,5 +17520,28 @@
       "explorer": "https://explorer.jumpcoin.net",
       "github": "https://github.com/jumpcoin"
     }
+  },
+  {
+    "coin": "KRGN",
+    "name": "kerrigan",
+    "fname": "Kerrigan",
+    "sign_message_prefix": "DarkCoin Signed Message:\n",
+    "rpcport": 7121,
+    "pubtype": 45,
+    "p2shtype": 16,
+    "wiftype": 204,
+    "txfee": 1000,
+    "dust": 546,
+    "mm2": 1,
+    "required_confirmations": 2,
+    "avg_blocktime": 120,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/99888'",
+    "links": {
+      "github": "https://github.com/kerrigan-network/kerrigan",
+      "homepage": "https://kerrigan.network"
+    }
   }
 ]
