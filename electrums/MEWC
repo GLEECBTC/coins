@@ -30,5 +30,13 @@
     "contact": [
       { "discord": "Meowmancer#2099" }
     ]
+  },
+  {
+    "url": "electrs5.meowcoin.org:50002",
+    "protocol": "SSL",
+    "ws_url": "electrs5.meowcoin.org:50004",
+    "contact": [
+      { "discord": "Meowmancer#2099" }
+    ]
   }
 ]
