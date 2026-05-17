@@ -6262,15 +6262,6 @@
                         "discord": "517255090633965586"
                     }
                 ]
-            },
-            {
-                "url": "electrum3.btcz.rocks:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "426842722436120577"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -12029,16 +12020,6 @@
         "electrum": [
             {
                 "url": "itchy-jellyfish-89.doi.works:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "github": "https://github.com/doichain/electrum-doi/issues",
-                        "twitter": "doichain"
-                    }
-                ]
-            },
-            {
-                "url": "ugly-bird-70.doi.works:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -44731,6 +44712,15 @@
             },
             {
                 "url": "electrs4.meowcoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "Meowmancer#2099"
+                    }
+                ]
+            },
+            {
+                "url": "electrs5.meowcoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
                     {

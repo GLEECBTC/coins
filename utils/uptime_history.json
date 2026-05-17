@@ -1668,6 +1668,20 @@
             }
           ]
         },
+        "electrum3.btcz.rocks:50002": {
+          "contact": [
+            {
+              "discord": "426842722436120577"
+            }
+          ]
+        },
+        "electrum3.btcz.rocks:50004": {
+          "contact": [
+            {
+              "discord": "426842722436120577"
+            }
+          ]
+        },
         "electrum5.btcz.rocks:50002": {
           "contact": [
             {
@@ -1723,10 +1737,12 @@
         "1768612207": "offline"
       },
       "electrum3.btcz.rocks:50002": {
-        "1775063847": "online"
+        "1775063847": "online",
+        "1778975577": "offline"
       },
       "electrum3.btcz.rocks:50004": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1778975577": "offline"
       },
       "electrum5.btcz.rocks:50002": {
         "1755770395": "offline",
@@ -3330,14 +3346,16 @@
         "1770168231": "offline",
         "1770600592": "online",
         "1772144114": "offline",
-        "1772355424": "online"
+        "1772355424": "online",
+        "1778975577": "offline"
       },
       "ugly-bird-70.doi.works:50004": {
         "1755770395": "online",
         "1770168231": "offline",
         "1770600592": "online",
         "1772144114": "offline",
-        "1772355424": "online"
+        "1772355424": "online",
+        "1778975577": "offline"
       }
     }
   },
@@ -6899,6 +6917,12 @@
       },
       "electrs4.meowcoin.org:50004": {
         "1778294861": "online"
+      },
+      "electrs5.meowcoin.org:50002": {
+        "1778975577": "online"
+      },
+      "electrs5.meowcoin.org:50004": {
+        "1778975577": "online"
       },
       "electrum.mewccrypto.com:50002": {
         "1755770395": "online"
