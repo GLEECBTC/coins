@@ -11347,6 +11347,9 @@
         "max_eth_tx_type": 2,
         "swap_gas_fee_policy": "Medium",
         "estimate_gas_mult": 1.3,
+        "gas_limit": {
+            "eth_send_coins": 50000
+        },
         "swap_contract_address": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "fallback_swap_contract": "0x9130b257d37a52e52f21054c4da3450c72f595ce",
         "nodes": [

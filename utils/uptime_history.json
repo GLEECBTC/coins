@@ -3695,6 +3695,9 @@
       "https://arbitrum-one-rpc.publicnode.com": {
         "1755770395": "online"
       },
+      "https://arbitrum-one.rpc.sentio.xyz": {
+        "1779056917": "online"
+      },
       "https://arbitrum.drpc.org": {
         "1759220463": "online"
       },
@@ -3705,6 +3708,9 @@
         "1755770395": "offline",
         "1762321286": "online",
         "1762820073": "offline"
+      },
+      "https://public-arb-mainnet.fastnode.io": {
+        "1779056917": "online"
       },
       "https://rpc.sentio.xyz/arbitrum-one": {
         "1773964971": "online"
@@ -10654,7 +10660,8 @@
         "1771127316": "offline",
         "1771248350": "online",
         "1773700082": "offline",
-        "1777930797": "online"
+        "1777930797": "online",
+        "1779056917": "offline"
       },
       "zet-ex-four.ewmci.online:50002": {
         "1755770395": "online",
@@ -10665,7 +10672,8 @@
         "1771127316": "offline",
         "1771248350": "online",
         "1773700082": "offline",
-        "1777930797": "online"
+        "1777930797": "online",
+        "1779056917": "offline"
       },
       "zet-ex-four.ewmci.online:50003": {
         "1755770395": "offline"
