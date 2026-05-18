@@ -8047,6 +8047,26 @@
         },
         "electrum": [
             {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
                 "contact": [
@@ -8162,6 +8182,26 @@
             "homepage": "https://bitcore.cc"
         },
         "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
             {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
@@ -12362,6 +12402,16 @@
                         "discord": "475820011634819072"
                     }
                 ]
+            },
+            {
+                "url": "failover.dgc.ewmcx.biz:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "failover.dgc.ewmcx.biz:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -14606,6 +14656,26 @@
         "derivation_path": "m/44'/7070'",
         "electrum": [
             {
+                "url": "big-parrot-60.doi.works:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/doichain/electrum-doi/issues",
+                        "twitter": "doichain"
+                    }
+                ]
+            },
+            {
+                "url": "big-parrot-60.doi.works:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/doichain/electrum-doi/issues",
+                        "twitter": "doichain"
+                    }
+                ]
+            },
+            {
                 "url": "itchy-jellyfish-89.doi.works:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -14617,6 +14687,56 @@
             },
             {
                 "url": "itchy-jellyfish-89.doi.works:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/doichain/electrum-doi/issues",
+                        "twitter": "doichain"
+                    }
+                ]
+            },
+            {
+                "url": "pink-deer-69.doi.works:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "github": "https://github.com/doichain/electrum-doi/issues",
+                        "twitter": "doichain"
+                    }
+                ]
+            },
+            {
+                "url": "pink-deer-69.doi.works:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/doichain/electrum-doi/issues",
+                        "twitter": "doichain"
+                    }
+                ]
+            },
+            {
+                "url": "pink-deer-69.doi.works:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/doichain/electrum-doi/issues",
+                        "twitter": "doichain"
+                    }
+                ]
+            },
+            {
+                "url": "ugly-bird-70.doi.works:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/doichain/electrum-doi/issues",
+                        "twitter": "doichain"
+                    }
+                ]
+            },
+            {
+                "url": "ugly-bird-70.doi.works:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -25865,6 +25985,33 @@
                 ]
             },
             {
+                "url": "electrumx.litecoincash.com.br:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "808803920818208801"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.litecoincash.com.br:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "808803920818208801"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.litecoincash.com.br:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "808803920818208801"
+                    }
+                ]
+            },
+            {
                 "url": "lcc-ex-one.ewmci.online:50001",
                 "protocol": "TCP",
                 "contact": [
@@ -25948,6 +26095,33 @@
                 "contact": [
                     {
                         "discord": "635448663543644170"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.litecoincash.com.br:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "808803920818208801"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.litecoincash.com.br:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "808803920818208801"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.litecoincash.com.br:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "808803920818208801"
                     }
                 ]
             },

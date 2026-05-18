@@ -1856,7 +1856,8 @@
         "1775440462": "online",
         "1776831960": "offline",
         "1777342440": "online",
-        "1778466793": "offline"
+        "1778466793": "offline",
+        "1779142340": "online"
       },
       "btx-electrumx.coinsmunity.com:50003": {
         "1755770395": "online",
@@ -1864,7 +1865,8 @@
         "1775440462": "online",
         "1776831960": "offline",
         "1777342440": "online",
-        "1778466793": "offline"
+        "1778466793": "offline",
+        "1779142340": "online"
       },
       "btx.electrum1.cipig.net:20069": {
         "1764854330": "online"
@@ -1913,7 +1915,8 @@
         "1775440462": "online",
         "1776831960": "offline",
         "1777342440": "online",
-        "1778466793": "offline"
+        "1778466793": "offline",
+        "1779142340": "online"
       },
       "btx-electrumx.coinsmunity.com:50003": {
         "1755770395": "online",
@@ -1921,7 +1924,8 @@
         "1775440462": "online",
         "1776831960": "offline",
         "1777342440": "online",
-        "1778466793": "offline"
+        "1778466793": "offline",
+        "1779142340": "online"
       },
       "btx.electrum1.cipig.net:20069": {
         "1764854330": "online"
@@ -2734,7 +2738,8 @@
         "1770254634": "online",
         "1772144114": "offline",
         "1772587456": "online",
-        "1778552827": "offline"
+        "1778552827": "offline",
+        "1779142340": "online"
       },
       "failover.dgc.ewmcx.biz:50003": {
         "1755770395": "online",
@@ -2746,7 +2751,8 @@
         "1770254634": "online",
         "1772144114": "offline",
         "1772587456": "online",
-        "1778552827": "offline"
+        "1778552827": "offline",
+        "1779142340": "online"
       }
     }
   },
@@ -3317,11 +3323,13 @@
       },
       "big-parrot-60.doi.works:50002": {
         "1755770395": "online",
-        "1766366022": "offline"
+        "1766366022": "offline",
+        "1779142340": "online"
       },
       "big-parrot-60.doi.works:50004": {
         "1755770395": "online",
-        "1766366022": "offline"
+        "1766366022": "offline",
+        "1779142340": "online"
       },
       "itchy-jellyfish-89.doi.works:50002": {
         "1755770395": "online"
@@ -3331,15 +3339,18 @@
       },
       "pink-deer-69.doi.works:50001": {
         "1755770395": "online",
-        "1757307678": "offline"
+        "1757307678": "offline",
+        "1779142340": "online"
       },
       "pink-deer-69.doi.works:50002": {
         "1755770395": "online",
-        "1757307678": "offline"
+        "1757307678": "offline",
+        "1779142340": "online"
       },
       "pink-deer-69.doi.works:50004": {
         "1755770395": "online",
-        "1757307678": "offline"
+        "1757307678": "offline",
+        "1779142340": "online"
       },
       "ugly-bird-70.doi.works:50002": {
         "1755770395": "online",
@@ -3347,7 +3358,8 @@
         "1770600592": "online",
         "1772144114": "offline",
         "1772355424": "online",
-        "1778975577": "offline"
+        "1778975577": "offline",
+        "1779142340": "online"
       },
       "ugly-bird-70.doi.works:50004": {
         "1755770395": "online",
@@ -3355,7 +3367,8 @@
         "1770600592": "online",
         "1772144114": "offline",
         "1772355424": "online",
-        "1778975577": "offline"
+        "1778975577": "offline",
+        "1779142340": "online"
       }
     }
   },
@@ -6079,6 +6092,15 @@
       "electrum-lcc.cascoin.net:50003": {
         "1755770395": "online"
       },
+      "electrumx.litecoincash.com.br:50001": {
+        "1779142340": "online"
+      },
+      "electrumx.litecoincash.com.br:50002": {
+        "1779142340": "online"
+      },
+      "electrumx.litecoincash.com.br:50003": {
+        "1779142340": "online"
+      },
       "lcc-ex-one.ewmci.online:50001": {
         "1755770395": "online"
       },
@@ -6103,6 +6125,15 @@
       },
       "electrum-lcc.cascoin.net:50003": {
         "1755770395": "online"
+      },
+      "electrumx.litecoincash.com.br:50001": {
+        "1779142340": "online"
+      },
+      "electrumx.litecoincash.com.br:50002": {
+        "1779142340": "online"
+      },
+      "electrumx.litecoincash.com.br:50003": {
+        "1779142340": "online"
       },
       "lcc-ex-one.ewmci.online:50001": {
         "1755770395": "online"
