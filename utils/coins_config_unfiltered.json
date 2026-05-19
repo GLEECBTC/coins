@@ -104,10 +104,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -622,10 +622,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -1179,10 +1179,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -2321,7 +2321,7 @@
         "coinpaprika_id": "arrr-pirate",
         "coingecko_id": "pirate-chain",
         "livecoinwatch_id": "ARRR",
-        "explorer_url": "https://pirate.explorer.dragonhound.info/",
+        "explorer_url": "https://pirate.explorer.dexstats.info/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
         "supported": [],
@@ -3013,10 +3013,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/",
@@ -3740,10 +3740,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -4259,10 +4259,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -5427,10 +5427,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -6849,10 +6849,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -10270,10 +10270,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -10976,10 +10976,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -11467,10 +11467,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -15606,10 +15606,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/",
@@ -15938,10 +15938,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -18914,10 +18914,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -20168,10 +20168,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -20773,10 +20773,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -22973,10 +22973,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -23271,10 +23271,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -24095,10 +24095,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -25414,10 +25414,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -26791,10 +26791,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -29439,10 +29439,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -29783,10 +29783,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -31908,9 +31908,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://1rpc.io/one"
-            },
             {
                 "url": "https://api.harmony.one"
             },
@@ -37426,10 +37423,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -38084,10 +38081,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -38139,10 +38136,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -38552,10 +38549,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -39241,10 +39238,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -40947,10 +40944,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -41350,10 +41347,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -41743,10 +41740,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -41910,10 +41907,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -42357,10 +42354,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -42412,10 +42409,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -43158,10 +43155,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -43213,10 +43210,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -45040,10 +45037,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -46192,10 +46189,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -46917,10 +46914,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -47379,10 +47376,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -48071,10 +48068,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"
@@ -53228,10 +53225,10 @@
                 "ws_url": "wss://avalanche.drpc.org"
             },
             {
-                "url": "https://avax.api.pocket.network"
+                "url": "https://avalanche.rpc.sentio.xyz"
             },
             {
-                "url": "https://rpc.sentio.xyz/avalanche"
+                "url": "https://avax.api.pocket.network"
             }
         ],
         "explorer_block_url": "block/"

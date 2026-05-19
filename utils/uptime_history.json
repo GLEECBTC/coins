@@ -508,6 +508,9 @@
       "https://avalanche.drpc.org": {
         "1770607407": "online"
       },
+      "https://avalanche.rpc.sentio.xyz": {
+        "1779166167": "online"
+      },
       "https://avax.api.pocket.network": {
         "1770607407": "online"
       },
@@ -7953,7 +7956,8 @@
         "1775624465": "offline",
         "1775750563": "online",
         "1775779172": "offline",
-        "1776008736": "online"
+        "1776008736": "online",
+        "1779166167": "offline"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
