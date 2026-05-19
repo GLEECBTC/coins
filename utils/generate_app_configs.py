@@ -397,7 +397,7 @@ class CoinConfig:
                 return "TRXT" if self.is_testnet else "TRX"
             elif self.ticker.endswith("-AVX20"):
                 return "AVAX"
-           elif self.ticker.endswith("-ARB20"):
+            elif self.ticker.endswith("-ARB20"):
                 return "ETH-ARB20"
             elif self.ticker.endswith("-GRC20"):
                 return "GLEEC"
