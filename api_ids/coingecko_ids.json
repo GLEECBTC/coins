@@ -578,6 +578,7 @@
     "USDC-BASE": "usd-coin",
     "USDC-BEP20": "usd-coin",
     "USDC-ERC20": "usd-coin",
+    "USDC-GNO": "usd-coin",
     "USDC-KRC20": "usd-coin",
     "USDC-PLG20": "usd-coin",
     "USDD-ERC20": "usdd",
