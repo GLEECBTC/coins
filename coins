@@ -5176,8 +5176,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 90000,
       "erc20_payment": 150000,
@@ -6170,6 +6168,25 @@
       "erc20_receiver_spend": 85000,
       "erc20_sender_refund": 85000
     }
+  },
+  {
+    "coin": "GBPE-GNO",
+    "name": "gbpe_gno",
+    "fname": "Monerium GBP",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 100,
+    "decimals": 18,
+    "avg_blocktime": 5,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "XDAI",
+        "contract_address": "0x8E34bfEC4f6Eb781f9743D9b4af99CD23F9b7053"
+      }
+    },
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "GBX",
