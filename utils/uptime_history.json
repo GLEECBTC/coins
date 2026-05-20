@@ -54,7 +54,8 @@
         "1768699088": "online",
         "1772219758": "offline",
         "1773700082": "online",
-        "1778552827": "offline"
+        "1778552827": "offline",
+        "1779244822": "online"
       },
       "aby-ex-four.ewmci.online:50012": {
         "1755770395": "online",
@@ -62,7 +63,8 @@
         "1768699088": "online",
         "1772219758": "offline",
         "1773700082": "online",
-        "1778552827": "offline"
+        "1778552827": "offline",
+        "1779244822": "online"
       },
       "aby-ex-four.ewmci.online:50013": {
         "1755770395": "online",
@@ -70,7 +72,8 @@
         "1768699088": "online",
         "1772219758": "offline",
         "1773700082": "online",
-        "1778552827": "offline"
+        "1778552827": "offline",
+        "1779244822": "online"
       },
       "aby-ex-three.ewmci.online:50001": {
         "1755770395": "online",
@@ -2687,15 +2690,18 @@
       },
       "dgc-ex-four.ewmci.online:50001": {
         "1773964971": "online",
-        "1776831960": "offline"
+        "1776831960": "offline",
+        "1779244822": "online"
       },
       "dgc-ex-four.ewmci.online:50002": {
         "1773964971": "online",
-        "1776831960": "offline"
+        "1776831960": "offline",
+        "1779244822": "online"
       },
       "dgc-ex-four.ewmci.online:50003": {
         "1773964971": "online",
-        "1776831960": "offline"
+        "1776831960": "offline",
+        "1779244822": "online"
       },
       "dgc-ex-three.ewmci.online:50001": {
         "1755770395": "online",
@@ -7957,7 +7963,8 @@
         "1775750563": "online",
         "1775779172": "offline",
         "1776008736": "online",
-        "1779166167": "offline"
+        "1779166167": "offline",
+        "1779244822": "online"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -10726,7 +10733,8 @@
         "1771550721": "online",
         "1773700082": "offline",
         "1775959086": "online",
-        "1778552827": "offline"
+        "1778552827": "offline",
+        "1779244822": "online"
       },
       "zet-ex-three.ewmci.online:50012": {
         "1755770395": "offline",
@@ -10741,7 +10749,8 @@
         "1771550721": "online",
         "1773700082": "offline",
         "1775959086": "online",
-        "1778552827": "offline"
+        "1778552827": "offline",
+        "1779244822": "online"
       },
       "zet-ex-three.ewmci.online:50013": {
         "1755770395": "offline",
@@ -10756,7 +10765,8 @@
         "1771550721": "online",
         "1773700082": "offline",
         "1775959086": "online",
-        "1778552827": "offline"
+        "1778552827": "offline",
+        "1779244822": "online"
       }
     }
   },

@@ -902,6 +902,15 @@
         },
         "electrum": [
             {
+                "url": "aby-ex-four.ewmci.online:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "aby-ex-three.ewmci.online:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -10419,6 +10428,15 @@
         },
         "derivation_path": "m/44'/18'",
         "electrum": [
+            {
+                "url": "dgc-ex-four.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
             {
                 "url": "dgc-ex-three.ewmci.online:50002",
                 "protocol": "SSL",
@@ -27198,6 +27216,9 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://1rpc.io/one"
+            },
+            {
                 "url": "https://api.harmony.one"
             },
             {
@@ -41043,7 +41064,17 @@
             "github": "https://github.com/WikiMin3R/ZetacoinE",
             "homepage": "https://zetacoin.io"
         },
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "zet-ex-three.ewmci.online:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "ZIL-BEP20": {
