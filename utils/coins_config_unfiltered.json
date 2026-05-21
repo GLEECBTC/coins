@@ -48011,6 +48011,24 @@
                 "protocol": "TCP"
             },
             {
+                "url": "zet-ex-four.ewmci.online:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "zet-ex-four.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "zet-ex-three.ewmci.online:50011",
                 "protocol": "TCP",
                 "contact": [
