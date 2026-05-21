@@ -54,7 +54,8 @@
         "1768699088": "online",
         "1772219758": "offline",
         "1773700082": "online",
-        "1778552827": "offline"
+        "1778552827": "offline",
+        "1779364565": "online"
       },
       "aby-ex-four.ewmci.online:50012": {
         "1755770395": "online",
@@ -62,7 +63,8 @@
         "1768699088": "online",
         "1772219758": "offline",
         "1773700082": "online",
-        "1778552827": "offline"
+        "1778552827": "offline",
+        "1779364565": "online"
       },
       "aby-ex-four.ewmci.online:50013": {
         "1755770395": "online",
@@ -70,7 +72,8 @@
         "1768699088": "online",
         "1772219758": "offline",
         "1773700082": "online",
-        "1778552827": "offline"
+        "1778552827": "offline",
+        "1779364565": "online"
       },
       "aby-ex-three.ewmci.online:50001": {
         "1755770395": "online",
@@ -507,6 +510,9 @@
       },
       "https://avalanche.drpc.org": {
         "1770607407": "online"
+      },
+      "https://avalanche.rpc.sentio.xyz": {
+        "1779364565": "online"
       },
       "https://avax.api.pocket.network": {
         "1770607407": "online"
@@ -2684,15 +2690,18 @@
       },
       "dgc-ex-four.ewmci.online:50001": {
         "1773964971": "online",
-        "1776831960": "offline"
+        "1776831960": "offline",
+        "1779364565": "online"
       },
       "dgc-ex-four.ewmci.online:50002": {
         "1773964971": "online",
-        "1776831960": "offline"
+        "1776831960": "offline",
+        "1779364565": "online"
       },
       "dgc-ex-four.ewmci.online:50003": {
         "1773964971": "online",
-        "1776831960": "offline"
+        "1776831960": "offline",
+        "1779364565": "online"
       },
       "dgc-ex-three.ewmci.online:50001": {
         "1755770395": "online",
@@ -4694,7 +4703,8 @@
         "1776104716": "offline",
         "1776831960": "online",
         "1777005785": "offline",
-        "1777255662": "online"
+        "1777255662": "online",
+        "1779364565": "offline"
       },
       "https://moonbeam.public.blastapi.io": {
         "1755770395": "online",
@@ -4721,7 +4731,8 @@
         "1777005785": "offline",
         "1777255662": "online",
         "1778294861": "offline",
-        "1778410468": "online"
+        "1778410468": "online",
+        "1779364565": "offline"
       },
       "wss://moonbeam.public.blastapi.io": {
         "1755770395": "online",
@@ -7999,7 +8010,8 @@
         "1778294861": "online"
       },
       "https://rpc.osmosis.zone/": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1779364565": "offline"
       },
       "wss://osmosis-rpc.alpha.komodo.earth/websocket": {
         "1755770395": "online",
@@ -10091,6 +10103,26 @@
       }
     }
   },
+  "XDAI": {
+    "all": {},
+    "by_server": {
+      "https://gnosis-rpc.publicnode.com": {
+        "1779364565": "online"
+      },
+      "https://public-gno-mainnet.fastnode.io": {
+        "1779364565": "online"
+      },
+      "https://rpc.gnosischain.com": {
+        "1779364565": "online"
+      },
+      "wss://gnosis-rpc.publicnode.com": {
+        "1779364565": "online"
+      },
+      "wss://rpc.gnosischain.com/wss": {
+        "1779364565": "online"
+      }
+    }
+  },
   "XEC": {
     "all": {
       "1755770395": "online"
@@ -10281,6 +10313,26 @@
     },
     "by_server": {
       "_metadata": {
+        "electrumx-dex-01.neuraiexplorer.com:50001": {
+          "contact": [
+            {
+              "email": "alarm@neurai.org"
+            },
+            {
+              "discord": "456566604809895947"
+            }
+          ]
+        },
+        "electrumx-dex-01.neuraiexplorer.com:50002": {
+          "contact": [
+            {
+              "email": "alarm@neurai.org"
+            },
+            {
+              "discord": "456566604809895947"
+            }
+          ]
+        },
         "electrumx3.neurai.top:50002": {
           "contact": [
             {
@@ -10293,10 +10345,12 @@
         }
       },
       "electrumx-dex-01.neuraiexplorer.com:50001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1779364565": "offline"
       },
       "electrumx-dex-01.neuraiexplorer.com:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1779364565": "offline"
       },
       "electrumx-dex-02.neuraiexplorer.com:50001": {
         "1755770395": "online"
@@ -10692,7 +10746,8 @@
         "1771248350": "online",
         "1773700082": "offline",
         "1777930797": "online",
-        "1779056917": "offline"
+        "1779056917": "offline",
+        "1779364565": "online"
       },
       "zet-ex-four.ewmci.online:50002": {
         "1755770395": "online",
@@ -10704,7 +10759,8 @@
         "1771248350": "online",
         "1773700082": "offline",
         "1777930797": "online",
-        "1779056917": "offline"
+        "1779056917": "offline",
+        "1779364565": "online"
       },
       "zet-ex-four.ewmci.online:50003": {
         "1755770395": "offline"
@@ -10722,7 +10778,8 @@
         "1771550721": "online",
         "1773700082": "offline",
         "1775959086": "online",
-        "1778552827": "offline"
+        "1778552827": "offline",
+        "1779364565": "online"
       },
       "zet-ex-three.ewmci.online:50012": {
         "1755770395": "offline",
@@ -10737,7 +10794,8 @@
         "1771550721": "online",
         "1773700082": "offline",
         "1775959086": "online",
-        "1778552827": "offline"
+        "1778552827": "offline",
+        "1779364565": "online"
       },
       "zet-ex-three.ewmci.online:50013": {
         "1755770395": "offline",
@@ -10752,7 +10810,8 @@
         "1771550721": "online",
         "1773700082": "offline",
         "1775959086": "online",
-        "1778552827": "offline"
+        "1778552827": "offline",
+        "1779364565": "online"
       }
     }
   },

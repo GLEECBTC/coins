@@ -702,6 +702,15 @@
         },
         "electrum": [
             {
+                "url": "aby-ex-four.ewmci.online:50013",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "elec-seeder-one.artbytecoin.org:50013",
                 "protocol": "WSS",
                 "disable_cert_verification": true
@@ -890,7 +899,7 @@
         "name": "agEUR",
         "coinpaprika_id": "",
         "coingecko_id": "ageur",
-        "livecoinwatch_id": "EUR",
+        "livecoinwatch_id": "AGEUR",
         "explorer_url": "https://snowtrace.io/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -936,7 +945,7 @@
         "name": "agEUR",
         "coinpaprika_id": "ageur-ageur",
         "coingecko_id": "ageur",
-        "livecoinwatch_id": "EUR",
+        "livecoinwatch_id": "AGEUR",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -991,7 +1000,7 @@
         "name": "agEUR",
         "coinpaprika_id": "",
         "coingecko_id": "ageur",
-        "livecoinwatch_id": "EUR",
+        "livecoinwatch_id": "AGEUR",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
@@ -4965,6 +4974,106 @@
             {
                 "url": "https://mainnet.gateway.tenderly.co",
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "BRLA-GNO": {
+        "coin": "BRLA-GNO",
+        "type": "Gnosis",
+        "name": "BRLA Token",
+        "coinpaprika_id": "brla-brla-digital-brla",
+        "coingecko_id": "brla-digital-brla",
+        "livecoinwatch_id": "BRL",
+        "explorer_url": "https://gnosisscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "BRLA Token",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 100,
+        "decimals": 18,
+        "avg_blocktime": 5,
+        "required_confirmations": 5,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "XDAI",
+                "contract_address": "0xFECB3F7c54E2CAAE9dC6Ac9060A822D47E053760"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0xFECB3F7c54E2CAAE9dC6Ac9060A822D47E053760",
+        "parent_coin": "XDAI",
+        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "fallback_swap_contract": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "nodes": [
+            {
+                "url": "https://gnosis-rpc.publicnode.com",
+                "ws_url": "wss://gnosis-rpc.publicnode.com"
+            },
+            {
+                "url": "https://rpc.gnosischain.com",
+                "ws_url": "wss://rpc.gnosischain.com/wss"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "BRLA-PLG20": {
+        "coin": "BRLA-PLG20",
+        "type": "Matic",
+        "name": "BRLA Token",
+        "coinpaprika_id": "brla-brla-digital-brla",
+        "coingecko_id": "brla-digital-brla",
+        "livecoinwatch_id": "BRL",
+        "explorer_url": "https://polygonscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "BRLA Token",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 137,
+        "decimals": 18,
+        "avg_blocktime": 1.8,
+        "required_confirmations": 20,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "MATIC",
+                "contract_address": "0xE6A537a407488807F0bbeb0038B79004f19DDDFb"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0xE6A537a407488807F0bbeb0038B79004f19DDDFb",
+        "parent_coin": "MATIC",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://pol3.cipig.net:18755",
+                "ws_url": "wss://pol3.cipig.net:38755"
+            },
+            {
+                "url": "https://polygon-bor-rpc.publicnode.com",
+                "ws_url": "wss://polygon-bor-rpc.publicnode.com"
+            },
+            {
+                "url": "https://polygon.drpc.org",
+                "ws_url": "wss://polygon.drpc.org"
+            },
+            {
+                "url": "https://polygon.gateway.tenderly.co",
+                "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
         "explorer_block_url": "block/"
@@ -9230,6 +9339,15 @@
         "derivation_path": "m/44'/18'",
         "electrum": [
             {
+                "url": "dgc-ex-four.ewmci.online:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
                 "url": "failover.dgc.ewmcx.biz:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
@@ -11854,6 +11972,52 @@
         ],
         "explorer_block_url": "block/"
     },
+    "EURE-GNO": {
+        "coin": "EURE-GNO",
+        "type": "Gnosis",
+        "name": "Monerium EUR",
+        "coinpaprika_id": "eure-monerium-eur-emoney",
+        "coingecko_id": "monerium-eur-money",
+        "livecoinwatch_id": "EURE",
+        "explorer_url": "https://gnosisscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Monerium EUR",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 100,
+        "decimals": 18,
+        "avg_blocktime": 5,
+        "required_confirmations": 5,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "XDAI",
+                "contract_address": "0x420CA0f9B9b604cE0fd9C18EF134C705e5Fa3430"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x420CA0f9B9b604cE0fd9C18EF134C705e5Fa3430",
+        "parent_coin": "XDAI",
+        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "fallback_swap_contract": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "nodes": [
+            {
+                "url": "https://gnosis-rpc.publicnode.com",
+                "ws_url": "wss://gnosis-rpc.publicnode.com"
+            },
+            {
+                "url": "https://rpc.gnosischain.com",
+                "ws_url": "wss://rpc.gnosischain.com/wss"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "EURE-PLG20": {
         "coin": "EURE-PLG20",
         "type": "Matic",
@@ -11884,8 +12048,6 @@
             }
         },
         "derivation_path": "m/44'/60'",
-        "use_access_list": true,
-        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 90000,
             "erc20_payment": 150000,
@@ -14339,6 +14501,52 @@
         ],
         "explorer_block_url": "block/"
     },
+    "GBPE-GNO": {
+        "coin": "GBPE-GNO",
+        "type": "Gnosis",
+        "name": "Monerium GBP",
+        "coinpaprika_id": "",
+        "coingecko_id": "monerium-gbp-emoney",
+        "livecoinwatch_id": "GBP",
+        "explorer_url": "https://gnosisscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Monerium GBP",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 100,
+        "decimals": 18,
+        "avg_blocktime": 5,
+        "required_confirmations": 5,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "XDAI",
+                "contract_address": "0x8E34bfEC4f6Eb781f9743D9b4af99CD23F9b7053"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x8E34bfEC4f6Eb781f9743D9b4af99CD23F9b7053",
+        "parent_coin": "XDAI",
+        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "fallback_swap_contract": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "nodes": [
+            {
+                "url": "https://gnosis-rpc.publicnode.com",
+                "ws_url": "wss://gnosis-rpc.publicnode.com"
+            },
+            {
+                "url": "https://rpc.gnosischain.com",
+                "ws_url": "wss://rpc.gnosischain.com/wss"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "GBX-BEP20": {
         "coin": "GBX-BEP20",
         "type": "BEP-20",
@@ -14925,6 +15133,52 @@
             {
                 "url": "https://mainnet.gateway.tenderly.co",
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "GNO-GNO": {
+        "coin": "GNO-GNO",
+        "type": "Gnosis",
+        "name": "Gnosis",
+        "coinpaprika_id": "gno-gnosis",
+        "coingecko_id": "gnosis",
+        "livecoinwatch_id": "GNO",
+        "explorer_url": "https://gnosisscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Gnosis",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 100,
+        "decimals": 18,
+        "avg_blocktime": 5,
+        "required_confirmations": 5,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "XDAI",
+                "contract_address": "0x9C58BAcC331c9aa871AFD802DB6379a98e80CEdb"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x9C58BAcC331c9aa871AFD802DB6379a98e80CEdb",
+        "parent_coin": "XDAI",
+        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "fallback_swap_contract": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "nodes": [
+            {
+                "url": "https://gnosis-rpc.publicnode.com",
+                "ws_url": "wss://gnosis-rpc.publicnode.com"
+            },
+            {
+                "url": "https://rpc.gnosischain.com",
+                "ws_url": "wss://rpc.gnosischain.com/wss"
             }
         ],
         "explorer_block_url": "block/"
@@ -23157,10 +23411,6 @@
             {
                 "url": "https://moonbeam-rpc.publicnode.com",
                 "ws_url": "wss://moonbeam-rpc.publicnode.com"
-            },
-            {
-                "url": "https://moonbeam.drpc.org",
-                "ws_url": "wss://moonbeam.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonbeam.network",
@@ -32392,6 +32642,52 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "USDC-GNO": {
+        "coin": "USDC-GNO",
+        "type": "Gnosis",
+        "name": "USD Coin",
+        "coinpaprika_id": "usdc-usd-coin",
+        "coingecko_id": "usd-coin",
+        "livecoinwatch_id": "USDC",
+        "explorer_url": "https://gnosisscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "USD Coin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 100,
+        "decimals": 6,
+        "avg_blocktime": 5,
+        "required_confirmations": 5,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "XDAI",
+                "contract_address": "0x2a22f9c3b484c3629090FeED35F17Ff8F88f76F0"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x2a22f9c3b484c3629090FeED35F17Ff8F88f76F0",
+        "parent_coin": "XDAI",
+        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "fallback_swap_contract": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "nodes": [
+            {
+                "url": "https://gnosis-rpc.publicnode.com",
+                "ws_url": "wss://gnosis-rpc.publicnode.com"
+            },
+            {
+                "url": "https://rpc.gnosischain.com",
+                "ws_url": "wss://rpc.gnosischain.com/wss"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "USDC-PLG20": {
         "coin": "USDC-PLG20",
         "type": "Matic",
@@ -32422,8 +32718,6 @@
             }
         },
         "derivation_path": "m/44'/60'",
-        "use_access_list": true,
-        "max_eth_tx_type": 2,
         "gas_limit": {
             "eth_send_erc20": 55000,
             "erc20_payment": 110000,
@@ -34521,6 +34815,53 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "XDAI": {
+        "coin": "XDAI",
+        "type": "Gnosis",
+        "name": "XDAI",
+        "coinpaprika_id": "dpos-xdai",
+        "coingecko_id": "xdai",
+        "livecoinwatch_id": "XDAI",
+        "explorer_url": "https://gnosisscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "XDAI",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 100,
+        "required_confirmations": 5,
+        "avg_blocktime": 5,
+        "protocol": {
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 100
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "max_eth_tx_type": 2,
+        "swap_gas_fee_policy": "Medium",
+        "links": {
+            "homepage": "https://www.gnosis.io"
+        },
+        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "fallback_swap_contract": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "nodes": [
+            {
+                "url": "https://gnosis-rpc.publicnode.com",
+                "ws_url": "wss://gnosis-rpc.publicnode.com"
+            },
+            {
+                "url": "https://rpc.gnosischain.com",
+                "ws_url": "wss://rpc.gnosischain.com/wss"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "XEP-BEP20": {
         "coin": "XEP-BEP20",
         "type": "BEP-20",
@@ -34891,18 +35232,6 @@
             "homepage": "https://neurai.org"
         },
         "electrum": [
-            {
-                "url": "electrumx-dex-01.neuraiexplorer.com:50002",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "alarm@neurai.org"
-                    },
-                    {
-                        "discord": "456566604809895947"
-                    }
-                ]
-            },
             {
                 "url": "electrumx-dex-02.neuraiexplorer.com:50002",
                 "protocol": "WSS",
@@ -36157,6 +36486,52 @@
         ],
         "explorer_block_url": "block/"
     },
+    "ZCHF-GNO": {
+        "coin": "ZCHF-GNO",
+        "type": "Gnosis",
+        "name": "Frankencoin",
+        "coinpaprika_id": "zchf-frankencoin",
+        "coingecko_id": "frankencoin",
+        "livecoinwatch_id": "ZCHF",
+        "explorer_url": "https://gnosisscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Frankencoin",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 100,
+        "decimals": 18,
+        "avg_blocktime": 5,
+        "required_confirmations": 5,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "XDAI",
+                "contract_address": "0xD4dD9e2F021BB459D5A5f6c24C12fE09c5D45553"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0xD4dD9e2F021BB459D5A5f6c24C12fE09c5D45553",
+        "parent_coin": "XDAI",
+        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "fallback_swap_contract": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "nodes": [
+            {
+                "url": "https://gnosis-rpc.publicnode.com",
+                "ws_url": "wss://gnosis-rpc.publicnode.com"
+            },
+            {
+                "url": "https://rpc.gnosischain.com",
+                "ws_url": "wss://rpc.gnosischain.com/wss"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "ZCHF-PLG20": {
         "coin": "ZCHF-PLG20",
         "type": "Matic",
@@ -36422,6 +36797,55 @@
         ],
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
+    },
+    "ZET": {
+        "coin": "ZET",
+        "type": "UTXO",
+        "name": "Zetacoin",
+        "coinpaprika_id": "zet-zetacoin",
+        "coingecko_id": "zetacoin",
+        "livecoinwatch_id": "ZET",
+        "explorer_url": "https://chainz.cryptoid.info/zet/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Zetacoin Signed Message:\n",
+        "fname": "Zetacoin",
+        "isPoS": 1,
+        "rpcport": 22014,
+        "pubtype": 20,
+        "p2shtype": 85,
+        "wiftype": 153,
+        "txfee": 100000,
+        "dust": 100000,
+        "mm2": 1,
+        "mature_confirmations": 500,
+        "required_confirmations": 7,
+        "avg_blocktime": 45,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/719'",
+        "links": {
+            "github": "https://github.com/WikiMin3R/ZetacoinE",
+            "homepage": "https://zetacoin.io"
+        },
+        "electrum": [
+            {
+                "url": "zet-ex-three.ewmci.online:50013",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
     },
     "ZIL-BEP20": {
         "coin": "ZIL-BEP20",
@@ -39180,9 +39604,6 @@
             },
             {
                 "url": "https://rpc.cosmos.directory/osmosis"
-            },
-            {
-                "url": "https://rpc.osmosis.zone/"
             }
         ],
         "explorer_block_url": "block/",
