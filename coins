@@ -2276,6 +2276,44 @@
     }
   },
   {
+    "coin": "BRLA-GNO",
+    "name": "brla_gno",
+    "fname": "BRLA Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 100,
+    "decimals": 18,
+    "avg_blocktime": 5,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "XDAI",
+        "contract_address": "0xFECB3F7c54E2CAAE9dC6Ac9060A822D47E053760"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "BRLA-PLG20",
+    "name": "brla_plg20",
+    "fname": "BRLA Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xE6A537a407488807F0bbeb0038B79004f19DDDFb"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+  },
+  {
     "coin": "BRZ-BEP20",
     "name": "brz_bep20",
     "fname": "Brazilian Digital Token",
