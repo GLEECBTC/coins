@@ -1898,5 +1898,17 @@
   "btgs.png": {
     "original": "daeb4288222dffa2e5a6e6934bbe83b52a0c8a9546d92d26b35aa27660ad745a",
     "processed": "69ffaf4ab58a4acd3e55568f4632ee7dab5575547b87c7bf2a0b8bca9348a359"
+  },
+  "brla.png": {
+    "original": "2d8172dd8f0c1ffbd404ea1aeda81c7171450eacb21b001c1347d0843c3d06df",
+    "processed": "c095d3e3a00041d0f0dbf78a406dc2bb01366cf773d1bad3d3892d845fd566f2"
+  },
+  "xdai.png": {
+    "original": "8089e058eaf02969380e39b198039f29f8487f6dadaeb31634732f0363afd3a3",
+    "processed": "f7858daf005115fdf36e12f7d763d2f7b0ebc88fac968ece1c436425bd06ec71"
+  },
+  "gbpe.png": {
+    "original": "c3ee62b5ce40ae95b2185e321d473d11f3d8f4612a0d6f2426ac631dabc79a65",
+    "processed": "5f311ac7054478858fa4685c90c01f6fa6e6da38efdf5809a53766c6f3830375"
   }
 }
