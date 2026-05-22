@@ -2276,6 +2276,44 @@
     }
   },
   {
+    "coin": "BRLA-GNO",
+    "name": "brla_gno",
+    "fname": "BRLA Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 100,
+    "decimals": 18,
+    "avg_blocktime": 5,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "XDAI",
+        "contract_address": "0xFECB3F7c54E2CAAE9dC6Ac9060A822D47E053760"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "BRLA-PLG20",
+    "name": "brla_plg20",
+    "fname": "BRLA Token",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 137,
+    "decimals": 18,
+    "avg_blocktime": 1.8,
+    "required_confirmations": 20,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "MATIC",
+        "contract_address": "0xE6A537a407488807F0bbeb0038B79004f19DDDFb"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "BRZ-BEP20",
     "name": "brz_bep20",
     "fname": "Brazilian Digital Token",
@@ -5140,6 +5178,25 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "EURE-GNO",
+    "name": "eure_gno",
+    "fname": "Monerium EUR",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 100,
+    "decimals": 18,
+    "avg_blocktime": 5,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "XDAI",
+        "contract_address": "0x420CA0f9B9b604cE0fd9C18EF134C705e5Fa3430"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "EURE-PLG20",
     "name": "eure_plg20",
     "fname": "Monerium EUR",
@@ -5157,8 +5214,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 90000,
       "erc20_payment": 150000,
@@ -6153,6 +6208,25 @@
     }
   },
   {
+    "coin": "GBPE-GNO",
+    "name": "gbpe_gno",
+    "fname": "Monerium GBP",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 100,
+    "decimals": 18,
+    "avg_blocktime": 5,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "XDAI",
+        "contract_address": "0x8E34bfEC4f6Eb781f9743D9b4af99CD23F9b7053"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "GBX",
     "name": "gobyte",
     "fname": "GoByte",
@@ -6500,6 +6574,25 @@
     "links": {
       "homepage": "https://gnosis.pm"
     }
+  },
+  {
+    "coin": "GNO-GNO",
+    "name": "gno_gno",
+    "fname": "Gnosis",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 100,
+    "decimals": 18,
+    "avg_blocktime": 5,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "XDAI",
+        "contract_address": "0x9C58BAcC331c9aa871AFD802DB6379a98e80CEdb"
+      }
+    },
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "GNO-PLG20",
@@ -13979,6 +14072,25 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "USDC-GNO",
+    "name": "usdc_gno",
+    "fname": "USD Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 100,
+    "decimals": 6,
+    "avg_blocktime": 5,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "XDAI",
+        "contract_address": "0x2a22f9c3b484c3629090FeED35F17Ff8F88f76F0"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "USDC-PLG20",
     "name": "usdc_plg20",
     "fname": "USD Coin",
@@ -13996,8 +14108,6 @@
       }
     },
     "derivation_path": "m/44'/60'",
-    "use_access_list": true,
-    "max_eth_tx_type": 2,
     "gas_limit": {
       "eth_send_erc20": 55000,
       "erc20_payment": 110000,
@@ -14843,6 +14953,28 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "XDAI",
+    "name": "xdai",
+    "fname": "XDAI",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 100,
+    "required_confirmations": 5,
+    "avg_blocktime": 5,
+    "protocol": {
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 100
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "max_eth_tx_type": 2,
+    "swap_gas_fee_policy": "Medium",
+    "links": {
+      "homepage": "https://www.gnosis.io"
+    }
+  },
+  {
     "coin": "XEP-segwit",
     "name": "xep",
     "fname": "Electra Protocol",
@@ -15581,6 +15713,25 @@
     "links": {
       "homepage": "https://www.frankencoin.com"
     }
+  },
+  {
+    "coin": "ZCHF-GNO",
+    "name": "zchf_gno",
+    "fname": "Frankencoin",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 100,
+    "decimals": 18,
+    "avg_blocktime": 5,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "XDAI",
+        "contract_address": "0xD4dD9e2F021BB459D5A5f6c24C12fE09c5D45553"
+      }
+    },
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "ZCHF-PLG20",
