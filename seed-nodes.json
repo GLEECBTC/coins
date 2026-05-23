@@ -4,7 +4,7 @@
         "host": "seed01.kmdefi.net",
         "type": "domain",
         "wss": true,
-        "netid": 8762,
+        "netid": 6133,
         "contact": [
             {
                 "email": ""
@@ -28,7 +28,7 @@
         "host": "seed03.kmdefi.net",
         "type": "domain",
         "wss": true,
-        "netid": 8762,
+        "netid": 6133,
         "contact": [
             {
                 "email": ""
@@ -48,47 +48,47 @@
         ]
     },
     {
-        "name": "balerion-dragon-seed",
-        "host": "balerion.dragon-seed.com",
-        "type": "domain",
-        "wss": true,
-        "netid": 8762,
-        "contact": [
-            {
-                "email": ""
-            }
-        ]
-    },
-    {
-        "name": "drogon-dragon-seed",
-        "host": "drogon.dragon-seed.com",
-        "type": "domain",
-        "wss": true,
-        "netid": 8762,
-        "contact": [
-            {
-                "email": ""
-            }
-        ]
-    },
-    {
-        "name": "mercor-dragon-seed",
-        "host": "mercor.dragon-seed.com",
-        "type": "domain",
-        "wss": true,
-        "netid": 8762,
-        "contact": [
-            {
-                "email": ""
-            }
-        ]
-    },
-    {
         "name": "sintara-dragon-seed",
         "host": "sintara.dragon-seed.com",
         "type": "domain",
-        "wss": true,
+        "wss": false,
         "netid": 8762,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
+    },
+    {
+        "name": "seed-decker-1",
+        "host": "kdfseed1.decker.im",
+        "type": "domain",
+        "wss": true,
+        "netid": 6133,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
+    },
+    {
+        "name": "seed-gleec-1",
+        "host": "staking1.gleec.com",
+        "type": "domain",
+        "wss": true,
+        "netid": 6133,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
+    },
+    {
+        "name": "seed-gleec-2",
+        "host": "staking2.gleec.com",
+        "type": "domain",
+        "wss": true,
+        "netid": 6133,
         "contact": [
             {
                 "email": ""

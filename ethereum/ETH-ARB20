@@ -10,10 +10,10 @@
             "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
         },
         {
-            "url": "https://arbitrum.drpc.org"
+            "url": "https://arbitrum-one.rpc.sentio.xyz"
         },
         {
-            "url": "https://arb1.lava.build"
+            "url": "https://public-arb-mainnet.fastnode.io"
         }
     ]
 }

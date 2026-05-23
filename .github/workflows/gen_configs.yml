@@ -10,12 +10,22 @@ on:
   schedule:
     - cron:  '0 0 * * *'
   workflow_dispatch:
+    inputs:
+      target_branch:
+        description: Branch to run against and target for PR
+        required: true
+        default: master
+        type: string
 
 jobs:
   update_configs:
     runs-on: ubuntu-22.04
+    env:
+      TARGET_BRANCH: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.target_branch || github.ref_name }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TARGET_BRANCH }}
 
       - name: Install cargo
         shell: bash
@@ -56,11 +66,12 @@ jobs:
           commit-message: Update coins json file
           committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
           author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
-          branch: json-config-update
+          base: ${{ env.TARGET_BRANCH }}
+          branch: config-generate/${{ env.TARGET_BRANCH }}
           delete-branch: true
-          title: '[BOT] Update coins config json'
+          title: "[BOT] Update coins config json for ${{ env.TARGET_BRANCH }}"
           body: |
-            - Coins JSON config auto-generated on merge to master
+            - Coins JSON config auto-generated from `${{ env.TARGET_BRANCH }}`
             - Electrum scan report updated
             - Icon spritemap updated
           labels: |

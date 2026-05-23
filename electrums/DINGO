@@ -43,5 +43,110 @@
     "contact": [
       { "discord": "405102339612082177" }
     ]
+  },
+  {
+    "url": "seed1.dingocoin.com:3342",
+    "ws_url": "seed1.dingocoin.com:3341",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "115619332448321541" }
+    ]
+  },
+  {
+    "url": "seed1.dingocoin.com:3339",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "115619332448321541" }
+    ]
+  },
+  {
+    "url": "seed2.dingocoin.com:3342",
+    "ws_url": "seed2.dingocoin.com:3341",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "115619332448321541" }
+    ]
+  },
+  {
+    "url": "seed2.dingocoin.com:3339",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "115619332448321541" }
+    ]
+  },
+  {
+    "url": "seed3.dingocoin.com:3342",
+    "ws_url": "seed3.dingocoin.com:3341",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "115619332448321541" }
+    ]
+  },
+  {
+    "url": "seed3.dingocoin.com:3339",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "115619332448321541" }
+    ]
+  },
+  {
+    "url": "seed4.dingocoin.com:3342",
+    "ws_url": "seed4.dingocoin.com:3341",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "115619332448321541" }
+    ]
+  },
+  {
+    "url": "seed4.dingocoin.com:3339",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "115619332448321541" }
+    ]
+  },
+  {
+    "url": "seed5.dingocoin.com:3342",
+    "ws_url": "seed5.dingocoin.com:3341",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "115619332448321541" }
+    ]
+  },
+  {
+    "url": "seed5.dingocoin.com:3339",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "115619332448321541" }
+    ]
+  },
+  {
+    "url": "elecx.kmsoftware.org:3342",
+    "ws_url": "elecx.kmsoftware.org:3341",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "115619332448321541" }
+    ]
+  },
+  {
+    "url": "elecx.kmsoftware.org:3339",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "115619332448321541" }
+    ]
+  },
+  {
+    "url": "elecx2.kmsoftware.org:3342",
+    "ws_url": "elecx2.kmsoftware.org:3341",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "115619332448321541" }
+    ]
+  },
+  {
+    "url": "elecx2.kmsoftware.org:3339",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "115619332448321541" }
+    ]
   }
 ]

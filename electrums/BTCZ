@@ -1,39 +1,32 @@
 [
     {
-        "url": "electrum2.btcz.rocks:50001",
+        "url": "electrum1.btcz.rocks:50002",
+        "protocol": "SSL",
         "contact": [
             {
-                "discord": "VandarGR#6065"
-            }
-        ],
-        "ws_url": "electrum2.btcz.rocks:50004"
-    },
-    {
-        "url": "electrum1.btcz.rocks:50001",
-        "contact": [
-            {
-                "discord": "VandarGR#6065"
+                "discord": "517255090633965586"
             }
         ],
         "ws_url": "electrum1.btcz.rocks:50004"
     },
     {
-        "url": "electrum3.btcz.rocks:50001",
+        "url": "electrum2.btcz.rocks:50002",
+        "protocol": "SSL",
         "contact": [
             {
-                "discord": "426842722436120577"
+                "discord": "517255090633965586"
             }
         ],
-        "ws_url": "electrum3.btcz.rocks:50004"
+        "ws_url": "electrum2.btcz.rocks:50004"
     },
     {
-        "url": "electrum5.btcz.rocks:50002",
+        "url": "electrum3.btcz.rocks:50002",
         "protocol": "SSL",
         "contact": [
             {
                 "discord": "426842722436120577"
             }
         ],
-        "ws_url": "electrum5.btcz.rocks:50004"
+        "ws_url": "electrum3.btcz.rocks:50004"
     }
 ]

@@ -145,6 +145,7 @@ class CoinConfig:
         self.ticker = self.coin_data["coin"].replace("-TEST", "")
         self.base_ticker = self.ticker.split("-")[0]
         self.protocols = {
+            "GLEEC": "GRC-20",
             "AVAX": "AVX-20",
             "BNB": "BEP-20",
             "ETC": "Ethereum Classic",
@@ -160,19 +161,21 @@ class CoinConfig:
             "QTUM": "QRC-20",
             "RBTC": "RSK Smart Bitcoin",
             "SBCH": "SmartBCH",
+            "TRX": "TRX",
+            "XDAI": "Gnosis",
             "ATOM": "TENDERMINT",
             "OSMO": "TENDERMINT",
             "IRIS": "TENDERMINT",
-            "UBQ": "Ubiq",
         }
         self.testnet_protocols = {
+            "GLEECT": "GRC-20",
             "AVAXT": "AVX-20",
             "BNBT": "BEP-20",
             "tQTUM": "QRC-20",
             "IRISTEST": "TENDERMINT",
             "NUCLEUSTEST": "TENDERMINT",
             "POLTEST": "Polygon",
-            "UBQ": "Ubiq",
+            "TRXT": "TRX",
         }
         self.coin_type = coin_data["protocol"]["type"]
         self.data.update(
@@ -258,11 +261,14 @@ class CoinConfig:
 
             elif "platform" in protocol_data:
                 # TODO: ERC-like things
-                platform = protocol_data["platform"]
-                if self.is_testnet:
-                    coin_type = self.testnet_protocols[platform]
+                if self.coin_data["protocol"]["type"] == "TRC20":
+                    coin_type = "TRC-20"
                 else:
-                    coin_type = self.protocols[platform]
+                    platform = protocol_data["platform"]
+                    if self.is_testnet:
+                        coin_type = self.testnet_protocols[platform]
+                    else:
+                        coin_type = self.protocols[platform]
                 self.data[self.ticker].update({"type": coin_type})
                 if "contract_address" in protocol_data:
                     self.data[self.ticker].update(
@@ -276,7 +282,7 @@ class CoinConfig:
             if self.parent_coin != self.ticker:
                 self.data[self.ticker].update({"parent_coin": self.parent_coin})
 
-        if self.coin_data["protocol"]["type"] in ["ETH", "QTUM"]:
+        if self.coin_data["protocol"]["type"] in ["ETH", "QTUM", "TRX"]:
             if self.ticker in self.protocols:
                 coin_type = self.protocols[self.ticker]
             elif self.ticker in self.testnet_protocols:
@@ -348,7 +354,7 @@ class CoinConfig:
             )
 
     def get_rewards_info(self):
-        if self.ticker in ["KMD"]:
+        if self.ticker in ["KMD", "KMDCL"]:
             self.data[self.ticker].update(
                 {"is_claimable": True, "minimal_claim_amount": "10"}
             )
@@ -379,7 +385,7 @@ class CoinConfig:
         For token coins, this returns the parent chain coin.
         """
         # For token coins, we need to check parent chain status
-        if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-PLG20", "-AVX20")):
+        if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-ARB20", "-AVX20", "-GRC20", "-TRC20")):
             if self.ticker.endswith("-QRC20"):
                 return "tQTUM" if self.is_testnet else "QTUM"
             elif self.ticker.endswith("-ERC20"):
@@ -388,8 +394,18 @@ class CoinConfig:
                 return "BNB"
             elif self.ticker.endswith("-PLG20"):
                 return "MATIC"
+            elif self.ticker.endswith("-TRC20"):
+                return "TRXT" if self.is_testnet else "TRX"
             elif self.ticker.endswith("-AVX20"):
                 return "AVAX"
+            elif self.ticker.endswith("-ARB20"):
+                return "ETH-ARB20"
+            elif self.ticker.endswith("-GRC20"):
+                return "GLEEC"
+            elif self.ticker.endswith("-BASE"):
+                return "ETH-BASE"
+            elif self.ticker.endswith("-GNO"):
+                return "XDAI"
         
         # For electrum coins, use the actual coin name (with segwit handling)
         coin = self.ticker.replace("-segwit", "")
@@ -406,6 +422,11 @@ class CoinConfig:
         token_type = self.data[self.ticker]["type"]
         if self.ticker == "RBTC":
             return "RSK"
+
+        if self.coin_type == "TRC20":
+            protocol_data = self.coin_data["protocol"].get("protocol_data", {})
+            if "platform" in protocol_data:
+                return protocol_data["platform"]
 
         if self.coin_type in ["TENDERMINTTOKEN", "TENDERMINT"]:
             for i in ["IRISTEST", "NUCLEUSTEST"]:
@@ -578,7 +599,7 @@ class CoinConfig:
                 
                 if scan_coin in electrum_scan_report:
                     # If parent chain is working, inherit all configured nodes for token
-                    if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-PLG20", "-AVX20")):
+                    if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-ARB20", "-AVX20", "-GRC20", "-TRC20")):
                         # For token coins, check if parent chain has working nodes
                         parent_has_working_nodes = False
                         for protocol in ["ssl", "wss", "tcp"]:
@@ -927,7 +948,7 @@ def filter_wss(coins_config):
 
 def generate_binance_api_ids(coins_config):
     kdf_coins = coins_config.keys()
-    r = requests.get("https://defi-stats.komodo.earth/api/v3/binance/ticker_price")
+    r = requests.get("https://defistats.gleec.com/api/v3/binance/ticker_price")
     binance_tickers = r.json()
     pairs = []
     for ticker in binance_tickers:
@@ -988,10 +1009,10 @@ def normalize_coin_name(name):
     suffixes_to_remove = [
         # Dash-separated suffixes
         '-bep20', '-erc20', '-plg20', '-avx20', '-krc20', '-hrc20', 
-        '-qrc20', '-arb20', '-test', '-testnet',
+        '-qrc20', '-arb20', '-test', '-testnet', '-grc20',
         # Underscore-separated suffixes  
         '_bep20', '_erc20', '_plg20', '_avx20', '_krc20', '_hrc20',
-        '_qrc20', '_arb20', '_test', '_testnet'
+        '_qrc20', '_arb20', '_test', '_testnet', '_grc20',
     ]
     
     for suffix in suffixes_to_remove:

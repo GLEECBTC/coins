@@ -3,6 +3,7 @@ import requests
 import json
 
 supported_networks = {
+    "GRC20": 11169,
     "BEP20": 56,
     "ERC20": 1,
     "PLG20": 137,
@@ -14,6 +15,7 @@ supported_networks = {
 }
 
 supported_platforms = {
+    "GLEEC": 11169,
     "BNB": 56,
     "ERC20": 1,
     "POL": 137,

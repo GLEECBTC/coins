@@ -336,6 +336,31 @@ class EthereumServer:
             return {"error": str(e)}
 
 
+class TronServer:
+    __slots__ = ("coin", "url", "result", "blockheight", "last_connection", "cert_info")
+
+    def __init__(self, coin, url):
+        self.coin = coin
+        self.url = url
+        self.result = None
+        self.blockheight = -1
+        self.last_connection = -1
+        self.cert_info = None
+
+    def http_rpc(self):
+        """Query Tron full-node HTTP API via /wallet/getnowblock"""
+        try:
+            endpoint = f"{self.url.rstrip('/')}/wallet/getnowblock"
+            headers = get_komodo_auth_headers(self.url)
+            response = requests.post(endpoint, json={}, headers=headers, timeout=10)
+            if response.status_code == 200:
+                return response.json()
+            else:
+                return {"error": f"HTTP {response.status_code}"}
+        except Exception as e:
+            return {"error": str(e)}
+
+
 class scan_thread(threading.Thread):
     def __init__(self, coin, url, port=None, method=None, params=None, protocol='tcp', node_type='electrum', ws_url=None, api_url=None):
         threading.Thread.__init__(self)
@@ -367,6 +392,9 @@ class scan_thread(threading.Thread):
                 thread_ethereum(self.coin, self.url)
             elif self.protocol == "wss":
                 thread_ethereum_wss(self.coin, self.url, self.ws_url)
+        elif self.node_type == 'tron':
+            if self.protocol == "http":
+                thread_tron(self.coin, self.url)
 
 
 def thread_electrum_wss(coin, url, port, method, params):
@@ -579,6 +607,49 @@ def parse_ethereum_response(eth_obj, resp):
     return eth_obj
 
 
+def parse_tron_response(tron_obj, resp):
+    """Parse Tron /wallet/getnowblock response"""
+    try:
+        if isinstance(resp, dict) and "error" in resp:
+            tron_obj.result = resp["error"]
+        elif isinstance(resp, dict) and "block_header" in resp:
+            block_num = resp["block_header"]["raw_data"]["number"]
+            tron_obj.blockheight = int(block_num)
+            tron_obj.last_connection = int(time.time())
+            tron_obj.result = "Passed"
+        else:
+            tron_obj.result = f"Unexpected response: {str(resp)[:200]}"
+    except Exception as e:
+        tron_obj.result = f"Parse error: {e}"
+        logger.error(f"[TRON] Error parsing {tron_obj.coin} {tron_obj.url} | Response: {str(resp)[:200]} | Error: {e}")
+    return tron_obj
+
+
+def thread_tron(coin, url):
+    """Thread function for scanning Tron HTTP RPC"""
+    x = TronServer(coin, url)
+    resp = x.http_rpc()
+    el = parse_tron_response(x, resp)
+
+    cert_days = None
+    cert_error = None
+    if url.startswith('https://'):
+        cert_info = check_ssl_certificate_expiry(url)
+        cert_days = cert_info.get("days_until_expiry") if isinstance(cert_info, dict) else None
+        cert_error = cert_info.get("error") if isinstance(cert_info, dict) and "error" in cert_info else None
+
+    if el.blockheight > 0:
+        if coin not in passed_ethereum:
+            passed_ethereum.update({coin: {}})
+        passed_ethereum[coin][url] = {"cert_days": cert_days, "cert_error": cert_error}
+        logger.calc(f"[TRON] {coin} {url} OK! Height: {el.blockheight}, SSL expires in {cert_days} days" if cert_days else f"[TRON] {coin} {url} OK! Height: {el.blockheight}")
+    else:
+        if coin not in failed_ethereum:
+            failed_ethereum.update({coin: {}})
+        failed_ethereum[coin].update({url: {"result": el.result, "cert_days": cert_days, "cert_error": cert_error}})
+        logger.warning(f"[TRON] {coin} {url} Failed! {el.result}")
+
+
 def parse_response(el_obj, resp):
     try:
         # Short form for known error responses
@@ -726,7 +797,8 @@ def scan_tendermint(tendermint_dict):
 
 
 def scan_ethereum(ethereum_dict):
-    """Scan Ethereum RPC nodes"""
+    """Scan Ethereum and Tron RPC nodes"""
+    tron_coins = get_tron_coins()
     thread_list = []
     protocol_lists = {
         "http": [],
@@ -734,6 +806,7 @@ def scan_ethereum(ethereum_dict):
     }
 
     for coin in ethereum_dict:
+        ntype = 'tron' if coin in tron_coins else 'ethereum'
         if "rpc_nodes" in ethereum_dict[coin]:
             for node in ethereum_dict[coin]["rpc_nodes"]:
                 if "url" in node:
@@ -743,7 +816,7 @@ def scan_ethereum(ethereum_dict):
                             coin,
                             node["url"],
                             protocol="http",
-                            node_type='ethereum'
+                            node_type=ntype
                         )
                     )
                 
@@ -803,6 +876,18 @@ def get_repo_tendermint():
             print(f"{coin} tendermint config failed to parse, exiting.")
             sys.exit(1)
     return repo_tendermint
+
+
+def get_tron_coins():
+    """Get set of coins that use Tron protocol (TRX/TRC20) from the coins file."""
+    tron = set()
+    coins_file = f"{repo_path}/coins"
+    if os.path.exists(coins_file):
+        with open(coins_file, "r") as f:
+            for item in json.load(f):
+                if item.get("protocol", {}).get("type") in ("TRX", "TRC20"):
+                    tron.add(item["coin"])
+    return tron
 
 
 def get_repo_ethereum():

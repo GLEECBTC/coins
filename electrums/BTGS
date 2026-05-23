@@ -1,0 +1,26 @@
+[
+  {
+    "url": "electrum.btgscoin.site:50002",
+    "protocol": "SSL"
+  },
+  {
+    "url": "electrum.btgscoin.site:50001",
+    "protocol": "TCP"
+  },
+  {
+    "url": "electrum.btgscoin.site:50005",
+    "protocol": "WSS"
+  },
+  {
+    "url": "electrum.bitcoingold.site:50002",
+    "protocol": "SSL"
+  },
+  {
+    "url": "electrum.bitcoingold.site:50001",
+    "protocol": "TCP"
+  },
+  {
+    "url": "electrum.bitcoingold.site:50005",
+    "protocol": "WSS"
+  }
+]

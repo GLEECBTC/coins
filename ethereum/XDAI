@@ -1,0 +1,17 @@
+{
+    "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+    "fallback_swap_contract": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+    "rpc_nodes": [
+        {
+            "url": "https://public-gno-mainnet.fastnode.io"
+        },
+        {
+            "url": "https://rpc.gnosischain.com",
+            "ws_url": "wss://rpc.gnosischain.com/wss"
+        },
+        {
+            "url": "https://gnosis-rpc.publicnode.com",
+            "ws_url": "wss://gnosis-rpc.publicnode.com"
+        }
+    ]
+}

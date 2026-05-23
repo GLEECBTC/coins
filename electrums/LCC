@@ -15,8 +15,19 @@
     ]
   },
   {
-    "url": "188.166.117.139:50001",
-    "protocol": "TCP"
+    "url": "electrumx.litecoincash.com.br:50002",
+    "ws_url": "electrumx.litecoincash.com.br:50003",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "808803920818208801" }
+    ]
+  },
+  {
+    "url": "electrumx.litecoincash.com.br:50001",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "808803920818208801" }
+    ]
   },
   {
     "url": "electrum-lcc.cascoin.net:50002",

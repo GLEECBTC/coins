@@ -1,0 +1,13 @@
+{
+  "rpc_nodes": [
+    {
+      "url": "https://public-trx-mainnet.fastnode.io"
+    },
+    {
+      "url": "https://api.trongrid.io"
+    },
+    {
+      "url": "https://tron-rpc.publicnode.com"
+    }
+  ]
+}

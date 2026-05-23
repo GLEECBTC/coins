@@ -39,6 +39,8 @@ for i in coins:
                         proto = "ERC20"
                     elif proto == "BNB":
                         proto = "BEP20"
+                    elif proto == "GLEEC":
+                        proto = "GRC20"
                     elif proto == "QTUM":
                         proto = "QRC20"
                     if proto in paths.keys():
@@ -64,6 +66,8 @@ for i in coins:
                     proto = "ERC20"
                 elif proto == "BNB":
                     proto = "BEP20"
+                elif proto == "GLEEC":
+                    proto = "GRC20"
                 elif proto == "QTUM":
                     proto = "QRC20"
                 if proto in paths.keys():

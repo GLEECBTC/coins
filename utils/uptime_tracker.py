@@ -34,7 +34,7 @@ class UptimeTracker:
         self.OFFLINE_REMOVAL_THRESHOLD = 30 * 24 * 60 * 60  # 30 days (1 month)
         
         # Token suffixes to exclude from uptime tracking (they inherit parent chain status)
-        self.EXCLUDED_TOKEN_SUFFIXES = ["-QRC20", "-ERC20", "-BEP20", "-PLG20", "-AVX20"]
+        self.EXCLUDED_TOKEN_SUFFIXES = ["-QRC20", "-ERC20", "-BEP20", "-PLG20", "-AVX20", "-GRC20"]
         
     def _should_exclude_coin(self, coin: str) -> bool:
         """

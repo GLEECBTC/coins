@@ -1,0 +1,17 @@
+[
+  {
+    "url": "electrum01.lc2.online:50001",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "1480198007939923999" }
+    ]
+  },
+  {
+    "url": "electrum01.lc2.online:50002",
+    "ws_url": "electrum01.lc2.online:50004",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "1480198007939923999" }
+    ]
+  }
+]

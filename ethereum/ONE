@@ -9,10 +9,6 @@
       "url": "https://api.s0.t.hmny.io"
     },
     {
-      "url": "https://harmony-0.drpc.org",
-      "ws_url": "wss://harmony-0.drpc.org"
-    },
-    {
       "url": "https://1rpc.io/one"
     }
   ]

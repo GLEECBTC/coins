@@ -1,5 +1,0 @@
-[taker fee (MCL)](https://explorer.marmara.io/tx/769dafa6492e53453aad25947dba2353b0ddd1b3ed3b1b868162ebeebe8f643a)  
-[maker payment (LUPA)](https://explorer.lupacoin.biz/tx/a032c3b29bad7ba36daf52a5c7f52457594711b23f4b0b24dfa4483720d9605c)  
-[taker payment (MCL)](https://explorer.marmara.io/tx/56ee2e0a49cf318f465804518ec9eee993bd06813f92b5ea5d0af32d642305b8)  
-[taker payment spent (MCL)](https://explorer.marmara.io/tx/d641a06b2b98eb7d0b6715a78104d041c62af502d1a4152ebc57b6dc96db6b97)  
-[maker payment spent (LUPA)](https://explorer.lupacoin.biz/tx/3e880f34c3d67214aaa12db0f189659b0327fab62e9f88081de0e84a03e57a5e)  
