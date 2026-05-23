@@ -4536,16 +4536,23 @@
       "gleec.electrum3.cipig.net:30025": {
         "1755770395": "online"
       },
+      "https://evm-rpc.gleec.com": {
+        "1779546777": "online"
+      },
       "https://rpc.gleec.dev": {
         "1770759117": "online",
         "1774959961": "offline"
+      },
+      "wss://evm-ws.gleec.com": {
+        "1779546777": "online"
       }
     }
   },
   "GLEEC-OLD": {
     "all": {
       "1755770395": "online",
-      "1774987573": "offline"
+      "1774987573": "offline",
+      "1779546777": "online"
     },
     "by_server": {
       "_metadata": {
@@ -4639,6 +4646,33 @@
             }
           ]
         }
+      },
+      "gleec.electrum1.cipig.net:10025": {
+        "1779546777": "online"
+      },
+      "gleec.electrum1.cipig.net:20025": {
+        "1779546777": "online"
+      },
+      "gleec.electrum1.cipig.net:30025": {
+        "1779546777": "online"
+      },
+      "gleec.electrum2.cipig.net:10025": {
+        "1779546777": "online"
+      },
+      "gleec.electrum2.cipig.net:20025": {
+        "1779546777": "online"
+      },
+      "gleec.electrum2.cipig.net:30025": {
+        "1779546777": "online"
+      },
+      "gleec.electrum3.cipig.net:10025": {
+        "1779546777": "online"
+      },
+      "gleec.electrum3.cipig.net:20025": {
+        "1779546777": "online"
+      },
+      "gleec.electrum3.cipig.net:30025": {
+        "1779546777": "online"
       },
       "gleecold.electrum1.cipig.net:10022": {
         "1755770395": "online",
