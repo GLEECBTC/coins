@@ -3152,7 +3152,8 @@
         "1776008736": "online",
         "1776831960": "offline",
         "1778552827": "online",
-        "1779657901": "offline"
+        "1779657901": "offline",
+        "1779942167": "online"
       },
       "seed2.dingocoin.com:3341": {
         "1776008736": "online",
@@ -3164,7 +3165,8 @@
         "1776008736": "online",
         "1776831960": "offline",
         "1778552827": "online",
-        "1779657901": "offline"
+        "1779657901": "offline",
+        "1779942167": "online"
       },
       "seed3.dingocoin.com:3339": {
         "1776008736": "online"
@@ -4752,7 +4754,8 @@
         "1777005785": "offline",
         "1777255662": "online",
         "1779657901": "offline",
-        "1779937604": "online"
+        "1779937604": "online",
+        "1779942167": "offline"
       },
       "https://moonbeam.public.blastapi.io": {
         "1755770395": "online",
@@ -4781,7 +4784,8 @@
         "1778294861": "offline",
         "1778410468": "online",
         "1779657901": "offline",
-        "1779937604": "online"
+        "1779937604": "online",
+        "1779942167": "offline"
       },
       "wss://moonbeam.public.blastapi.io": {
         "1755770395": "online",

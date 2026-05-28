@@ -11014,6 +11014,15 @@
                 ]
             },
             {
+                "url": "seed2.dingocoin.com:3342",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "115619332448321541"
+                    }
+                ]
+            },
+            {
                 "url": "seed3.dingocoin.com:3342",
                 "protocol": "SSL",
                 "contact": [
@@ -25739,10 +25748,6 @@
                 "ws_url": "wss://moonbeam-rpc.publicnode.com"
             },
             {
-                "url": "https://moonbeam.drpc.org",
-                "ws_url": "wss://moonbeam.drpc.org"
-            },
-            {
                 "url": "https://rpc.api.moonbeam.network",
                 "ws_url": "wss://wss.api.moonbeam.network"
             }
@@ -33324,8 +33329,7 @@
                 ]
             }
         ],
-        "explorer_block_url": "block.dws?",
-        "binance_id": "SYS"
+        "explorer_block_url": "block.dws?"
     },
     "SYS-segwit": {
         "coin": "SYS-segwit",
@@ -33406,8 +33410,7 @@
                 ]
             }
         ],
-        "explorer_block_url": "block.dws?",
-        "binance_id": "SYS"
+        "explorer_block_url": "block.dws?"
     },
     "TAMA-ERC20": {
         "coin": "TAMA-ERC20",
