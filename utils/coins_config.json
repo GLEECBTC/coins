@@ -30105,6 +30105,10 @@
                 "ws_url": "wss://moonbeam-rpc.publicnode.com"
             },
             {
+                "url": "https://moonbeam.drpc.org",
+                "ws_url": "wss://moonbeam.drpc.org"
+            },
+            {
                 "url": "https://rpc.api.moonbeam.network",
                 "ws_url": "wss://wss.api.moonbeam.network"
             }

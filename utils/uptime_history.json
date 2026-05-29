@@ -4755,7 +4755,8 @@
         "1777255662": "online",
         "1779657901": "offline",
         "1779937604": "online",
-        "1779942167": "offline"
+        "1779942167": "offline",
+        "1780022253": "online"
       },
       "https://moonbeam.public.blastapi.io": {
         "1755770395": "online",
@@ -4785,7 +4786,8 @@
         "1778410468": "online",
         "1779657901": "offline",
         "1779937604": "online",
-        "1779942167": "offline"
+        "1779942167": "offline",
+        "1780022253": "online"
       },
       "wss://moonbeam.public.blastapi.io": {
         "1755770395": "online",
