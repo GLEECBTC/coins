@@ -11582,7 +11582,8 @@
         "1779428138": "online",
         "1780120460": "offline",
         "1780195702": "online",
-        "1780457333": "offline"
+        "1780457333": "offline",
+        "1780530258": "online"
       }
     }
   },
@@ -12535,15 +12536,18 @@
       },
       "electrum3.blackcoin.nl:30011": {
         "1755770395": "online",
-        "1780368879": "offline"
+        "1780368879": "offline",
+        "1780530258": "online"
       },
       "electrum3.blackcoin.nl:30012": {
         "1755770395": "online",
-        "1780368879": "offline"
+        "1780368879": "offline",
+        "1780530258": "online"
       },
       "electrum3.blackcoin.nl:30014": {
         "1755770395": "online",
-        "1780368879": "offline"
+        "1780368879": "offline",
+        "1780530258": "online"
       }
     }
   },

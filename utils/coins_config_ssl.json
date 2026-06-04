@@ -4905,6 +4905,16 @@
                         "discord": "michelvankessel#7656"
                     }
                 ]
+            },
+            {
+                "url": "electrum3.blackcoin.nl:30012",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -38386,7 +38396,7 @@
         "txversion": 4,
         "overwintered": 1,
         "version_group_id": "0x892f2085",
-        "consensus_branch_id": "0x4dec4df0",
+        "consensus_branch_id": "0x5437f330",
         "txfee": 100000,
         "mm2": 1,
         "required_confirmations": 3,
