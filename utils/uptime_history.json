@@ -2137,7 +2137,8 @@
         "1778466793": "offline",
         "1779142340": "online",
         "1779937604": "offline",
-        "1780368879": "online"
+        "1780368879": "online",
+        "1780627606": "offline"
       },
       "btx-electrumx.coinsmunity.com:50003": {
         "1755770395": "online",
@@ -2148,7 +2149,8 @@
         "1778466793": "offline",
         "1779142340": "online",
         "1779937604": "offline",
-        "1780368879": "online"
+        "1780368879": "online",
+        "1780627606": "offline"
       },
       "btx.electrum1.cipig.net:20069": {
         "1764854330": "online"
@@ -2222,7 +2224,8 @@
         "1778466793": "offline",
         "1779142340": "online",
         "1779937604": "offline",
-        "1780368879": "online"
+        "1780368879": "online",
+        "1780627606": "offline"
       },
       "btx-electrumx.coinsmunity.com:50003": {
         "1755770395": "online",
@@ -2233,7 +2236,8 @@
         "1778466793": "offline",
         "1779142340": "online",
         "1779937604": "offline",
-        "1780368879": "online"
+        "1780368879": "online",
+        "1780627606": "offline"
       },
       "btx.electrum1.cipig.net:20069": {
         "1764854330": "online"
@@ -2661,7 +2665,8 @@
   "CLC": {
     "all": {
       "1755770395": "online",
-      "1777860675": "offline"
+      "1777860675": "offline",
+      "1780627606": "online"
     },
     "by_server": {
       "_metadata": {
@@ -2698,15 +2703,18 @@
       },
       "v2.cryptocollider.com:10001": {
         "1755770395": "online",
-        "1777860675": "offline"
+        "1777860675": "offline",
+        "1780627606": "online"
       },
       "v2.cryptocollider.com:5001": {
         "1755770395": "online",
-        "1777860675": "offline"
+        "1777860675": "offline",
+        "1780627606": "online"
       },
       "v2.cryptocollider.com:8443": {
         "1755770395": "online",
-        "1777860675": "offline"
+        "1777860675": "offline",
+        "1780627606": "online"
       }
     }
   },
@@ -11058,7 +11066,8 @@
         "1776831960": "offline",
         "1777255662": "online",
         "1779937604": "offline",
-        "1780269451": "online"
+        "1780269451": "online",
+        "1780627606": "offline"
       },
       "uno-bkp.coinmunity.gold:50003": {
         "1755770395": "online",
@@ -11067,7 +11076,8 @@
         "1776831960": "offline",
         "1777255662": "online",
         "1779937604": "offline",
-        "1780269451": "online"
+        "1780269451": "online",
+        "1780627606": "offline"
       },
       "uno-ex-one.ewmci.online:50001": {
         "1755770395": "online"
