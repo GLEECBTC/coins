@@ -1714,21 +1714,24 @@
         "1756345150": "online",
         "1769476724": "offline",
         "1770168231": "online",
-        "1780457333": "offline"
+        "1780457333": "offline",
+        "1780713238": "online"
       },
       "electrumserver01.globalboost.info:50013": {
         "1755770395": "offline",
         "1756345150": "online",
         "1769476724": "offline",
         "1770168231": "online",
-        "1780457333": "offline"
+        "1780457333": "offline",
+        "1780713238": "online"
       },
       "electrumserver01.globalboost.info:50014": {
         "1755770395": "offline",
         "1756345150": "online",
         "1769476724": "offline",
         "1770168231": "online",
-        "1780457333": "offline"
+        "1780457333": "offline",
+        "1780713238": "online"
       },
       "electrumserver02.globalboost.info:50011": {
         "1755770395": "online",
@@ -3232,7 +3235,8 @@
         "1778552827": "offline",
         "1779142340": "online",
         "1779937604": "offline",
-        "1780368879": "online"
+        "1780368879": "online",
+        "1780713238": "offline"
       },
       "failover.dgc.ewmcx.biz:50003": {
         "1755770395": "online",
@@ -3247,7 +3251,8 @@
         "1778552827": "offline",
         "1779142340": "online",
         "1779937604": "offline",
-        "1780368879": "online"
+        "1780368879": "online",
+        "1780713238": "offline"
       }
     }
   },
@@ -4257,7 +4262,8 @@
         "1773964971": "online"
       },
       "https://rpcfree.com/ethereum-rpc": {
-        "1780120460": "online"
+        "1780120460": "online",
+        "1780713238": "offline"
       },
       "wss://0xrpc.io/eth": {
         "1755770395": "online",
@@ -11593,7 +11599,8 @@
         "1780120460": "offline",
         "1780195702": "online",
         "1780457333": "offline",
-        "1780530258": "online"
+        "1780530258": "online",
+        "1780713238": "offline"
       }
     }
   },
