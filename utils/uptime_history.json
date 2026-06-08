@@ -2144,7 +2144,8 @@
         "1779142340": "online",
         "1779937604": "offline",
         "1780368879": "online",
-        "1780627606": "offline"
+        "1780627606": "offline",
+        "1780899085": "online"
       },
       "btx-electrumx.coinsmunity.com:50003": {
         "1755770395": "online",
@@ -2156,7 +2157,8 @@
         "1779142340": "online",
         "1779937604": "offline",
         "1780368879": "online",
-        "1780627606": "offline"
+        "1780627606": "offline",
+        "1780899085": "online"
       },
       "btx.electrum1.cipig.net:20069": {
         "1764854330": "online"
@@ -2231,7 +2233,8 @@
         "1779142340": "online",
         "1779937604": "offline",
         "1780368879": "online",
-        "1780627606": "offline"
+        "1780627606": "offline",
+        "1780899085": "online"
       },
       "btx-electrumx.coinsmunity.com:50003": {
         "1755770395": "online",
@@ -2243,7 +2246,8 @@
         "1779142340": "online",
         "1779937604": "offline",
         "1780368879": "online",
-        "1780627606": "offline"
+        "1780627606": "offline",
+        "1780899085": "online"
       },
       "btx.electrum1.cipig.net:20069": {
         "1764854330": "online"
@@ -4261,6 +4265,9 @@
         "1762321286": "online",
         "1762820073": "offline"
       },
+      "https://public-eth.nownodes.io": {
+        "1780899085": "online"
+      },
       "https://rpc.fullsend.to": {
         "1770607407": "online"
       },
@@ -5482,7 +5489,8 @@
         "1779657901": "offline",
         "1779937604": "online",
         "1779942167": "offline",
-        "1780022253": "online"
+        "1780022253": "online",
+        "1780899085": "offline"
       },
       "https://moonbeam.public.blastapi.io": {
         "1755770395": "online",
@@ -5513,7 +5521,8 @@
         "1779657901": "offline",
         "1779937604": "online",
         "1779942167": "offline",
-        "1780022253": "online"
+        "1780022253": "online",
+        "1780899085": "offline"
       },
       "wss://moonbeam.public.blastapi.io": {
         "1755770395": "online",
@@ -11614,7 +11623,8 @@
         "1780195702": "online",
         "1780457333": "offline",
         "1780530258": "online",
-        "1780713238": "offline"
+        "1780713238": "offline",
+        "1780899085": "online"
       }
     }
   },
@@ -11993,15 +12003,18 @@
       },
       "electrumx2.vanillacash.info:50011": {
         "1755770395": "online",
-        "1780887368": "offline"
+        "1780887368": "offline",
+        "1780899085": "online"
       },
       "electrumx2.vanillacash.info:50012": {
         "1755770395": "online",
-        "1780887368": "offline"
+        "1780887368": "offline",
+        "1780899085": "online"
       },
       "electrumx2.vanillacash.info:50013": {
         "1755770395": "online",
-        "1780887368": "offline"
+        "1780887368": "offline",
+        "1780899085": "online"
       },
       "xvc-ex-seven.ewmci.online:50001": {
         "1755770395": "online",
