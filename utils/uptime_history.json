@@ -1283,7 +1283,8 @@
     "all": {
       "1755770395": "offline",
       "1768093005": "online",
-      "1772587456": "offline"
+      "1772587456": "offline",
+      "1780887368": "online"
     },
     "by_server": {
       "194.163.176.151:50001": {
@@ -1400,12 +1401,14 @@
       },
       "bit-e.minethepla.net:50002": {
         "1768093005": "online",
-        "1772144114": "offline"
+        "1772144114": "offline",
+        "1780887368": "online"
       },
       "bit-e.minethepla.net:50004": {
         "1768093005": "offline",
         "1768180562": "online",
-        "1772144114": "offline"
+        "1772144114": "offline",
+        "1780887368": "online"
       },
       "bit-e.outsidethebox.top:50002": {
         "1768093005": "online",
@@ -3441,11 +3444,13 @@
       },
       "electrumx1.diminutivecoin.com:50012": {
         "1755770395": "offline",
-        "1760919297": "online"
+        "1760919297": "online",
+        "1780887368": "offline"
       },
       "electrumx1.diminutivecoin.com:50013": {
         "1755770395": "offline",
-        "1760919297": "online"
+        "1760919297": "online",
+        "1780887368": "offline"
       },
       "electrumx2.diminutivecoin.com:50012": {
         "1755770395": "online",
@@ -4201,7 +4206,8 @@
     "all": {},
     "by_server": {
       "https://etc.etcdesktop.com": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1780887368": "offline"
       },
       "https://etc.rivet.link": {
         "1755770395": "online"
@@ -6289,18 +6295,22 @@
   },
   "JUMP": {
     "all": {
-      "1775592931": "online"
+      "1775592931": "online",
+      "1780887368": "offline"
     },
     "by_server": {
       "electrum1.jumpcoin.net:50001": {
-        "1775592931": "online"
+        "1775592931": "online",
+        "1780887368": "offline"
       },
       "electrum1.jumpcoin.net:50002": {
         "1775592931": "offline",
-        "1779657901": "online"
+        "1779657901": "online",
+        "1780887368": "offline"
       },
       "electrum1.jumpcoin.net:50003": {
-        "1775592931": "online"
+        "1775592931": "online",
+        "1780887368": "offline"
       }
     }
   },
@@ -11073,7 +11083,8 @@
         "1777255662": "online",
         "1779937604": "offline",
         "1780269451": "online",
-        "1780627606": "offline"
+        "1780627606": "offline",
+        "1780887368": "online"
       },
       "uno-bkp.coinmunity.gold:50003": {
         "1755770395": "online",
@@ -11083,7 +11094,8 @@
         "1777255662": "online",
         "1779937604": "offline",
         "1780269451": "online",
-        "1780627606": "offline"
+        "1780627606": "offline",
+        "1780887368": "online"
       },
       "uno-ex-one.ewmci.online:50001": {
         "1755770395": "online"
@@ -11098,13 +11110,15 @@
         "1755770395": "online",
         "1763079262": "offline",
         "1763165598": "online",
-        "1780457333": "offline"
+        "1780457333": "offline",
+        "1780887368": "online"
       },
       "uno-main.coinmunity.gold:50003": {
         "1755770395": "online",
         "1763079262": "offline",
         "1763165598": "online",
-        "1780457333": "offline"
+        "1780457333": "offline",
+        "1780887368": "online"
       }
     }
   },
@@ -11950,7 +11964,8 @@
         "1768612207": "offline",
         "1768699088": "online",
         "1779937604": "offline",
-        "1780368879": "online"
+        "1780368879": "online",
+        "1780887368": "offline"
       },
       "electrumx1.vanillacash.info:50012": {
         "1755770395": "online",
@@ -11961,7 +11976,8 @@
         "1768612207": "offline",
         "1768699088": "online",
         "1779937604": "offline",
-        "1780368879": "online"
+        "1780368879": "online",
+        "1780887368": "offline"
       },
       "electrumx1.vanillacash.info:50013": {
         "1755770395": "online",
@@ -11972,16 +11988,20 @@
         "1768612207": "offline",
         "1768699088": "online",
         "1779937604": "offline",
-        "1780368879": "online"
+        "1780368879": "online",
+        "1780887368": "offline"
       },
       "electrumx2.vanillacash.info:50011": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1780887368": "offline"
       },
       "electrumx2.vanillacash.info:50012": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1780887368": "offline"
       },
       "electrumx2.vanillacash.info:50013": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1780887368": "offline"
       },
       "xvc-ex-seven.ewmci.online:50001": {
         "1755770395": "online",
