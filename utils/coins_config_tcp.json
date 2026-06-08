@@ -327,10 +327,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -379,10 +379,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -704,10 +704,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -1038,10 +1038,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -1145,10 +1145,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -1251,10 +1251,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -1459,10 +1459,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -1616,10 +1616,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -1843,10 +1843,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -2006,10 +2006,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -2495,10 +2495,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -2821,10 +2821,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -3002,10 +3002,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -3275,10 +3275,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -3541,10 +3541,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -3705,10 +3705,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -4116,10 +4116,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -4386,10 +4386,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/",
@@ -4610,10 +4610,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -5063,10 +5063,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -5267,10 +5267,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -5377,10 +5377,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -5588,10 +5588,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -6457,10 +6457,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -6557,6 +6557,16 @@
         },
         "electrum": [
             {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
                 "contact": [
@@ -6624,6 +6634,16 @@
             "homepage": "https://bitcore.cc"
         },
         "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
             {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
@@ -6850,10 +6870,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -7304,10 +7324,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -7415,10 +7435,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -7839,10 +7859,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -7945,10 +7965,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -8367,10 +8387,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -8517,10 +8537,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -8735,10 +8755,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -9101,10 +9121,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -9330,10 +9350,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -9561,10 +9581,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -9616,10 +9636,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -9668,10 +9688,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -9961,10 +9981,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -10713,10 +10733,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -11622,10 +11642,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -11740,10 +11760,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -11855,10 +11875,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -12166,6 +12186,9 @@
             {
                 "url": "https://mainnet.gateway.tenderly.co",
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
+            },
+            {
+                "url": "https://public-eth.nownodes.io"
             },
             {
                 "url": "https://rpc.mevblocker.io"
@@ -12644,10 +12667,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -12747,10 +12770,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -12908,10 +12931,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -13019,10 +13042,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -13171,10 +13194,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -13282,10 +13305,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -13399,10 +13422,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -13451,10 +13474,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -13674,10 +13697,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -14381,10 +14404,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -14686,10 +14709,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -14800,10 +14823,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -15017,10 +15040,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -15069,10 +15092,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -15177,10 +15200,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -15638,10 +15661,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -16025,10 +16048,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -16330,10 +16353,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -16614,10 +16637,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -16820,10 +16843,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -16931,10 +16954,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -17047,10 +17070,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -17153,10 +17176,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -17259,10 +17282,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -17669,10 +17692,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -17783,10 +17806,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -17895,10 +17918,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -18123,10 +18146,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -18625,10 +18648,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -18897,10 +18920,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -19059,10 +19082,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -19658,10 +19681,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -20546,10 +20569,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -21382,10 +21405,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -21492,10 +21515,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -21597,10 +21620,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -21977,10 +22000,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -22144,10 +22167,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -22201,10 +22224,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -22318,10 +22341,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -22675,10 +22698,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -22937,10 +22960,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -23166,10 +23189,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/",
@@ -23264,10 +23287,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -23497,10 +23520,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -23553,10 +23576,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -23661,10 +23684,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -23884,10 +23907,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -24037,10 +24060,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -24364,10 +24387,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -24520,10 +24543,6 @@
             {
                 "url": "https://moonbeam-rpc.publicnode.com",
                 "ws_url": "wss://moonbeam-rpc.publicnode.com"
-            },
-            {
-                "url": "https://moonbeam.drpc.org",
-                "ws_url": "wss://moonbeam.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonbeam.network",
@@ -24872,10 +24891,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -25496,10 +25515,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -25602,10 +25621,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -25775,10 +25794,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -25992,10 +26011,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -26244,10 +26263,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -26355,10 +26374,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -26717,10 +26736,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -26827,10 +26846,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -26982,10 +27001,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -27143,10 +27162,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -27249,10 +27268,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -27413,10 +27432,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -27933,10 +27952,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -27990,10 +28009,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -28160,10 +28179,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/",
@@ -28334,10 +28353,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -28389,10 +28408,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -28441,10 +28460,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -28949,10 +28968,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -29055,10 +29074,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -29161,10 +29180,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -29317,10 +29336,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -29588,10 +29607,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -29989,10 +30008,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -30248,10 +30267,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -30685,10 +30704,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -30965,10 +30984,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -31225,10 +31244,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -31327,10 +31346,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -31678,10 +31697,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -31885,10 +31904,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -32073,10 +32092,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -32390,10 +32409,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -33032,10 +33051,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -33144,10 +33163,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -33409,10 +33428,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -33622,10 +33641,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -33787,10 +33806,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -34257,10 +34276,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -34633,10 +34652,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -34688,10 +34707,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -35131,10 +35150,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -35496,10 +35515,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -35548,10 +35567,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -36024,10 +36043,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -36130,10 +36149,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -36182,10 +36201,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -36450,10 +36469,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -36733,10 +36752,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -37237,10 +37256,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -37397,10 +37416,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -37556,6 +37575,10 @@
             "homepage": "https://vanillacash.org"
         },
         "electrum": [
+            {
+                "url": "electrumx2.vanillacash.info:50012",
+                "protocol": "SSL"
+            },
             {
                 "url": "xvc-ex-seven.ewmci.online:50002",
                 "protocol": "SSL",
@@ -37969,10 +37992,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -38179,10 +38202,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -38388,10 +38411,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -38919,10 +38942,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -39146,10 +39169,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/",
@@ -39819,10 +39842,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -39875,10 +39898,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -39932,10 +39955,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -39989,10 +40012,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -40041,10 +40064,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -40093,10 +40116,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -40149,10 +40172,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -40201,10 +40224,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -40258,10 +40281,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -40314,10 +40337,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -40371,10 +40394,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -40423,10 +40446,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -40479,10 +40502,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -40536,10 +40559,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -40588,10 +40611,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -40640,10 +40663,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -40696,10 +40719,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -40748,10 +40771,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -40800,10 +40823,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -40908,10 +40931,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
@@ -42447,10 +42470,10 @@
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
             },
             {
-                "url": "https://rpc.mevblocker.io"
+                "url": "https://public-eth.nownodes.io"
             },
             {
-                "url": "https://rpcfree.com/ethereum-rpc"
+                "url": "https://rpc.mevblocker.io"
             }
         ],
         "explorer_block_url": "block/"
