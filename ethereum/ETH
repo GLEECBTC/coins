@@ -14,7 +14,7 @@
             "ws_url": "wss://mainnet.gateway.tenderly.co"
         },
         {
-            "url": "https://rpcfree.com/ethereum-rpc"
+            "url": "https://public-eth.nownodes.io"
         }
     ]
 }
