@@ -3451,12 +3451,14 @@
       "electrumx1.diminutivecoin.com:50012": {
         "1755770395": "offline",
         "1760919297": "online",
-        "1780887368": "offline"
+        "1780887368": "offline",
+        "1781059600": "online"
       },
       "electrumx1.diminutivecoin.com:50013": {
         "1755770395": "offline",
         "1760919297": "online",
-        "1780887368": "offline"
+        "1780887368": "offline",
+        "1781059600": "online"
       },
       "electrumx2.diminutivecoin.com:50012": {
         "1755770395": "online",
@@ -4213,7 +4215,8 @@
     "by_server": {
       "https://etc.etcdesktop.com": {
         "1755770395": "online",
-        "1780887368": "offline"
+        "1780887368": "offline",
+        "1781059600": "online"
       },
       "https://etc.rivet.link": {
         "1755770395": "online"
@@ -11629,7 +11632,8 @@
         "1780530258": "online",
         "1780713238": "offline",
         "1780899085": "online",
-        "1780972393": "offline"
+        "1780972393": "offline",
+        "1781059600": "online"
       }
     }
   },
