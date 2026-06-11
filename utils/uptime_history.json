@@ -4150,6 +4150,36 @@
     },
     "by_server": {
       "_metadata": {
+        "emc2.electrum2.cipig.net:10062": {
+          "contact": [
+            {
+              "email": "cipi@komodoplatform.com"
+            },
+            {
+              "discord": "cipi#4502"
+            }
+          ]
+        },
+        "emc2.electrum2.cipig.net:20062": {
+          "contact": [
+            {
+              "email": "cipi@komodoplatform.com"
+            },
+            {
+              "discord": "cipi#4502"
+            }
+          ]
+        },
+        "emc2.electrum2.cipig.net:30062": {
+          "contact": [
+            {
+              "email": "cipi@komodoplatform.com"
+            },
+            {
+              "discord": "cipi#4502"
+            }
+          ]
+        },
         "emc2.electrum3.cipig.net:10062": {
           "contact": [
             {
@@ -4191,13 +4221,16 @@
         "1755770395": "online"
       },
       "emc2.electrum2.cipig.net:10062": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1781146549": "offline"
       },
       "emc2.electrum2.cipig.net:20062": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1781146549": "offline"
       },
       "emc2.electrum2.cipig.net:30062": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1781146549": "offline"
       },
       "emc2.electrum3.cipig.net:10062": {
         "1755770395": "offline"
@@ -6312,21 +6345,25 @@
   "JUMP": {
     "all": {
       "1775592931": "online",
-      "1780887368": "offline"
+      "1780887368": "offline",
+      "1781146549": "online"
     },
     "by_server": {
       "electrum1.jumpcoin.net:50001": {
         "1775592931": "online",
-        "1780887368": "offline"
+        "1780887368": "offline",
+        "1781146549": "online"
       },
       "electrum1.jumpcoin.net:50002": {
         "1775592931": "offline",
         "1779657901": "online",
-        "1780887368": "offline"
+        "1780887368": "offline",
+        "1781146549": "online"
       },
       "electrum1.jumpcoin.net:50003": {
         "1775592931": "online",
-        "1780887368": "offline"
+        "1780887368": "offline",
+        "1781146549": "online"
       }
     }
   },
@@ -9024,7 +9061,8 @@
         "1775779172": "offline",
         "1776008736": "online",
         "1779166167": "offline",
-        "1779244822": "online"
+        "1779244822": "online",
+        "1781146549": "offline"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -9151,19 +9189,22 @@
         "1755770395": "online",
         "1764587127": "offline",
         "1766366022": "online",
-        "1779657901": "offline"
+        "1779657901": "offline",
+        "1781146549": "online"
       },
       "electrum.pepe.tips:50002": {
         "1755770395": "online",
         "1764587127": "offline",
         "1766366022": "online",
-        "1779657901": "offline"
+        "1779657901": "offline",
+        "1781146549": "online"
       },
       "electrum.pepe.tips:50004": {
         "1755770395": "online",
         "1764587127": "offline",
         "1766366022": "online",
-        "1779657901": "offline"
+        "1779657901": "offline",
+        "1781146549": "online"
       },
       "electrum.pepeblocks.com:50001": {
         "1755770395": "online"
@@ -12033,21 +12074,24 @@
         "1758413660": "offline",
         "1760163826": "online",
         "1773700082": "offline",
-        "1775959086": "online"
+        "1775959086": "online",
+        "1781146549": "offline"
       },
       "xvc-ex-seven.ewmci.online:50002": {
         "1755770395": "online",
         "1758413660": "offline",
         "1760163826": "online",
         "1773700082": "offline",
-        "1775959086": "online"
+        "1775959086": "online",
+        "1781146549": "offline"
       },
       "xvc-ex-seven.ewmci.online:50003": {
         "1755770395": "online",
         "1758413660": "offline",
         "1760163826": "online",
         "1773700082": "offline",
-        "1775959086": "online"
+        "1775959086": "online",
+        "1781146549": "offline"
       }
     }
   },
