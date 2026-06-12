@@ -4222,15 +4222,18 @@
       },
       "emc2.electrum2.cipig.net:10062": {
         "1755770395": "online",
-        "1781146549": "offline"
+        "1781146549": "offline",
+        "1781232768": "online"
       },
       "emc2.electrum2.cipig.net:20062": {
         "1755770395": "online",
-        "1781146549": "offline"
+        "1781146549": "offline",
+        "1781232768": "online"
       },
       "emc2.electrum2.cipig.net:30062": {
         "1755770395": "online",
-        "1781146549": "offline"
+        "1781146549": "offline",
+        "1781232768": "online"
       },
       "emc2.electrum3.cipig.net:10062": {
         "1755770395": "offline"
@@ -5655,19 +5658,22 @@
         "1755770395": "online",
         "1767483691": "offline",
         "1768871563": "online",
-        "1771127316": "offline"
+        "1771127316": "offline",
+        "1781232768": "online"
       },
       "electrum.niftybakes.com:50002": {
         "1755770395": "online",
         "1767483691": "offline",
         "1768871563": "online",
-        "1771127316": "offline"
+        "1771127316": "offline",
+        "1781232768": "online"
       },
       "electrum.niftybakes.com:50004": {
         "1755770395": "online",
         "1767483691": "offline",
         "1768871563": "online",
-        "1771127316": "offline"
+        "1771127316": "offline",
+        "1781232768": "online"
       },
       "fr.garlium.crapules.org:50002": {
         "1755770395": "offline"
@@ -7013,11 +7019,29 @@
       "188.166.117.139:50001": {
         "1755770395": "offline"
       },
+      "_metadata": {
+        "electrum-lcc.cascoin.net:50002": {
+          "contact": [
+            {
+              "discord": "635448663543644170"
+            }
+          ]
+        },
+        "electrum-lcc.cascoin.net:50003": {
+          "contact": [
+            {
+              "discord": "635448663543644170"
+            }
+          ]
+        }
+      },
       "electrum-lcc.cascoin.net:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1781232768": "offline"
       },
       "electrum-lcc.cascoin.net:50003": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1781232768": "offline"
       },
       "electrumx.litecoincash.com.br:50001": {
         "1779142340": "online"
@@ -7047,11 +7071,29 @@
       "188.166.117.139:50001": {
         "1755770395": "offline"
       },
+      "_metadata": {
+        "electrum-lcc.cascoin.net:50002": {
+          "contact": [
+            {
+              "discord": "635448663543644170"
+            }
+          ]
+        },
+        "electrum-lcc.cascoin.net:50003": {
+          "contact": [
+            {
+              "discord": "635448663543644170"
+            }
+          ]
+        }
+      },
       "electrum-lcc.cascoin.net:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1781232768": "offline"
       },
       "electrum-lcc.cascoin.net:50003": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1781232768": "offline"
       },
       "electrumx.litecoincash.com.br:50001": {
         "1779142340": "online"
@@ -9062,7 +9104,8 @@
         "1776008736": "online",
         "1779166167": "offline",
         "1779244822": "online",
-        "1781146549": "offline"
+        "1781146549": "offline",
+        "1781232768": "online"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -11674,7 +11717,8 @@
         "1780713238": "offline",
         "1780899085": "online",
         "1780972393": "offline",
-        "1781059600": "online"
+        "1781059600": "online",
+        "1781232768": "offline"
       }
     }
   },
@@ -11928,7 +11972,8 @@
     },
     "by_server": {
       "electrumx.gemmer.primecoin.org:50011": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1781232768": "online"
       },
       "electrumx.mainnet.primecoin.org:50011": {
         "1755770395": "online"
