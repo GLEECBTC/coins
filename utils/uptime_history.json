@@ -598,6 +598,13 @@
             }
           ]
         },
+        "electrum-us.avn.network:50001": {
+          "contact": [
+            {
+              "email": "contact@avn.network"
+            }
+          ]
+        },
         "electrum-us.avn.network:50003": {
           "contact": [
             {
@@ -626,7 +633,8 @@
         "1755770395": "online"
       },
       "electrum-us.avn.network:50001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1781923413": "offline"
       },
       "electrum-us.avn.network:50002": {
         "1755770395": "online"
@@ -2790,7 +2798,8 @@
         "1768612207": "offline",
         "1775959086": "online",
         "1778294861": "offline",
-        "1780195702": "online"
+        "1780195702": "online",
+        "1781923413": "offline"
       },
       "coin.crionic.org:50002": {
         "1755770395": "offline",
@@ -2800,7 +2809,8 @@
         "1768612207": "offline",
         "1775959086": "online",
         "1778294861": "offline",
-        "1780195702": "online"
+        "1780195702": "online",
+        "1781923413": "offline"
       },
       "coin.crionic.org:50005": {
         "1755770395": "offline",
@@ -2810,7 +2820,8 @@
         "1768612207": "offline",
         "1775959086": "online",
         "1778294861": "offline",
-        "1780195702": "online"
+        "1780195702": "online",
+        "1781923413": "offline"
       },
       "explorer.crionic.org:50001": {
         "1755770395": "online"
@@ -3564,6 +3575,27 @@
             }
           ]
         },
+        "elecx2.kmsoftware.org:3339": {
+          "contact": [
+            {
+              "discord": "115619332448321541"
+            }
+          ]
+        },
+        "elecx2.kmsoftware.org:3341": {
+          "contact": [
+            {
+              "discord": "115619332448321541"
+            }
+          ]
+        },
+        "elecx2.kmsoftware.org:3342": {
+          "contact": [
+            {
+              "discord": "115619332448321541"
+            }
+          ]
+        },
         "seed2.dingocoin.com:3339": {
           "contact": [
             {
@@ -3689,13 +3721,16 @@
         "1774959961": "offline"
       },
       "elecx2.kmsoftware.org:3339": {
-        "1776008736": "online"
+        "1776008736": "online",
+        "1781923413": "offline"
       },
       "elecx2.kmsoftware.org:3341": {
-        "1776008736": "online"
+        "1776008736": "online",
+        "1781923413": "offline"
       },
       "elecx2.kmsoftware.org:3342": {
-        "1776008736": "online"
+        "1776008736": "online",
+        "1781923413": "offline"
       },
       "seed1.dingocoin.com:3339": {
         "1776008736": "online"
@@ -4056,7 +4091,8 @@
   "DPC": {
     "all": {
       "1755770395": "online",
-      "1781595462": "offline"
+      "1781595462": "offline",
+      "1781923413": "online"
     },
     "by_server": {
       "_metadata": {
@@ -4141,27 +4177,33 @@
       },
       "electrumxdpc.bitwebcore.net:22002": {
         "1755770395": "online",
-        "1781595462": "offline"
+        "1781595462": "offline",
+        "1781923413": "online"
       },
       "electrumxdpc.bitwebcore.net:22003": {
         "1755770395": "online",
-        "1781595462": "offline"
+        "1781595462": "offline",
+        "1781923413": "online"
       },
       "electrumxdpc1.bitwebcore.net:22002": {
         "1755770395": "online",
-        "1781595462": "offline"
+        "1781595462": "offline",
+        "1781923413": "online"
       },
       "electrumxdpc1.bitwebcore.net:22003": {
         "1755770395": "online",
-        "1781595462": "offline"
+        "1781595462": "offline",
+        "1781923413": "online"
       },
       "electrumxdpc2.bitwebcore.net:22002": {
         "1755770395": "online",
-        "1781595462": "offline"
+        "1781595462": "offline",
+        "1781923413": "online"
       },
       "electrumxdpc2.bitwebcore.net:22003": {
         "1755770395": "online",
-        "1781595462": "offline"
+        "1781595462": "offline",
+        "1781923413": "online"
       }
     }
   },
@@ -4299,12 +4341,14 @@
       "electrum1.egulden.org:50002": {
         "1755770395": "online",
         "1776831960": "offline",
-        "1776909733": "online"
+        "1776909733": "online",
+        "1781923413": "offline"
       },
       "electrum1.egulden.org:50004": {
         "1755770395": "online",
         "1776831960": "offline",
-        "1776909733": "online"
+        "1776909733": "online",
+        "1781923413": "offline"
       },
       "electrum2.egulden.org:50002": {
         "1755770395": "offline"
@@ -4463,7 +4507,8 @@
         "1755770395": "online",
         "1780887368": "offline",
         "1781059600": "online",
-        "1781665138": "offline"
+        "1781665138": "offline",
+        "1781923413": "online"
       },
       "https://etc.rivet.link": {
         "1755770395": "online"
@@ -6594,7 +6639,8 @@
     "all": {
       "1755770395": "online",
       "1766366022": "offline",
-      "1767483691": "online"
+      "1767483691": "online",
+      "1781923413": "offline"
     },
     "by_server": {
       "_metadata": {
@@ -6702,12 +6748,14 @@
       "electrum1.kcnxp.com:51002": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       },
       "electrum1.kcnxp.com:51004": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       },
       "electrum2.kcnxp.com:51002": {
         "1755770395": "online",
@@ -6720,12 +6768,14 @@
       "electrum3.kcnxp.com:51002": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       },
       "electrum3.kcnxp.com:51004": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       },
       "electrum4.kcnxp.com:51002": {
         "1755770395": "online",
@@ -6738,12 +6788,14 @@
       "electrum5.kcnxp.com:51002": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       },
       "electrum5.kcnxp.com:51004": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       }
     }
   },
@@ -6751,7 +6803,8 @@
     "all": {
       "1755770395": "online",
       "1766366022": "offline",
-      "1767483691": "online"
+      "1767483691": "online",
+      "1781923413": "offline"
     },
     "by_server": {
       "_metadata": {
@@ -6859,12 +6912,14 @@
       "electrum1.kcnxp.com:51002": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       },
       "electrum1.kcnxp.com:51004": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       },
       "electrum2.kcnxp.com:51002": {
         "1755770395": "online",
@@ -6877,12 +6932,14 @@
       "electrum3.kcnxp.com:51002": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       },
       "electrum3.kcnxp.com:51004": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       },
       "electrum4.kcnxp.com:51002": {
         "1755770395": "online",
@@ -6895,12 +6952,14 @@
       "electrum5.kcnxp.com:51002": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       },
       "electrum5.kcnxp.com:51004": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       }
     }
   },
@@ -7336,7 +7395,8 @@
     "all": {
       "1755770395": "online",
       "1766366022": "offline",
-      "1767483691": "online"
+      "1767483691": "online",
+      "1781923413": "offline"
     },
     "by_server": {
       "_metadata": {
@@ -7444,12 +7504,14 @@
       "electrum1.lcnxp.com:52002": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       },
       "electrum1.lcnxp.com:52004": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       },
       "electrum2.lcnxp.com:52002": {
         "1755770395": "online",
@@ -7462,12 +7524,14 @@
       "electrum3.lcnxp.com:52002": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       },
       "electrum3.lcnxp.com:52004": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       },
       "electrum4.lcnxp.com:52002": {
         "1755770395": "online",
@@ -7480,12 +7544,14 @@
       "electrum5.lcnxp.com:52002": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       },
       "electrum5.lcnxp.com:52004": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       }
     }
   },
@@ -7493,7 +7559,8 @@
     "all": {
       "1755770395": "online",
       "1766366022": "offline",
-      "1767483691": "online"
+      "1767483691": "online",
+      "1781923413": "offline"
     },
     "by_server": {
       "_metadata": {
@@ -7601,12 +7668,14 @@
       "electrum1.lcnxp.com:52002": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       },
       "electrum1.lcnxp.com:52004": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       },
       "electrum2.lcnxp.com:52002": {
         "1755770395": "online",
@@ -7619,12 +7688,14 @@
       "electrum3.lcnxp.com:52002": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       },
       "electrum3.lcnxp.com:52004": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       },
       "electrum4.lcnxp.com:52002": {
         "1755770395": "online",
@@ -7637,12 +7708,14 @@
       "electrum5.lcnxp.com:52002": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       },
       "electrum5.lcnxp.com:52004": {
         "1755770395": "online",
         "1766366022": "offline",
-        "1767483691": "online"
+        "1767483691": "online",
+        "1781923413": "offline"
       }
     }
   },
@@ -10507,10 +10580,12 @@
         "1774959961": "online"
       },
       "electrumx.rxd-radiant.com:50022": {
-        "1774959961": "online"
+        "1774959961": "online",
+        "1781923413": "offline"
       },
       "electrumx.rxd-radiant.com:50023": {
-        "1774959961": "online"
+        "1774959961": "online",
+        "1781923413": "offline"
       },
       "electrumx2.radiant4people.com:50012": {
         "1774959961": "online"
@@ -11103,7 +11178,8 @@
     "all": {
       "1760350495": "online",
       "1776831960": "offline",
-      "1776909733": "online"
+      "1776909733": "online",
+      "1781923413": "offline"
     },
     "by_server": {
       "_metadata": {
@@ -11192,7 +11268,8 @@
       "electrum-server2.trumpow.meme:50001": {
         "1760350495": "online",
         "1776831960": "offline",
-        "1776909733": "online"
+        "1776909733": "online",
+        "1781923413": "offline"
       },
       "electrum-server2.trumpow.meme:50002": {
         "1760350495": "online",
@@ -11203,7 +11280,8 @@
       "electrum-server2.trumpow.meme:50004": {
         "1760350495": "online",
         "1776831960": "offline",
-        "1776909733": "online"
+        "1776909733": "online",
+        "1781923413": "offline"
       }
     }
   },
@@ -11942,7 +12020,8 @@
         "1781059600": "online",
         "1781232768": "offline",
         "1781595462": "online",
-        "1781665138": "offline"
+        "1781665138": "offline",
+        "1781923413": "online"
       }
     }
   },
@@ -12344,7 +12423,8 @@
         "1760163826": "online",
         "1773700082": "offline",
         "1775959086": "online",
-        "1781146549": "offline"
+        "1781146549": "offline",
+        "1781923413": "online"
       },
       "xvc-ex-seven.ewmci.online:50002": {
         "1755770395": "online",
@@ -12352,7 +12432,8 @@
         "1760163826": "online",
         "1773700082": "offline",
         "1775959086": "online",
-        "1781146549": "offline"
+        "1781146549": "offline",
+        "1781923413": "online"
       },
       "xvc-ex-seven.ewmci.online:50003": {
         "1755770395": "online",
@@ -12360,7 +12441,8 @@
         "1760163826": "online",
         "1773700082": "offline",
         "1775959086": "online",
-        "1781146549": "offline"
+        "1781146549": "offline",
+        "1781923413": "online"
       }
     }
   },
@@ -12373,13 +12455,16 @@
         "1755770395": "online"
       },
       "electrum-verge.cloud:50001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1781923413": "offline"
       },
       "electrum-verge.cloud:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1781923413": "offline"
       },
       "electrum-verge.cloud:50004": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1781923413": "offline"
       },
       "electrumx-verge.cloud:50001": {
         "1755770395": "online"
