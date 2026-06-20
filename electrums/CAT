@@ -4,10 +4,7 @@
         "protocol": "SSL",
         "contact": [
             {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
+                "email": "jjcomtechlimited@gmail.com"
             }
         ],
         "ws_url": "pro1.electrum-cat.org:30024"
@@ -17,10 +14,7 @@
         "protocol": "SSL",
         "contact": [
             {
-                "email": "cipi@komodoplatform.com"
-            },
-            {
-                "discord": "cipi#4502"
+                "email": "jjcomtechlimited@gmail.com"
             }
         ],
         "ws_url": "pro2.electrum-cat.org:30024"
