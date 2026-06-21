@@ -37306,6 +37306,10 @@
         "derivation_path": "m/44'/77'",
         "electrum": [
             {
+                "url": "electrum-verge.cloud:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrumx-verge.cloud:50002",
                 "protocol": "SSL"
             }

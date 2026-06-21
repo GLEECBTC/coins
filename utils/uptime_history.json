@@ -12456,15 +12456,18 @@
       },
       "electrum-verge.cloud:50001": {
         "1755770395": "online",
-        "1781923413": "offline"
+        "1781923413": "offline",
+        "1782010802": "online"
       },
       "electrum-verge.cloud:50002": {
         "1755770395": "online",
-        "1781923413": "offline"
+        "1781923413": "offline",
+        "1782010802": "online"
       },
       "electrum-verge.cloud:50004": {
         "1755770395": "online",
-        "1781923413": "offline"
+        "1781923413": "offline",
+        "1782010802": "online"
       },
       "electrumx-verge.cloud:50001": {
         "1755770395": "online"
