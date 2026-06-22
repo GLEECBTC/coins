@@ -5,9 +5,12 @@
         "contact": [
             {
                 "email": "jjcomtechlimited@gmail.com"
+            },
+            {
+                "discord": "main_jj"
             }
         ],
-        "ws_url": "pro1.electrum-cat.org:30024"
+        "ws_url": "pro1.electrum-cat.org:50001"
     },
     {
         "url": "pro2.electrum-cat.org:8103",
@@ -15,9 +18,12 @@
         "contact": [
             {
                 "email": "jjcomtechlimited@gmail.com"
+            },
+            {
+                "discord": "main_jj"
             }
         ],
-        "ws_url": "pro2.electrum-cat.org:30024"
+        "ws_url": "pro2.electrum-cat.org:50001"
     }
 
 ]
