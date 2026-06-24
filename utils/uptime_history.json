@@ -1449,10 +1449,12 @@
         "1755770395": "offline"
       },
       "bitnet.outsidethebox.top:50002": {
-        "1768093005": "offline"
+        "1768093005": "offline",
+        "1782268723": "online"
       },
       "bitnet.outsidethebox.top:50004": {
-        "1768093005": "offline"
+        "1768093005": "offline",
+        "1782268723": "online"
       }
     }
   },
@@ -2164,7 +2166,8 @@
         "1780627606": "offline",
         "1780899085": "online",
         "1781595462": "offline",
-        "1781665138": "online"
+        "1781665138": "online",
+        "1782268723": "offline"
       },
       "btx-electrumx.coinsmunity.com:50003": {
         "1755770395": "online",
@@ -2179,7 +2182,8 @@
         "1780627606": "offline",
         "1780899085": "online",
         "1781595462": "offline",
-        "1781665138": "online"
+        "1781665138": "online",
+        "1782268723": "offline"
       },
       "btx.electrum1.cipig.net:20069": {
         "1764854330": "online"
@@ -2257,7 +2261,8 @@
         "1780627606": "offline",
         "1780899085": "online",
         "1781595462": "offline",
-        "1781665138": "online"
+        "1781665138": "online",
+        "1782268723": "offline"
       },
       "btx-electrumx.coinsmunity.com:50003": {
         "1755770395": "online",
@@ -2272,7 +2277,8 @@
         "1780627606": "offline",
         "1780899085": "online",
         "1781595462": "offline",
-        "1781665138": "online"
+        "1781665138": "online",
+        "1782268723": "offline"
       },
       "btx.electrum1.cipig.net:20069": {
         "1764854330": "online"
@@ -4342,13 +4348,15 @@
         "1755770395": "online",
         "1776831960": "offline",
         "1776909733": "online",
-        "1781923413": "offline"
+        "1781923413": "offline",
+        "1782268723": "online"
       },
       "electrum1.egulden.org:50004": {
         "1755770395": "online",
         "1776831960": "offline",
         "1776909733": "online",
-        "1781923413": "offline"
+        "1781923413": "offline",
+        "1782268723": "online"
       },
       "electrum2.egulden.org:50002": {
         "1755770395": "offline"
@@ -8336,6 +8344,20 @@
     },
     "by_server": {
       "_metadata": {
+        "electrs.mewccrypto.com:50002": {
+          "contact": [
+            {
+              "discord": "Meowmancer#2099"
+            }
+          ]
+        },
+        "electrs.mewccrypto.com:50004": {
+          "contact": [
+            {
+              "discord": "Meowmancer#2099"
+            }
+          ]
+        },
         "meowcoinelectrum.xyz:50002": {
           "contact": [
             {
@@ -8366,10 +8388,12 @@
         }
       },
       "electrs.mewccrypto.com:50002": {
-        "1775779172": "online"
+        "1775779172": "online",
+        "1782268723": "offline"
       },
       "electrs.mewccrypto.com:50004": {
-        "1775779172": "online"
+        "1775779172": "online",
+        "1782268723": "offline"
       },
       "electrs2.mewccrypto.com:50002": {
         "1778294861": "online"
@@ -10444,7 +10468,8 @@
         "1770168231": "offline",
         "1770254634": "online",
         "1773700082": "offline",
-        "1773828034": "online"
+        "1773828034": "online",
+        "1782268723": "offline"
       },
       "electrum3.runebase.io:50002": {
         "1755770395": "online",
@@ -10453,7 +10478,8 @@
         "1770168231": "offline",
         "1770254634": "online",
         "1773700082": "offline",
-        "1773828034": "online"
+        "1773828034": "online",
+        "1782268723": "offline"
       },
       "electrum3.runebase.io:50004": {
         "1755770395": "online",
@@ -10462,7 +10488,8 @@
         "1770168231": "offline",
         "1770254634": "online",
         "1773700082": "offline",
-        "1773828034": "online"
+        "1773828034": "online",
+        "1782268723": "offline"
       },
       "electrum4.runebase.io:50001": {
         "1755770395": "offline",
@@ -11509,7 +11536,8 @@
         "1780457333": "offline",
         "1780887368": "online",
         "1781595462": "offline",
-        "1781665138": "online"
+        "1781665138": "online",
+        "1782268723": "offline"
       },
       "uno-main.coinmunity.gold:50003": {
         "1755770395": "online",
@@ -11518,7 +11546,8 @@
         "1780457333": "offline",
         "1780887368": "online",
         "1781595462": "offline",
-        "1781665138": "online"
+        "1781665138": "online",
+        "1782268723": "offline"
       }
     }
   },
