@@ -4352,6 +4352,31 @@
     }
   },
   {
+    "coin": "MWC",
+    "name": "minersworldcoin",
+    "fname": "MinersWorldCoin",
+    "sign_message_prefix": "MinersWorldCoin Signed Message:\n",
+    "rpcport": 5579,
+    "pubtype": 20,
+    "p2shtype": 10,
+    "wiftype": 123,
+    "txfee": 100000,
+    "dust": 100000,
+    "segwit": true,
+    "bech32_hrp": "mwc",
+    "mm2": 1,
+    "required_confirmations": 3,
+    "avg_blocktime": 120,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/5579'",
+    "links": {
+      "github": "https://github.com/Miners-World-Coin-MWC/MinersWorldCoin",
+      "homepage": "https://minersworld.org"
+    }
+  },
+  {
     "coin": "DEV",
     "name": "dogecoinev",
     "fname": "DogecoinEV",
