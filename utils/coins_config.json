@@ -13933,8 +13933,44 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/41'",
-        "electrum": [],
-        "delisted": true,
+        "electrum": [
+            {
+                "url": "emc2.electrum1.cipig.net:10062",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "emc2.electrum1.cipig.net:20062",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "emc2.electrum1.cipig.net:30062",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "ENJ-ERC20": {
@@ -25622,6 +25658,10 @@
                 "protocol": "SSL"
             },
             {
+                "url": "electrum5.getlynx.io:50004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum6.getlynx.io:50002",
                 "protocol": "SSL"
             },
@@ -27736,6 +27776,14 @@
             },
             {
                 "url": "electrum2.nav.community:40004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum3.nav.community:40002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum3.nav.community:40004",
                 "protocol": "WSS"
             }
         ],
@@ -41424,8 +41472,62 @@
             "type": "UTXO"
         },
         "derivation_path": "m/84'/597'",
-        "electrum": [],
-        "delisted": true,
+        "electrum": [
+            {
+                "url": "electrumx1.electraprotocol.eu:50001",
+                "contact": [
+                    {
+                        "discord": "287952234317348865"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx1.electraprotocol.eu:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "287952234317348865"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.electraprotocol.eu:50001",
+                "contact": [
+                    {
+                        "discord": "287952234317348865"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx2.electraprotocol.eu:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "287952234317348865"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx3.electraprotocol.eu:50001",
+                "contact": [
+                    {
+                        "discord": "287952234317348865"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx3.electraprotocol.eu:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "287952234317348865"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "XEP-BEP20": {

@@ -10280,6 +10280,52 @@
         ],
         "explorer_block_url": "block/"
     },
+    "EMC2": {
+        "coin": "EMC2",
+        "type": "UTXO",
+        "name": "Einsteinium",
+        "coinpaprika_id": "emc2-einsteinium",
+        "coingecko_id": "einsteinium",
+        "livecoinwatch_id": "EMC2",
+        "explorer_url": "https://chainz.cryptoid.info/emc2/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Einsteinium Signed Message:\n",
+        "fname": "Einsteinium",
+        "rpcport": 41879,
+        "pubtype": 33,
+        "p2shtype": 5,
+        "wiftype": 176,
+        "txfee": 100000,
+        "dust": 54600,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/41'",
+        "electrum": [
+            {
+                "url": "emc2.electrum1.cipig.net:30062",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "ENJ-ERC20": {
         "coin": "ENJ-ERC20",
         "type": "ERC-20",
@@ -19607,6 +19653,10 @@
         "derivation_path": "m/44'/191'",
         "electrum": [
             {
+                "url": "electrum5.getlynx.io:50004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum6.getlynx.io:50004",
                 "protocol": "WSS"
             },
@@ -21256,6 +21306,10 @@
         "electrum": [
             {
                 "url": "electrum2.nav.community:40004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum3.nav.community:40004",
                 "protocol": "WSS"
             }
         ],

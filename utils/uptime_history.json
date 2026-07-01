@@ -4427,7 +4427,8 @@
   "EMC2": {
     "all": {
       "1755770395": "online",
-      "1782787373": "offline"
+      "1782787373": "offline",
+      "1782874144": "online"
     },
     "by_server": {
       "_metadata": {
@@ -4524,15 +4525,18 @@
       },
       "emc2.electrum1.cipig.net:10062": {
         "1755770395": "online",
-        "1782787373": "offline"
+        "1782787373": "offline",
+        "1782874144": "online"
       },
       "emc2.electrum1.cipig.net:20062": {
         "1755770395": "online",
-        "1782787373": "offline"
+        "1782787373": "offline",
+        "1782874144": "online"
       },
       "emc2.electrum1.cipig.net:30062": {
         "1755770395": "online",
-        "1782787373": "offline"
+        "1782787373": "offline",
+        "1782874144": "online"
       },
       "emc2.electrum2.cipig.net:10062": {
         "1755770395": "online",
@@ -8023,7 +8027,8 @@
       },
       "electrum5.getlynx.io:50004": {
         "1755770395": "online",
-        "1782787373": "offline"
+        "1782787373": "offline",
+        "1782874144": "online"
       },
       "electrum6.getlynx.io:50002": {
         "1755770395": "online"
@@ -8753,11 +8758,13 @@
       },
       "electrum3.nav.community:40002": {
         "1755770395": "online",
-        "1782787373": "offline"
+        "1782787373": "offline",
+        "1782874144": "online"
       },
       "electrum3.nav.community:40004": {
         "1755770395": "online",
-        "1782787373": "offline"
+        "1782787373": "offline",
+        "1782874144": "online"
       },
       "electrum4.nav.community:40002": {
         "1755770395": "offline"
@@ -12147,7 +12154,8 @@
   "XEP-segwit": {
     "all": {
       "1755770395": "online",
-      "1782787373": "offline"
+      "1782787373": "offline",
+      "1782874144": "online"
     },
     "by_server": {
       "_metadata": {
@@ -12217,11 +12225,13 @@
       },
       "electrumx1.electraprotocol.eu:50001": {
         "1755770395": "online",
-        "1782787373": "offline"
+        "1782787373": "offline",
+        "1782874144": "online"
       },
       "electrumx1.electraprotocol.eu:50002": {
         "1755770395": "online",
-        "1782787373": "offline"
+        "1782787373": "offline",
+        "1782874144": "online"
       },
       "electrumx1.electraprotocol.eu:50003": {
         "1755770395": "online",
@@ -12229,11 +12239,13 @@
       },
       "electrumx2.electraprotocol.eu:50001": {
         "1755770395": "online",
-        "1782787373": "offline"
+        "1782787373": "offline",
+        "1782874144": "online"
       },
       "electrumx2.electraprotocol.eu:50002": {
         "1755770395": "online",
-        "1782787373": "offline"
+        "1782787373": "offline",
+        "1782874144": "online"
       },
       "electrumx2.electraprotocol.eu:50003": {
         "1755770395": "online",
@@ -12241,11 +12253,13 @@
       },
       "electrumx3.electraprotocol.eu:50001": {
         "1755770395": "online",
-        "1782787373": "offline"
+        "1782787373": "offline",
+        "1782874144": "online"
       },
       "electrumx3.electraprotocol.eu:50002": {
         "1755770395": "online",
-        "1782787373": "offline"
+        "1782787373": "offline",
+        "1782874144": "online"
       },
       "electrumx3.electraprotocol.eu:50003": {
         "1755770395": "online",
