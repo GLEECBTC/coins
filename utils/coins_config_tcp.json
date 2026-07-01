@@ -11742,6 +11742,52 @@
         ],
         "explorer_block_url": "block/"
     },
+    "EMC2": {
+        "coin": "EMC2",
+        "type": "UTXO",
+        "name": "Einsteinium",
+        "coinpaprika_id": "emc2-einsteinium",
+        "coingecko_id": "einsteinium",
+        "livecoinwatch_id": "EMC2",
+        "explorer_url": "https://chainz.cryptoid.info/emc2/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Einsteinium Signed Message:\n",
+        "fname": "Einsteinium",
+        "rpcport": 41879,
+        "pubtype": 33,
+        "p2shtype": 5,
+        "wiftype": 176,
+        "txfee": 100000,
+        "dust": 54600,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/41'",
+        "electrum": [
+            {
+                "url": "emc2.electrum1.cipig.net:20062",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "ENJ-ERC20": {
         "coin": "ENJ-ERC20",
         "type": "ERC-20",
@@ -24192,6 +24238,10 @@
             {
                 "url": "electrum2.nav.community:40002",
                 "protocol": "SSL"
+            },
+            {
+                "url": "electrum3.nav.community:40002",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/"
@@ -36133,6 +36183,75 @@
             {
                 "url": "https://rpc.gnosischain.com",
                 "ws_url": "wss://rpc.gnosischain.com/wss"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "XEP-segwit": {
+        "coin": "XEP-segwit",
+        "type": "UTXO",
+        "name": "Electra Protocol",
+        "coinpaprika_id": "xep-electra-protocol",
+        "coingecko_id": "electra-protocol",
+        "livecoinwatch_id": "XEP",
+        "explorer_url": "https://electraprotocol.network/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "XEP Signed Message:\n",
+        "fname": "Electra Protocol",
+        "rpcport": 16816,
+        "pubtype": 55,
+        "p2shtype": 137,
+        "wiftype": 162,
+        "txversion": 2,
+        "txfee": 100000,
+        "dust": 100000,
+        "mm2": 1,
+        "segwit": true,
+        "signature_version": "witness_v0",
+        "bech32_hrp": "ep",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "XEP",
+        "required_confirmations": 4,
+        "avg_blocktime": 80,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/84'/597'",
+        "electrum": [
+            {
+                "url": "electrumx1.electraprotocol.eu:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "287952234317348865"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.electraprotocol.eu:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "287952234317348865"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx3.electraprotocol.eu:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "287952234317348865"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
