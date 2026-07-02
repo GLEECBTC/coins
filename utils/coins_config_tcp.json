@@ -11513,6 +11513,11 @@
         },
         "electrum": [
             {
+                "url": "electrum1.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "electrum3.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -11784,6 +11789,18 @@
         "electrum": [
             {
                 "url": "emc2.electrum1.cipig.net:20062",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "emc2.electrum2.cipig.net:20062",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -36703,6 +36720,10 @@
             "homepage": "https://primecoin.io"
         },
         "electrum": [
+            {
+                "url": "electrumx.xpm.systems:50002",
+                "protocol": "SSL"
+            },
             {
                 "url": "electrumx.gemmer.primecoin.org:50011",
                 "protocol": "TCP"
