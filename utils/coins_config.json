@@ -13669,6 +13669,16 @@
         },
         "electrum": [
             {
+                "url": "electrum1.egulden.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true
+            },
+            {
+                "url": "electrum1.egulden.org:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "electrum3.egulden.org:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -13969,6 +13979,42 @@
             },
             {
                 "url": "emc2.electrum1.cipig.net:30062",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "emc2.electrum2.cipig.net:10062",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "emc2.electrum2.cipig.net:20062",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "emc2.electrum2.cipig.net:30062",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -15993,6 +16039,15 @@
             {
                 "url": "electrumx03.firo.org:50002",
                 "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx03.firo.org:50004",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "github": "https://github.com/firoorg/electrumx-firo/issues"
@@ -42072,6 +42127,14 @@
             {
                 "url": "electrumx.primecoin.org:50001",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrumx.xpm.systems:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrumx.xpm.systems:50004",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"

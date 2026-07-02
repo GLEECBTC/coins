@@ -10072,6 +10072,11 @@
         },
         "electrum": [
             {
+                "url": "electrum1.egulden.org:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            },
+            {
                 "url": "electrum3.egulden.org:50004",
                 "protocol": "WSS",
                 "disable_cert_verification": true
@@ -10313,6 +10318,18 @@
         "electrum": [
             {
                 "url": "emc2.electrum1.cipig.net:30062",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "cipi@komodoplatform.com"
+                    },
+                    {
+                        "discord": "cipi#4502"
+                    }
+                ]
+            },
+            {
+                "url": "emc2.electrum2.cipig.net:30062",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -11946,6 +11963,15 @@
             },
             {
                 "url": "electrumx02.firo.org:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/firoorg/electrumx-firo/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx03.firo.org:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -31752,6 +31778,48 @@
                         "discord": "456566604809895947"
                     }
                 ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "XPM": {
+        "coin": "XPM",
+        "type": "UTXO",
+        "name": "Primecoin",
+        "coinpaprika_id": "xpm-primecoin",
+        "coingecko_id": "primecoin",
+        "livecoinwatch_id": "XPM",
+        "explorer_url": "https://www.blockseek.io/xpm/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "fname": "Primecoin",
+        "rpcport": 8332,
+        "pubtype": 23,
+        "p2shtype": 83,
+        "wiftype": 151,
+        "txfee": 0,
+        "dust": 1000000,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/24'",
+        "trezor_coin": "Primecoin",
+        "links": {
+            "github": "https://github.com/primecoin/primecoin",
+            "homepage": "https://primecoin.io"
+        },
+        "electrum": [
+            {
+                "url": "electrumx.xpm.systems:50004",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block/"

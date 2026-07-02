@@ -4367,7 +4367,8 @@
         "1776909733": "online",
         "1781923413": "offline",
         "1782268723": "online",
-        "1782787373": "offline"
+        "1782787373": "offline",
+        "1783007272": "online"
       },
       "electrum1.egulden.org:50004": {
         "1755770395": "online",
@@ -4375,7 +4376,8 @@
         "1776909733": "online",
         "1781923413": "offline",
         "1782268723": "online",
-        "1782787373": "offline"
+        "1782787373": "offline",
+        "1783007272": "online"
       },
       "electrum2.egulden.org:50002": {
         "1755770395": "offline"
@@ -4543,19 +4545,22 @@
         "1755770395": "online",
         "1781146549": "offline",
         "1781232768": "online",
-        "1782787373": "offline"
+        "1782787373": "offline",
+        "1783007272": "online"
       },
       "emc2.electrum2.cipig.net:20062": {
         "1755770395": "online",
         "1781146549": "offline",
         "1781232768": "online",
-        "1782787373": "offline"
+        "1782787373": "offline",
+        "1783007272": "online"
       },
       "emc2.electrum2.cipig.net:30062": {
         "1755770395": "online",
         "1781146549": "offline",
         "1781232768": "online",
-        "1782787373": "offline"
+        "1782787373": "offline",
+        "1783007272": "online"
       },
       "emc2.electrum3.cipig.net:10062": {
         "1755770395": "offline"
@@ -4907,7 +4912,8 @@
         "1755770395": "online",
         "1776831960": "offline",
         "1777005785": "online",
-        "1779937604": "offline"
+        "1779937604": "offline",
+        "1783007272": "online"
       }
     }
   },
@@ -12452,6 +12458,12 @@
       },
       "electrumx.primecoin.org:50001": {
         "1755770395": "online"
+      },
+      "electrumx.xpm.systems:50002": {
+        "1783007272": "online"
+      },
+      "electrumx.xpm.systems:50004": {
+        "1783007272": "online"
       }
     }
   },
