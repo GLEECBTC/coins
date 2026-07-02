@@ -1418,7 +1418,8 @@
         "1780887368": "online",
         "1781595462": "offline",
         "1781665138": "online",
-        "1782787373": "offline"
+        "1782787373": "offline",
+        "1782959921": "online"
       },
       "bit-e.minethepla.net:50004": {
         "1768093005": "offline",
@@ -8139,7 +8140,8 @@
         "1760163826": "online",
         "1764928287": "offline",
         "1765110311": "online",
-        "1782787373": "offline"
+        "1782787373": "offline",
+        "1782959921": "online"
       },
       "https://polygon-bor-rpc.publicnode.com": {
         "1755770395": "online"
@@ -9494,7 +9496,8 @@
         "1779244822": "online",
         "1781146549": "offline",
         "1781232768": "online",
-        "1782787373": "offline"
+        "1782787373": "offline",
+        "1782959921": "online"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
