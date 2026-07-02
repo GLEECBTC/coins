@@ -17003,13 +17003,13 @@
     "pubtype": 21,
     "p2shtype": 88,
     "wiftype": 149,
-    "txfee": 0,
-    "dust": 5460,
+    "txfee": 10000,
+    "dust": 5431,
     "segwit": false,
     "mm2": 1,
     "decimals": 8,
     "required_confirmations": 3,
-    "avg_blocktime": 10,
+    "avg_blocktime": 600,
     "protocol": {
       "type": "UTXO"
     },

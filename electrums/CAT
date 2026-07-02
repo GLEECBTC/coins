@@ -1,27 +1,38 @@
 [
     {
-        "url": "pro1.electrum-cat.org:8103",
-        "protocol": "SSL",
+        "url": "cat-electrum1.tbtechvn.com:50001",
         "contact": [
             {
-                "email": "jjcomtechlimited@gmail.com"
-            },
-            {
-                "discord": "main_jj"
+                "discord": "349778454872588299"
             }
         ]
     },
     {
-        "url": "pro2.electrum-cat.org:8103",
+        "url": "cat-electrum1.tbtechvn.com:51001",
         "protocol": "SSL",
         "contact": [
             {
-                "email": "jjcomtechlimited@gmail.com"
-            },
+                "discord": "349778454872588299"
+            }
+        ],
+        "ws_url": "cat-electrum1.tbtechvn.com:52001"
+    },
+    {
+        "url": "cat-electrum2.tbtechvn.com:50001",
+        "contact": [
             {
-                "discord": "main_jj"
+                "discord": "349778454872588299"
             }
         ]
+    },
+    {
+        "url": "cat-electrum2.tbtechvn.com:51001",
+        "protocol": "SSL",
+        "contact": [
+            {
+                "discord": "349778454872588299"
+            }
+        ],
+        "ws_url": "cat-electrum2.tbtechvn.com:52001"
     }
-
 ]
