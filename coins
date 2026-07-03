@@ -16992,5 +16992,32 @@
       "explorer": "https://explorer.jumpcoin.net",
       "github": "https://github.com/jumpcoin"
     }
+  },
+  {
+    "coin": "CAT",
+    "name": "catcoin",
+    "fname": "Catcoin",
+    "sign_message_prefix": "Catcoin Signed Message:\n",
+    "isPoS": 0,
+    "rpcport": 9332,
+    "pubtype": 21,
+    "p2shtype": 88,
+    "wiftype": 149,
+    "txfee": 1000000,
+    "dust": 5431,
+    "segwit": false,
+    "mm2": 1,
+    "decimals": 8,
+    "required_confirmations": 3,
+    "avg_blocktime": 600,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/760'",
+    "links": {
+      "homepage": "https://catcoin.org",
+      "explorer": "https://chainz.cryptoid.info/cat/",
+      "github": "https://github.com/CatcoinCore"
+    }
   }
 ]

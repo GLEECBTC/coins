@@ -1910,5 +1910,9 @@
   "gbpe.png": {
     "original": "c3ee62b5ce40ae95b2185e321d473d11f3d8f4612a0d6f2426ac631dabc79a65",
     "processed": "5f311ac7054478858fa4685c90c01f6fa6e6da38efdf5809a53766c6f3830375"
+  },
+  "cat.png": {
+    "original": "68e311b05fe667ef46eb4706f924540fc7bb6fcc27a8df380fb82c744e66f0d4",
+    "processed": "1ee44c23727e8ba4433d2952ea5b1d4308172f299ff15be05f57d0b3626d9323"
   }
 }
