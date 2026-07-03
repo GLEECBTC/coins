@@ -1428,7 +1428,8 @@
         "1780887368": "online",
         "1781595462": "offline",
         "1781665138": "online",
-        "1782787373": "offline"
+        "1782787373": "offline",
+        "1783050801": "online"
       },
       "bit-e.outsidethebox.top:50002": {
         "1768093005": "online",
@@ -2343,6 +2344,31 @@
       },
       "electrum3.cascoin.net:50003": {
         "1755770395": "offline"
+      }
+    }
+  },
+  "CAT": {
+    "all": {
+      "1783050801": "online"
+    },
+    "by_server": {
+      "cat-electrum1.tbtechvn.com:50001": {
+        "1783050801": "online"
+      },
+      "cat-electrum1.tbtechvn.com:51001": {
+        "1783050801": "online"
+      },
+      "cat-electrum1.tbtechvn.com:52001": {
+        "1783050801": "online"
+      },
+      "cat-electrum2.tbtechvn.com:50001": {
+        "1783050801": "online"
+      },
+      "cat-electrum2.tbtechvn.com:51001": {
+        "1783050801": "online"
+      },
+      "cat-electrum2.tbtechvn.com:52001": {
+        "1783050801": "online"
       }
     }
   },
@@ -9503,7 +9529,8 @@
         "1781146549": "offline",
         "1781232768": "online",
         "1782787373": "offline",
-        "1782959921": "online"
+        "1782959921": "online",
+        "1783050801": "offline"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -12140,7 +12167,8 @@
         "1781232768": "offline",
         "1781595462": "online",
         "1781665138": "offline",
-        "1781923413": "online"
+        "1781923413": "online",
+        "1783050801": "offline"
       }
     }
   },

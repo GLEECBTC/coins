@@ -25517,9 +25517,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://1rpc.io/one"
-            },
-            {
                 "url": "https://api.harmony.one"
             },
             {
@@ -42304,5 +42301,65 @@
             }
         ],
         "explorer_block_url": "block/"
+    },
+    "CAT": {
+        "coin": "CAT",
+        "type": "UTXO",
+        "name": "Catcoin",
+        "coinpaprika_id": "cat-catcoin",
+        "coingecko_id": "catcoin",
+        "livecoinwatch_id": "________________________CAT",
+        "explorer_url": "https://chainz.cryptoid.info/cat/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Catcoin Signed Message:\n",
+        "fname": "Catcoin",
+        "isPoS": 0,
+        "rpcport": 9332,
+        "pubtype": 21,
+        "p2shtype": 88,
+        "wiftype": 149,
+        "txfee": 1000000,
+        "dust": 5431,
+        "segwit": false,
+        "mm2": 1,
+        "decimals": 8,
+        "required_confirmations": 3,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/760'",
+        "links": {
+            "homepage": "https://catcoin.org",
+            "explorer": "https://chainz.cryptoid.info/cat/",
+            "github": "https://github.com/CatcoinCore"
+        },
+        "electrum": [
+            {
+                "url": "cat-electrum1.tbtechvn.com:51001",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "349778454872588299"
+                    }
+                ]
+            },
+            {
+                "url": "cat-electrum2.tbtechvn.com:51001",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "349778454872588299"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block.dws?"
     }
 }
