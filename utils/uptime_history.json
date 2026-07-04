@@ -1419,7 +1419,8 @@
         "1781595462": "offline",
         "1781665138": "online",
         "1782787373": "offline",
-        "1782959921": "online"
+        "1782959921": "online",
+        "1783174701": "offline"
       },
       "bit-e.minethepla.net:50004": {
         "1768093005": "offline",
@@ -1719,21 +1720,24 @@
         "1768180562": "offline",
         "1768266592": "online",
         "1780269451": "offline",
-        "1780368879": "online"
+        "1780368879": "online",
+        "1783174701": "offline"
       },
       "bsty-main.coinmunity.gold:50012": {
         "1761086724": "online",
         "1768180562": "offline",
         "1768266592": "online",
         "1780269451": "offline",
-        "1780368879": "online"
+        "1780368879": "online",
+        "1783174701": "offline"
       },
       "bsty-main.coinmunity.gold:50013": {
         "1761086724": "online",
         "1768180562": "offline",
         "1768266592": "online",
         "1780269451": "offline",
-        "1780368879": "online"
+        "1780368879": "online",
+        "1783174701": "offline"
       },
       "electrumserver01.globalboost.info:50011": {
         "1755770395": "offline",
@@ -9530,7 +9534,8 @@
         "1781232768": "online",
         "1782787373": "offline",
         "1782959921": "online",
-        "1783050801": "offline"
+        "1783050801": "offline",
+        "1783174701": "online"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
