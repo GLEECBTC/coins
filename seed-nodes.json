@@ -48,18 +48,6 @@
         ]
     },
     {
-        "name": "sintara-dragon-seed",
-        "host": "sintara.dragon-seed.com",
-        "type": "domain",
-        "wss": false,
-        "netid": 8762,
-        "contact": [
-            {
-                "email": ""
-            }
-        ]
-    },
-    {
         "name": "seed-decker-1",
         "host": "kdfseed1.decker.im",
         "type": "domain",
