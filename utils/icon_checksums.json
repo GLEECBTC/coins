@@ -1914,5 +1914,9 @@
   "cat.png": {
     "original": "68e311b05fe667ef46eb4706f924540fc7bb6fcc27a8df380fb82c744e66f0d4",
     "processed": "1ee44c23727e8ba4433d2952ea5b1d4308172f299ff15be05f57d0b3626d9323"
+  },
+  "bch2.png": {
+    "original": "8b61178122887d158ea9be80aa1965a601ff0ce158f265058b635cb186817954",
+    "processed": "bd68bd14b531547a07066a92537ce8092fccef2d9c9f9c062c552410847e75a5"
   }
 }

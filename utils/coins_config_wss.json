@@ -3770,6 +3770,69 @@
         "explorer_block_url": "block/",
         "binance_id": "BCH"
     },
+    "BCH2": {
+        "coin": "BCH2",
+        "type": "UTXO",
+        "name": "Bitcoin Cash II",
+        "coinpaprika_id": "bch2-bitcoin-cash-ii",
+        "coingecko_id": "bitcoin-cash-ii",
+        "livecoinwatch_id": "BCH2",
+        "explorer_url": "https://explorer.bch2.org/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Bitcoin Signed Message:\n",
+        "fname": "Bitcoin Cash II",
+        "rpcport": 8342,
+        "pubtype": 0,
+        "p2shtype": 5,
+        "wiftype": 128,
+        "txfee": 1000,
+        "segwit": false,
+        "fork_id": "0x40",
+        "address_format": {
+            "format": "cashaddress",
+            "network": "bitcoincashii"
+        },
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "UTXO",
+            "chain_variant": "BTC"
+        },
+        "derivation_path": "m/44'/145'",
+        "trezor_coin": "Bitcoin Cash",
+        "links": {
+            "github": "https://github.com/Bitcoin-II",
+            "homepage": "https://bch2.org"
+        },
+        "electrum": [
+            {
+                "url": "electrum.bch2.org:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "dev@bitcoincashii.org"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.bch2.org:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "dev@bitcoincashii.org"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "BEAMX-BEP20": {
         "coin": "BEAMX-BEP20",
         "type": "BEP-20",
@@ -7038,54 +7101,6 @@
             }
         ],
         "explorer_block_url": "block/"
-    },
-    "CLAM": {
-        "coin": "CLAM",
-        "type": "UTXO",
-        "name": "Clams",
-        "coinpaprika_id": "clam-clams",
-        "coingecko_id": "clams",
-        "livecoinwatch_id": "CLAM",
-        "explorer_url": "https://chainz.cryptoid.info/clam/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Clam Signed Message:\n",
-        "fname": "Clams",
-        "isPoS": 1,
-        "rpcport": 30174,
-        "pubtype": 137,
-        "p2shtype": 13,
-        "wiftype": 133,
-        "segwit": false,
-        "txfee": 100000,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/23'",
-        "links": {
-            "github": "https://github.com/nochowderforyou/clams",
-            "homepage": "http://clamclient.com"
-        },
-        "electrum": [
-            {
-                "url": "clam-ex-one.ewmci.online:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block.dws?"
     },
     "CLC": {
         "coin": "CLC",

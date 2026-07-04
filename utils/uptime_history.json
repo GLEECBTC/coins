@@ -1221,6 +1221,31 @@
       }
     }
   },
+  "BCH2": {
+    "all": {
+      "1783193536": "online"
+    },
+    "by_server": {
+      "electrum.bch2.org:50001": {
+        "1783193536": "online"
+      },
+      "electrum.bch2.org:50002": {
+        "1783193536": "online"
+      },
+      "electrum.bch2.org:50004": {
+        "1783193536": "online"
+      },
+      "electrum2.bch2.org:50001": {
+        "1783193536": "online"
+      },
+      "electrum2.bch2.org:50002": {
+        "1783193536": "online"
+      },
+      "electrum2.bch2.org:50004": {
+        "1783193536": "online"
+      }
+    }
+  },
   "BCZERO": {
     "all": {
       "1755770395": "online"
@@ -2668,7 +2693,8 @@
   },
   "CLAM": {
     "all": {
-      "1755770395": "online"
+      "1755770395": "online",
+      "1783193536": "offline"
     },
     "by_server": {
       "_metadata": {
@@ -2719,21 +2745,24 @@
         "1767483691": "offline",
         "1768699088": "online",
         "1775750563": "offline",
-        "1775959086": "online"
+        "1775959086": "online",
+        "1783193536": "offline"
       },
       "clam-ex-one.ewmci.online:50002": {
         "1755770395": "online",
         "1767483691": "offline",
         "1768699088": "online",
         "1775750563": "offline",
-        "1775959086": "online"
+        "1775959086": "online",
+        "1783193536": "offline"
       },
       "clam-ex-one.ewmci.online:50003": {
         "1755770395": "online",
         "1767483691": "offline",
         "1768699088": "online",
         "1775750563": "offline",
-        "1775959086": "online"
+        "1775959086": "online",
+        "1783193536": "offline"
       },
       "clam.electrum3.cipig.net:20075": {
         "1755770395": "online",
@@ -12173,7 +12202,8 @@
         "1781595462": "online",
         "1781665138": "offline",
         "1781923413": "online",
-        "1783050801": "offline"
+        "1783050801": "offline",
+        "1783193536": "online"
       }
     }
   },
