@@ -1767,6 +1767,36 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "BCH2",
+    "name": "bch2",
+    "fname": "Bitcoin Cash II",
+    "rpcport": 8342,
+    "pubtype": 0,
+    "p2shtype": 5,
+    "wiftype": 128,
+    "txfee": 1000,
+    "segwit": false,
+    "fork_id": "0x40",
+    "address_format": {
+      "format": "cashaddress",
+      "network": "bitcoincashii"
+    },
+    "mm2": 1,
+    "sign_message_prefix": "Bitcoin Signed Message:\n",
+    "required_confirmations": 3,
+    "avg_blocktime": 600,
+    "protocol": {
+      "type": "UTXO",
+      "chain_variant": "BTC"
+    },
+    "derivation_path": "m/44'/145'",
+    "trezor_coin": "Bitcoin Cash",
+    "links": {
+      "github": "https://github.com/Bitcoin-II",
+      "homepage": "https://bch2.org"
+    }
+  },
+  {
     "coin": "BEAMX-BEP20",
     "name": "beamx_bep20",
     "fname": "Beam",
