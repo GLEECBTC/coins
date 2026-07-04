@@ -4932,10 +4932,6 @@
         },
         "electrum": [
             {
-                "url": "bsty-main.coinmunity.gold:50013",
-                "protocol": "WSS"
-            },
-            {
                 "url": "electrumserver01.globalboost.info:50013",
                 "protocol": "WSS"
             }
