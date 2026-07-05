@@ -860,8 +860,8 @@
       }
     },
     "derivation_path": "m/44'/141'",
-    "required_confirmations": 2,
-    "requires_notarization": true
+    "required_confirmations": 5,
+    "requires_notarization": false
   },
   {
     "coin": "ARRR-BEP20",
