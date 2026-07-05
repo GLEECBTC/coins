@@ -60,7 +60,7 @@ jobs:
         run: ${GITHUB_WORKSPACE}/utils/generate_app_configs.py
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: Update coins json file
