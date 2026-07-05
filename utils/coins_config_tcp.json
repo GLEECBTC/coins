@@ -2128,8 +2128,8 @@
             }
         },
         "derivation_path": "m/44'/141'",
-        "required_confirmations": 2,
-        "requires_notarization": true,
+        "required_confirmations": 5,
+        "requires_notarization": false,
         "checkpoint_height": 1900000,
         "checkpoint_blocktime": 1652512363,
         "electrum": [
@@ -4703,6 +4703,15 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "bit-e.minethepla.net:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
             {
                 "url": "bitnet.outsidethebox.top:50002",
                 "protocol": "SSL",
@@ -31601,88 +31610,6 @@
             {
                 "url": "https://polygon.gateway.tenderly.co",
                 "ws_url": "wss://polygon.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "TESTBTC": {
-        "coin": "TESTBTC",
-        "type": "UTXO",
-        "name": "Bitcoin Testnet",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://blockstream.info/testnet/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": true,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Bitcoin Signed Message:\n",
-        "fname": "Bitcoin Testnet",
-        "rpcport": 18332,
-        "pubtype": 111,
-        "p2shtype": 196,
-        "wiftype": 239,
-        "segwit": true,
-        "bech32_hrp": "tb",
-        "txfee": 0,
-        "estimate_fee_mode": "ECONOMICAL",
-        "mm2": 1,
-        "required_confirmations": 0,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/1'",
-        "electrum": [
-            {
-                "url": "testnet.aranguren.org:51001",
-                "protocol": "TCP"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "TESTBTC-segwit": {
-        "coin": "TESTBTC-segwit",
-        "type": "UTXO",
-        "name": "Bitcoin Testnet",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://blockstream.info/testnet/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": true,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Bitcoin Signed Message:\n",
-        "fname": "Bitcoin Testnet",
-        "rpcport": 18332,
-        "pubtype": 111,
-        "p2shtype": 196,
-        "wiftype": 239,
-        "segwit": true,
-        "bech32_hrp": "tb",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "tBTC",
-        "txfee": 0,
-        "estimate_fee_mode": "ECONOMICAL",
-        "mm2": 1,
-        "required_confirmations": 0,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/84'/1'",
-        "electrum": [
-            {
-                "url": "testnet.aranguren.org:51001",
-                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
