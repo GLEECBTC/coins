@@ -1,7 +1,7 @@
 [
   {
     "url": "electrum.minersworld.org:50002",
-    "ws_url": "electrum.minersworld.org:50004",
+    "ws_url": "electrum.minersworld.org:50005",
     "protocol": "SSL",
     "contact": [
       { "discord": "danny_utxo" }
