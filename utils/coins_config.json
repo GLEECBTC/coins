@@ -2213,8 +2213,8 @@
             }
         },
         "derivation_path": "m/44'/141'",
-        "required_confirmations": 2,
-        "requires_notarization": true,
+        "required_confirmations": 5,
+        "requires_notarization": false,
         "checkpoint_height": 1900000,
         "checkpoint_blocktime": 1652512363,
         "electrum": [
@@ -5213,6 +5213,15 @@
             "type": "UTXO"
         },
         "electrum": [
+            {
+                "url": "bit-e.minethepla.net:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
             {
                 "url": "bit-e.minethepla.net:50004",
                 "protocol": "WSS",
@@ -36517,12 +36526,8 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/1'",
-        "electrum": [
-            {
-                "url": "testnet.aranguren.org:51001",
-                "protocol": "TCP"
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "TESTBTC-segwit": {
@@ -36560,12 +36565,8 @@
             "type": "UTXO"
         },
         "derivation_path": "m/84'/1'",
-        "electrum": [
-            {
-                "url": "testnet.aranguren.org:51001",
-                "protocol": "TCP"
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "TEL-ERC20": {

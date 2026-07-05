@@ -1790,8 +1790,8 @@
             }
         },
         "derivation_path": "m/44'/141'",
-        "required_confirmations": 2,
-        "requires_notarization": true,
+        "required_confirmations": 5,
+        "requires_notarization": false,
         "checkpoint_height": 1900000,
         "checkpoint_blocktime": 1652512363,
         "electrum": [

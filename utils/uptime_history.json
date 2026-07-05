@@ -1445,7 +1445,8 @@
         "1781665138": "online",
         "1782787373": "offline",
         "1782959921": "online",
-        "1783174701": "offline"
+        "1783174701": "offline",
+        "1783290557": "online"
       },
       "bit-e.minethepla.net:50004": {
         "1768093005": "offline",
@@ -11049,7 +11050,8 @@
   },
   "TESTBTC": {
     "all": {
-      "1755770395": "online"
+      "1755770395": "online",
+      "1783290557": "offline"
     },
     "by_server": {
       "_metadata": {
@@ -11097,13 +11099,15 @@
         "1780269451": "offline"
       },
       "testnet.aranguren.org:51001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1783290557": "offline"
       }
     }
   },
   "TESTBTC-segwit": {
     "all": {
-      "1755770395": "online"
+      "1755770395": "online",
+      "1783290557": "offline"
     },
     "by_server": {
       "_metadata": {
@@ -11151,7 +11155,8 @@
         "1780269451": "offline"
       },
       "testnet.aranguren.org:51001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1783290557": "offline"
       }
     }
   },
