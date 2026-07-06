@@ -11045,6 +11045,55 @@
         ],
         "explorer_block_url": "block/"
     },
+    "MWC": {
+        "coin": "MWC",
+        "type": "UTXO",
+        "name": "MinersWorldCoin",
+        "coinpaprika_id": "mwc-minersworldcoin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "__MWC",
+        "explorer_url": "https://miners-world-coin-mwc.github.io/explorer/",
+        "explorer_tx_url": "#/transaction/",
+        "explorer_address_url": "#/address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "MinersWorldCoin Signed Message:\n",
+        "fname": "MinersWorldCoin",
+        "rpcport": 5579,
+        "pubtype": 20,
+        "p2shtype": 10,
+        "wiftype": 123,
+        "txfee": 100000,
+        "dust": 100000,
+        "segwit": true,
+        "bech32_hrp": "mwc",
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 120,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/5579'",
+        "links": {
+            "github": "https://github.com/Miners-World-Coin-MWC/MinersWorldCoin",
+            "homepage": "https://minersworld.org"
+        },
+        "electrum": [
+            {
+                "url": "electrum.minersworld.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "danny_utxo"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "#/block/"
+    },
     "DEV": {
         "coin": "DEV",
         "type": "UTXO",
@@ -24229,10 +24278,6 @@
             {
                 "url": "https://moonbeam-rpc.publicnode.com",
                 "ws_url": "wss://moonbeam-rpc.publicnode.com"
-            },
-            {
-                "url": "https://moonbeam.drpc.org",
-                "ws_url": "wss://moonbeam.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonbeam.network",

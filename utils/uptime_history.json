@@ -5931,7 +5931,8 @@
         "1779942167": "offline",
         "1780022253": "online",
         "1780899085": "offline",
-        "1780972393": "online"
+        "1780972393": "online",
+        "1783296943": "offline"
       },
       "https://moonbeam.public.blastapi.io": {
         "1755770395": "online",
@@ -5964,7 +5965,8 @@
         "1779942167": "offline",
         "1780022253": "online",
         "1780899085": "offline",
-        "1780972393": "online"
+        "1780972393": "online",
+        "1783296943": "offline"
       },
       "wss://moonbeam.public.blastapi.io": {
         "1755770395": "online",
@@ -8735,6 +8737,54 @@
         "1755770395": "online",
         "1774959961": "offline",
         "1774987573": "online"
+      }
+    }
+  },
+  "MWC": {
+    "all": {
+      "1783296943": "online"
+    },
+    "by_server": {
+      "_metadata": {
+        "electrum2.minersworld.org:50001": {
+          "contact": [
+            {
+              "discord": "danny_utxo"
+            }
+          ]
+        },
+        "electrum2.minersworld.org:50002": {
+          "contact": [
+            {
+              "discord": "danny_utxo"
+            }
+          ]
+        },
+        "electrum2.minersworld.org:50004": {
+          "contact": [
+            {
+              "discord": "danny_utxo"
+            }
+          ]
+        }
+      },
+      "electrum.minersworld.org:50001": {
+        "1783296943": "online"
+      },
+      "electrum.minersworld.org:50002": {
+        "1783296943": "online"
+      },
+      "electrum.minersworld.org:50005": {
+        "1783296943": "online"
+      },
+      "electrum2.minersworld.org:50001": {
+        "1783296943": "offline"
+      },
+      "electrum2.minersworld.org:50002": {
+        "1783296943": "offline"
+      },
+      "electrum2.minersworld.org:50004": {
+        "1783296943": "offline"
       }
     }
   },
@@ -12208,7 +12258,8 @@
         "1781665138": "offline",
         "1781923413": "online",
         "1783050801": "offline",
-        "1783193536": "online"
+        "1783193536": "online",
+        "1783296943": "offline"
       }
     }
   },

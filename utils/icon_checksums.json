@@ -1918,5 +1918,9 @@
   "bch2.png": {
     "original": "8b61178122887d158ea9be80aa1965a601ff0ce158f265058b635cb186817954",
     "processed": "bd68bd14b531547a07066a92537ce8092fccef2d9c9f9c062c552410847e75a5"
+  },
+  "mwc.png": {
+    "original": "8cf610052cff1310f3dc539d0c0e1627f6b855fc72dd099559d573fb54a369c8",
+    "processed": "0063268cfc0fc0261788f6c666c19445cd7cc19eb920e8d5adbd62568b2369ea"
   }
 }
