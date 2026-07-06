@@ -5932,7 +5932,8 @@
         "1780022253": "online",
         "1780899085": "offline",
         "1780972393": "online",
-        "1783296943": "offline"
+        "1783296943": "offline",
+        "1783297301": "online"
       },
       "https://moonbeam.public.blastapi.io": {
         "1755770395": "online",
@@ -5966,7 +5967,8 @@
         "1780022253": "online",
         "1780899085": "offline",
         "1780972393": "online",
-        "1783296943": "offline"
+        "1783296943": "offline",
+        "1783297301": "online"
       },
       "wss://moonbeam.public.blastapi.io": {
         "1755770395": "online",
@@ -9615,7 +9617,8 @@
         "1782787373": "offline",
         "1782959921": "online",
         "1783050801": "offline",
-        "1783174701": "online"
+        "1783174701": "online",
+        "1783297301": "offline"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -12259,7 +12262,8 @@
         "1781923413": "online",
         "1783050801": "offline",
         "1783193536": "online",
-        "1783296943": "offline"
+        "1783296943": "offline",
+        "1783297301": "online"
       }
     }
   },
