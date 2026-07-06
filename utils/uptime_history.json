@@ -9618,7 +9618,8 @@
         "1782959921": "online",
         "1783050801": "offline",
         "1783174701": "online",
-        "1783297301": "offline"
+        "1783297301": "offline",
+        "1783305166": "online"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -9664,7 +9665,8 @@
         "1778294861": "online"
       },
       "https://rpc.osmosis.zone/": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1783305166": "offline"
       },
       "wss://osmosis-rpc.alpha.komodo.earth/websocket": {
         "1755770395": "online",
