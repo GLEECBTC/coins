@@ -6638,6 +6638,18 @@
         },
         "electrum": [
             {
+                "url": "bsty-main.coinmunity.gold:50011",
+                "protocol": "TCP"
+            },
+            {
+                "url": "bsty-main.coinmunity.gold:50012",
+                "protocol": "SSL"
+            },
+            {
+                "url": "bsty-main.coinmunity.gold:50013",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrumserver01.globalboost.info:50011",
                 "protocol": "TCP"
             },
@@ -12321,33 +12333,6 @@
                 "contact": [
                     {
                         "discord": "405102339612082177"
-                    }
-                ]
-            },
-            {
-                "url": "elecx1.dingocoin.com:3339",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "115619332448321541"
-                    }
-                ]
-            },
-            {
-                "url": "elecx1.dingocoin.com:3341",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "115619332448321541"
-                    }
-                ]
-            },
-            {
-                "url": "elecx1.dingocoin.com:3342",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "115619332448321541"
                     }
                 ]
             },
@@ -29500,9 +29485,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://1rpc.io/one"
-            },
-            {
                 "url": "https://api.harmony.one"
             },
             {
@@ -36593,8 +36575,12 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/1'",
-        "electrum": [],
-        "delisted": true,
+        "electrum": [
+            {
+                "url": "testnet.aranguren.org:51001",
+                "protocol": "TCP"
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "TESTBTC-segwit": {
@@ -36632,8 +36618,12 @@
             "type": "UTXO"
         },
         "derivation_path": "m/84'/1'",
-        "electrum": [],
-        "delisted": true,
+        "electrum": [
+            {
+                "url": "testnet.aranguren.org:51001",
+                "protocol": "TCP"
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "TEL-ERC20": {
@@ -47657,6 +47647,9 @@
             },
             {
                 "url": "https://rpc.cosmos.directory/osmosis"
+            },
+            {
+                "url": "https://rpc.osmosis.zone/"
             }
         ],
         "explorer_block_url": "block/",

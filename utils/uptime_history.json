@@ -1747,7 +1747,8 @@
         "1768266592": "online",
         "1780269451": "offline",
         "1780368879": "online",
-        "1783174701": "offline"
+        "1783174701": "offline",
+        "1783476129": "online"
       },
       "bsty-main.coinmunity.gold:50012": {
         "1761086724": "online",
@@ -1755,7 +1756,8 @@
         "1768266592": "online",
         "1780269451": "offline",
         "1780368879": "online",
-        "1783174701": "offline"
+        "1783174701": "offline",
+        "1783476129": "online"
       },
       "bsty-main.coinmunity.gold:50013": {
         "1761086724": "online",
@@ -1763,7 +1765,8 @@
         "1768266592": "online",
         "1780269451": "offline",
         "1780368879": "online",
-        "1783174701": "offline"
+        "1783174701": "offline",
+        "1783476129": "online"
       },
       "electrumserver01.globalboost.info:50011": {
         "1755770395": "offline",
@@ -3771,7 +3774,8 @@
         "1767483691": "offline",
         "1767567872": "online",
         "1770168231": "offline",
-        "1775959086": "online"
+        "1775959086": "online",
+        "1783476129": "offline"
       },
       "elecx1.dingocoin.com:3341": {
         "1755770395": "online",
@@ -3780,7 +3784,8 @@
         "1767483691": "offline",
         "1767567872": "online",
         "1770168231": "offline",
-        "1775959086": "online"
+        "1775959086": "online",
+        "1783476129": "offline"
       },
       "elecx1.dingocoin.com:3342": {
         "1755770395": "online",
@@ -3789,7 +3794,8 @@
         "1767483691": "offline",
         "1767567872": "online",
         "1770168231": "offline",
-        "1775959086": "online"
+        "1775959086": "online",
+        "1783476129": "offline"
       },
       "elecx2.dingocoin.com:3339": {
         "1755770395": "online",
@@ -9619,7 +9625,8 @@
         "1783050801": "offline",
         "1783174701": "online",
         "1783297301": "offline",
-        "1783305166": "online"
+        "1783305166": "online",
+        "1783476129": "offline"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -9666,7 +9673,8 @@
       },
       "https://rpc.osmosis.zone/": {
         "1755770395": "online",
-        "1783305166": "offline"
+        "1783305166": "offline",
+        "1783476129": "online"
       },
       "wss://osmosis-rpc.alpha.komodo.earth/websocket": {
         "1755770395": "online",
@@ -11106,7 +11114,8 @@
   "TESTBTC": {
     "all": {
       "1755770395": "online",
-      "1783290557": "offline"
+      "1783290557": "offline",
+      "1783476129": "online"
     },
     "by_server": {
       "_metadata": {
@@ -11155,14 +11164,16 @@
       },
       "testnet.aranguren.org:51001": {
         "1755770395": "online",
-        "1783290557": "offline"
+        "1783290557": "offline",
+        "1783476129": "online"
       }
     }
   },
   "TESTBTC-segwit": {
     "all": {
       "1755770395": "online",
-      "1783290557": "offline"
+      "1783290557": "offline",
+      "1783476129": "online"
     },
     "by_server": {
       "_metadata": {
@@ -11211,7 +11222,8 @@
       },
       "testnet.aranguren.org:51001": {
         "1755770395": "online",
-        "1783290557": "offline"
+        "1783290557": "offline",
+        "1783476129": "online"
       }
     }
   },
@@ -12265,7 +12277,8 @@
         "1783050801": "offline",
         "1783193536": "online",
         "1783296943": "offline",
-        "1783297301": "online"
+        "1783297301": "online",
+        "1783476129": "offline"
       }
     }
   },

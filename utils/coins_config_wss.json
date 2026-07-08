@@ -4995,6 +4995,10 @@
         },
         "electrum": [
             {
+                "url": "bsty-main.coinmunity.gold:50013",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrumserver01.globalboost.info:50013",
                 "protocol": "WSS"
             }
@@ -9169,15 +9173,6 @@
                 "contact": [
                     {
                         "discord": "405102339612082177"
-                    }
-                ]
-            },
-            {
-                "url": "elecx1.dingocoin.com:3341",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "115619332448321541"
                     }
                 ]
             },
@@ -35725,6 +35720,9 @@
             },
             {
                 "url": "https://rpc.cosmos.directory/osmosis"
+            },
+            {
+                "url": "https://rpc.osmosis.zone/"
             }
         ],
         "explorer_block_url": "block/",
