@@ -1,0 +1,26 @@
+[
+  {
+    "url": "electrumx.HTH.foundation:50002",
+    "protocol": "SSL",
+    "ws_url": "electrumx.HTH.foundation:",
+    "contact": [
+      { "discord": "nucash" }
+    ]
+  },
+  {
+    "url": "electrumx.HTH.foundation:50004",
+    "protocol": "WSS",
+    "ws_url": "electrumx.HTH.foundation:",
+    "contact": [
+      { "discord": "nucash" }
+    ]
+  },
+  {
+    "url": "electrumx.HTH.foundation:50001",
+    "protocol": "TCP",
+    "ws_url": "electrumx.HTH.foundation:",
+    "contact": [
+      { "discord": "nucash" }
+    ]
+  }
+]
