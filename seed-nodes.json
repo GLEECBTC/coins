@@ -1,6 +1,6 @@
 [
     {
-        "name": "seed-node-1",
+        "name": "seed-unknown-1",
         "host": "66.42.60.49",
         "type": "ipv4",
         "wss": false,
@@ -12,7 +12,19 @@
         ]
     },
     {
-        "name": "seed-node-2",
+        "name": "seed-kmdefi-1",
+        "host": "seed01.kmdefi.net",
+        "type": "domain",
+        "wss": true,
+        "netid": 6133,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
+    },
+    {
+        "name": "seed-kmdefi-2",
         "host": "seed02.kmdefi.net",
         "type": "domain",
         "wss": true,
@@ -24,7 +36,7 @@
         ]
     },
     {
-        "name": "seed-node-3",
+        "name": "seed-kmdefi-3",
         "host": "seed03.kmdefi.net",
         "type": "domain",
         "wss": true,
@@ -36,7 +48,7 @@
         ]
     },
     {
-        "name": "seed-node-4",
+        "name": "seed-kmdefi-4",
         "host": "seed04.kmdefi.net",
         "type": "domain",
         "wss": true,
