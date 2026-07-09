@@ -22,5 +22,18 @@
     "contact": [
       { "discord": "def#4726" }
     ]
+  },
+  {
+    "url": "bitn-electrumx.wattxchange.app:50012",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "nucash" }
+    ]
+  },
+  {
+    "url": "bitn-electrumx.wattxchange.app:50011",
+    "contact": [
+      { "discord": "nucash" }
+    ]
   }
 ]
