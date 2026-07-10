@@ -12,13 +12,5 @@
     "contact": [
       { "discord": "nucash" }
     ]
-  },
-  {
-    "url": "electrum.wattxchange.app:50002",
-    "protocol": "SSL",
-    "ws_url": "electrum.wattxchange.app:50004",
-    "contact": [
-      { "email": "admin@wattxchange.app" }
-    ]
   }
 ]
