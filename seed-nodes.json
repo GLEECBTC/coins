@@ -12,7 +12,7 @@
         ]
     },
     {
-        "name": "seed-node-2",
+        "name": "seed-kmdefi-2",
         "host": "seed02.kmdefi.net",
         "type": "domain",
         "wss": true,
@@ -24,22 +24,10 @@
         ]
     },
     {
-        "name": "seed-node-4",
+        "name": "seed-kmdefi-4",
         "host": "seed04.kmdefi.net",
         "type": "domain",
         "wss": true,
-        "netid": 8762,
-        "contact": [
-            {
-                "email": ""
-            }
-        ]
-    },
-    {
-        "name": "sintara-dragon-seed",
-        "host": "sintara.dragon-seed.com",
-        "type": "domain",
-        "wss": false,
         "netid": 8762,
         "contact": [
             {

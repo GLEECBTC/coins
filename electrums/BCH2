@@ -1,0 +1,38 @@
+[
+  {
+    "url": "electrum.bch2.org:50001",
+    "contact": [
+      {
+        "email": "dev@bitcoincashii.org"
+      }
+    ]
+  },
+  {
+    "url": "electrum.bch2.org:50002",
+    "protocol": "SSL",
+    "ws_url": "electrum.bch2.org:50004",
+    "contact": [
+      {
+        "email": "dev@bitcoincashii.org"
+      }
+    ]
+  },
+  {
+    "url": "electrum2.bch2.org:50001",
+    "contact": [
+      {
+        "email": "dev@bitcoincashii.org"
+      }
+    ]
+  },
+  {
+    "url": "electrum2.bch2.org:50002",
+    "protocol": "SSL",
+    "ws_url": "electrum2.bch2.org:50004",
+    "contact": [
+      {
+        "email": "dev@bitcoincashii.org"
+      }
+    ]
+  }
+]
