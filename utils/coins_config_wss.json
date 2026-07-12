@@ -3561,15 +3561,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "bbk-ex-two.ewmci.online:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -4007,15 +3998,6 @@
         },
         "electrum": [
             {
-                "url": "bit-e.minethepla.net:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
                 "url": "bitnet.outsidethebox.top:50004",
                 "protocol": "WSS",
                 "contact": [
@@ -4185,16 +4167,6 @@
             },
             {
                 "url": "electrum2.blackcoin.nl:20004",
-                "protocol": "WSS",
-                "disable_cert_verification": false,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.blackcoin.nl:30004",
                 "protocol": "WSS",
                 "disable_cert_verification": false,
                 "contact": [
@@ -8643,6 +8615,10 @@
         "derivation_path": "m/44'/18'",
         "electrum": [
             {
+                "url": "electrumx.dgc.ewmcx.org:50003",
+                "protocol": "WSS"
+            },
+            {
                 "url": "failover.dgc.ewmcx.biz:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": true
@@ -9173,6 +9149,15 @@
                 "contact": [
                     {
                         "discord": "405102339612082177"
+                    }
+                ]
+            },
+            {
+                "url": "elecx1.dingocoin.com:3341",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "115619332448321541"
                     }
                 ]
             },
@@ -24871,7 +24856,7 @@
         "coinpaprika_id": "rin-rincoin",
         "coingecko_id": "",
         "livecoinwatch_id": "_RIN",
-        "explorer_url": "https://www.rinscan.org/",
+        "explorer_url": "https://explorer.rincoin.tech/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
         "supported": [],
@@ -24899,11 +24884,11 @@
         "derivation_path": "m/44'/9555'",
         "links": {
             "github": "https://github.com/Rin-coin/rincoin",
-            "homepage": "https://rincoin.net"
+            "homepage": "https://rincoin.tech"
         },
         "electrum": [
             {
-                "url": "peer1.rincoin.net:50004",
+                "url": "peer1.rincoin.tech:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -24915,7 +24900,19 @@
                 ]
             },
             {
-                "url": "peer2.rincoin.net:50004",
+                "url": "peer2.rincoin.tech:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer3.rincoin.tech:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -24936,7 +24933,7 @@
         "coinpaprika_id": "rin-rincoin",
         "coingecko_id": "",
         "livecoinwatch_id": "_RIN",
-        "explorer_url": "https://www.rinscan.org/",
+        "explorer_url": "https://explorer.rincoin.tech/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
         "supported": [],
@@ -24968,11 +24965,11 @@
         "derivation_path": "m/84'/9555'",
         "links": {
             "github": "https://github.com/Rin-coin/rincoin",
-            "homepage": "https://rincoin.net"
+            "homepage": "https://rincoin.tech"
         },
         "electrum": [
             {
-                "url": "peer1.rincoin.net:50004",
+                "url": "peer1.rincoin.tech:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -24984,7 +24981,19 @@
                 ]
             },
             {
-                "url": "peer2.rincoin.net:50004",
+                "url": "peer2.rincoin.tech:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "takologi@proton.me"
+                    },
+                    {
+                        "discord": "tk.lg"
+                    }
+                ]
+            },
+            {
+                "url": "peer3.rincoin.tech:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -36627,64 +36636,6 @@
             {
                 "url": "https://polygon.gateway.tenderly.co",
                 "ws_url": "wss://polygon.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "VRM": {
-        "coin": "VRM",
-        "type": "UTXO",
-        "name": "Verium Reserve",
-        "coinpaprika_id": "vrm-veriumreserve",
-        "coingecko_id": "",
-        "livecoinwatch_id": "VRM",
-        "explorer_url": "https://verium-explorer.vericonomy.com/",
-        "explorer_tx_url": "transaction/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Verium Reserve",
-        "rpcport": 33987,
-        "pubtype": 70,
-        "p2shtype": 132,
-        "wiftype": 198,
-        "txfee": 1000000,
-        "isPoS": 1,
-        "segwit": false,
-        "force_min_relay_fee": true,
-        "mm2": 1,
-        "confpath": "USERHOME/.verium/verium.conf",
-        "required_confirmations": 5,
-        "avg_blocktime": 240,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/8750'",
-        "links": {
-            "github": "https://github.com/VeriConomy/verium-current",
-            "homepage": "https://vericonomy.com"
-        },
-        "electrum": [
-            {
-                "url": "electrumx-vrm1.vericonomy.com:51004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "dev@vericonomy.com"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx-vrm2.vericonomy.com:52004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "dev@vericonomy.com"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"

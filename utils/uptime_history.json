@@ -861,17 +861,20 @@
       "bbk-ex-two.ewmci.online:50001": {
         "1755770395": "online",
         "1767483691": "offline",
-        "1768699088": "online"
+        "1768699088": "online",
+        "1783866516": "offline"
       },
       "bbk-ex-two.ewmci.online:50002": {
         "1755770395": "online",
         "1767483691": "offline",
-        "1768699088": "online"
+        "1768699088": "online",
+        "1783866516": "offline"
       },
       "bbk-ex-two.ewmci.online:50003": {
         "1755770395": "online",
         "1767483691": "offline",
-        "1768699088": "online"
+        "1768699088": "online",
+        "1783866516": "offline"
       },
       "bbk-one.ewm-cx.net:50001": {
         "1755770395": "offline"
@@ -1447,7 +1450,8 @@
         "1782959921": "online",
         "1783174701": "offline",
         "1783290557": "online",
-        "1783625980": "offline"
+        "1783625980": "offline",
+        "1783866516": "online"
       },
       "bit-e.minethepla.net:50004": {
         "1768093005": "offline",
@@ -1457,7 +1461,8 @@
         "1781595462": "offline",
         "1781665138": "online",
         "1782787373": "offline",
-        "1783050801": "online"
+        "1783050801": "online",
+        "1783866516": "offline"
       },
       "bit-e.outsidethebox.top:50002": {
         "1768093005": "online",
@@ -1482,7 +1487,8 @@
       },
       "bitnet.outsidethebox.top:50002": {
         "1768093005": "offline",
-        "1782268723": "online"
+        "1782268723": "online",
+        "1783866516": "offline"
       },
       "bitnet.outsidethebox.top:50004": {
         "1768093005": "offline",
@@ -1583,17 +1589,20 @@
       "electrum3.blackcoin.nl:30001": {
         "1755770395": "online",
         "1780368879": "offline",
-        "1780457333": "online"
+        "1780457333": "online",
+        "1783866516": "offline"
       },
       "electrum3.blackcoin.nl:30002": {
         "1755770395": "online",
         "1780368879": "offline",
-        "1780457333": "online"
+        "1780457333": "online",
+        "1783866516": "offline"
       },
       "electrum3.blackcoin.nl:30004": {
         "1755770395": "online",
         "1780368879": "offline",
-        "1780457333": "online"
+        "1780457333": "online",
+        "1783866516": "offline"
       }
     }
   },
@@ -3342,7 +3351,8 @@
         "1769476724": "offline"
       },
       "electrumx.dgc.ewmcx.org:50003": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1783866516": "online"
       },
       "failover.dgc.ewmcx.biz:50002": {
         "1755770395": "online",
@@ -3776,7 +3786,8 @@
         "1767567872": "online",
         "1770168231": "offline",
         "1775959086": "online",
-        "1783476129": "offline"
+        "1783476129": "offline",
+        "1783866516": "online"
       },
       "elecx1.dingocoin.com:3341": {
         "1755770395": "online",
@@ -3786,7 +3797,8 @@
         "1767567872": "online",
         "1770168231": "offline",
         "1775959086": "online",
-        "1783476129": "offline"
+        "1783476129": "offline",
+        "1783866516": "online"
       },
       "elecx1.dingocoin.com:3342": {
         "1755770395": "online",
@@ -3796,7 +3808,8 @@
         "1767567872": "online",
         "1770168231": "offline",
         "1775959086": "online",
-        "1783476129": "offline"
+        "1783476129": "offline",
+        "1783866516": "online"
       },
       "elecx2.dingocoin.com:3339": {
         "1755770395": "online",
@@ -10475,11 +10488,29 @@
       "peer1.rincoin.net:50004": {
         "1773964971": "online"
       },
+      "peer1.rincoin.tech:50002": {
+        "1783866516": "online"
+      },
+      "peer1.rincoin.tech:50004": {
+        "1783866516": "online"
+      },
       "peer2.rincoin.net:50002": {
         "1773964971": "online"
       },
       "peer2.rincoin.net:50004": {
         "1773964971": "online"
+      },
+      "peer2.rincoin.tech:50002": {
+        "1783866516": "online"
+      },
+      "peer2.rincoin.tech:50004": {
+        "1783866516": "online"
+      },
+      "peer3.rincoin.tech:50002": {
+        "1783866516": "online"
+      },
+      "peer3.rincoin.tech:50004": {
+        "1783866516": "online"
       }
     }
   },
@@ -10494,11 +10525,29 @@
       "peer1.rincoin.net:50004": {
         "1773964971": "online"
       },
+      "peer1.rincoin.tech:50002": {
+        "1783866516": "online"
+      },
+      "peer1.rincoin.tech:50004": {
+        "1783866516": "online"
+      },
       "peer2.rincoin.net:50002": {
         "1773964971": "online"
       },
       "peer2.rincoin.net:50004": {
         "1773964971": "online"
+      },
+      "peer2.rincoin.tech:50002": {
+        "1783866516": "online"
+      },
+      "peer2.rincoin.tech:50004": {
+        "1783866516": "online"
+      },
+      "peer3.rincoin.tech:50002": {
+        "1783866516": "online"
+      },
+      "peer3.rincoin.tech:50004": {
+        "1783866516": "online"
       }
     }
   },
@@ -11896,20 +11945,55 @@
   },
   "VRM": {
     "all": {
-      "1767567872": "online"
+      "1767567872": "online",
+      "1783866516": "offline"
     },
     "by_server": {
+      "_metadata": {
+        "electrumx-vrm1.vericonomy.com:51002": {
+          "contact": [
+            {
+              "email": "dev@vericonomy.com"
+            }
+          ]
+        },
+        "electrumx-vrm1.vericonomy.com:51004": {
+          "contact": [
+            {
+              "email": "dev@vericonomy.com"
+            }
+          ]
+        },
+        "electrumx-vrm2.vericonomy.com:52002": {
+          "contact": [
+            {
+              "email": "dev@vericonomy.com"
+            }
+          ]
+        },
+        "electrumx-vrm2.vericonomy.com:52004": {
+          "contact": [
+            {
+              "email": "dev@vericonomy.com"
+            }
+          ]
+        }
+      },
       "electrumx-vrm1.vericonomy.com:51002": {
-        "1767567872": "online"
+        "1767567872": "online",
+        "1783866516": "offline"
       },
       "electrumx-vrm1.vericonomy.com:51004": {
-        "1767567872": "online"
+        "1767567872": "online",
+        "1783866516": "offline"
       },
       "electrumx-vrm2.vericonomy.com:52002": {
-        "1767567872": "online"
+        "1767567872": "online",
+        "1783866516": "offline"
       },
       "electrumx-vrm2.vericonomy.com:52004": {
-        "1767567872": "online"
+        "1767567872": "online",
+        "1783866516": "offline"
       }
     }
   },
