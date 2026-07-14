@@ -6806,7 +6806,8 @@
       "1755770395": "online",
       "1766366022": "offline",
       "1767483691": "online",
-      "1781923413": "offline"
+      "1781923413": "offline",
+      "1783993904": "online"
     },
     "by_server": {
       "_metadata": {
@@ -6915,53 +6916,63 @@
         "1755770395": "online",
         "1766366022": "offline",
         "1767483691": "online",
-        "1781923413": "offline"
+        "1781923413": "offline",
+        "1783993904": "online"
       },
       "electrum1.kcnxp.com:51004": {
         "1755770395": "online",
         "1766366022": "offline",
         "1767483691": "online",
-        "1781923413": "offline"
+        "1781923413": "offline",
+        "1783993904": "online"
       },
       "electrum2.kcnxp.com:51002": {
         "1755770395": "online",
-        "1766366022": "offline"
+        "1766366022": "offline",
+        "1783993904": "online"
       },
       "electrum2.kcnxp.com:51004": {
         "1755770395": "online",
-        "1766366022": "offline"
+        "1766366022": "offline",
+        "1783993904": "online"
       },
       "electrum3.kcnxp.com:51002": {
         "1755770395": "online",
         "1766366022": "offline",
         "1767483691": "online",
-        "1781923413": "offline"
+        "1781923413": "offline",
+        "1783993904": "online"
       },
       "electrum3.kcnxp.com:51004": {
         "1755770395": "online",
         "1766366022": "offline",
         "1767483691": "online",
-        "1781923413": "offline"
+        "1781923413": "offline",
+        "1783993904": "online"
       },
       "electrum4.kcnxp.com:51002": {
         "1755770395": "online",
-        "1766366022": "offline"
+        "1766366022": "offline",
+        "1783993904": "online"
       },
       "electrum4.kcnxp.com:51004": {
         "1755770395": "online",
-        "1766366022": "offline"
+        "1766366022": "offline",
+        "1783993904": "online"
       },
       "electrum5.kcnxp.com:51002": {
         "1755770395": "online",
         "1766366022": "offline",
         "1767483691": "online",
-        "1781923413": "offline"
+        "1781923413": "offline",
+        "1783993904": "online"
       },
       "electrum5.kcnxp.com:51004": {
         "1755770395": "online",
         "1766366022": "offline",
         "1767483691": "online",
-        "1781923413": "offline"
+        "1781923413": "offline",
+        "1783993904": "online"
       }
     }
   },
@@ -6970,7 +6981,8 @@
       "1755770395": "online",
       "1766366022": "offline",
       "1767483691": "online",
-      "1781923413": "offline"
+      "1781923413": "offline",
+      "1783993904": "online"
     },
     "by_server": {
       "_metadata": {
@@ -7079,53 +7091,63 @@
         "1755770395": "online",
         "1766366022": "offline",
         "1767483691": "online",
-        "1781923413": "offline"
+        "1781923413": "offline",
+        "1783993904": "online"
       },
       "electrum1.kcnxp.com:51004": {
         "1755770395": "online",
         "1766366022": "offline",
         "1767483691": "online",
-        "1781923413": "offline"
+        "1781923413": "offline",
+        "1783993904": "online"
       },
       "electrum2.kcnxp.com:51002": {
         "1755770395": "online",
-        "1766366022": "offline"
+        "1766366022": "offline",
+        "1783993904": "online"
       },
       "electrum2.kcnxp.com:51004": {
         "1755770395": "online",
-        "1766366022": "offline"
+        "1766366022": "offline",
+        "1783993904": "online"
       },
       "electrum3.kcnxp.com:51002": {
         "1755770395": "online",
         "1766366022": "offline",
         "1767483691": "online",
-        "1781923413": "offline"
+        "1781923413": "offline",
+        "1783993904": "online"
       },
       "electrum3.kcnxp.com:51004": {
         "1755770395": "online",
         "1766366022": "offline",
         "1767483691": "online",
-        "1781923413": "offline"
+        "1781923413": "offline",
+        "1783993904": "online"
       },
       "electrum4.kcnxp.com:51002": {
         "1755770395": "online",
-        "1766366022": "offline"
+        "1766366022": "offline",
+        "1783993904": "online"
       },
       "electrum4.kcnxp.com:51004": {
         "1755770395": "online",
-        "1766366022": "offline"
+        "1766366022": "offline",
+        "1783993904": "online"
       },
       "electrum5.kcnxp.com:51002": {
         "1755770395": "online",
         "1766366022": "offline",
         "1767483691": "online",
-        "1781923413": "offline"
+        "1781923413": "offline",
+        "1783993904": "online"
       },
       "electrum5.kcnxp.com:51004": {
         "1755770395": "online",
         "1766366022": "offline",
         "1767483691": "online",
-        "1781923413": "offline"
+        "1781923413": "offline",
+        "1783993904": "online"
       }
     }
   },
@@ -9686,12 +9708,14 @@
         "1768785451": "offline",
         "1768871563": "online",
         "1777930797": "offline",
-        "1778294861": "online"
+        "1778294861": "online",
+        "1783993904": "offline"
       },
       "https://rpc.osmosis.zone/": {
         "1755770395": "online",
         "1783305166": "offline",
-        "1783476129": "online"
+        "1783476129": "online",
+        "1783993904": "offline"
       },
       "wss://osmosis-rpc.alpha.komodo.earth/websocket": {
         "1755770395": "online",
@@ -12367,7 +12391,8 @@
         "1783296943": "offline",
         "1783297301": "online",
         "1783476129": "offline",
-        "1783625980": "online"
+        "1783625980": "online",
+        "1783993904": "offline"
       }
     }
   },
