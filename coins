@@ -197,6 +197,25 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "A29-GRC20",
+    "name": "a29_grc20",
+    "fname": "A29",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 11169,
+    "decimals": 18,
+    "required_confirmations": 3,
+    "avg_blocktime": 2.6,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "GLEEC",
+        "contract_address": "0x08E8F49921C9650f13473cCadb948B3cf3C6c4F9"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "AAVE-AVX20",
     "name": "aave_avx20",
     "fname": "AAVE",
@@ -1576,6 +1595,25 @@
     }
   },
   {
+    "coin": "BCASH-GRC20",
+    "name": "bcash_grc20",
+    "fname": "B-CASH",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 11169,
+    "decimals": 18,
+    "required_confirmations": 3,
+    "avg_blocktime": 2.6,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "GLEEC",
+        "contract_address": "0x90E100a7fdad752c97ae5B5F2De76EbacfA5f6b5"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "BCH",
     "name": "bch",
     "fname": "Bitcoin Cash",
@@ -1898,6 +1936,25 @@
     "links": {
       "homepage": "https://buggyracoinzero.com"
     }
+  },
+  {
+    "coin": "BCZERO-GRC20",
+    "name": "bczero_grc20",
+    "fname": "Buggyra Coin Zero",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 11169,
+    "decimals": 18,
+    "required_confirmations": 3,
+    "avg_blocktime": 2.6,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "GLEEC",
+        "contract_address": "0x48579AE77db4f0Ec8A747919e670a74fd71Bb783"
+      }
+    },
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "BKC",
@@ -8083,6 +8140,25 @@
     }
   },
   {
+    "coin": "KMD-GRC20",
+    "name": "kmd_grc20",
+    "fname": "Komodo",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 11169,
+    "decimals": 18,
+    "required_confirmations": 3,
+    "avg_blocktime": 2.6,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "GLEEC",
+        "contract_address": "0x3341acA97C71E12A80D1e01D8c86bE93ba669752"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "KNC-BEP20",
     "name": "knc_bep20",
     "fname": "Kyber Network",
@@ -9259,6 +9335,25 @@
     "links": {
       "homepage": "https://mandala.exchange"
     }
+  },
+  {
+    "coin": "MDX-GRC20",
+    "name": "mdx_grc20",
+    "fname": "Mandala",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 11169,
+    "decimals": 18,
+    "required_confirmations": 3,
+    "avg_blocktime": 2.6,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "GLEEC",
+        "contract_address": "0xcF53f0Efe6967259E582335502D3E17Fe8720FB8"
+      }
+    },
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "MDX-ERC20",
@@ -11231,6 +11326,25 @@
     },
     "derivation_path": "m/44'/141'",
     "trezor_coin": "Komodo"
+  },
+  {
+    "coin": "RAPH-GRC20",
+    "name": "raph_grc20",
+    "fname": "Raphael",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 11169,
+    "decimals": 18,
+    "required_confirmations": 3,
+    "avg_blocktime": 2.6,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "GLEEC",
+        "contract_address": "0x37C66A3855e23F80fA8073937B486d9f99619D3c"
+      }
+    },
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "RDD",
