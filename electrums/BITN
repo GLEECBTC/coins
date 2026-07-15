@@ -26,6 +26,7 @@
   {
     "url": "bitn-electrumx.wattxchange.app:50012",
     "protocol": "SSL",
+    "ws_url": "bitn-electrumx.wattxchange.app:50014",
     "contact": [
       { "discord": "nucash" }
     ]
