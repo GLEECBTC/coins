@@ -4702,15 +4702,6 @@
                         "discord": "def#4726"
                     }
                 ]
-            },
-            {
-                "url": "bitnet.outsidethebox.top:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -4873,6 +4864,16 @@
             },
             {
                 "url": "electrum2.blackcoin.nl:20002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "discord": "michelvankessel#7656"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.blackcoin.nl:30002",
                 "protocol": "SSL",
                 "disable_cert_verification": false,
                 "contact": [
@@ -5788,10 +5789,6 @@
             {
                 "url": "bsty-main.coinmunity.gold:50012",
                 "protocol": "SSL"
-            },
-            {
-                "url": "electrumserver01.globalboost.info:50014",
-                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/"
@@ -6597,16 +6594,6 @@
         },
         "electrum": [
             {
-                "url": "btx-electrumx.coinsmunity.com:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "[MadCatMining]#0677"
-                    }
-                ]
-            },
-            {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
                 "contact": [
@@ -6674,16 +6661,6 @@
             "homepage": "https://bitcore.cc"
         },
         "electrum": [
-            {
-                "url": "btx-electrumx.coinsmunity.com:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "[MadCatMining]#0677"
-                    }
-                ]
-            },
             {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
@@ -10478,6 +10455,15 @@
             },
             {
                 "url": "elecx1.dingocoin.com:3342",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "115619332448321541"
+                    }
+                ]
+            },
+            {
+                "url": "elecx2.kmsoftware.org:3342",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -17453,90 +17439,6 @@
             }
         ],
         "explorer_block_url": "block/"
-    },
-    "IL8P": {
-        "coin": "IL8P",
-        "type": "UTXO",
-        "name": "InfiniLooP",
-        "coinpaprika_id": "il8p-infiniloop",
-        "coingecko_id": "",
-        "livecoinwatch_id": "IL8P",
-        "explorer_url": "https://chainz.cryptoid.info/il8p/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "InfiniLooP Signed Message:\n",
-        "fname": "InfiniLooP",
-        "isPoS": 1,
-        "rpcport": 9459,
-        "pubtype": 33,
-        "p2shtype": 85,
-        "wiftype": 153,
-        "txfee": 100000,
-        "dust": 100000,
-        "mm2": 1,
-        "mature_confirmations": 500,
-        "required_confirmations": 7,
-        "avg_blocktime": 45,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/722'",
-        "links": {
-            "github": "https://github.com/WikiMin3R/InfiniLooP",
-            "homepage": "https://infiniloop.io"
-        },
-        "electrum": [
-            {
-                "url": "il8p.electrumx.transcenders.name:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "coins@ewmci.com"
-                    },
-                    {
-                        "discord": "[CryptoStan]#9341"
-                    },
-                    {
-                        "twitter": "EwmciL"
-                    },
-                    {
-                        "reddit": "InfiniLooP"
-                    },
-                    {
-                        "github": "WikiMin3R"
-                    }
-                ]
-            },
-            {
-                "url": "il9p.electrumx.transcenders.name:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "coins@ewmci.com"
-                    },
-                    {
-                        "discord": "[CryptoStan]#9341"
-                    },
-                    {
-                        "twitter": "EwmciL"
-                    },
-                    {
-                        "reddit": "InfiniLooP"
-                    },
-                    {
-                        "github": "WikiMin3R"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block.dws?"
     },
     "ILN-BEP20": {
         "coin": "ILN-BEP20",
@@ -24519,10 +24421,6 @@
             {
                 "url": "electrum2.nav.community:40002",
                 "protocol": "SSL"
-            },
-            {
-                "url": "electrum3.nav.community:40002",
-                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/"
@@ -25819,9 +25717,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://1rpc.io/one"
-            },
-            {
                 "url": "https://api.harmony.one"
             },
             {
@@ -26422,10 +26317,6 @@
             "homepage": "https://getstarted.with.pink"
         },
         "electrum": [
-            {
-                "url": "pink-one.ewm-cx.net:50001",
-                "protocol": "TCP"
-            },
             {
                 "url": "pink-two.ewm-cx.net:50001",
                 "protocol": "TCP"
@@ -27473,59 +27364,6 @@
                 "contact": [
                     {
                         "discord": "1157581316175437884"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "TRMP": {
-        "coin": "TRMP",
-        "type": "UTXO",
-        "name": "TrumPow",
-        "coinpaprika_id": "trmp-trumpow",
-        "coingecko_id": "trumpow",
-        "livecoinwatch_id": "_TRMP",
-        "explorer_url": "https://explorer.trumpow.meme/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "TrumPow Signed Message:\n",
-        "fname": "TrumPow",
-        "rpcport": 33883,
-        "pubtype": 65,
-        "p2shtype": 28,
-        "wiftype": 151,
-        "segwit": false,
-        "txfee": 1000000,
-        "dingo_fee": true,
-        "dust": 1000000,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/1707'",
-        "links": {
-            "github": "https://github.com/trumpowppc/trumpow",
-            "homepage": "https://trumpow.meme"
-        },
-        "electrum": [
-            {
-                "url": "electrum-server2.trumpow.meme:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": [
-                            "1157581316175437884",
-                            "1100673536743460894",
-                            "1209163889489616998"
-                        ]
                     }
                 ]
             }
@@ -37675,10 +37513,6 @@
         "derivation_path": "m/44'/77'",
         "electrum": [
             {
-                "url": "electrum-verge.cloud:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrumx-verge.cloud:50002",
                 "protocol": "SSL"
             },
@@ -41569,6 +41403,12 @@
         "rpc_urls": [
             {
                 "url": "https://osmosis.rpc.stakin-nodes.com"
+            },
+            {
+                "url": "https://rpc.cosmos.directory/osmosis"
+            },
+            {
+                "url": "https://rpc.osmosis.zone/"
             }
         ],
         "explorer_block_url": "block/",
@@ -41727,8 +41567,7 @@
         },
         "electrum": [
             {
-                "url": "explorer.crionic.org:50002",
-                "protocol": "SSL",
+                "url": "explorer.crionic.org:50001",
                 "contact": [
                     {
                         "email": "diabatiis@gmail.com"
@@ -41736,7 +41575,8 @@
                     {
                         "discord": "Diabaths#1919"
                     }
-                ]
+                ],
+                "protocol": "TCP"
             }
         ],
         "explorer_block_url": "block/"
