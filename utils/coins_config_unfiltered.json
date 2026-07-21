@@ -5203,6 +5203,24 @@
                         "discord": "def#4726"
                     }
                 ]
+            },
+            {
+                "url": "bitnet.outsidethebox.top:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
+                "url": "bitnet.outsidethebox.top:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -7628,6 +7646,26 @@
         },
         "electrum": [
             {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
                 "contact": [
@@ -7719,6 +7757,26 @@
             "homepage": "https://bitcore.cc"
         },
         "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
             {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
@@ -29031,26 +29089,8 @@
             "github": "https://github.com/NewYorkCoinNYC/newyorkcoin",
             "homepage": "https://newyorkcoin.online"
         },
-        "electrum": [
-            {
-                "url": "electrum.newyorkcoin.online:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "admin@newyorkcoin.online"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.newyorkcoin.online:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "admin@newyorkcoin.online"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block.dws?"
     },
     "NYC-BEP20": {
@@ -29585,6 +29625,9 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
+            {
+                "url": "https://1rpc.io/one"
+            },
             {
                 "url": "https://api.harmony.one"
             },
@@ -31466,8 +31509,86 @@
             "github": "https://github.com/trumpowppc/trumpow",
             "homepage": "https://trumpow.meme"
         },
-        "electrum": [],
-        "delisted": true,
+        "electrum": [
+            {
+                "url": "electrum-server1.trumpow.meme:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": [
+                            "1157581316175437884",
+                            "1100673536743460894",
+                            "1209163889489616998"
+                        ]
+                    }
+                ]
+            },
+            {
+                "url": "electrum-server1.trumpow.meme:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": [
+                            "1157581316175437884",
+                            "1100673536743460894",
+                            "1209163889489616998"
+                        ]
+                    }
+                ]
+            },
+            {
+                "url": "electrum-server1.trumpow.meme:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": [
+                            "1157581316175437884",
+                            "1100673536743460894",
+                            "1209163889489616998"
+                        ]
+                    }
+                ]
+            },
+            {
+                "url": "electrum-server2.trumpow.meme:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": [
+                            "1157581316175437884",
+                            "1100673536743460894",
+                            "1209163889489616998"
+                        ]
+                    }
+                ]
+            },
+            {
+                "url": "electrum-server2.trumpow.meme:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": [
+                            "1157581316175437884",
+                            "1100673536743460894",
+                            "1209163889489616998"
+                        ]
+                    }
+                ]
+            },
+            {
+                "url": "electrum-server2.trumpow.meme:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": [
+                            "1157581316175437884",
+                            "1100673536743460894",
+                            "1209163889489616998"
+                        ]
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "QC-QRC20": {
@@ -38286,14 +38407,6 @@
                 "protocol": "WSS"
             },
             {
-                "url": "uis-ex-one.ewmci.online:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "uis-ex-one.ewmci.online:50003",
-                "protocol": "WSS"
-            },
-            {
                 "url": "uis-uno.ewmcx.net:50002",
                 "protocol": "SSL"
             },
@@ -43117,6 +43230,18 @@
             {
                 "url": "159.69.73.223:5036",
                 "protocol": "TCP"
+            },
+            {
+                "url": "electrum-verge.cloud:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum-verge.cloud:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "electrum-verge.cloud:50004",
+                "protocol": "WSS"
             },
             {
                 "url": "electrumx-verge.cloud:50001",

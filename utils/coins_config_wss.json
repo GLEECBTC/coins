@@ -4005,6 +4005,15 @@
                         "discord": "def#4726"
                     }
                 ]
+            },
+            {
+                "url": "bitnet.outsidethebox.top:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -5742,6 +5751,16 @@
         },
         "electrum": [
             {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
+            {
                 "url": "btx.electrum1.cipig.net:30069",
                 "protocol": "WSS",
                 "contact": [
@@ -5809,6 +5828,16 @@
             "homepage": "https://bitcore.cc"
         },
         "electrum": [
+            {
+                "url": "btx-electrumx.coinsmunity.com:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true,
+                "contact": [
+                    {
+                        "discord": "[MadCatMining]#0677"
+                    }
+                ]
+            },
             {
                 "url": "btx.electrum1.cipig.net:30069",
                 "protocol": "WSS",
@@ -22025,55 +22054,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "NYC": {
-        "coin": "NYC",
-        "type": "UTXO",
-        "name": "NewYorkCoin",
-        "coinpaprika_id": "nyc-newyorkcoin",
-        "coingecko_id": "newyorkcoin",
-        "livecoinwatch_id": "NYC",
-        "explorer_url": "https://chainz.cryptoid.info/nyc/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "NewYorkCoin Signed Message:\n",
-        "fname": "NewYorkCoin",
-        "rpcport": 22555,
-        "pubtype": 60,
-        "p2shtype": 22,
-        "wiftype": 188,
-        "segwit": false,
-        "txfee": 100000000,
-        "dingo_fee": true,
-        "dust": 100000000,
-        "mm2": 1,
-        "required_confirmations": 7,
-        "avg_blocktime": 30,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/179'",
-        "links": {
-            "github": "https://github.com/NewYorkCoinNYC/newyorkcoin",
-            "homepage": "https://newyorkcoin.online"
-        },
-        "electrum": [
-            {
-                "url": "electrum.newyorkcoin.online:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "admin@newyorkcoin.online"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block.dws?"
-    },
     "NYC-BEP20": {
         "coin": "NYC-BEP20",
         "type": "BEP-20",
@@ -23964,6 +23944,72 @@
                 "contact": [
                     {
                         "discord": "1157581316175437884"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "TRMP": {
+        "coin": "TRMP",
+        "type": "UTXO",
+        "name": "TrumPow",
+        "coinpaprika_id": "trmp-trumpow",
+        "coingecko_id": "trumpow",
+        "livecoinwatch_id": "_TRMP",
+        "explorer_url": "https://explorer.trumpow.meme/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "TrumPow Signed Message:\n",
+        "fname": "TrumPow",
+        "rpcport": 33883,
+        "pubtype": 65,
+        "p2shtype": 28,
+        "wiftype": 151,
+        "segwit": false,
+        "txfee": 1000000,
+        "dingo_fee": true,
+        "dust": 1000000,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/1707'",
+        "links": {
+            "github": "https://github.com/trumpowppc/trumpow",
+            "homepage": "https://trumpow.meme"
+        },
+        "electrum": [
+            {
+                "url": "electrum-server1.trumpow.meme:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": [
+                            "1157581316175437884",
+                            "1100673536743460894",
+                            "1209163889489616998"
+                        ]
+                    }
+                ]
+            },
+            {
+                "url": "electrum-server2.trumpow.meme:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": [
+                            "1157581316175437884",
+                            "1100673536743460894",
+                            "1209163889489616998"
+                        ]
                     }
                 ]
             }
@@ -28926,10 +28972,6 @@
                 "protocol": "WSS"
             },
             {
-                "url": "uis-ex-one.ewmci.online:50003",
-                "protocol": "WSS"
-            },
-            {
                 "url": "uis-uno.ewmcx.net:50003",
                 "protocol": "WSS"
             }
@@ -32554,6 +32596,10 @@
         },
         "derivation_path": "m/44'/77'",
         "electrum": [
+            {
+                "url": "electrum-verge.cloud:50004",
+                "protocol": "WSS"
+            },
             {
                 "url": "electrumx-verge.cloud:50004",
                 "protocol": "WSS"
