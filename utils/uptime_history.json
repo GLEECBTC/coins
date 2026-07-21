@@ -1491,12 +1491,14 @@
         "1782268723": "online",
         "1783866516": "offline",
         "1783867071": "online",
-        "1784339488": "offline"
+        "1784339488": "offline",
+        "1784635178": "online"
       },
       "bitnet.outsidethebox.top:50004": {
         "1768093005": "offline",
         "1782268723": "online",
-        "1784339488": "offline"
+        "1784339488": "offline",
+        "1784635178": "online"
       }
     }
   },
@@ -2229,7 +2231,8 @@
         "1781665138": "online",
         "1782268723": "offline",
         "1782787373": "online",
-        "1784339488": "offline"
+        "1784339488": "offline",
+        "1784635178": "online"
       },
       "btx-electrumx.coinsmunity.com:50003": {
         "1755770395": "online",
@@ -2247,7 +2250,8 @@
         "1781665138": "online",
         "1782268723": "offline",
         "1782787373": "online",
-        "1784339488": "offline"
+        "1784339488": "offline",
+        "1784635178": "online"
       },
       "btx.electrum1.cipig.net:20069": {
         "1764854330": "online"
@@ -2328,7 +2332,8 @@
         "1781665138": "online",
         "1782268723": "offline",
         "1782787373": "online",
-        "1784339488": "offline"
+        "1784339488": "offline",
+        "1784635178": "online"
       },
       "btx-electrumx.coinsmunity.com:50003": {
         "1755770395": "online",
@@ -2346,7 +2351,8 @@
         "1781665138": "online",
         "1782268723": "offline",
         "1782787373": "online",
-        "1784339488": "offline"
+        "1784339488": "offline",
+        "1784635178": "online"
       },
       "btx.electrum1.cipig.net:20069": {
         "1764854330": "online"
@@ -9610,10 +9616,18 @@
   },
   "NYC": {
     "all": {
-      "1755770395": "online"
+      "1755770395": "online",
+      "1784635178": "offline"
     },
     "by_server": {
       "_metadata": {
+        "electrum.newyorkcoin.online:50002": {
+          "contact": [
+            {
+              "email": "admin@newyorkcoin.online"
+            }
+          ]
+        },
         "electrum.newyorkcoin.online:50004": {
           "contact": [
             {
@@ -9623,11 +9637,13 @@
         }
       },
       "electrum.newyorkcoin.online:50002": {
-        "1758289389": "online"
+        "1758289389": "online",
+        "1784635178": "offline"
       },
       "electrum.newyorkcoin.online:50004": {
         "1758289389": "offline",
-        "1758586414": "online"
+        "1758586414": "online",
+        "1784635178": "offline"
       },
       "nyc.newyorkcoin.online:50002": {
         "1755770395": "online"
@@ -9700,7 +9716,8 @@
         "1783305166": "online",
         "1783476129": "offline",
         "1783625980": "online",
-        "1784339488": "offline"
+        "1784339488": "offline",
+        "1784635178": "online"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -11540,7 +11557,8 @@
       "1776909733": "online",
       "1781923413": "offline",
       "1782787373": "online",
-      "1784339488": "offline"
+      "1784339488": "offline",
+      "1784635178": "online"
     },
     "by_server": {
       "_metadata": {
@@ -11614,17 +11632,20 @@
       "electrum-server1.trumpow.meme:50001": {
         "1760350495": "offline",
         "1760400771": "online",
-        "1775750563": "offline"
+        "1775750563": "offline",
+        "1784635178": "online"
       },
       "electrum-server1.trumpow.meme:50002": {
         "1760350495": "offline",
         "1760400771": "online",
-        "1775750563": "offline"
+        "1775750563": "offline",
+        "1784635178": "online"
       },
       "electrum-server1.trumpow.meme:50004": {
         "1760350495": "offline",
         "1760400771": "online",
-        "1775750563": "offline"
+        "1775750563": "offline",
+        "1784635178": "online"
       },
       "electrum-server2.trumpow.meme:50001": {
         "1760350495": "online",
@@ -11632,7 +11653,8 @@
         "1776909733": "online",
         "1781923413": "offline",
         "1782787373": "online",
-        "1784339488": "offline"
+        "1784339488": "offline",
+        "1784635178": "online"
       },
       "electrum-server2.trumpow.meme:50002": {
         "1760350495": "online",
@@ -11640,7 +11662,8 @@
         "1776909733": "online",
         "1781595462": "offline",
         "1782787373": "online",
-        "1784339488": "offline"
+        "1784339488": "offline",
+        "1784635178": "online"
       },
       "electrum-server2.trumpow.meme:50004": {
         "1760350495": "online",
@@ -11648,7 +11671,8 @@
         "1776909733": "online",
         "1781923413": "offline",
         "1782787373": "online",
-        "1784339488": "offline"
+        "1784339488": "offline",
+        "1784635178": "online"
       }
     }
   },
@@ -11790,13 +11814,15 @@
       "uis-ex-one.ewmci.online:50002": {
         "1755770395": "online",
         "1770168231": "offline",
-        "1771205359": "online"
+        "1771205359": "online",
+        "1784635178": "offline"
       },
       "uis-ex-one.ewmci.online:50003": {
         "1755770395": "offline",
         "1760163826": "online",
         "1770168231": "offline",
-        "1771205359": "online"
+        "1771205359": "online",
+        "1784635178": "offline"
       },
       "uis-uno.ewmcx.net:50002": {
         "1769144028": "online"
@@ -12435,7 +12461,8 @@
         "1783476129": "offline",
         "1783625980": "online",
         "1783993904": "offline",
-        "1784339488": "online"
+        "1784339488": "online",
+        "1784635178": "offline"
       }
     }
   },
@@ -12934,19 +12961,22 @@
         "1755770395": "online",
         "1781923413": "offline",
         "1782010802": "online",
-        "1784339488": "offline"
+        "1784339488": "offline",
+        "1784635178": "online"
       },
       "electrum-verge.cloud:50002": {
         "1755770395": "online",
         "1781923413": "offline",
         "1782010802": "online",
-        "1784339488": "offline"
+        "1784339488": "offline",
+        "1784635178": "online"
       },
       "electrum-verge.cloud:50004": {
         "1755770395": "online",
         "1781923413": "offline",
         "1782010802": "online",
-        "1784339488": "offline"
+        "1784339488": "offline",
+        "1784635178": "online"
       },
       "electrumx-verge.cloud:50001": {
         "1755770395": "online"
