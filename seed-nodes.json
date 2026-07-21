@@ -1,17 +1,5 @@
 [
     {
-        "name": "seed-unknown-1",
-        "host": "66.42.60.49",
-        "type": "ipv4",
-        "wss": false,
-        "netid": 6133,
-        "contact": [
-            {
-                "email": ""
-            }
-        ]
-    },
-    {
         "name": "seed-kmdefi-1",
         "host": "seed01.kmdefi.net",
         "type": "domain",
