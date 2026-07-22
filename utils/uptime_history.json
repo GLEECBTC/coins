@@ -1486,6 +1486,15 @@
       "bitexplorer.io:50004": {
         "1755770395": "offline"
       },
+      "bitn-electrumx.wattxchange.app:50011": {
+        "1784733566": "online"
+      },
+      "bitn-electrumx.wattxchange.app:50012": {
+        "1784733566": "online"
+      },
+      "bitn-electrumx.wattxchange.app:50014": {
+        "1784733566": "online"
+      },
       "bitnet.outsidethebox.top:50002": {
         "1768093005": "offline",
         "1782268723": "online",
@@ -4704,7 +4713,8 @@
       "https://rpc.etcinscribe.com": {
         "1755770395": "online",
         "1762321286": "offline",
-        "1763079262": "online"
+        "1763079262": "online",
+        "1784733566": "offline"
       }
     }
   },
@@ -8962,13 +8972,15 @@
         "1755770395": "online",
         "1782787373": "offline",
         "1782874144": "online",
-        "1784339488": "offline"
+        "1784339488": "offline",
+        "1784733566": "online"
       },
       "electrum3.nav.community:40004": {
         "1755770395": "online",
         "1782787373": "offline",
         "1782874144": "online",
-        "1784339488": "offline"
+        "1784339488": "offline",
+        "1784733566": "online"
       },
       "electrum4.nav.community:40002": {
         "1755770395": "offline"
@@ -9617,7 +9629,8 @@
   "NYC": {
     "all": {
       "1755770395": "online",
-      "1784635178": "offline"
+      "1784635178": "offline",
+      "1784733566": "online"
     },
     "by_server": {
       "_metadata": {
@@ -9638,12 +9651,14 @@
       },
       "electrum.newyorkcoin.online:50002": {
         "1758289389": "online",
-        "1784635178": "offline"
+        "1784635178": "offline",
+        "1784733566": "online"
       },
       "electrum.newyorkcoin.online:50004": {
         "1758289389": "offline",
         "1758586414": "online",
-        "1784635178": "offline"
+        "1784635178": "offline",
+        "1784733566": "online"
       },
       "nyc.newyorkcoin.online:50002": {
         "1755770395": "online"
@@ -12462,7 +12477,8 @@
         "1783625980": "online",
         "1783993904": "offline",
         "1784339488": "online",
-        "1784635178": "offline"
+        "1784635178": "offline",
+        "1784733566": "online"
       }
     }
   },
