@@ -6891,6 +6891,31 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "HTH",
+    "name": "helpthehomeless",
+    "fname": "Help The Homeless",
+    "is_privacy_coin": true,
+    "sign_message_prefix": "HomelessCoin Signed Message:\n",
+    "rpcport": 9998,
+    "pubtype": 100,
+    "p2shtype": 40,
+    "wiftype": 228,
+    "txfee": 10000,
+    "dust": 5460,
+    "mm2": 1,
+    "wallet_only": false,
+    "required_confirmations": 2,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/231'",
+    "links": {
+      "github": "https://github.com/HTHcoin/helpthehomelesscoin",
+      "homepage": "https://hth.foundation"
+    }
+  },
+  {
     "coin": "IDRT-ERC20",
     "name": "idrt_erc20",
     "fname": "Rupiah Token",
