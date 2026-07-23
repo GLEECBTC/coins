@@ -17074,5 +17074,38 @@
       "explorer": "https://chainz.cryptoid.info/cat/",
       "github": "https://github.com/CatcoinCore"
     }
+  },
+  {
+    "coin": "5TRAT",
+    "name": "fivetrat",
+    "fname": "5tratum Coin",
+    "sign_message_prefix": "Bitcoin Signed Message:\n",
+    "rpcport": 57576,
+    "pubtype": 125,
+    "p2shtype": 80,
+    "wiftype": 181,
+    "txfee": 1000,
+    "dust": 1000,
+    "decimals": 8,
+    "segwit": false,
+    "fork_id": "0x40",
+    "address_format": {
+      "format": "cashaddress",
+      "network": "5trat"
+    },
+    "mm2": 1,
+    "wallet_only": false,
+    "required_confirmations": 12,
+    "mature_confirmations": 100,
+    "avg_blocktime": 300,
+    "protocol": {
+      "type": "UTXO",
+      "chain_variant": "BTC"
+    },
+    "derivation_path": "m/44'/5755'",
+    "links": {
+      "github": "https://github.com/WillItMod/5trat-core",
+      "homepage": "https://5trat.com"
+    }
   }
 ]
