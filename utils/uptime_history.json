@@ -2542,12 +2542,14 @@
       "miami.ecoincore.com:34333": {
         "1755770395": "online",
         "1776831960": "offline",
-        "1777255662": "online"
+        "1777255662": "online",
+        "1784858534": "offline"
       },
       "miami.ecoincore.com:34335": {
         "1755770395": "online",
         "1776831960": "offline",
-        "1777255662": "online"
+        "1777255662": "online",
+        "1784858534": "offline"
       },
       "mumbai.ecoincore.com:34333": {
         "1755770395": "offline"
@@ -2566,12 +2568,14 @@
       "woolloomooloo.ecoincore.com:34333": {
         "1755770395": "online",
         "1773700082": "offline",
-        "1777255662": "online"
+        "1777255662": "online",
+        "1784858534": "offline"
       },
       "woolloomooloo.ecoincore.com:34335": {
         "1755770395": "online",
         "1773700082": "offline",
-        "1777255662": "online"
+        "1777255662": "online",
+        "1784858534": "offline"
       }
     }
   },
@@ -2598,12 +2602,14 @@
       "miami.ecoincore.com:34333": {
         "1755770395": "online",
         "1776831960": "offline",
-        "1777255662": "online"
+        "1777255662": "online",
+        "1784858534": "offline"
       },
       "miami.ecoincore.com:34335": {
         "1755770395": "online",
         "1776831960": "offline",
-        "1777255662": "online"
+        "1777255662": "online",
+        "1784858534": "offline"
       },
       "mumbai.ecoincore.com:34333": {
         "1755770395": "offline"
@@ -2622,12 +2628,14 @@
       "woolloomooloo.ecoincore.com:34333": {
         "1755770395": "online",
         "1773700082": "offline",
-        "1777255662": "online"
+        "1777255662": "online",
+        "1784858534": "offline"
       },
       "woolloomooloo.ecoincore.com:34335": {
         "1755770395": "online",
         "1773700082": "offline",
-        "1777255662": "online"
+        "1777255662": "online",
+        "1784858534": "offline"
       }
     }
   },
@@ -4653,17 +4661,20 @@
       "emc2.electrum1.cipig.net:10062": {
         "1755770395": "online",
         "1782787373": "offline",
-        "1782874144": "online"
+        "1782874144": "online",
+        "1784858534": "offline"
       },
       "emc2.electrum1.cipig.net:20062": {
         "1755770395": "online",
         "1782787373": "offline",
-        "1782874144": "online"
+        "1782874144": "online",
+        "1784858534": "offline"
       },
       "emc2.electrum1.cipig.net:30062": {
         "1755770395": "online",
         "1782787373": "offline",
-        "1782874144": "online"
+        "1782874144": "online",
+        "1784858534": "offline"
       },
       "emc2.electrum2.cipig.net:10062": {
         "1755770395": "online",
