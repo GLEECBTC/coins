@@ -539,6 +539,28 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "ALT",
+    "name": "altcoinchain",
+    "fname": "Altcoinchain",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 2330,
+    "wallet_only": true,
+    "max_eth_tx_type": 2,
+    "required_confirmations": 3,
+    "avg_blocktime": 11,
+    "protocol": {
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 2330
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://altcoinchain.org"
+    }
+  },
+  {
     "coin": "ANEY",
     "name": "aney",
     "fname": "Animal Economy",
@@ -6908,6 +6930,29 @@
       }
     },
     "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "HTH",
+    "name": "helpthehomeless",
+    "fname": "Help The Homeless",
+    "sign_message_prefix": "HomelessCoin Signed Message:\n",
+    "rpcport": 9998,
+    "pubtype": 100,
+    "p2shtype": 40,
+    "wiftype": 228,
+    "txfee": 10000,
+    "dust": 5460,
+    "mm2": 1,
+    "required_confirmations": 2,
+    "avg_blocktime": 60,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/231'",
+    "links": {
+      "github": "https://github.com/HTHcoin/helpthehomelesscoin",
+      "homepage": "https://hth.foundation"
+    }
   },
   {
     "coin": "IDRT-BEP20",

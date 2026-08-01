@@ -28,5 +28,29 @@
             }
         ],
         "ws_url": "electrum3.btcz.rocks:50004"
+    },
+    {
+        "url": "btcz-electrumx.wattxchange.app:50021",
+        "contact": [
+            {
+                "email": "nucash.mining@gmail.com"
+            },
+            {
+                "discord": "nucash"
+            }
+        ]
+    },
+    {
+        "url": "btcz-electrumx.wattxchange.app:50022",
+        "protocol": "SSL",
+        "ws_url": "electrum-btcz.wattxchange.app:443",
+        "contact": [
+            {
+                "email": "nucash.mining@gmail.com"
+            },
+            {
+                "discord": "nucash"
+            }
+        ]
     }
 ]
