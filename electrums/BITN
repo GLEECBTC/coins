@@ -4,7 +4,9 @@
     "protocol": "SSL",
     "ws_url": "bitnet.outsidethebox.top:50004",
     "contact": [
-      { "discord": "def#4726" }
+      {
+        "discord": "def#4726"
+      }
     ]
   },
   {
@@ -12,15 +14,9 @@
     "protocol": "SSL",
     "ws_url": "bit-e.minethepla.net:50004",
     "contact": [
-      { "discord": "def#4726" }
-    ]
-  },
-  {
-    "url": "bit-e.outsidethebox.top:50002",
-    "protocol": "SSL",
-    "ws_url": "bit-e.outsidethebox.top:50004",
-    "contact": [
-      { "discord": "def#4726" }
+      {
+        "discord": "def#4726"
+      }
     ]
   },
   {
@@ -28,13 +24,17 @@
     "protocol": "SSL",
     "ws_url": "bitn-electrumx.wattxchange.app:50014",
     "contact": [
-      { "discord": "nucash" }
+      {
+        "discord": "nucash"
+      }
     ]
   },
   {
     "url": "bitn-electrumx.wattxchange.app:50011",
     "contact": [
-      { "discord": "nucash" }
+      {
+        "discord": "nucash"
+      }
     ]
   }
 ]
