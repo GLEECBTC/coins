@@ -545,7 +545,6 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 2330,
-    "wallet_only": true,
     "max_eth_tx_type": 2,
     "required_confirmations": 3,
     "avg_blocktime": 11,

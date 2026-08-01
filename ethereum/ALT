@@ -1,4 +1,6 @@
 {
+  "swap_contract_address": "0x90727eE061967B9C38a1B92f9cf829dED9f9139F",
+  "fallback_swap_contract": "0x90727eE061967B9C38a1B92f9cf829dED9f9139F",
   "rpc_nodes": [
     {
       "url": "https://rpc.wattxchange.app"
