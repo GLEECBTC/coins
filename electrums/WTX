@@ -1,0 +1,10 @@
+[
+  {
+    "url": "electrum-wtx.wattxchange.app:443",
+    "protocol": "WSS",
+    "contact": [
+      { "email": "nucash.mining@gmail.com" },
+      { "discord": "nucash" }
+    ]
+  }
+]
