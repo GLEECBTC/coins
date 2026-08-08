@@ -1,18 +1,3 @@
 {
-    "JAUD-PLG20": "AUD",
-    "JBRL-BEP20": "BRL",
-    "JBRL-PLG20": "BRL",
-    "JCAD-PLG20": "CAD",
-    "JCNY-PLG20": "CNY",
-    "JGOLD-PLG20": "XAU",
-    "JJPY-PLG20": "JPY",
-    "JKRW-PLG20": "KRW",
-    "JMXN-PLG20": "MXN",
-    "JNZD-PLG20": "NZD",
-    "JPHP-PLG20": "PHP",
-    "JPLN-PLG20": "PLN",
-    "JSEK-PLG20": "SEK",
-    "JSGD-PLG20": "SGD",
-    "JTRY-PLG20": "TRY",
-    "JUSD-PLG20": "USD"
+    "GBPE-GNO": "GBP"
 }
