@@ -1,4 +1,6 @@
 {
+  "swap_contract_address": "TGXVt3xLM4771cZii7uGMyWkhogSiykTUw",
+  "fallback_swap_contract": "TGXVt3xLM4771cZii7uGMyWkhogSiykTUw",
   "rpc_nodes": [
     {
       "url": "https://public-trx-mainnet.fastnode.io"

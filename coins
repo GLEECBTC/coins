@@ -11577,7 +11577,6 @@
     "name": "tron",
     "fname": "TRON",
     "mm2": 1,
-    "wallet_only": true,
     "decimals": 6,
     "avg_blocktime": 0.45,
     "required_confirmations": 1,
@@ -11594,7 +11593,6 @@
     "name": "usdt_trc20",
     "fname": "Tether",
     "mm2": 1,
-    "wallet_only": true,
     "decimals": 6,
     "derivation_path": "m/44'/195'",
     "protocol": {
@@ -11611,7 +11609,6 @@
     "fname": "TRON Testnet",
     "is_testnet": true,
     "mm2": 1,
-    "wallet_only": true,
     "decimals": 6,
     "avg_blocktime": 0.45,
     "required_confirmations": 1,
@@ -11629,7 +11626,6 @@
     "fname": "Tether Testnet",
     "is_testnet": true,
     "mm2": 1,
-    "wallet_only": true,
     "decimals": 6,
     "derivation_path": "m/44'/195'",
     "protocol": {
