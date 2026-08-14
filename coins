@@ -9062,6 +9062,27 @@
     }
   },
   {
+    "coin": "GHOST",
+    "name": "ghost",
+    "fname": "Ghost",
+    "rpcport": 51725,
+    "pubtype": 38,
+    "p2shtype": 97,
+    "wiftype": 166,
+    "txfee": 100000,
+    "mm2": 1,
+    "required_confirmations": 6,
+    "avg_blocktime": 120,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/531'",
+    "links": {
+      "github": "https://github.com/ghost-coin/ghost-core",
+      "homepage": "https://myghost.org"
+    }
+  },
+  {
     "coin": "PEP",
     "name": "pepecoin",
     "fname": "Pepecoin",
