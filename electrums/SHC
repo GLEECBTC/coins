@@ -1,0 +1,21 @@
+[
+    {
+        "url": "79.72.76.95:60401",
+        "protocol": "TCP",
+        "contact": [
+            {
+                "email": "tvheroes@protonmail.com"
+            }
+        ]
+    },
+    {
+        "url": "sharecoin.cc:60402",
+        "protocol": "SSL",
+        "ws_url": "sharecoin.cc:443",
+        "contact": [
+            {
+                "email": "tvheroes@protonmail.com"
+            }
+        ]
+    }
+]
