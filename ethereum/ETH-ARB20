@@ -10,10 +10,10 @@
             "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
         },
         {
-            "url": "https://rpc.sentio.xyz/arbitrum-one"
+            "url": "https://arbitrum-one.rpc.sentio.xyz"
         },
         {
-            "url": "https://api.zan.top/arb-one"
+            "url": "https://public-arb-mainnet.fastnode.io"
         }
     ]
 }

@@ -1,0 +1,5 @@
+- [DGB funding](https://digiexplorer.info/tx/5fd3bd91cb2563081657ec888a8e96c557722a8f4de91774d6e4d446f525215d)
+- [5TRAT maker payment](https://explorer1.5trat.net/explorer/tx/9fe3a1d202f683c567b261b5de9215b694385fa4c8deca6fba87f20b7a381a69)
+- [DGB taker payment](https://digiexplorer.info/tx/6f7a24d9ebec3012b49b94cce196c590bed73a1c9c2f9f6ceea8e29ff9b4ae88)
+- [DGB payment redemption](https://digiexplorer.info/tx/412f47b6fd1dafdaa39ce14b2d7bcdb3de07c3cc20bcab3cd9b337a0f0854f2d)
+- [5TRAT payment redemption](https://explorer1.5trat.net/explorer/tx/f8404e513733bc09975591ec0ec0ff588216699ed0e72e0f2e7bc13d61421fac)

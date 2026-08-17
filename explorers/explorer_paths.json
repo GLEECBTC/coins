@@ -1,4 +1,19 @@
 {
+	"https://explorer1.5trat.net/explorer/": {
+		"explorer_tx_url": "tx/",
+		"explorer_block_url": "block/",
+		"explorer_address_url": "address/"
+	},
+	"https://explorer2.5trat.net/explorer/": {
+		"explorer_tx_url": "tx/",
+		"explorer_block_url": "block/",
+		"explorer_address_url": "address/"
+	},
+	"https://miners-world-coin-mwc.github.io/explorer/": {
+		"explorer_tx_url": "#/transaction/",
+		"explorer_address_url": "#/address/",
+		"explorer_block_url": "#/block/"
+	},
 	"https://chainz.cryptoid.info/": {
 		"explorer_tx_url": "tx.dws?",
 		"explorer_block_url": "block.dws?",

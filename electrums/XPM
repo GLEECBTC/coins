@@ -7,5 +7,10 @@
   },
   {
     "url": "electrumx.gemmer.primecoin.org:50011"
+  },
+  {
+    "url": "electrumx.xpm.systems:50002",
+    "protocol": "SSL",
+    "ws_url": "electrumx.xpm.systems:50004"
   }
 ]

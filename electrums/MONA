@@ -3,6 +3,10 @@
         "url": "electrumx1.monacoin.ninja:50001"
     },
     {
+        "url": "electrumx1.monacoin.ninja:50004",
+        "protocol": "WSS"
+    },
+    {
         "url": "electrumx.tamami-foundation.org:50001"
     },
     {

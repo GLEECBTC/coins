@@ -3,7 +3,8 @@
   "fallback_swap_contract": "0x51d9EfFc20F6965bc8DFD37E797ac52a72fcdb9D",
   "rpc_nodes": [
     {
-      "url": "https://rpc.gleec.dev"
+      "url": "https://evm-rpc.gleec.com",
+      "ws_url": "wss://evm-ws.gleec.com"
     }
   ]
 }

@@ -11,8 +11,8 @@
       "ws_url": "wss://wss.api.moonbeam.network"
     },
     {
-      "url": "https://moonbeam.drpc.org",
-      "ws_url": "wss://moonbeam.drpc.org"
+      "url": "https://moonbeam.api.onfinality.io/public",
+      "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
     }
   ]
 }

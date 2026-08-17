@@ -3,13 +3,14 @@
   "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
   "rpc_nodes": [
     {
+      "url": "https://0xrpc.io/etc",
+      "ws_url": "wss://0xrpc.io/etc"
+    },
+    {
+      "url": "https://ethereum-classic-mainnet.gateway.tatum.io"
+    },
+    {
       "url": "https://etc.etcdesktop.com"
-    },
-    {
-      "url": "https://rpc.etcinscribe.com"
-    },
-    {
-      "url": "https://etc.rivet.link"
     }
   ]
 }

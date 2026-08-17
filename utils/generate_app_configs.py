@@ -25,6 +25,7 @@ BINANCE_DELISTED_COINS = [
     "BIDR",
     "BTT",
     "BUSD",
+    "DENT",
     "ELF",
     "FIRO",
     "GFT",
@@ -32,9 +33,11 @@ BINANCE_DELISTED_COINS = [
     "IRIS",
     "KMD",
     "LOOM",
+    "LRC",
     "MC",
     "MDX",
     "MIR",
+    "MLN",
     "NAV",
     "OCEAN",
     "OMG",
@@ -44,8 +47,12 @@ BINANCE_DELISTED_COINS = [
     "REP",
     "SNT",
     "SRM",
+    "SXP",
+    "SYS",
+    "UTK",
     "VGX",
     "VIA",
+    "VITE",
     "WAVES",
     "YFII",
 ]
@@ -161,10 +168,10 @@ class CoinConfig:
             "RBTC": "RSK Smart Bitcoin",
             "SBCH": "SmartBCH",
             "TRX": "TRX",
+            "XDAI": "Gnosis",
             "ATOM": "TENDERMINT",
             "OSMO": "TENDERMINT",
             "IRIS": "TENDERMINT",
-            "UBQ": "Ubiq",
         }
         self.testnet_protocols = {
             "GLEECT": "GRC-20",
@@ -175,7 +182,6 @@ class CoinConfig:
             "NUCLEUSTEST": "TENDERMINT",
             "MATICTEST": "Matic",
             "TRXT": "TRX",
-            "UBQ": "Ubiq",
         }
         self.coin_type = coin_data["protocol"]["type"]
         self.data.update(
@@ -385,7 +391,7 @@ class CoinConfig:
         For token coins, this returns the parent chain coin.
         """
         # For token coins, we need to check parent chain status
-        if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-PLG20", "-AVX20", "-GRC20", "-TRC20")):
+        if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-ARB20", "-AVX20", "-GRC20", "-TRC20")):
             if self.ticker.endswith("-QRC20"):
                 return "tQTUM" if self.is_testnet else "QTUM"
             elif self.ticker.endswith("-ERC20"):
@@ -398,8 +404,14 @@ class CoinConfig:
                 return "TRXT" if self.is_testnet else "TRX"
             elif self.ticker.endswith("-AVX20"):
                 return "AVAX"
+            elif self.ticker.endswith("-ARB20"):
+                return "ETH-ARB20"
             elif self.ticker.endswith("-GRC20"):
                 return "GLEEC"
+            elif self.ticker.endswith("-BASE"):
+                return "ETH-BASE"
+            elif self.ticker.endswith("-GNO"):
+                return "XDAI"
         
         # For electrum coins, use the actual coin name (with segwit handling)
         coin = self.ticker.replace("-segwit", "")
@@ -478,7 +490,7 @@ class CoinConfig:
                     if x not in self.electrum_scan_report[coin]:
                         continue
                     for k, v in self.electrum_scan_report[coin][x].items():
-                        is_server_online = (v["last_connection"] > 0 and current_time_local - v["last_connection"] < 604800)  # 1 week grace period
+                        is_server_online = (v["last_connection"] > 0 and current_time_local - v["last_connection"] < 172800)  # 2 days grace period
                         
                         if is_server_online:
                             for electrum in electrums:
@@ -593,7 +605,7 @@ class CoinConfig:
                 
                 if scan_coin in electrum_scan_report:
                     # If parent chain is working, inherit all configured nodes for token
-                    if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-PLG20", "-AVX20", "-GRC20", "-TRC20")):
+                    if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-ARB20", "-AVX20", "-GRC20", "-TRC20")):
                         # For token coins, check if parent chain has working nodes
                         parent_has_working_nodes = False
                         for protocol in ["ssl", "wss", "tcp"]:

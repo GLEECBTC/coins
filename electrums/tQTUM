@@ -1,5 +1,22 @@
 [
     {
+        "url": "s6.electrum.qtum.site:51001",
+        "contact": [
+            {
+                "github": "https://github.com/qtumproject/qtum-electrum"
+            }
+        ]
+    },
+    {
+        "url": "s6.electrum.qtum.site:51002",
+        "protocol": "SSL",
+        "contact": [
+            {
+                "github": "https://github.com/qtumproject/qtum-electrum"
+            }
+        ]
+    },
+    {
         "url": "tqtum.electrum3.cipig.net:20071",
         "protocol": "SSL",
         "contact": [

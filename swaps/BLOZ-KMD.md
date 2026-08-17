@@ -1,0 +1,5 @@
+[taker fee (KMD)](https://kmdexplorer.gleec.com/tx/3400198b8d289af69bed73eccdaa373b164519c6c96f8ed7c534682c7c308283)
+[maker payment (BLOZ)](https://explorer.bloz.org/tx/d387053940a4d3fed660085ec96708179b3a590b52cf1ad2df4c0b95552d7f20)
+[taker payment (KMD)](https://kmdexplorer.gleec.com/tx/4aeba9f5e4e91951b1735f951499119bd00e5cb88529a85efc8fc9d0c39cd251)
+[taker payment spent (KMD)](https://kmdexplorer.gleec.com/tx/212b752574b1bac6558fcbc27dc6d652957f6581a1937559c0e480a3e975d970)
+[maker payment spent (BLOZ)](https://explorer.bloz.org/tx/3ac2a32b3be84961eb405eb9bc9c3f288b8a58a79233681c1318946ff487c902)
