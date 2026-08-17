@@ -2653,6 +2653,33 @@
     }
   },
   {
+    "coin": "BTGS-segwit",
+    "name": "bitcoingold",
+    "fname": "Bitcoin Gold BTGS",
+    "sign_message_prefix": "BitcoinGold Signed Message:\n",
+    "rpcport": 18888,
+    "pubtype": 38,
+    "p2shtype": 22,
+    "wiftype": 176,
+    "fork_id": "0x00",
+    "signature_version": "base",
+    "txfee": 1000,
+    "segwit": true,
+    "bech32_hrp": "bcg",
+    "mm2": 1,
+    "required_confirmations": 3,
+    "avg_blocktime": 600,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/84'/18888'",
+    "links": {
+      "github": "https://github.com/BTGSCOINDEV/BTGS",
+      "homepage": "https://bitcoingold.site",
+      "homepage2": "https://btgscoin.site"
+    }
+  },
+  {
     "coin": "BTT-BEP20",
     "name": "btt_bep20",
     "fname": "BitTorrent (OLD)",
