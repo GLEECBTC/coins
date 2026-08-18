@@ -2365,50 +2365,6 @@
     }
   },
   {
-    "coin": "BTT-BEP20",
-    "name": "btt_bep20",
-    "fname": "BitTorrent (OLD)",
-    "rpcport": 80,
-    "mm2": 1,
-    "wallet_only": true,
-    "chain_id": 56,
-    "avg_blocktime": 3,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0x8595F9dA7b868b1822194fAEd312235E43007b49"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
-    "coin": "BTTC-BEP20",
-    "name": "bttc_bep20",
-    "fname": "BitTorrent",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 56,
-    "decimals": 18,
-    "avg_blocktime": 0.45,
-    "required_confirmations": 3,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "BNB",
-        "contract_address": "0x352Cb5E19b12FC216548a2677bD0fce83BaE434B"
-      }
-    },
-    "derivation_path": "m/44'/60'",
-    "gas_limit": {
-      "eth_send_erc20": 60000,
-      "erc20_payment": 110000,
-      "erc20_receiver_spend": 85000,
-      "erc20_sender_refund": 85000
-    }
-  },
-  {
     "coin": "BTU-ERC20",
     "name": "btu_erc20",
     "fname": "BTU Protocol",
