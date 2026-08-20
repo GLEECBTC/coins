@@ -34,6 +34,7 @@ BINANCE_DELISTED_COINS = [
     "KMD",
     "LOOM",
     "LRC",
+    "MATIC",
     "MC",
     "MDX",
     "MIR",
@@ -161,7 +162,7 @@ class CoinConfig:
             "EWT": "EWT",
             "GLMR": "Moonbeam",
             "KCS": "KRC-20",
-            "MATIC": "Matic",
+            "POL": "Polygon",
             "MOVR": "Moonriver",
             "ONE": "HRC-20",
             "QTUM": "QRC-20",
@@ -180,7 +181,7 @@ class CoinConfig:
             "tQTUM": "QRC-20",
             "IRISTEST": "TENDERMINT",
             "NUCLEUSTEST": "TENDERMINT",
-            "MATICTEST": "Matic",
+            "POLTEST": "Polygon",
             "TRXT": "TRX",
         }
         self.coin_type = coin_data["protocol"]["type"]
@@ -399,7 +400,7 @@ class CoinConfig:
             elif self.ticker.endswith("-BEP20"):
                 return "BNB"
             elif self.ticker.endswith("-PLG20"):
-                return "MATIC"
+                return "POL"
             elif self.ticker.endswith("-TRC20"):
                 return "TRXT" if self.is_testnet else "TRX"
             elif self.ticker.endswith("-AVX20"):
