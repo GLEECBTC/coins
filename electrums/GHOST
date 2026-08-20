@@ -1,0 +1,11 @@
+[
+    {
+        "url": "electrum-ghost.wattxchange.app:443",
+        "protocol": "WSS",
+        "contact": [
+            {
+                "email": "admin@wattxchange.app"
+            }
+        ]
+    }
+]
