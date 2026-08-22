@@ -10958,6 +10958,29 @@
     }
   },
   {
+    "coin": "SUSDS-BASE",
+    "name": "susds_base",
+    "fname": "Savings USDS",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 8453,
+    "decimals": 18,
+    "avg_blocktime": 0.2,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-BASE",
+        "contract_address": "0x5875eEE11Cf8398102FdAd704C9E96607675467a"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "github": "https://github.com/sky-ecosystem",
+      "homepage": "sky.money"
+    }
+  },
+  {
     "coin": "SUSHI-AVX20",
     "name": "sushi_avx20",
     "fname": "Sushi",
