@@ -15185,8 +15185,8 @@
         "consensus_branch_id": "0x64726d6e",
         "txfee": 1000,
         "mm2": 1,
-        "required_confirmations": 2,
-        "requires_notarization": true,
+        "required_confirmations": 5,
+        "requires_notarization": false,
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
@@ -32158,6 +32158,9 @@
             {
                 "url": "https://cosmos-rpc.publicnode.com",
                 "ws_url": "wss://cosmos-rpc.publicnode.com/websocket"
+            },
+            {
+                "url": "https://rpc.cosmos.directory/cosmoshub"
             }
         ],
         "explorer_block_url": "block/",
