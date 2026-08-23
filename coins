@@ -364,6 +364,28 @@
     }
   },
   {
+    "coin": "ALT",
+    "name": "altcoinchain",
+    "fname": "Altcoinchain",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 2330,
+    "required_confirmations": 3,
+    "avg_blocktime": 13,
+    "protocol": {
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 2330
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "max_eth_tx_type": 2,
+    "swap_gas_fee_policy": "Medium",
+    "links": {
+      "homepage": "https://altcoinchain.org"
+    }
+  },
+  {
     "coin": "ANEY",
     "name": "aney",
     "fname": "Animal Economy",
