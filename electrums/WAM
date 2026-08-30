@@ -1,0 +1,22 @@
+[
+  {
+    "url": "electrum.wamcoin.org:50002",
+    "protocol": "SSL",
+    "ws_url": "electrum.wamcoin.org:50004",
+    "contact": [
+      {
+        "email": "wam.coin.official@proton.me"
+      }
+    ]
+  },
+  {
+    "url": "electrum2.wamcoin.org:50002",
+    "protocol": "SSL",
+    "ws_url": "electrum2.wamcoin.org:50004",
+    "contact": [
+      {
+        "email": "wam.coin.official@proton.me"
+      }
+    ]
+  }
+]
