@@ -15840,5 +15840,31 @@
       "github": "https://github.com/WillItMod/5trat-core",
       "homepage": "https://5trat.com"
     }
+  },
+  {
+    "coin": "WAM",
+    "name": "wamcoin",
+    "fname": "WAM Coin",
+    "rpcport": 9554,
+    "pubtype": 73,
+    "p2shtype": 135,
+    "wiftype": 190,
+    "segwit": true,
+    "bech32_hrp": "wam",
+    "txfee": 20000,
+    "dust": 546,
+    "mm2": 1,
+    "wallet_only": false,
+    "sign_message_prefix": "WAM Coin Signed Message:\n",
+    "required_confirmations": 20,
+    "avg_blocktime": 120,
+    "protocol": {
+      "type": "UTXO"
+    },
+    "derivation_path": "m/44'/5718349'",
+    "links": {
+      "github": "https://github.com/wam-coin-official/wam-coin",
+      "homepage": "https://wamcoin.org"
+    }
   }
 ]
