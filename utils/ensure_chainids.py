@@ -8,6 +8,7 @@ supported_networks = {
     "ERC20": 1,
     "PLG20": 137,
     "PLG20_OLD": 137,
+    "HYPE": 999,
     "AVX20": 43114,
     "AVX20_OLD": 43114,
     "KRC20": 321,
@@ -22,6 +23,7 @@ supported_platforms = {
     "AVAX": 43114,
     "KCS": 321,
     "ETH-ARB20": 42161,
+    "HYPE": 999,
     "MOVR": 1285,
     "IRIS": 6688,
 }

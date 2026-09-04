@@ -160,6 +160,7 @@ class CoinConfig:
             "ETH-BASE": "Base",
             "EWT": "EWT",
             "GLMR": "Moonbeam",
+            "HYPE": "HyperEVM",
             "KCS": "KRC-20",
             "MATIC": "Matic",
             "MOVR": "Moonriver",
@@ -392,7 +393,7 @@ class CoinConfig:
         For token coins, this returns the parent chain coin.
         """
         # For token coins, we need to check parent chain status
-        if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-KRC20", "-ARB20", "-AVX20", "-GRC20", "-TAO", "-TRC20")):
+        if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-KRC20", "-ARB20", "-AVX20", "-GRC20", "-HYPE", "-TAO", "-TRC20")):
             if self.ticker.endswith("-QRC20"):
                 return "tQTUM" if self.is_testnet else "QTUM"
             elif self.ticker.endswith("-ERC20"):
@@ -411,6 +412,8 @@ class CoinConfig:
                 return "ETH-ARB20"
             elif self.ticker.endswith("-GRC20"):
                 return "GLEEC"
+            elif self.ticker.endswith("-HYPE"):
+                return "HYPE"
             elif self.ticker.endswith("-BASE"):
                 return "ETH-BASE"
             elif self.ticker.endswith("-GNO"):
@@ -610,7 +613,7 @@ class CoinConfig:
                 
                 if scan_coin in electrum_scan_report:
                     # If parent chain is working, inherit all configured nodes for token
-                    if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-ARB20", "-AVX20", "-GRC20", "-TRC20")):
+                    if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-ARB20", "-AVX20", "-GRC20", "-HYPE", "-TRC20")):
                         # For token coins, check if parent chain has working nodes
                         parent_has_working_nodes = False
                         for protocol in ["ssl", "wss", "tcp"]:

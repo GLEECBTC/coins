@@ -1,0 +1,16 @@
+{
+  "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+  "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+  "rpc_nodes": [
+    {
+      "url": "https://rpc.hypurrscan.io"
+    },
+    {
+      "url": "https://hyperliquid.drpc.org",
+      "ws_url": "wss://hyperliquid.drpc.org"
+    },
+    {
+      "url": "https://rpc.hyperlend.finance"
+    }
+  ]
+}

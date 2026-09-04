@@ -6442,6 +6442,29 @@
     }
   },
   {
+    "coin": "HYPE",
+    "name": "hyper",
+    "fname": "Hyperliquid",
+    "rpcport": 80,
+    "mm2": 1,
+    "wallet_only": true,
+    "chain_id": 999,
+    "required_confirmations": 5,
+    "avg_blocktime": 1,
+    "protocol": {
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 999
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "max_eth_tx_type": 2,
+    "swap_gas_fee_policy": "Medium",
+    "links": {
+      "homepage": "https://hyperfoundation.org"
+    }
+  },
+  {
     "coin": "IDRT-ERC20",
     "name": "idrt_erc20",
     "fname": "Rupiah Token",
@@ -12469,6 +12492,26 @@
       "protocol_data": {
         "platform": "XDAI",
         "contract_address": "0x2a22f9c3b484c3629090FeED35F17Ff8F88f76F0"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "USDC-HYPE",
+    "name": "usdc_hype",
+    "fname": "USD Coin",
+    "rpcport": 80,
+    "mm2": 1,
+    "wallet_only": true,
+    "chain_id": 999,
+    "decimals": 6,
+    "avg_blocktime": 1,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "HYPE",
+        "contract_address": "0xb88339CB7199b77E23DB6E890353E22632Ba630f"
       }
     },
     "derivation_path": "m/44'/60'"
