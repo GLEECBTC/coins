@@ -12826,7 +12826,8 @@
         "1780887368": "online",
         "1785981319": "offline",
         "1786232894": "online",
-        "1788364910": "offline"
+        "1788364910": "offline",
+        "1788574930": "online"
       },
       "uno-bkp.coinmunity.gold:50003": {
         "1773700082": "offline",
@@ -12839,7 +12840,8 @@
         "1780887368": "online",
         "1785981319": "offline",
         "1786232894": "online",
-        "1788364910": "offline"
+        "1788364910": "offline",
+        "1788574930": "online"
       },
       "uno-ex-one.ewmci.online:50001": {
         "1787446530": "online"
@@ -12859,7 +12861,8 @@
         "1781665138": "online",
         "1782268723": "offline",
         "1782787373": "online",
-        "1788364910": "offline"
+        "1788364910": "offline",
+        "1788574930": "online"
       },
       "uno-main.coinmunity.gold:50003": {
         "1763079262": "offline",
@@ -12870,7 +12873,8 @@
         "1781665138": "online",
         "1782268723": "offline",
         "1782787373": "online",
-        "1788364910": "offline"
+        "1788364910": "offline",
+        "1788574930": "online"
       }
     }
   },
@@ -13401,7 +13405,8 @@
         "1779428138": "online"
       },
       "https://public-gno-mainnet.fastnode.io": {
-        "1779428138": "online"
+        "1779428138": "online",
+        "1788574930": "offline"
       },
       "https://rpc.gnosischain.com": {
         "1779428138": "online"
