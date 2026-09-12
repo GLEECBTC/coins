@@ -10,8 +10,13 @@
     "ws_url": "electrumx2.radiant4people.com:50022"
   },
   {
-    "url": "electrumx.rxd-radiant.com:50022",
+    "url": "electrumx.rxd-radiant.com:50012",
     "protocol": "SSL",
-    "ws_url": "electrumx.rxd-radiant.com:50023"
+    "ws_url": "electrumx.rxd-radiant.com:50011"
+  },
+  {
+    "url": "electrumx-eu.rxd-radiant.com:50012",
+    "protocol": "SSL",
+    "ws_url": "electrumx-eu.rxd-radiant.com:50011"
   }
 ]
