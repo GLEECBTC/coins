@@ -2192,7 +2192,6 @@
         "1787187062": "online"
       },
       "electrum1.btcz.rocks:50004": {
-        "1757895281": "online",
         "1760706938": "offline",
         "1762013934": "online",
         "1764983334": "offline",
@@ -6405,7 +6404,8 @@
     "all": {},
     "by_server": {
       "https://lb.routeme.sh/rpc/evm/1284": {
-        "1789402484": "offline"
+        "1789402484": "offline",
+        "1789475253": "online"
       },
       "https://moonbeam-rpc.publicnode.com": {
         "1771131362": "online",
@@ -9638,7 +9638,8 @@
     "all": {},
     "by_server": {
       "https://lb.routeme.sh/rpc/evm/1285": {
-        "1789402484": "offline"
+        "1789402484": "offline",
+        "1789475253": "online"
       },
       "https://moonriver-rpc.dwellir.com": {
         "1755770395": "online",
@@ -11064,6 +11065,49 @@
       },
       "electrum.thepandacoin.net:50002": {
         "1787446530": "online"
+      }
+    }
+  },
+  "POL": {
+    "all": {},
+    "by_server": {
+      "https://pol3.cipig.net:18755": {
+        "1789475253": "online"
+      },
+      "https://polygon-bor-rpc.publicnode.com": {
+        "1789475253": "online"
+      },
+      "https://polygon.drpc.org": {
+        "1789475253": "online"
+      },
+      "https://polygon.gateway.tenderly.co": {
+        "1789475253": "online"
+      },
+      "wss://pol3.cipig.net:38755": {
+        "1789475253": "offline"
+      },
+      "wss://polygon-bor-rpc.publicnode.com": {
+        "1789475253": "online"
+      },
+      "wss://polygon.drpc.org": {
+        "1789475253": "online"
+      },
+      "wss://polygon.gateway.tenderly.co": {
+        "1789475253": "offline"
+      }
+    }
+  },
+  "POLTEST": {
+    "all": {},
+    "by_server": {
+      "https://matic-mumbai.chainstacklabs.com": {
+        "1789475253": "offline"
+      },
+      "https://rpc-mumbai.matic.today": {
+        "1789475253": "offline"
+      },
+      "https://rpc-mumbai.maticvigil.com": {
+        "1789475253": "offline"
       }
     }
   },
