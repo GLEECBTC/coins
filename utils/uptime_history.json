@@ -5138,7 +5138,8 @@
       },
       "wss://eth.api.pocket.network": {
         "1788231504": "online",
-        "1789485044": "offline"
+        "1789485044": "offline",
+        "1789485682": "online"
       },
       "wss://eth.drpc.org": {
         "1755770395": "online",
@@ -6412,7 +6413,8 @@
         "1786759342": "offline"
       },
       "https://moonbeam.api.onfinality.io/public": {
-        "1786232894": "online"
+        "1786232894": "online",
+        "1789485682": "offline"
       },
       "https://moonbeam.drpc.org": {
         "1755987838": "online",
@@ -6440,7 +6442,8 @@
         "1762321286": "offline"
       },
       "https://public.1rpc.io/glmr": {
-        "1789402484": "online"
+        "1789402484": "online",
+        "1789485682": "offline"
       },
       "https://rpc.api.moonbeam.network": {
         "1786392764": "offline"
@@ -6450,7 +6453,8 @@
         "1786759342": "offline"
       },
       "wss://moonbeam.api.onfinality.io/public-ws": {
-        "1786232894": "online"
+        "1786232894": "online",
+        "1789485682": "offline"
       },
       "wss://moonbeam.drpc.org": {
         "1755987838": "online",
@@ -10737,7 +10741,8 @@
         "1778294861": "online",
         "1783993904": "offline",
         "1784339488": "online",
-        "1789485044": "offline"
+        "1789485044": "offline",
+        "1789485682": "online"
       },
       "https://rpc.osmosis.zone": {
         "1786994756": "online"
@@ -13682,7 +13687,8 @@
       },
       "wss://gnosis.api.pocket.network": {
         "1789402484": "online",
-        "1789485044": "offline"
+        "1789485044": "offline",
+        "1789485682": "online"
       },
       "wss://rpc.gnosischain.com/wss": {
         "1779428138": "online",
@@ -14032,7 +14038,8 @@
         "1789040395": "online"
       },
       "https://plasma.api.onfinality.io/public": {
-        "1789402484": "offline"
+        "1789402484": "offline",
+        "1789485682": "online"
       },
       "https://rpc.plasma.to": {
         "1789040395": "online"
