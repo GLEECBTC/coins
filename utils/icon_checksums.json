@@ -111,10 +111,6 @@
     "original": "3a681dec4491e5435435ac37fdf0f5c8701edc1cd726c6a1e09297e062b7574f",
     "processed": "1cb99ea51121eefc2bb7cc74c80c62e4b563907ea94455b3b94f7f9729612264"
   },
-  "thc_bep20.png": {
-    "original": "9aab06c5722072d0fd29a78c086b86f61d7ce3c74449047a363cb5315d1bf26c",
-    "processed": "80bb02258c34d7af7664d9c1b3bbde6ba5621bef29033afffeadf4729e17d127"
-  },
   "trx.png": {
     "original": "11b31df18fbeddd8e8b6dc83ae79cd753f5a15a9173273df8c4bbc1753ca74e9",
     "processed": "0ec9a59d966b8f92ce2e54530430cc74cccc9ab54797d18c62957322d03ef059"
@@ -210,10 +206,6 @@
   "dp.png": {
     "original": "e8bbce84fc3c6742bdaf589416aa7a2b064100e2870b6f955bc59c6935d43139",
     "processed": "399984d29c072a141c98b5dca58ce1e15d909f2efe5d70dfc2e576889a7731a1"
-  },
-  "matictest.png": {
-    "original": "15eccb9953b4e74e6505707edd4e8670a987e1510b395a43eadb743aa2904cf8",
-    "processed": "db2437bffcfb0797be2b0711e8f4ffd3a172a92fd5c460bd12d494b9f41ac31a"
   },
   "qi.png": {
     "original": "54d583bd1a681a56fbc6761792f8b710e24134da734de6cb4241391b88a5e617",
@@ -1810,5 +1802,13 @@
   "xpl.png": {
     "original": "613ca1d95a1b74f2ed4e55196d9fb6cf8a43a039beae9a6462725c342e1c7d7e",
     "processed": "d51e998956f362e4d9d1342e2721e73f819091b412f76c5700db3ba6aaf7c24d"
+  },
+  "poltest.png": {
+    "original": "15eccb9953b4e74e6505707edd4e8670a987e1510b395a43eadb743aa2904cf8",
+    "processed": "db2437bffcfb0797be2b0711e8f4ffd3a172a92fd5c460bd12d494b9f41ac31a"
+  },
+  "pol.png": {
+    "original": "15eccb9953b4e74e6505707edd4e8670a987e1510b395a43eadb743aa2904cf8",
+    "processed": "db2437bffcfb0797be2b0711e8f4ffd3a172a92fd5c460bd12d494b9f41ac31a"
   }
 }
