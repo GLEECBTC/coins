@@ -6516,7 +6516,8 @@
       "https://public.1rpc.io/glmr": {
         "1789402484": "online",
         "1789591041": "offline",
-        "1789626981": "online"
+        "1789626981": "online",
+        "1789697305": "offline"
       },
       "https://rpc.api.moonbeam.network": {
         "1786392764": "offline"
@@ -10847,7 +10848,8 @@
         "1786069049": "offline",
         "1789402484": "online",
         "1789613345": "offline",
-        "1789626981": "online"
+        "1789626981": "online",
+        "1789697305": "offline"
       },
       "https://api.harmony.one": {
         "1786545229": "offline",
@@ -11233,6 +11235,49 @@
       },
       "electrum.thepandacoin.net:50002": {
         "1787446530": "online"
+      }
+    }
+  },
+  "POL": {
+    "all": {},
+    "by_server": {
+      "https://pol3.cipig.net:18755": {
+        "1789697305": "online"
+      },
+      "https://polygon-bor-rpc.publicnode.com": {
+        "1789697305": "online"
+      },
+      "https://polygon.drpc.org": {
+        "1789697305": "online"
+      },
+      "https://polygon.gateway.tenderly.co": {
+        "1789697305": "online"
+      },
+      "wss://pol3.cipig.net:38755": {
+        "1789697305": "offline"
+      },
+      "wss://polygon-bor-rpc.publicnode.com": {
+        "1789697305": "online"
+      },
+      "wss://polygon.drpc.org": {
+        "1789697305": "online"
+      },
+      "wss://polygon.gateway.tenderly.co": {
+        "1789697305": "offline"
+      }
+    }
+  },
+  "POLTEST": {
+    "all": {},
+    "by_server": {
+      "https://matic-mumbai.chainstacklabs.com": {
+        "1789697305": "offline"
+      },
+      "https://rpc-mumbai.matic.today": {
+        "1789697305": "offline"
+      },
+      "https://rpc-mumbai.maticvigil.com": {
+        "1789697305": "offline"
       }
     }
   },
@@ -14326,7 +14371,8 @@
         "1789578533": "online",
         "1789580912": "offline",
         "1789626981": "online",
-        "1789678270": "offline"
+        "1789678270": "offline",
+        "1789697305": "online"
       },
       "https://rpc.plasma.to": {
         "1789040395": "online"

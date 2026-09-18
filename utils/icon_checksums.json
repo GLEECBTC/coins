@@ -207,10 +207,6 @@
     "original": "e8bbce84fc3c6742bdaf589416aa7a2b064100e2870b6f955bc59c6935d43139",
     "processed": "399984d29c072a141c98b5dca58ce1e15d909f2efe5d70dfc2e576889a7731a1"
   },
-  "matictest.png": {
-    "original": "15eccb9953b4e74e6505707edd4e8670a987e1510b395a43eadb743aa2904cf8",
-    "processed": "db2437bffcfb0797be2b0711e8f4ffd3a172a92fd5c460bd12d494b9f41ac31a"
-  },
   "qi.png": {
     "original": "54d583bd1a681a56fbc6761792f8b710e24134da734de6cb4241391b88a5e617",
     "processed": "68ca21ef553d3dcc8b05c0c5879b4825b9f870e53f3135ac3db47e965d606dfc"
@@ -1834,5 +1830,13 @@
   "flr.png": {
     "original": "dee97a5087eba0d6a542f33dd6cf150c3fbd6099b259ec18a8793ec14ba921b0",
     "processed": "aeee97ae0d549816c833abadd4f891d220819042f5058be18bfeb50a8e2075b0"
+  },
+  "poltest.png": {
+    "original": "15eccb9953b4e74e6505707edd4e8670a987e1510b395a43eadb743aa2904cf8",
+    "processed": "db2437bffcfb0797be2b0711e8f4ffd3a172a92fd5c460bd12d494b9f41ac31a"
+  },
+  "pol.png": {
+    "original": "15eccb9953b4e74e6505707edd4e8670a987e1510b395a43eadb743aa2904cf8",
+    "processed": "db2437bffcfb0797be2b0711e8f4ffd3a172a92fd5c460bd12d494b9f41ac31a"
   }
 }
