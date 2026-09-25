@@ -16948,7 +16948,8 @@
                 "url": "https://rpc.hypurrscan.io"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "HYPE"
     },
     "IDRT-ERC20": {
         "coin": "IDRT-ERC20",
@@ -22372,6 +22373,9 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://lb.routeme.sh/rpc/evm/1285"
+            },
+            {
                 "url": "https://moonriver.api.onfinality.io/public",
                 "ws_url": "wss://moonriver.api.onfinality.io/public-ws"
             }
@@ -22415,6 +22419,9 @@
         "swap_contract_address": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "nodes": [
+            {
+                "url": "https://lb.routeme.sh/rpc/evm/1284"
+            },
             {
                 "url": "https://moonbeam.api.onfinality.io/public",
                 "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
@@ -37073,6 +37080,9 @@
         "nodes": [
             {
                 "url": "https://9745.rpc.thirdweb.com"
+            },
+            {
+                "url": "https://plasma.api.onfinality.io/public"
             },
             {
                 "url": "https://rpc.plasma.to"

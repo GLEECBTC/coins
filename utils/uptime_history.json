@@ -3521,7 +3521,8 @@
     "all": {},
     "by_server": {
       "https://lb.routeme.sh/rpc/evm/1284": {
-        "1790192356": "offline"
+        "1790192356": "offline",
+        "1790304717": "online"
       },
       "https://moonbeam.api.onfinality.io/public": {
         "1790192356": "online"
@@ -5267,7 +5268,8 @@
     "by_server": {
       "https://lb.routeme.sh/rpc/evm/1285": {
         "1790192356": "online",
-        "1790201299": "offline"
+        "1790201299": "offline",
+        "1790304717": "online"
       },
       "https://moonriver.api.onfinality.io/public": {
         "1790192356": "online"
@@ -7799,7 +7801,8 @@
         "1790217304": "online"
       },
       "https://plasma.api.onfinality.io/public": {
-        "1790192356": "offline"
+        "1790192356": "offline",
+        "1790304717": "online"
       },
       "https://rpc.plasma.to": {
         "1790192356": "online"
