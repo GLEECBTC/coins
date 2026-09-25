@@ -16,11 +16,11 @@
         "THC",
         "VIA",
         "VIA-segwit",
+        "VRM",
         "SEPOLIAETH",
         "UFO",
         "IRISTEST",
-        "NUCLEUSTEST",
-        "VRM"
+        "NUCLEUSTEST"
     ],
     "days_since_connection": {}
 }

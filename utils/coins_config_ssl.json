@@ -1,62 +1,4 @@
 {
-    "SC": {
-        "coin": "SC",
-        "type": "SIA",
-        "name": "Siacoin",
-        "coinpaprika_id": "sc-siacoin",
-        "coingecko_id": "siacoin",
-        "livecoinwatch_id": "SC",
-        "explorer_url": "https://siascan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Siacoin",
-        "mm2": 1,
-        "required_confirmations": 1,
-        "avg_blocktime": 600,
-        "protocol": {
-            "type": "SIA"
-        },
-        "nodes": [
-            {
-                "url": "https://api.siascan.com/wallet/api"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "SCZEN": {
-        "coin": "SCZEN",
-        "type": "SIA",
-        "name": "Siacoin Zen Testnet",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://zen.siascan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": true,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Siacoin Zen Testnet",
-        "mm2": 1,
-        "required_confirmations": 1,
-        "avg_blocktime": 600,
-        "protocol": {
-            "type": "SIA"
-        },
-        "nodes": [
-            {
-                "url": "https://api.siascan.com/zen/wallet/api"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "1INCH-AVX20": {
         "coin": "1INCH-AVX20",
         "type": "AVX-20",
@@ -1749,6 +1691,94 @@
         ],
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
+    },
+    "ATOM": {
+        "coin": "ATOM",
+        "type": "TENDERMINT",
+        "name": "Cosmos",
+        "coinpaprika_id": "atom-cosmos",
+        "coingecko_id": "cosmos",
+        "livecoinwatch_id": "ATOM",
+        "explorer_url": "https://www.mintscan.io/cosmos/",
+        "explorer_tx_url": "txs/",
+        "explorer_address_url": "account/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "avg_blocktime": 7,
+        "fname": "Cosmos",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "uatom",
+                "account_prefix": "cosmos",
+                "chain_id": "cosmoshub-4",
+                "chain_registry_name": "cosmoshub",
+                "ibc_channels": {
+                    "iaa": 91,
+                    "osmo": 141
+                }
+            }
+        },
+        "derivation_path": "m/44'/118'",
+        "rpc_urls": [
+            {
+                "url": "https://cosmos-rpc.publicnode.com",
+                "ws_url": "wss://cosmos-rpc.publicnode.com/websocket"
+            },
+            {
+                "url": "https://rpc.cosmos.directory/cosmoshub"
+            }
+        ],
+        "explorer_block_url": "block/",
+        "binance_id": "ATOM"
+    },
+    "ATOM-IBC_IRIS": {
+        "coin": "ATOM-IBC_IRIS",
+        "type": "TENDERMINTTOKEN",
+        "name": "Cosmos",
+        "coinpaprika_id": "atom-cosmos",
+        "coingecko_id": "cosmos",
+        "livecoinwatch_id": "ATOM",
+        "explorer_url": "https://irishub.iobscan.io/",
+        "explorer_tx_url": "#/txs/",
+        "explorer_address_url": "#/address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Cosmos",
+        "avg_blocktime": 7,
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINTTOKEN",
+            "protocol_data": {
+                "platform": "IRIS",
+                "decimals": 6,
+                "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+                "gas_price": 0.5
+            }
+        },
+        "derivation_path": "m/44'/118'",
+        "parent_coin": "IRIS",
+        "rpc_urls": [
+            {
+                "url": "https://iris-rpc.publicnode.com"
+            },
+            {
+                "url": "https://rpc.cosmos.directory/irisnet"
+            },
+            {
+                "url": "https://rpc.irishub-1.irisnet.org"
+            }
+        ],
+        "explorer_block_url": "block/",
+        "binance_id": "ATOM"
     },
     "ATOM-BEP20": {
         "coin": "ATOM-BEP20",
@@ -12840,6 +12870,69 @@
         ],
         "explorer_block_url": "block/"
     },
+    "EVR": {
+        "coin": "EVR",
+        "type": "UTXO",
+        "name": "Evrmore Coin",
+        "coinpaprika_id": "evr-evrmore",
+        "coingecko_id": "evrmore",
+        "livecoinwatch_id": "_EVR",
+        "explorer_url": "https://evr.cryptoscope.io/",
+        "explorer_tx_url": "tx/?txid=",
+        "explorer_address_url": "address/?address=",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Evrmore Signed Message:\n",
+        "fname": "Evrmore Coin",
+        "rpcport": 8819,
+        "pubtype": 33,
+        "p2shtype": 92,
+        "wiftype": 128,
+        "segwit": true,
+        "txfee": 1000000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO",
+            "chain_variant": "RVN"
+        },
+        "derivation_path": "m/44'/175'",
+        "links": {
+            "github": "https://github.com/EvrmoreOrg/Evrmore",
+            "homepage": "https://evrmorecoin.org"
+        },
+        "electrum": [
+            {
+                "url": "electrum1-mainnet.evrmorecoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "hans_schm1dt@protonmail.com"
+                    },
+                    {
+                        "discord": "Hans_Schmidt#0745"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2-mainnet.evrmorecoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "hans_schm1dt@protonmail.com"
+                    },
+                    {
+                        "discord": "Hans_Schmidt#0745"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "EWT": {
         "coin": "EWT",
         "type": "EWT",
@@ -13534,6 +13627,71 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "FIVETRAT": {
+        "coin": "FIVETRAT",
+        "type": "UTXO",
+        "name": "5TRAT Coin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer1.5trat.net/explorer/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Bitcoin Signed Message:\n",
+        "fname": "5TRAT Coin",
+        "rpcport": 57576,
+        "pubtype": 125,
+        "p2shtype": 80,
+        "wiftype": 181,
+        "txfee": 1000,
+        "dust": 1000,
+        "decimals": 8,
+        "segwit": false,
+        "fork_id": "0x40",
+        "address_format": {
+            "format": "cashaddress",
+            "network": "5trat"
+        },
+        "mm2": 1,
+        "required_confirmations": 2,
+        "mature_confirmations": 100,
+        "avg_blocktime": 300,
+        "protocol": {
+            "type": "UTXO",
+            "chain_variant": "BTC"
+        },
+        "derivation_path": "m/44'/5755'",
+        "links": {
+            "github": "https://github.com/WillItMod/5trat-core",
+            "homepage": "https://5trat.com"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.5trat.net:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "axebench.app@gmail.com"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.5trat.net:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "axebench.app@gmail.com"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "FIX": {
         "coin": "FIX",
         "type": "UTXO",
@@ -14157,6 +14315,167 @@
             }
         ],
         "explorer_block_url": "block/"
+    },
+    "FLUX": {
+        "coin": "FLUX",
+        "type": "UTXO",
+        "name": "Flux",
+        "coinpaprika_id": "zel-zelcash",
+        "coingecko_id": "zelcash",
+        "livecoinwatch_id": "_FLUX",
+        "explorer_url": "https://explorer.runonflux.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Zelcash Signed Message:\n",
+        "fname": "Flux",
+        "is_privacy_coin": true,
+        "rpcport": 16124,
+        "taddr": 28,
+        "pubtype": 184,
+        "p2shtype": 189,
+        "wiftype": 128,
+        "txversion": 4,
+        "overwintered": 1,
+        "version_group_id": "0x892f2085",
+        "consensus_branch_id": "0x76b809bb",
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 120,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/19167'",
+        "links": {
+            "github": "https://github.com/RunOnFlux/fluxd",
+            "homepage": "https://www.runonflux.io"
+        },
+        "electrum": [],
+        "explorer_block_url": "block/",
+        "binance_id": "FLUX"
+    },
+    "FLUX-ERC20": {
+        "coin": "FLUX-ERC20",
+        "type": "ERC-20",
+        "name": "Flux",
+        "coinpaprika_id": "zel-zelcash",
+        "coingecko_id": "zelcash",
+        "livecoinwatch_id": "_FLUX",
+        "explorer_url": "https://etherscan.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Flux",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1,
+        "decimals": 8,
+        "avg_blocktime": 15,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH",
+                "contract_address": "0x720CD16b011b987Da3518fbf38c3071d4F0D1495"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x720CD16b011b987Da3518fbf38c3071d4F0D1495",
+        "parent_coin": "ETH",
+        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
+        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
+        "nodes": [
+            {
+                "url": "https://eth.api.pocket.network",
+                "ws_url": "wss://eth.api.pocket.network"
+            },
+            {
+                "url": "https://eth.drpc.org",
+                "ws_url": "wss://eth.drpc.org"
+            },
+            {
+                "url": "https://ethereum-rpc.publicnode.com",
+                "ws_url": "wss://ethereum-rpc.publicnode.com"
+            },
+            {
+                "url": "https://mainnet.gateway.tenderly.co",
+                "ws_url": "wss://mainnet.gateway.tenderly.co"
+            }
+        ],
+        "explorer_block_url": "block/",
+        "binance_id": "FLUX"
+    },
+    "FLUX-BEP20": {
+        "coin": "FLUX-BEP20",
+        "type": "BEP-20",
+        "name": "Flux",
+        "coinpaprika_id": "zel-zelcash",
+        "coingecko_id": "zelcash",
+        "livecoinwatch_id": "_FLUX",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Flux",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 8,
+        "avg_blocktime": 0.45,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0xaFF9084f2374585879e8B434C399E29E80ccE635"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "gas_limit": {
+            "eth_send_erc20": 60000,
+            "erc20_payment": 110000,
+            "erc20_receiver_spend": 85000,
+            "erc20_sender_refund": 85000
+        },
+        "contract_address": "0xaFF9084f2374585879e8B434C399E29E80ccE635",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://bsc-dataseed1.ninicoin.io"
+            },
+            {
+                "url": "https://bsc-dataseed2.defibit.io"
+            },
+            {
+                "url": "https://bsc-dataseed3.bnbchain.org"
+            },
+            {
+                "url": "https://bsc-rpc.publicnode.com",
+                "ws_url": "wss://bsc-rpc.publicnode.com"
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/",
+        "binance_id": "FLUX"
     },
     "FTC": {
         "coin": "FTC",
@@ -17665,6 +17984,104 @@
         ],
         "explorer_block_url": "block/"
     },
+    "IRIS": {
+        "coin": "IRIS",
+        "type": "TENDERMINT",
+        "name": "IRISnet",
+        "coinpaprika_id": "iris-irisnet",
+        "coingecko_id": "iris-network",
+        "livecoinwatch_id": "IRIS",
+        "explorer_url": "https://irishub.iobscan.io/",
+        "explorer_tx_url": "#/txs/",
+        "explorer_address_url": "#/address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "avg_blocktime": 7,
+        "fname": "IRISnet",
+        "chain_id": 6688,
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "uiris",
+                "account_prefix": "iaa",
+                "chain_id": "irishub-1",
+                "chain_registry_name": "irishub",
+                "gas_price": 0.5,
+                "ibc_channels": {
+                    "cosmos": 0,
+                    "osmo": 3
+                }
+            }
+        },
+        "derivation_path": "m/44'/118'",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.irishub-1.irisnet.org"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "IRIS-BEP20": {
+        "coin": "IRIS-BEP20",
+        "type": "BEP-20",
+        "name": "IRISnet",
+        "coinpaprika_id": "iris-irisnet",
+        "coingecko_id": "iris-network",
+        "livecoinwatch_id": "IRIS",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "IRISnet",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 18,
+        "avg_blocktime": 0.45,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0x05C50a62b0b87bE1fFB1Cf3b77d9eDBa834ef6f7"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x05C50a62b0b87bE1fFB1Cf3b77d9eDBa834ef6f7",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://bsc-dataseed1.ninicoin.io"
+            },
+            {
+                "url": "https://bsc-dataseed2.defibit.io"
+            },
+            {
+                "url": "https://bsc-dataseed3.bnbchain.org"
+            },
+            {
+                "url": "https://bsc-rpc.publicnode.com",
+                "ws_url": "wss://bsc-rpc.publicnode.com"
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
     "JASMY-ERC20": {
         "coin": "JASMY-ERC20",
         "type": "ERC-20",
@@ -17953,6 +18370,51 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
+    "JUMP": {
+        "coin": "JUMP",
+        "type": "UTXO",
+        "name": "Jumpcoin",
+        "coinpaprika_id": "jump-jumpcoin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "_JUMP",
+        "explorer_url": "https://explorer.jumpcoin.net/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Jumpcoin Signed Message:\n",
+        "fname": "Jumpcoin",
+        "isPoS": 1,
+        "rpcport": 31240,
+        "pubtype": 43,
+        "p2shtype": 122,
+        "wiftype": 171,
+        "txfee": 10000,
+        "dust": 10000,
+        "mm2": 1,
+        "mature_confirmations": 100,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/278'",
+        "links": {
+            "homepage": "https://jumpcoin.net",
+            "explorer": "https://explorer.jumpcoin.net",
+            "github": "https://github.com/jumpcoin"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.jumpcoin.net:50002",
+                "protocol": "SSL"
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "KCN": {
@@ -18266,6 +18728,134 @@
                 "url": "https://rpc-mainnet.kcc.network"
             }
         ],
+        "explorer_block_url": "block/"
+    },
+    "KIIRO": {
+        "coin": "KIIRO",
+        "type": "UTXO",
+        "name": "Kiiro",
+        "coinpaprika_id": "kiiro-kiirocoin",
+        "coingecko_id": "kiirocoin",
+        "livecoinwatch_id": "KIIRO",
+        "explorer_url": "https://explorer.kiirocoin.org/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Zcoin Signed Message:\n",
+        "fname": "Kiiro",
+        "rpcport": 8999,
+        "pubtype": 45,
+        "p2shtype": 7,
+        "wiftype": 210,
+        "txfee": 1000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 150,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/136'",
+        "links": {
+            "github": "https://github.com/kiirocoin/kiiro",
+            "homepage": "https://kiirocoin.org"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "1061740404439007403"
+                    },
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "1061740404439007403"
+                    },
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "1061740404439007403"
+                    },
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "KIIRO-BEP20": {
+        "coin": "KIIRO-BEP20",
+        "type": "BEP-20",
+        "name": "Kiiro",
+        "coinpaprika_id": "kiiro-kiirocoin",
+        "coingecko_id": "kiirocoin",
+        "livecoinwatch_id": "KIIRO",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Kiiro",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "avg_blocktime": 0.45,
+        "required_confirmations": 3,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0x347862372f7C8f83D69025234367Ac11c5241Db3"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x347862372f7C8f83D69025234367Ac11c5241Db3",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://bsc-dataseed1.ninicoin.io"
+            },
+            {
+                "url": "https://bsc-dataseed2.defibit.io"
+            },
+            {
+                "url": "https://bsc-dataseed3.bnbchain.org"
+            },
+            {
+                "url": "https://bsc-rpc.publicnode.com",
+                "ws_url": "wss://bsc-rpc.publicnode.com"
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
     "KITE-ERC20": {
@@ -20984,6 +21574,77 @@
         ],
         "explorer_block_url": "block/"
     },
+    "MAZA": {
+        "coin": "MAZA",
+        "type": "UTXO",
+        "name": "MazaCoin",
+        "coinpaprika_id": "maza-maza",
+        "coingecko_id": "maza",
+        "livecoinwatch_id": "MAZA",
+        "explorer_url": "http://mazacha.in/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Mazacoin Signed Message:\n",
+        "fname": "MazaCoin",
+        "rpcport": 12832,
+        "pubtype": 50,
+        "p2shtype": 9,
+        "wiftype": 244,
+        "decimals": 8,
+        "signature_version": "base",
+        "txfee": 10000,
+        "segwit": true,
+        "bech32_hrp": "maza",
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/13'",
+        "links": {
+            "github": "https://github.com/Mazacoin",
+            "homepage": "https://www.mazacoin.org"
+        },
+        "electrum": [
+            {
+                "url": "electrum.seed.mazanode.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "brian@mazacoin.org"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.mazanode.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "brian@mazacoin.org"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx2.mazacha.in:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "contact@mazacoin.org"
+                    },
+                    {
+                        "discord": "sherm77#5923"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "MCL": {
         "coin": "MCL",
         "type": "Smart Chain",
@@ -21201,6 +21862,91 @@
             {
                 "url": "https://mainnet.gateway.tenderly.co",
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "MEWC": {
+        "coin": "MEWC",
+        "type": "UTXO",
+        "name": "Meowcoin",
+        "coinpaprika_id": "mewc-meowcoin",
+        "coingecko_id": "meowcoin",
+        "livecoinwatch_id": "MEWC",
+        "explorer_url": "https://explorer.mewccrypto.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Meowcoin Signed Message:\n",
+        "fname": "Meowcoin",
+        "rpcport": 9766,
+        "pubtype": 50,
+        "p2shtype": 122,
+        "wiftype": 112,
+        "segwit": false,
+        "txfee": 1000000,
+        "dust": 1000000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO",
+            "chain_variant": "BTC"
+        },
+        "derivation_path": "m/44'/1669'",
+        "links": {
+            "github": "https://github.com/Meowcoin-Foundation/Meowcoin",
+            "homepage": "https://www.mewccrypto.com/"
+        },
+        "electrum": [
+            {
+                "url": "electrs.mewccrypto.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "Meowmancer#2099"
+                    }
+                ]
+            },
+            {
+                "url": "electrs2.mewccrypto.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "Meowmancer#2099"
+                    }
+                ]
+            },
+            {
+                "url": "electrs3.meowcoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "Meowmancer#2099"
+                    }
+                ]
+            },
+            {
+                "url": "electrs4.meowcoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "Meowmancer#2099"
+                    }
+                ]
+            },
+            {
+                "url": "electrs5.meowcoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "Meowmancer#2099"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -22373,9 +23119,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://lb.routeme.sh/rpc/evm/1285"
-            },
-            {
                 "url": "https://moonriver.api.onfinality.io/public",
                 "ws_url": "wss://moonriver.api.onfinality.io/public-ws"
             }
@@ -22419,9 +23162,6 @@
         "swap_contract_address": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "nodes": [
-            {
-                "url": "https://lb.routeme.sh/rpc/evm/1284"
-            },
             {
                 "url": "https://moonbeam.api.onfinality.io/public",
                 "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
@@ -22879,6 +23619,118 @@
             },
             {
                 "url": "https://polygon.gateway.tenderly.co"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "NITO": {
+        "coin": "NITO",
+        "type": "UTXO",
+        "name": "NITO",
+        "coinpaprika_id": "nito-nito-coin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "_NITO",
+        "explorer_url": "https://explorer.nito.network/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Nito Signed Message:\n",
+        "fname": "NITO",
+        "rpcport": 8825,
+        "pubtype": 0,
+        "p2shtype": 5,
+        "wiftype": 128,
+        "segwit": true,
+        "bech32_hrp": "nito",
+        "txfee": 10000,
+        "dust": 10000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "mature_confirmations": 101,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/0'",
+        "links": {
+            "github": "https://github.com/NitoNetwork/Nito-core",
+            "homepage": "https://nito.network"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.nito.network:50003",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "email": "biigbang0001@zemzar.net"
+                    },
+                    {
+                        "discord": "biigbang0001"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "NITO-segwit": {
+        "coin": "NITO-segwit",
+        "type": "UTXO",
+        "name": "NITO",
+        "coinpaprika_id": "nito-nito-coin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "_NITO",
+        "explorer_url": "https://explorer.nito.network/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Nito Signed Message:\n",
+        "fname": "NITO",
+        "rpcport": 8825,
+        "pubtype": 0,
+        "p2shtype": 5,
+        "wiftype": 128,
+        "segwit": true,
+        "bech32_hrp": "nito",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "NITO",
+        "txfee": 10000,
+        "dust": 10000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "mature_confirmations": 101,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/84'/0'",
+        "links": {
+            "github": "https://github.com/NitoNetwork/Nito-core",
+            "homepage": "https://nito.network"
+        },
+        "electrum": [
+            {
+                "url": "electrum1.nito.network:50003",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "email": "biigbang0001@zemzar.net"
+                    },
+                    {
+                        "discord": "biigbang0001"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -27543,6 +28395,72 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "RUNES": {
+        "coin": "RUNES",
+        "type": "UTXO",
+        "name": "Runebase",
+        "coinpaprika_id": "runes-runebase",
+        "coingecko_id": "runebase",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.runebase.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Runebase Signed Message:\n",
+        "fname": "Runebase",
+        "rpcport": 9432,
+        "pubtype": 61,
+        "p2shtype": 123,
+        "wiftype": 216,
+        "txfee": 40000000,
+        "dust": 40000000,
+        "mature_confirmations": 120,
+        "segwit": true,
+        "bech32_hrp": "rc",
+        "mm2": 1,
+        "required_confirmations": 6,
+        "avg_blocktime": 120,
+        "protocol": {
+            "type": "UTXO",
+            "chain_variant": "QTUM"
+        },
+        "derivation_path": "m/44'/88'",
+        "links": {
+            "github": "https://github.com/runebase/runebase",
+            "homepage": "https://www.runebase.io"
+        },
+        "electrum": [
+            {
+                "url": "electrum2.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "RVN": {
         "coin": "RVN",
         "type": "UTXO",
@@ -27828,6 +28746,64 @@
             },
             {
                 "url": "https://polygon.gateway.tenderly.co"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "SC": {
+        "coin": "SC",
+        "type": "SIA",
+        "name": "Siacoin",
+        "coinpaprika_id": "sc-siacoin",
+        "coingecko_id": "siacoin",
+        "livecoinwatch_id": "SC",
+        "explorer_url": "https://siascan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Siacoin",
+        "mm2": 1,
+        "required_confirmations": 1,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "SIA"
+        },
+        "nodes": [
+            {
+                "url": "https://api.siascan.com/wallet/api"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "SCZEN": {
+        "coin": "SCZEN",
+        "type": "SIA",
+        "name": "Siacoin Zen Testnet",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://zen.siascan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": true,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Siacoin Zen Testnet",
+        "mm2": 1,
+        "required_confirmations": 1,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "SIA"
+        },
+        "nodes": [
+            {
+                "url": "https://api.siascan.com/zen/wallet/api"
             }
         ],
         "explorer_block_url": "block/"
@@ -39122,167 +40098,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "FLUX": {
-        "coin": "FLUX",
-        "type": "UTXO",
-        "name": "Flux",
-        "coinpaprika_id": "zel-zelcash",
-        "coingecko_id": "zelcash",
-        "livecoinwatch_id": "_FLUX",
-        "explorer_url": "https://explorer.runonflux.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Zelcash Signed Message:\n",
-        "fname": "Flux",
-        "is_privacy_coin": true,
-        "rpcport": 16124,
-        "taddr": 28,
-        "pubtype": 184,
-        "p2shtype": 189,
-        "wiftype": 128,
-        "txversion": 4,
-        "overwintered": 1,
-        "version_group_id": "0x892f2085",
-        "consensus_branch_id": "0x76b809bb",
-        "txfee": 10000,
-        "mm2": 1,
-        "required_confirmations": 2,
-        "avg_blocktime": 120,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/19167'",
-        "links": {
-            "github": "https://github.com/RunOnFlux/fluxd",
-            "homepage": "https://www.runonflux.io"
-        },
-        "electrum": [],
-        "explorer_block_url": "block/",
-        "binance_id": "FLUX"
-    },
-    "FLUX-ERC20": {
-        "coin": "FLUX-ERC20",
-        "type": "ERC-20",
-        "name": "Flux",
-        "coinpaprika_id": "zel-zelcash",
-        "coingecko_id": "zelcash",
-        "livecoinwatch_id": "_FLUX",
-        "explorer_url": "https://etherscan.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Flux",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 1,
-        "decimals": 8,
-        "avg_blocktime": 15,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "ETH",
-                "contract_address": "0x720CD16b011b987Da3518fbf38c3071d4F0D1495"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x720CD16b011b987Da3518fbf38c3071d4F0D1495",
-        "parent_coin": "ETH",
-        "swap_contract_address": "0x61EEC68Cf64d1b31e41EA713356De2563fB6D3F1",
-        "fallback_swap_contract": "0x24ABE4c71FC658C91313b6552cd40cD808b3Ea80",
-        "nodes": [
-            {
-                "url": "https://eth.api.pocket.network",
-                "ws_url": "wss://eth.api.pocket.network"
-            },
-            {
-                "url": "https://eth.drpc.org",
-                "ws_url": "wss://eth.drpc.org"
-            },
-            {
-                "url": "https://ethereum-rpc.publicnode.com",
-                "ws_url": "wss://ethereum-rpc.publicnode.com"
-            },
-            {
-                "url": "https://mainnet.gateway.tenderly.co",
-                "ws_url": "wss://mainnet.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/",
-        "binance_id": "FLUX"
-    },
-    "FLUX-BEP20": {
-        "coin": "FLUX-BEP20",
-        "type": "BEP-20",
-        "name": "Flux",
-        "coinpaprika_id": "zel-zelcash",
-        "coingecko_id": "zelcash",
-        "livecoinwatch_id": "_FLUX",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Flux",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "decimals": 8,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0xaFF9084f2374585879e8B434C399E29E80ccE635"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "gas_limit": {
-            "eth_send_erc20": 60000,
-            "erc20_payment": 110000,
-            "erc20_receiver_spend": 85000,
-            "erc20_sender_refund": 85000
-        },
-        "contract_address": "0xaFF9084f2374585879e8B434C399E29E80ccE635",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc-dataseed1.ninicoin.io"
-            },
-            {
-                "url": "https://bsc-dataseed2.defibit.io"
-            },
-            {
-                "url": "https://bsc-dataseed3.bnbchain.org"
-            },
-            {
-                "url": "https://bsc-rpc.publicnode.com",
-                "ws_url": "wss://bsc-rpc.publicnode.com"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/",
-        "binance_id": "FLUX"
-    },
     "HPY-QRC20": {
         "coin": "HPY-QRC20",
         "type": "QRC-20",
@@ -40622,7 +41437,7 @@
         },
         "derivation_path": "m/44'/5718349'",
         "links": {
-            "github": "https://github.com/wam-coin-official/wam-coin",
+            "github": "https://github.com/wamcoin-core-dev/wam-coin",
             "homepage": "https://wamcoin.org"
         },
         "electrum": [
@@ -40856,72 +41671,6 @@
         "explorer_block_url": "block/",
         "binance_id": "XEC"
     },
-    "RUNES": {
-        "coin": "RUNES",
-        "type": "UTXO",
-        "name": "Runebase",
-        "coinpaprika_id": "runes-runebase",
-        "coingecko_id": "runebase",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://explorer.runebase.io/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Runebase Signed Message:\n",
-        "fname": "Runebase",
-        "rpcport": 9432,
-        "pubtype": 61,
-        "p2shtype": 123,
-        "wiftype": 216,
-        "txfee": 40000000,
-        "dust": 40000000,
-        "mature_confirmations": 120,
-        "segwit": true,
-        "bech32_hrp": "rc",
-        "mm2": 1,
-        "required_confirmations": 6,
-        "avg_blocktime": 120,
-        "protocol": {
-            "type": "UTXO",
-            "chain_variant": "QTUM"
-        },
-        "derivation_path": "m/44'/88'",
-        "links": {
-            "github": "https://github.com/runebase/runebase",
-            "homepage": "https://www.runebase.io"
-        },
-        "electrum": [
-            {
-                "url": "electrum2.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "ACTN-BEP20": {
         "coin": "ACTN-BEP20",
         "type": "BEP-20",
@@ -40952,149 +41701,6 @@
         },
         "derivation_path": "m/44'/60'",
         "contract_address": "0xD7380b10bF3886B34Ab3422DEa42E408850375CA",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc-dataseed1.ninicoin.io"
-            },
-            {
-                "url": "https://bsc-dataseed2.defibit.io"
-            },
-            {
-                "url": "https://bsc-dataseed3.bnbchain.org"
-            },
-            {
-                "url": "https://bsc-rpc.publicnode.com",
-                "ws_url": "wss://bsc-rpc.publicnode.com"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
-    "ATOM": {
-        "coin": "ATOM",
-        "type": "TENDERMINT",
-        "name": "Cosmos",
-        "coinpaprika_id": "atom-cosmos",
-        "coingecko_id": "cosmos",
-        "livecoinwatch_id": "ATOM",
-        "explorer_url": "https://www.mintscan.io/cosmos/",
-        "explorer_tx_url": "txs/",
-        "explorer_address_url": "account/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "avg_blocktime": 7,
-        "fname": "Cosmos",
-        "mm2": 1,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 6,
-                "denom": "uatom",
-                "account_prefix": "cosmos",
-                "chain_id": "cosmoshub-4",
-                "chain_registry_name": "cosmoshub",
-                "ibc_channels": {
-                    "iaa": 91,
-                    "osmo": 141
-                }
-            }
-        },
-        "derivation_path": "m/44'/118'",
-        "rpc_urls": [
-            {
-                "url": "https://cosmos-rpc.publicnode.com",
-                "ws_url": "wss://cosmos-rpc.publicnode.com/websocket"
-            },
-            {
-                "url": "https://rpc.cosmos.directory/cosmoshub"
-            }
-        ],
-        "explorer_block_url": "block/",
-        "binance_id": "ATOM"
-    },
-    "IRIS": {
-        "coin": "IRIS",
-        "type": "TENDERMINT",
-        "name": "IRISnet",
-        "coinpaprika_id": "iris-irisnet",
-        "coingecko_id": "iris-network",
-        "livecoinwatch_id": "IRIS",
-        "explorer_url": "https://irishub.iobscan.io/",
-        "explorer_tx_url": "#/txs/",
-        "explorer_address_url": "#/address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "avg_blocktime": 7,
-        "fname": "IRISnet",
-        "chain_id": 6688,
-        "mm2": 1,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 6,
-                "denom": "uiris",
-                "account_prefix": "iaa",
-                "chain_id": "irishub-1",
-                "chain_registry_name": "irishub",
-                "gas_price": 0.5,
-                "ibc_channels": {
-                    "cosmos": 0,
-                    "osmo": 3
-                }
-            }
-        },
-        "derivation_path": "m/44'/118'",
-        "rpc_urls": [
-            {
-                "url": "https://rpc.irishub-1.irisnet.org"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "IRIS-BEP20": {
-        "coin": "IRIS-BEP20",
-        "type": "BEP-20",
-        "name": "IRISnet",
-        "coinpaprika_id": "iris-irisnet",
-        "coingecko_id": "iris-network",
-        "livecoinwatch_id": "IRIS",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "IRISnet",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "decimals": 18,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0x05C50a62b0b87bE1fFB1Cf3b77d9eDBa834ef6f7"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x05C50a62b0b87bE1fFB1Cf3b77d9eDBa834ef6f7",
         "parent_coin": "BNB",
         "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
         "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
@@ -41171,508 +41777,6 @@
         ],
         "explorer_block_url": "block/",
         "binance_id": "OSMO"
-    },
-    "ATOM-IBC_IRIS": {
-        "coin": "ATOM-IBC_IRIS",
-        "type": "TENDERMINTTOKEN",
-        "name": "Cosmos",
-        "coinpaprika_id": "atom-cosmos",
-        "coingecko_id": "cosmos",
-        "livecoinwatch_id": "ATOM",
-        "explorer_url": "https://irishub.iobscan.io/",
-        "explorer_tx_url": "#/txs/",
-        "explorer_address_url": "#/address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Cosmos",
-        "avg_blocktime": 7,
-        "mm2": 1,
-        "protocol": {
-            "type": "TENDERMINTTOKEN",
-            "protocol_data": {
-                "platform": "IRIS",
-                "decimals": 6,
-                "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
-                "gas_price": 0.5
-            }
-        },
-        "derivation_path": "m/44'/118'",
-        "parent_coin": "IRIS",
-        "rpc_urls": [
-            {
-                "url": "https://iris-rpc.publicnode.com"
-            },
-            {
-                "url": "https://rpc.cosmos.directory/irisnet"
-            },
-            {
-                "url": "https://rpc.irishub-1.irisnet.org"
-            }
-        ],
-        "explorer_block_url": "block/",
-        "binance_id": "ATOM"
-    },
-    "MAZA": {
-        "coin": "MAZA",
-        "type": "UTXO",
-        "name": "MazaCoin",
-        "coinpaprika_id": "maza-maza",
-        "coingecko_id": "maza",
-        "livecoinwatch_id": "MAZA",
-        "explorer_url": "http://mazacha.in/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Mazacoin Signed Message:\n",
-        "fname": "MazaCoin",
-        "rpcport": 12832,
-        "pubtype": 50,
-        "p2shtype": 9,
-        "wiftype": 244,
-        "decimals": 8,
-        "signature_version": "base",
-        "txfee": 10000,
-        "segwit": true,
-        "bech32_hrp": "maza",
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/13'",
-        "links": {
-            "github": "https://github.com/Mazacoin",
-            "homepage": "https://www.mazacoin.org"
-        },
-        "electrum": [
-            {
-                "url": "electrum.seed.mazanode.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "brian@mazacoin.org"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx.mazanode.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "brian@mazacoin.org"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx2.mazacha.in:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "contact@mazacoin.org"
-                    },
-                    {
-                        "discord": "sherm77#5923"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "NITO": {
-        "coin": "NITO",
-        "type": "UTXO",
-        "name": "NITO",
-        "coinpaprika_id": "nito-nito-coin",
-        "coingecko_id": "",
-        "livecoinwatch_id": "_NITO",
-        "explorer_url": "https://explorer.nito.network/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Nito Signed Message:\n",
-        "fname": "NITO",
-        "rpcport": 8825,
-        "pubtype": 0,
-        "p2shtype": 5,
-        "wiftype": 128,
-        "segwit": true,
-        "bech32_hrp": "nito",
-        "txfee": 10000,
-        "dust": 10000,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "mature_confirmations": 101,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/0'",
-        "links": {
-            "github": "https://github.com/NitoNetwork/Nito-core",
-            "homepage": "https://nito.network"
-        },
-        "electrum": [
-            {
-                "url": "electrum1.nito.network:50003",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "contact": [
-                    {
-                        "email": "biigbang0001@zemzar.net"
-                    },
-                    {
-                        "discord": "biigbang0001"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "NITO-segwit": {
-        "coin": "NITO-segwit",
-        "type": "UTXO",
-        "name": "NITO",
-        "coinpaprika_id": "nito-nito-coin",
-        "coingecko_id": "",
-        "livecoinwatch_id": "_NITO",
-        "explorer_url": "https://explorer.nito.network/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Nito Signed Message:\n",
-        "fname": "NITO",
-        "rpcport": 8825,
-        "pubtype": 0,
-        "p2shtype": 5,
-        "wiftype": 128,
-        "segwit": true,
-        "bech32_hrp": "nito",
-        "address_format": {
-            "format": "segwit"
-        },
-        "orderbook_ticker": "NITO",
-        "txfee": 10000,
-        "dust": 10000,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "mature_confirmations": 101,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/84'/0'",
-        "links": {
-            "github": "https://github.com/NitoNetwork/Nito-core",
-            "homepage": "https://nito.network"
-        },
-        "electrum": [
-            {
-                "url": "electrum1.nito.network:50003",
-                "protocol": "SSL",
-                "disable_cert_verification": false,
-                "contact": [
-                    {
-                        "email": "biigbang0001@zemzar.net"
-                    },
-                    {
-                        "discord": "biigbang0001"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "EVR": {
-        "coin": "EVR",
-        "type": "UTXO",
-        "name": "Evrmore Coin",
-        "coinpaprika_id": "evr-evrmore",
-        "coingecko_id": "evrmore",
-        "livecoinwatch_id": "_EVR",
-        "explorer_url": "https://evr.cryptoscope.io/",
-        "explorer_tx_url": "tx/?txid=",
-        "explorer_address_url": "address/?address=",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Evrmore Signed Message:\n",
-        "fname": "Evrmore Coin",
-        "rpcport": 8819,
-        "pubtype": 33,
-        "p2shtype": 92,
-        "wiftype": 128,
-        "segwit": true,
-        "txfee": 1000000,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO",
-            "chain_variant": "RVN"
-        },
-        "derivation_path": "m/44'/175'",
-        "links": {
-            "github": "https://github.com/EvrmoreOrg/Evrmore",
-            "homepage": "https://evrmorecoin.org"
-        },
-        "electrum": [
-            {
-                "url": "electrum1-mainnet.evrmorecoin.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "hans_schm1dt@protonmail.com"
-                    },
-                    {
-                        "discord": "Hans_Schmidt#0745"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2-mainnet.evrmorecoin.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "hans_schm1dt@protonmail.com"
-                    },
-                    {
-                        "discord": "Hans_Schmidt#0745"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "KIIRO": {
-        "coin": "KIIRO",
-        "type": "UTXO",
-        "name": "Kiiro",
-        "coinpaprika_id": "kiiro-kiirocoin",
-        "coingecko_id": "kiirocoin",
-        "livecoinwatch_id": "KIIRO",
-        "explorer_url": "https://explorer.kiirocoin.org/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Zcoin Signed Message:\n",
-        "fname": "Kiiro",
-        "rpcport": 8999,
-        "pubtype": 45,
-        "p2shtype": 7,
-        "wiftype": 210,
-        "txfee": 1000,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 150,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/136'",
-        "links": {
-            "github": "https://github.com/kiirocoin/kiiro",
-            "homepage": "https://kiirocoin.org"
-        },
-        "electrum": [
-            {
-                "url": "electrum1.kiirocoin.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "1061740404439007403"
-                    },
-                    {
-                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.kiirocoin.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "1061740404439007403"
-                    },
-                    {
-                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
-            },
-            {
-                "url": "electrum3.kiirocoin.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "1061740404439007403"
-                    },
-                    {
-                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "KIIRO-BEP20": {
-        "coin": "KIIRO-BEP20",
-        "type": "BEP-20",
-        "name": "Kiiro",
-        "coinpaprika_id": "kiiro-kiirocoin",
-        "coingecko_id": "kiirocoin",
-        "livecoinwatch_id": "KIIRO",
-        "explorer_url": "https://bscscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Kiiro",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 56,
-        "avg_blocktime": 0.45,
-        "required_confirmations": 3,
-        "protocol": {
-            "type": "ERC20",
-            "protocol_data": {
-                "platform": "BNB",
-                "contract_address": "0x347862372f7C8f83D69025234367Ac11c5241Db3"
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "contract_address": "0x347862372f7C8f83D69025234367Ac11c5241Db3",
-        "parent_coin": "BNB",
-        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
-        "nodes": [
-            {
-                "url": "https://bsc-dataseed1.ninicoin.io"
-            },
-            {
-                "url": "https://bsc-dataseed2.defibit.io"
-            },
-            {
-                "url": "https://bsc-dataseed3.bnbchain.org"
-            },
-            {
-                "url": "https://bsc-rpc.publicnode.com",
-                "ws_url": "wss://bsc-rpc.publicnode.com"
-            },
-            {
-                "url": "https://bsc1.cipig.net:18655",
-                "ws_url": "wss://bsc1.cipig.net:38655"
-            }
-        ],
-        "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
-    "MEWC": {
-        "coin": "MEWC",
-        "type": "UTXO",
-        "name": "Meowcoin",
-        "coinpaprika_id": "mewc-meowcoin",
-        "coingecko_id": "meowcoin",
-        "livecoinwatch_id": "MEWC",
-        "explorer_url": "https://explorer.mewccrypto.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Meowcoin Signed Message:\n",
-        "fname": "Meowcoin",
-        "rpcport": 9766,
-        "pubtype": 50,
-        "p2shtype": 122,
-        "wiftype": 112,
-        "segwit": false,
-        "txfee": 1000000,
-        "dust": 1000000,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO",
-            "chain_variant": "BTC"
-        },
-        "derivation_path": "m/44'/1669'",
-        "links": {
-            "github": "https://github.com/Meowcoin-Foundation/Meowcoin",
-            "homepage": "https://www.mewccrypto.com/"
-        },
-        "electrum": [
-            {
-                "url": "electrs.mewccrypto.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "Meowmancer#2099"
-                    }
-                ]
-            },
-            {
-                "url": "electrs2.mewccrypto.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "Meowmancer#2099"
-                    }
-                ]
-            },
-            {
-                "url": "electrs3.meowcoin.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "Meowmancer#2099"
-                    }
-                ]
-            },
-            {
-                "url": "electrs4.meowcoin.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "Meowmancer#2099"
-                    }
-                ]
-            },
-            {
-                "url": "electrs5.meowcoin.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "Meowmancer#2099"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
     },
     "IRISTEST-IBC_NUCLEUSTEST": {
         "coin": "IRISTEST-IBC_NUCLEUSTEST",
@@ -42006,116 +42110,6 @@
             },
             {
                 "url": "https://polygon.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "JUMP": {
-        "coin": "JUMP",
-        "type": "UTXO",
-        "name": "Jumpcoin",
-        "coinpaprika_id": "jump-jumpcoin",
-        "coingecko_id": "",
-        "livecoinwatch_id": "_JUMP",
-        "explorer_url": "https://explorer.jumpcoin.net/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Jumpcoin Signed Message:\n",
-        "fname": "Jumpcoin",
-        "isPoS": 1,
-        "rpcport": 31240,
-        "pubtype": 43,
-        "p2shtype": 122,
-        "wiftype": 171,
-        "txfee": 10000,
-        "dust": 10000,
-        "mm2": 1,
-        "mature_confirmations": 100,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/278'",
-        "links": {
-            "homepage": "https://jumpcoin.net",
-            "explorer": "https://explorer.jumpcoin.net",
-            "github": "https://github.com/jumpcoin"
-        },
-        "electrum": [
-            {
-                "url": "electrum1.jumpcoin.net:50002",
-                "protocol": "SSL"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "FIVETRAT": {
-        "coin": "FIVETRAT",
-        "type": "UTXO",
-        "name": "5TRAT Coin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://explorer1.5trat.net/explorer/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Bitcoin Signed Message:\n",
-        "fname": "5TRAT Coin",
-        "rpcport": 57576,
-        "pubtype": 125,
-        "p2shtype": 80,
-        "wiftype": 181,
-        "txfee": 1000,
-        "dust": 1000,
-        "decimals": 8,
-        "segwit": false,
-        "fork_id": "0x40",
-        "address_format": {
-            "format": "cashaddress",
-            "network": "5trat"
-        },
-        "mm2": 1,
-        "required_confirmations": 2,
-        "mature_confirmations": 100,
-        "avg_blocktime": 300,
-        "protocol": {
-            "type": "UTXO",
-            "chain_variant": "BTC"
-        },
-        "derivation_path": "m/44'/5755'",
-        "links": {
-            "github": "https://github.com/WillItMod/5trat-core",
-            "homepage": "https://5trat.com"
-        },
-        "electrum": [
-            {
-                "url": "electrum1.5trat.net:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "axebench.app@gmail.com"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.5trat.net:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "axebench.app@gmail.com"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
