@@ -15202,7 +15202,8 @@
                 "ws_url": "wss://hyperliquid.drpc.org"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "HYPE"
     },
     "IDRT-ERC20": {
         "coin": "IDRT-ERC20",
