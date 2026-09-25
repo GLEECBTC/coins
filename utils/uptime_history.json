@@ -3522,7 +3522,8 @@
     "by_server": {
       "https://lb.routeme.sh/rpc/evm/1284": {
         "1790192356": "offline",
-        "1790304717": "online"
+        "1790304717": "online",
+        "1790379557": "offline"
       },
       "https://moonbeam.api.onfinality.io/public": {
         "1790192356": "online"
@@ -5269,7 +5270,8 @@
       "https://lb.routeme.sh/rpc/evm/1285": {
         "1790192356": "online",
         "1790201299": "offline",
-        "1790304717": "online"
+        "1790304717": "online",
+        "1790379557": "offline"
       },
       "https://moonriver.api.onfinality.io/public": {
         "1790192356": "online"
