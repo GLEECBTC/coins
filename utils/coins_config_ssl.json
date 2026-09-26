@@ -7712,54 +7712,6 @@
         ],
         "explorer_block_url": "block.dws?"
     },
-    "CLC": {
-        "coin": "CLC",
-        "type": "Smart Chain",
-        "name": "Collider Coin",
-        "coinpaprika_id": "clc-collider-coin",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://clc.explorer.dexstats.info/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Komodo Signed Message:\n",
-        "asset": "CLC",
-        "fname": "Collider Coin",
-        "rpcport": 31034,
-        "pubtype": 60,
-        "p2shtype": 85,
-        "wiftype": 188,
-        "txversion": 4,
-        "overwintered": 1,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/141'",
-        "trezor_coin": "Komodo",
-        "electrum": [
-            {
-                "url": "v2.cryptocollider.com:8443",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "electrumx@cryptocollider.com"
-                    },
-                    {
-                        "discord": "collider#6160"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "CLP-BEP20": {
         "coin": "CLP-BEP20",
         "type": "BEP-20",
@@ -14154,53 +14106,6 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
-    "FLOP": {
-        "coin": "FLOP",
-        "type": "UTXO",
-        "name": "Flopcoin",
-        "coinpaprika_id": "flop-flopcoin",
-        "coingecko_id": "",
-        "livecoinwatch_id": "FLOP",
-        "explorer_url": "https://explorer.flopcoin.net/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "Flopcoin Signed Message:\n",
-        "fname": "Flopcoin",
-        "rpcport": 32552,
-        "pubtype": 35,
-        "p2shtype": 22,
-        "wiftype": 158,
-        "segwit": false,
-        "txfee": 1000000,
-        "mm2": 1,
-        "required_confirmations": 5,
-        "avg_blocktime": 60,
-        "protocol": {
-            "type": "UTXO"
-        },
-        "derivation_path": "m/44'/3'",
-        "links": {
-            "github": "https://github.com/Flopcoin/Flopcoin",
-            "homepage": "https://flopcoin.net"
-        },
-        "electrum": [
-            {
-                "url": "electrumx1.flopcoin.net:10004",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "technovision"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "FLOW-BEP20": {
         "coin": "FLOW-BEP20",
         "type": "BEP-20",
@@ -16288,15 +16193,6 @@
                 "contact": [
                     {
                         "discord": "orpheas#1503"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.niftybakes.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "405566674448810005"
                     }
                 ]
             }

@@ -1672,17 +1672,53 @@
   },
   "CLC": {
     "all": {
-      "1790192356": "online"
+      "1790192356": "online",
+      "1790391308": "offline"
     },
     "by_server": {
+      "_metadata": {
+        "v2.cryptocollider.com:10001": {
+          "contact": [
+            {
+              "email": "electrumx@cryptocollider.com"
+            },
+            {
+              "discord": "collider#6160"
+            }
+          ]
+        },
+        "v2.cryptocollider.com:5001": {
+          "contact": [
+            {
+              "email": "electrumx@cryptocollider.com"
+            },
+            {
+              "discord": "collider#6160"
+            }
+          ]
+        },
+        "v2.cryptocollider.com:8443": {
+          "contact": [
+            {
+              "email": "electrumx@cryptocollider.com"
+            },
+            {
+              "discord": "collider#6160"
+            }
+          ]
+        }
+      },
       "v2.cryptocollider.com:10001": {
-        "1790192356": "online"
+        "1790192356": "online",
+        "1790391308": "offline"
       },
       "v2.cryptocollider.com:5001": {
-        "1790192356": "online"
+        "1790192356": "online",
+        "1790391308": "offline"
       },
       "v2.cryptocollider.com:8443": {
-        "1790192356": "online"
+        "1790192356": "online",
+        "1790391308": "offline"
       }
     }
   },
@@ -3209,17 +3245,37 @@
   },
   "FLOP": {
     "all": {
-      "1790192356": "online"
+      "1790192356": "online",
+      "1790391308": "offline"
     },
     "by_server": {
+      "_metadata": {
+        "electrumx1.flopcoin.net:10004": {
+          "contact": [
+            {
+              "discord": "technovision"
+            }
+          ]
+        },
+        "flop-electrum.wattxchange.app:443": {
+          "contact": [
+            {
+              "discord": "nucash"
+            }
+          ]
+        }
+      },
       "electrumx1.flopcoin.net:10001": {
-        "1790192356": "online"
+        "1790192356": "online",
+        "1790391308": "offline"
       },
       "electrumx1.flopcoin.net:10004": {
-        "1790192356": "online"
+        "1790192356": "online",
+        "1790391308": "offline"
       },
       "flop-electrum.wattxchange.app:443": {
-        "1790192356": "online"
+        "1790192356": "online",
+        "1790391308": "offline"
       }
     }
   },
@@ -3542,6 +3598,29 @@
       "1790192356": "online"
     },
     "by_server": {
+      "_metadata": {
+        "electrum.niftybakes.com:50001": {
+          "contact": [
+            {
+              "discord": "405566674448810005"
+            }
+          ]
+        },
+        "electrum.niftybakes.com:50002": {
+          "contact": [
+            {
+              "discord": "405566674448810005"
+            }
+          ]
+        },
+        "electrum.niftybakes.com:50004": {
+          "contact": [
+            {
+              "discord": "405566674448810005"
+            }
+          ]
+        }
+      },
       "electrum.maxpuig.com:50001": {
         "1790192356": "online"
       },
@@ -3552,13 +3631,16 @@
         "1790192356": "online"
       },
       "electrum.niftybakes.com:50001": {
-        "1790192356": "online"
+        "1790192356": "online",
+        "1790391308": "offline"
       },
       "electrum.niftybakes.com:50002": {
-        "1790192356": "online"
+        "1790192356": "online",
+        "1790391308": "offline"
       },
       "electrum.niftybakes.com:50004": {
-        "1790192356": "online"
+        "1790192356": "online",
+        "1790391308": "offline"
       }
     }
   },
