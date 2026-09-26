@@ -1,0 +1,19 @@
+{
+  "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+  "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
+  "rpc_nodes": [
+    {
+      "url": "https://rpc.hypurrscan.io"
+    },
+    {
+      "url": "https://hyperliquid.rpc.blxrbdn.com"
+    },
+    {
+      "url": "https://hyperliquid.drpc.org",
+      "ws_url": "wss://hyperliquid.drpc.org"
+    },
+    {
+      "url": "https://rpc.hyperliquid.xyz/evm"
+    }
+  ]
+}

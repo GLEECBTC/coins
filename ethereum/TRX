@@ -1,10 +1,13 @@
 {
   "rpc_nodes": [
     {
-      "url": "https://public-trx-mainnet.fastnode.io"
+      "url": "https://tron.api.pocket.network"
     },
     {
       "url": "https://api.trongrid.io"
+    },
+    {
+      "url": "https://tron.rpc.sentio.xyz"
     },
     {
       "url": "https://tron-rpc.publicnode.com"

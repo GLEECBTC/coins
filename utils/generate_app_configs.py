@@ -34,6 +34,7 @@ BINANCE_DELISTED_COINS = [
     "KMD",
     "LOOM",
     "LRC",
+    "MATIC",
     "MC",
     "MDX",
     "MIR",
@@ -159,16 +160,23 @@ class CoinConfig:
             "ETH-ARB20": "Arbitrum",
             "ETH-BASE": "Base",
             "EWT": "EWT",
+            "FLR": "Flare",
             "GLMR": "Moonbeam",
+            "HYPE": "HyperEVM",
             "KCS": "KRC-20",
-            "MATIC": "Matic",
+            "POL": "Polygon",
+            "MNT": "Mantle",
+            "MON": "Monad",
             "MOVR": "Moonriver",
             "ONE": "HRC-20",
             "QTUM": "QRC-20",
             "RBTC": "RSK Smart Bitcoin",
             "SBCH": "SmartBCH",
+            "TAO": "Bittensor",
             "TRX": "TRX",
             "XDAI": "Gnosis",
+            "XDC": "XDC",
+            "XPL": "Plasma",
             "ATOM": "TENDERMINT",
             "OSMO": "TENDERMINT",
             "IRIS": "TENDERMINT",
@@ -180,7 +188,6 @@ class CoinConfig:
             "tQTUM": "QRC-20",
             "IRISTEST": "TENDERMINT",
             "NUCLEUSTEST": "TENDERMINT",
-            "MATICTEST": "Matic",
             "TRXT": "TRX",
         }
         self.coin_type = coin_data["protocol"]["type"]
@@ -391,7 +398,7 @@ class CoinConfig:
         For token coins, this returns the parent chain coin.
         """
         # For token coins, we need to check parent chain status
-        if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-ARB20", "-AVX20", "-GRC20", "-TRC20")):
+        if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-KRC20", "-ARB20", "-AVX20", "-GRC20", "-FLR", "-HYPE", "-MON", "-MNT", "-TAO", "-TRC20", "-XDC", "-XPL")):
             if self.ticker.endswith("-QRC20"):
                 return "tQTUM" if self.is_testnet else "QTUM"
             elif self.ticker.endswith("-ERC20"):
@@ -399,7 +406,9 @@ class CoinConfig:
             elif self.ticker.endswith("-BEP20"):
                 return "BNB"
             elif self.ticker.endswith("-PLG20"):
-                return "MATIC"
+                return "POL"
+            elif self.ticker.endswith("-KRC20"):
+                return "KCS"
             elif self.ticker.endswith("-TRC20"):
                 return "TRXT" if self.is_testnet else "TRX"
             elif self.ticker.endswith("-AVX20"):
@@ -408,11 +417,25 @@ class CoinConfig:
                 return "ETH-ARB20"
             elif self.ticker.endswith("-GRC20"):
                 return "GLEEC"
+            elif self.ticker.endswith("-FLR"):
+                return "FLR"
+            elif self.ticker.endswith("-HYPE"):
+                return "HYPE"
             elif self.ticker.endswith("-BASE"):
                 return "ETH-BASE"
             elif self.ticker.endswith("-GNO"):
                 return "XDAI"
-        
+            elif self.ticker.endswith("-MNT"):
+                return "MNT"
+            elif self.ticker.endswith("-MON"):
+                return "MON"
+            elif self.ticker.endswith("-TAO"):
+                return "TAO"
+            elif self.ticker.endswith("-XDC"):
+                return "XDC"
+            elif self.ticker.endswith("-XPL"):
+                return "XPL"
+
         # For electrum coins, use the actual coin name (with segwit handling)
         coin = self.ticker.replace("-segwit", "")
         if self.data[self.ticker]["type"] == "QRC-20":
@@ -443,7 +466,7 @@ class CoinConfig:
                 if self.ticker.find(i) > -1:
                     return i.replace("IBC_", "")
 
-        if self.coin_type not in ["UTXO", "ZHTLC", "BCH", "QTUM", "SIA"]:
+        if self.coin_type not in ["UTXO", "ZHTLC", "QTUM", "SIA"]:
             if self.data[self.ticker]["is_testnet"]:
                 key_list = list(self.testnet_protocols.keys())
                 value_list = list(self.testnet_protocols.values())
@@ -605,7 +628,7 @@ class CoinConfig:
                 
                 if scan_coin in electrum_scan_report:
                     # If parent chain is working, inherit all configured nodes for token
-                    if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-ARB20", "-AVX20", "-GRC20", "-TRC20")):
+                    if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-ARB20", "-AVX20", "-GRC20", "-MNT", "-MON", "-HYPE", "-TRC20", "-XPL")):
                         # For token coins, check if parent chain has working nodes
                         parent_has_working_nodes = False
                         for protocol in ["ssl", "wss", "tcp"]:

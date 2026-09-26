@@ -7,12 +7,7 @@
       "ws_url": "wss://moonriver.api.onfinality.io/public-ws"
     },
     {
-      "url": "https://rpc.api.moonriver.moonbeam.network",
-      "ws_url": "wss://wss.api.moonriver.moonbeam.network"
-    },
-    {
-      "url": "https://moonriver-rpc.publicnode.com",
-      "ws_url": "wss://moonriver-rpc.publicnode.com"
+      "url": "https://lb.routeme.sh/rpc/evm/1285"
     }
   ]
 }

@@ -28,5 +28,15 @@
             }
         ],
         "ws_url": "electrum3.btcz.rocks:50004"
+    },
+    {
+        "url": "electrum4.btcz.rocks:50002",
+        "protocol": "SSL",
+        "contact": [
+            {
+                "discord": "517255090633965586"
+            }
+        ],
+        "ws_url": "electrum4.btcz.rocks:50004"
     }
 ]

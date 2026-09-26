@@ -3,16 +3,14 @@
   "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
   "rpc_nodes": [
     {
-      "url": "https://moonbeam-rpc.publicnode.com",
-      "ws_url": "wss://moonbeam-rpc.publicnode.com"
+      "url": "https://lb.routeme.sh/rpc/evm/1284"
     },
     {
-      "url": "https://rpc.api.moonbeam.network",
-      "ws_url": "wss://wss.api.moonbeam.network"
+      "url": "https://public.1rpc.io/glmr"
     },
     {
-      "url": "https://moonbeam.drpc.org",
-      "ws_url": "wss://moonbeam.drpc.org"
+      "url": "https://moonbeam.api.onfinality.io/public",
+      "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
     }
   ]
 }

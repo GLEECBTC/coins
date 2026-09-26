@@ -2,6 +2,10 @@
   "rpc_nodes": [
     {
       "url": "https://rpc.cosmos.directory/cosmoshub"
+    },
+    {
+      "url": "https://cosmos-rpc.publicnode.com",
+      "ws_url": "wss://cosmos-rpc.publicnode.com/websocket"
     }
   ]
 }

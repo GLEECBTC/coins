@@ -7,14 +7,16 @@
             "ws_url": "wss://ethereum-rpc.publicnode.com"
         },
         {
-            "url": "https://rpc.mevblocker.io"
+            "url": "https://eth.drpc.org",
+            "ws_url": "wss://eth.drpc.org"
         },
         {
             "url": "https://mainnet.gateway.tenderly.co",
             "ws_url": "wss://mainnet.gateway.tenderly.co"
         },
         {
-            "url": "https://public-eth.nownodes.io"
+            "url": "https://eth.api.pocket.network",
+            "ws_url": "wss://eth.api.pocket.network"
         }
     ]
 }

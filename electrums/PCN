@@ -1,0 +1,28 @@
+[
+  {
+    "url": "electrum1.pc.am:50002",
+    "protocol": "SSL",
+    "contact": [
+      {
+        "email": "pcoin@pc.am"
+      },
+      {
+        "github": "pars5555"
+      }
+    ],
+    "ws_url": "electrum1.pc.am:50004"
+  },
+  {
+    "url": "electrum2.pc.am:50002",
+    "protocol": "SSL",
+    "contact": [
+      {
+        "email": "pcoin@pc.am"
+      },
+      {
+        "github": "pars5555"
+      }
+    ],
+    "ws_url": "electrum2.pc.am:50004"
+  }
+]

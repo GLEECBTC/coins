@@ -1,0 +1,20 @@
+{
+  "swap_contract_address": "0xDB3d24F21745B9C1953BD643E1a6CA8A34C4F47c",
+  "fallback_swap_contract": "0xDB3d24F21745B9C1953BD643E1a6CA8A34C4F47c",
+  "rpc_nodes": [
+    {
+      "url": "https://flare-api.flare.network/ext/C/rpc",
+      "ws_url": "wss://flare-api.flare.network/ext/C/ws"
+    },
+    {
+      "url": "https://stylish-light-theorem.flare-mainnet.quiknode.pro/ext/bc/C/rpc",
+      "ws_url": "wss://stylish-light-theorem.flare-mainnet.quiknode.pro/ext/bc/C/ws"
+    },
+    {
+      "url": "https://flare.rpc.thirdweb.com"
+    },
+    {
+      "url": "https://rpc.au.cc/flare"
+    }
+  ]
+}

@@ -1,5 +1,0 @@
-[taker fee (KMD)](https://kmdexplorer.io/tx/c3ac643b7f3881b750b2cfac76bd52d69511565f43703010963e46b4ca1fc449)  
-[maker payment (GRR)](https://grr.oasispool.xyz/tx/fd0d7590581d5a5175288761e9b497e34b16103ac7d5085b01688e4407b35605)  
-[taker payment (KMD)](https://kmdexplorer.io/tx/d24ccab376b6ddc5683c8b5dfd84121df247f465f3e6e101f1a89873be1ec5c5)  
-[taker payment spent (KMD)](https://kmdexplorer.io/tx/95876181b5c0a7cc091aa165bfeffd3346271c7879dadc309107eb9a62ab4b04)  
-[maker payment spent (GRR)](https://grr.oasispool.xyz/tx/a6bc84baf4ea81bea3d7e0651fd6857edf5723fb75bfcf877a6660bc0e72cc27)  

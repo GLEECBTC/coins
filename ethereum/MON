@@ -1,0 +1,22 @@
+{
+  "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+  "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
+  "rpc_nodes": [
+    {
+      "url": "https://rpc.monad.xyz"
+    },
+    {
+      "url": "https://rpc3.monad.xyz"
+    },
+    {
+      "url": "https://monad-mainnet-rpc.spidernode.net"
+    },
+    {
+      "url": "https://monad-rpc.huginn.tech",
+      "ws_url": "wss://wss.monad-rpc.huginn.tech"
+    },
+    {
+      "url": "https://rpc-mainnet.monadinfra.com"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+[taker fee (DOGE)](https://dogechain.info/tx/e78a0caecd0cf1922a209f0cbac6f0bf335c0afebdae3841c03eec84d379a997)
+[maker payment (PCN)](https://explorer.pc.am/tx/849714579331e8d2a9a5367cb1fceeac1b58d069751fece14ff6c4dfc77e79b6)
+[taker payment (DOGE)](https://dogechain.info/tx/3435aea35635d3069e20c423fcf798f516dd23f82aaa692ee2ad296e1753f01a)
+[taker payment spent (DOGE)](https://dogechain.info/tx/2dc8f41dcdaee00a813018dc7a36932b3f37f09556fbfd4827bc327244b24e26)
+[maker payment spent (PCN)](https://explorer.pc.am/tx/5b9d10c197f74d54905b49ee506cc32cf9eaab78bc4cb0f0b98a2e28c7af70e1)

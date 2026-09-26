@@ -9,6 +9,10 @@
             "url": "https://base.public.blockpi.network/v1/rpc/public"
         },
         {
+            "url": "https://base.api.pocket.network",
+            "ws_url": "wss://base.api.pocket.network"
+        },
+        {
             "url": "https://base-rpc.publicnode.com",
             "ws_url": "wss://base-rpc.publicnode.com"
         }

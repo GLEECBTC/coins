@@ -1,0 +1,20 @@
+{
+  "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+  "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
+  "rpc_nodes": [
+    {
+      "url": "https://rpc.mantle.xyz"
+    },
+    {
+      "url": "https://rpc-mantle.blockmachine.io"
+    },
+    {
+      "url": "https://mantle-rpc.publicnode.com",
+      "ws_url": "wss://mantle-rpc.publicnode.com"
+    },
+    {
+      "url": "https://mantle.drpc.org",
+      "ws_url": "wss://mantle.drpc.org"
+    }
+  ]
+}

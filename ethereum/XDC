@@ -1,0 +1,19 @@
+{
+  "swap_contract_address": "0x61EEC271c38D713F47774bC3F87916f518995048",
+  "fallback_swap_contract": "0x61EEC271c38D713F47774bC3F87916f518995048",
+  "rpc_nodes": [
+    {
+      "url": "https://rpc.xdc.network"
+    },
+    {
+      "url": "https://rpc.ankr.com/xdc"
+    },
+    {
+      "url": "https://50.rpc.thirdweb.com"
+    },
+    {
+      "url": "https://rpc.xdcrpc.com",
+      "ws_url": "wss://rpc.xdcrpc.com/ws"
+    }
+  ]
+}

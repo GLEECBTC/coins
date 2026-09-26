@@ -1,5 +1,0 @@
-[taker fee (KMD)](https://kmdexplorer.io/tx/cb13ceba4c6fc673b4968fe08bb1d3cfd47079a122dd5213f9121c8cbd9b5121)  
-[maker payment (ANEY)](https://explorer.aney.one/tx/0197db387d9ad740b56c047bb32810b6421ffbbdaef0247bd1d64e7c1aac713c)  
-[taker payment (KMD)](https://kmdexplorer.io/tx/37805dedb2896bd7b0fd85d720ca2ad9ae60b2e93b62e5aed1d39f050b8c630d)  
-[taker payment spent (KMD)](https://kmdexplorer.io/tx/69624abbc773ff38a791cb888d60fa4677df66c6bc3e22c1065671d992c599cd)  
-[maker payment spent (ANEY)](https://explorer.aney.one/tx/6ff9913fd005bb82dc33803bcd6d80c1097517ebd0cc9641abc68cc43441f0d5)  

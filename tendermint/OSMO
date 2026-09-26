@@ -4,13 +4,14 @@
       "url": "https://rpc.cosmos.directory/osmosis"
     },
     {
-      "url": "https://rpc.osmosis.zone/"
+      "url": "https://rpc.osmosis.zone"
     },
     {
       "url": "https://osmosis.rpc.stakin-nodes.com"
     },
     {
-      "url": "https://rpc-osmosis-ia.cosmosia.notional.ventures/"
+      "url": "https://osmosis-rpc.publicnode.com",
+      "ws_url": "wss://osmosis-rpc.publicnode.com/websocket"
     }
   ]
 }

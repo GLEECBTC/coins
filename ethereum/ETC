@@ -7,10 +7,10 @@
       "ws_url": "wss://0xrpc.io/etc"
     },
     {
-      "url": "https://geth-at.etc-network.info"
+      "url": "https://rpc.etcmc.xyz"
     },
     {
-      "url": "https://etc.rivet.link"
+      "url": "https://etc.etcdesktop.com"
     }
   ]
 }

@@ -6,6 +6,8 @@ on:
     paths-ignore:
       - 'utils/*.json'
       - 'utils/spritemap.png'
+      - 'api_ids/binance_ids.json'
+      - 'icons/*.png'
 
   schedule:
     - cron:  '0 0 * * *'

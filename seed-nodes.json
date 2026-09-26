@@ -82,5 +82,17 @@
                 "email": ""
             }
         ]
+    },
+    {
+        "name": "seed-swapscope-1",
+        "host": "seed01.swapscope.net",
+        "type": "domain",
+        "wss": true,
+        "netid": 6133,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
     }
 ]

@@ -90,9 +90,6 @@ for coin in segwit_coins:
             else:
                 print(f"Unable to determine path for {coin} (segwit)")
 
-
-
-
 print(f'The following coins were not processed')
 for proto in not_processed:
     print(f"{proto}: {not_processed[proto]}")
