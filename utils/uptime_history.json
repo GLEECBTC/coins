@@ -1258,11 +1258,13 @@
       },
       "btx-electrumx.coinsmunity.com:50002": {
         "1790192356": "offline",
-        "1790298184": "online"
+        "1790298184": "online",
+        "1790997211": "offline"
       },
       "btx-electrumx.coinsmunity.com:50003": {
         "1790192356": "offline",
-        "1790298184": "online"
+        "1790298184": "online",
+        "1790997211": "offline"
       },
       "btx.electrum1.cipig.net:20069": {
         "1790192356": "online"
@@ -1327,11 +1329,13 @@
       },
       "btx-electrumx.coinsmunity.com:50002": {
         "1790192356": "offline",
-        "1790298184": "online"
+        "1790298184": "online",
+        "1790997211": "offline"
       },
       "btx-electrumx.coinsmunity.com:50003": {
         "1790192356": "offline",
-        "1790298184": "online"
+        "1790298184": "online",
+        "1790997211": "offline"
       },
       "btx.electrum1.cipig.net:20069": {
         "1790192356": "online"
@@ -1640,10 +1644,32 @@
   },
   "CLAM": {
     "all": {
-      "1790192356": "online"
+      "1790192356": "online",
+      "1790997211": "offline"
     },
     "by_server": {
       "_metadata": {
+        "clam-ex-one.ewmci.online:50001": {
+          "contact": [
+            {
+              "discord": "475820011634819072"
+            }
+          ]
+        },
+        "clam-ex-one.ewmci.online:50002": {
+          "contact": [
+            {
+              "discord": "475820011634819072"
+            }
+          ]
+        },
+        "clam-ex-one.ewmci.online:50003": {
+          "contact": [
+            {
+              "discord": "475820011634819072"
+            }
+          ]
+        },
         "clam.electrum3.cipig.net:20075": {
           "contact": [
             {
@@ -1666,13 +1692,16 @@
         }
       },
       "clam-ex-one.ewmci.online:50001": {
-        "1790192356": "online"
+        "1790192356": "online",
+        "1790997211": "offline"
       },
       "clam-ex-one.ewmci.online:50002": {
-        "1790192356": "online"
+        "1790192356": "online",
+        "1790997211": "offline"
       },
       "clam-ex-one.ewmci.online:50003": {
-        "1790192356": "online"
+        "1790192356": "online",
+        "1790997211": "offline"
       },
       "clam.electrum3.cipig.net:20075": {
         "1790192356": "offline"
@@ -1685,7 +1714,8 @@
   "CLC": {
     "all": {
       "1790192356": "online",
-      "1790654422": "offline"
+      "1790654422": "offline",
+      "1790997211": "online"
     },
     "by_server": {
       "_metadata": {
@@ -1722,15 +1752,18 @@
       },
       "v2.cryptocollider.com:10001": {
         "1790192356": "online",
-        "1790654422": "offline"
+        "1790654422": "offline",
+        "1790997211": "online"
       },
       "v2.cryptocollider.com:5001": {
         "1790192356": "online",
-        "1790654422": "offline"
+        "1790654422": "offline",
+        "1790997211": "online"
       },
       "v2.cryptocollider.com:8443": {
         "1790192356": "online",
-        "1790654422": "offline"
+        "1790654422": "offline",
+        "1790997211": "online"
       }
     }
   },
@@ -3768,7 +3801,8 @@
         "1790192356": "online"
       },
       "https://hyperliquid.rpc.blxrbdn.com": {
-        "1790192356": "online"
+        "1790192356": "online",
+        "1790997211": "offline"
       },
       "https://rpc.hyperliquid.xyz/evm": {
         "1790192356": "online"
@@ -3842,7 +3876,8 @@
         "1790192356": "offline"
       },
       "https://rpc.irishub-1.irisnet.org": {
-        "1790192356": "online"
+        "1790192356": "online",
+        "1790997211": "offline"
       }
     }
   },
@@ -5356,7 +5391,8 @@
         "1790192356": "online",
         "1790201299": "offline",
         "1790304717": "online",
-        "1790379557": "offline"
+        "1790379557": "offline",
+        "1790997211": "online"
       },
       "https://moonriver.api.onfinality.io/public": {
         "1790192356": "online"
@@ -5777,6 +5813,27 @@
     },
     "by_server": {
       "_metadata": {
+        "electrum.pepeblocks.com:50001": {
+          "contact": [
+            {
+              "discord": "realmasterkush"
+            }
+          ]
+        },
+        "electrum.pepeblocks.com:50002": {
+          "contact": [
+            {
+              "discord": "realmasterkush"
+            }
+          ]
+        },
+        "electrum.pepeblocks.com:50004": {
+          "contact": [
+            {
+              "discord": "realmasterkush"
+            }
+          ]
+        },
         "pep.electrum3.cipig.net:20076": {
           "contact": [
             {
@@ -5808,13 +5865,16 @@
         "1790192356": "online"
       },
       "electrum.pepeblocks.com:50001": {
-        "1790192356": "online"
+        "1790192356": "online",
+        "1790997211": "offline"
       },
       "electrum.pepeblocks.com:50002": {
-        "1790192356": "online"
+        "1790192356": "online",
+        "1790997211": "offline"
       },
       "electrum.pepeblocks.com:50004": {
-        "1790192356": "online"
+        "1790192356": "online",
+        "1790997211": "offline"
       },
       "pep.electrum3.cipig.net:20076": {
         "1790192356": "offline"
