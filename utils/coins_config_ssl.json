@@ -6179,16 +6179,6 @@
         },
         "electrum": [
             {
-                "url": "btx-electrumx.coinsmunity.com:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "[MadCatMining]#0677"
-                    }
-                ]
-            },
-            {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
                 "contact": [
@@ -6256,16 +6246,6 @@
             "homepage": "https://bitcore.cc"
         },
         "electrum": [
-            {
-                "url": "btx-electrumx.coinsmunity.com:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "[MadCatMining]#0677"
-                    }
-                ]
-            },
             {
                 "url": "btx.electrum1.cipig.net:20069",
                 "protocol": "SSL",
@@ -7650,53 +7630,53 @@
         ],
         "explorer_block_url": "block/"
     },
-    "CLAM": {
-        "coin": "CLAM",
-        "type": "UTXO",
-        "name": "Clams",
-        "coinpaprika_id": "clam-clams",
-        "coingecko_id": "clams",
-        "livecoinwatch_id": "CLAM",
-        "explorer_url": "https://chainz.cryptoid.info/clam/",
-        "explorer_tx_url": "tx.dws?",
-        "explorer_address_url": "address.dws?",
+    "CLC": {
+        "coin": "CLC",
+        "type": "Smart Chain",
+        "name": "Collider Coin",
+        "coinpaprika_id": "clc-collider-coin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://clc.explorer.dexstats.info/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
         "supported": [],
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": false,
-        "sign_message_prefix": "Clam Signed Message:\n",
-        "fname": "Clams",
-        "isPoS": 1,
-        "rpcport": 30174,
-        "pubtype": 137,
-        "p2shtype": 13,
-        "wiftype": 133,
-        "segwit": false,
-        "txfee": 100000,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "CLC",
+        "fname": "Collider Coin",
+        "rpcport": 31034,
+        "pubtype": 60,
+        "p2shtype": 85,
+        "wiftype": 188,
+        "txversion": 4,
+        "overwintered": 1,
         "mm2": 1,
         "required_confirmations": 5,
         "avg_blocktime": 60,
         "protocol": {
             "type": "UTXO"
         },
-        "derivation_path": "m/44'/23'",
-        "links": {
-            "github": "https://github.com/nochowderforyou/clams",
-            "homepage": "http://clamclient.com"
-        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
         "electrum": [
             {
-                "url": "clam-ex-one.ewmci.online:50002",
+                "url": "v2.cryptocollider.com:8443",
                 "protocol": "SSL",
                 "contact": [
                     {
-                        "discord": "475820011634819072"
+                        "email": "electrumx@cryptocollider.com"
+                    },
+                    {
+                        "discord": "collider#6160"
                     }
                 ]
             }
         ],
-        "explorer_block_url": "block.dws?"
+        "explorer_block_url": "block/"
     },
     "CLP-BEP20": {
         "coin": "CLP-BEP20",
@@ -17140,9 +17120,6 @@
                 "ws_url": "wss://hyperliquid.drpc.org"
             },
             {
-                "url": "https://hyperliquid.rpc.blxrbdn.com"
-            },
-            {
                 "url": "https://rpc.hyperliquid.xyz/evm"
             },
             {
@@ -17862,48 +17839,6 @@
             },
             {
                 "url": "https://polygon.gateway.tenderly.co"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "IRIS": {
-        "coin": "IRIS",
-        "type": "TENDERMINT",
-        "name": "IRISnet",
-        "coinpaprika_id": "iris-irisnet",
-        "coingecko_id": "iris-network",
-        "livecoinwatch_id": "IRIS",
-        "explorer_url": "https://irishub.iobscan.io/",
-        "explorer_tx_url": "#/txs/",
-        "explorer_address_url": "#/address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "avg_blocktime": 7,
-        "fname": "IRISnet",
-        "chain_id": 6688,
-        "mm2": 1,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 6,
-                "denom": "uiris",
-                "account_prefix": "iaa",
-                "chain_id": "irishub-1",
-                "chain_registry_name": "irishub",
-                "gas_price": 0.5,
-                "ibc_channels": {
-                    "cosmos": 0,
-                    "osmo": 3
-                }
-            }
-        },
-        "derivation_path": "m/44'/118'",
-        "rpc_urls": [
-            {
-                "url": "https://rpc.irishub-1.irisnet.org"
             }
         ],
         "explorer_block_url": "block/"
@@ -23001,6 +22936,9 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://lb.routeme.sh/rpc/evm/1285"
+            },
+            {
                 "url": "https://moonriver.api.onfinality.io/public",
                 "ws_url": "wss://moonriver.api.onfinality.io/public-ws"
             }
@@ -24724,15 +24662,6 @@
                 "contact": [
                     {
                         "discord": "squidicuz"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.pepeblocks.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "realmasterkush"
                     }
                 ]
             }
