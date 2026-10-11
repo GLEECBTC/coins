@@ -16556,5 +16556,104 @@
     "links": {
       "homepage": "https://polygon.technology/"
     }
+  },
+  {
+    "coin": "NCH",
+    "name": "nch",
+    "fname": "Native Cheese",
+    "rpcport": 443,
+    "mm2": 1,
+    "chain_id": 20250,
+    "use_access_list": false,
+    "max_eth_tx_type": 2,
+    "required_confirmations": 3,
+    "avg_blocktime": 2,
+    "protocol": {
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 20250
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://cheeseblockchain.com/",
+      "github": "https://github.com/cryptoexdevcheese/cheese-blockchain"
+    }
+  },
+  {
+    "coin": "USDT-NCH",
+    "name": "usdt_nch",
+    "fname": "Tether USD (Cheese)",
+    "rpcport": 443,
+    "mm2": 1,
+    "chain_id": 20250,
+    "decimals": 6,
+    "avg_blocktime": 2,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "NCH",
+        "contract_address": "0x55d398326f99059ff775485246999027b3197955"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "USDC-NCH",
+    "name": "usdc_nch",
+    "fname": "USD Coin (Cheese)",
+    "rpcport": 443,
+    "mm2": 1,
+    "chain_id": 20250,
+    "decimals": 6,
+    "avg_blocktime": 2,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "NCH",
+        "contract_address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "stNCH",
+    "name": "stnch",
+    "fname": "Staked Native Cheese",
+    "rpcport": 443,
+    "mm2": 1,
+    "chain_id": 20250,
+    "decimals": 18,
+    "avg_blocktime": 2,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "NCH",
+        "contract_address": "0x574e434800000000000000000000000000000001"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "NCH-BEP20",
+    "name": "nch_bep20",
+    "fname": "Native Cheese (BSC Gateway)",
+    "rpcport": 443,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 3,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xa481714D92437A006f0Eee5770EE9E4380f25396"
+      }
+    },
+    "derivation_path": "m/44'/60'"
   }
 ]
