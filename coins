@@ -17290,7 +17290,8 @@
     },
     "derivation_path": "m/44'/60'",
     "links": {
-      "homepage": "https://cheeseblockchain.com/"
+      "homepage": "https://cheeseblockchain.com/",
+      "github": "https://github.com/cryptoexdevcheese/cheese-blockchain"
     }
   },
   {
