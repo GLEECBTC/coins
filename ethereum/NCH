@@ -1,0 +1,10 @@
+{
+  "rpc_nodes": [
+    {
+      "url": "https://cheeseblockchain.com/rpc"
+    },
+    {
+      "url": "http://165.22.252.113:8080/rpc"
+    }
+  ]
+}
