@@ -1,4 +1,6 @@
 {
+  "swap_contract_address": "TTTzsLDg81qoUkiEbeHsKbXZ4rWi1uFpo3",
+  "fallback_swap_contract": "TTTzsLDg81qoUkiEbeHsKbXZ4rWi1uFpo3",
   "rpc_nodes": [
     {
       "url": "https://api.nileex.io"
