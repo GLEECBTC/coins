@@ -1352,7 +1352,8 @@
     "required_confirmations": 2,
     "avg_blocktime": 600,
     "protocol": {
-      "type": "UTXO"
+      "type": "UTXO",
+      "chain_variant": "BTC"
     },
     "derivation_path": "m/44'/185'",
     "links": {
@@ -1382,7 +1383,8 @@
     "required_confirmations": 2,
     "avg_blocktime": 600,
     "protocol": {
-      "type": "UTXO"
+      "type": "UTXO",
+      "chain_variant": "BTC"
     },
     "derivation_path": "m/84'/185'",
     "links": {
