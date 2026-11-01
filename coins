@@ -6863,7 +6863,6 @@
     "name": "infiniloop",
     "fname": "InfiniLooP",
     "sign_message_prefix": "InfiniLooP Signed Message:\n",
-    "isPoS": 1,
     "rpcport": 9459,
     "pubtype": 33,
     "p2shtype": 85,
@@ -6871,9 +6870,9 @@
     "txfee": 100000,
     "dust": 100000,
     "mm2": 1,
-    "mature_confirmations": 500,
-    "required_confirmations": 7,
-    "avg_blocktime": 45,
+    "mature_confirmations": 30,
+    "required_confirmations": 3,
+    "avg_blocktime": 300,
     "protocol": {
       "type": "UTXO"
     },
@@ -8321,12 +8320,17 @@
     "dust": 54600,
     "segwit": false,
     "mm2": 1,
-    "required_confirmations": 1,
-    "avg_blocktime": 1200,
+    "required_confirmations": 3,
+    "mature_confirmations": 30,
+    "avg_blocktime": 300,
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/191'"
+    "derivation_path": "m/44'/191'",
+    "links": {
+      "github": "https://github.com/getlynx/Lynx",
+      "homepage": "https://getlynx.io"
+    }
   },
   {
     "coin": "MANA-ERC20",
@@ -10961,8 +10965,8 @@
     },
     "derivation_path": "m/44'/9555'",
     "links": {
-      "github": "https://github.com/Rin-coin/rincoin",
-      "homepage": "https://rincoin.org"
+      "github": "https://github.com/rincoin-community/rincoin-core",
+      "homepage": "https://www.rincoin.tech"
     }
   },
   {
@@ -10991,8 +10995,8 @@
     },
     "derivation_path": "m/84'/9555'",
     "links": {
-      "github": "https://github.com/Rin-coin/rincoin",
-      "homepage": "https://rincoin.org"
+      "github": "https://github.com/rincoin-community/rincoin-core",
+      "homepage": "https://www.rincoin.tech"
     }
   },
   {
