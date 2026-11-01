@@ -1335,7 +1335,7 @@
       "homepage": "https://bitcoin-ii.org"
     }
   },
- {
+  {
     "coin": "BCA",
     "name": "bitcoinatom",
     "fname": "Bitcoin Atom",
@@ -1343,8 +1343,8 @@
     "pubtype": 23,
     "p2shtype": 10,
     "wiftype": 128,
-    "fork_id": "0x40",
     "segwit": true,
+    "fork_id": "0x5D40",
     "bech32_hrp": "bca",
     "txfee": 1000,
     "mm2": 1,
@@ -1368,8 +1368,9 @@
     "pubtype": 23,
     "p2shtype": 10,
     "wiftype": 128,
-    "fork_id": "0x40",
     "segwit": true,
+    "fork_id": "0x5D40",
+    "signature_version": "witness_v0",
     "bech32_hrp": "bca",
     "address_format": {
       "format": "segwit"
