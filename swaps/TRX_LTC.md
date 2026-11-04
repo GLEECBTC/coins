@@ -1,0 +1,5 @@
+[taker fee (LTC-segwit)](https://blockchair.com/litecoin/transaction/a71e77b08b51ac87200eb5f4772fc936eaadd60c15d555fa91612a8c77c80ac4)  
+[maker payment (TRX)](https://tronscan.org/transaction/e56405a8324241cdcd04382014839c4b25f800c081e47ecfcc4a31a7cb24aba2)  
+[taker payment (LTC-segwit)](https://blockchair.com/litecoin/transaction/f57770f83df4617c945eeccc10571c4fb58e6fdde9962d6d7adfe78b20b1daff)  
+[taker payment spent (LTC-segwit)](https://blockchair.com/litecoin/transaction/4c9c5cd2ae9850ec561e2d58653fb93aae5304891d4d765bb05398b78d19ef66)  
+[maker payment spent (TRX)](https://tronscan.org/transaction/67715fd5e299d35aa40e4ed354788f78e03ad57c3459dae16475dd203bae91a2)  
