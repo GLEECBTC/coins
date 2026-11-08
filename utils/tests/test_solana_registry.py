@@ -1,6 +1,7 @@
 from copy import deepcopy
 import hashlib
 import json
+import os
 from pathlib import Path
 import sys
 import tempfile
@@ -249,6 +250,41 @@ class RegistryTests(unittest.TestCase):
             with self.subTest(change=change):
                 with self.assertRaises(ValueError):
                     validate_node_config({**source, **change})
+
+    def test_node_schema_requires_canonical_public_https_urls(self):
+        source = load_node_config(REPO, "SOL-DEV")
+        invalid_urls = [
+            "https://api.devnet.solana.com:bad",
+            "https://api.devnet.solana.com:65536",
+            "https://api.devnet.solana.com:0",
+            "https://@api.devnet.solana.com",
+            "https://:@api.devnet.solana.com",
+            "https://api.devnet.solana.com#",
+            "\nhttps://api.devnet.solana.com",
+            "https://api.devnet.solana.com/\tpath",
+            "https://api.devnet.solana.com/\x00path",
+            "https://api.devnet.solana.com/\\path",
+            "HTTPS://api.devnet.solana.com",
+        ]
+        for url in invalid_urls:
+            with self.subTest(url=url), self.assertRaises(ValueError):
+                validate_node_config({**source, "rpc_nodes": [{"url": url}]})
+        for url in [URL, URL + ":443", URL + "/rpc?network=devnet"]:
+            with self.subTest(url=url):
+                self.assertEqual(validate_node_config(
+                    {**source, "rpc_nodes": [{"url": url}]})["rpc_nodes"], [{"url": url}])
+
+    def test_chain_id_scan_reads_its_own_registry_from_any_working_directory(self):
+        previous_directory = Path.cwd()
+        with tempfile.TemporaryDirectory() as directory, patch(
+                "ensure_chainids.requests.get", return_value=Mock(json=lambda: [])), patch(
+                "builtins.print"):
+            try:
+                os.chdir(directory)
+                generator.ensure_chainids()
+                self.assertEqual(Path.cwd(), Path(directory).resolve())
+            finally:
+                os.chdir(previous_directory)
 
     def test_generation_filters_failed_solana_nodes_instead_of_using_fallback(self):
         config = generator.CoinConfig(COINS["SOL-DEV"], {})

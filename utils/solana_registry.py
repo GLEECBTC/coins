@@ -92,10 +92,23 @@ def validate_node_config(config):
     for node in nodes:
         if not isinstance(node, dict) or set(node) != {"url"}:
             raise ValueError("Solana RPC node entries contain only url")
-        url = urlparse(node["url"]) if isinstance(node["url"], str) else None
-        if (url is None or url.scheme != "https" or not url.hostname
-                or url.username or url.password or url.fragment):
-            raise ValueError("Solana requires HTTPS RPC URLs without userinfo/fragments")
+        value = node["url"]
+        message = "Solana requires canonical https:// RPC URLs without userinfo/fragments and with a valid port"
+        # Requests normalizes schemes and strips some controls, while generated
+        # native/browser filters consume the original string. Reject ambiguous
+        # inputs before scanning or exporting an unverified candidate.
+        if (not isinstance(value, str) or not value.startswith("https://")
+                or "\\" in value or "#" in value
+                or any(char.isspace() or ord(char) < 32 or ord(char) == 127 for char in value)):
+            raise ValueError(message)
+        try:
+            url = urlparse(value)
+            port = url.port
+        except ValueError:
+            raise ValueError(message) from None
+        if (not url.hostname or url.username is not None or url.password is not None
+                or url.netloc.endswith(":") or port == 0):
+            raise ValueError(message)
     return config
 
 

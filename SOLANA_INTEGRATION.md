@@ -17,7 +17,10 @@ The scanner requires matching `getGenesisHash`, `getHealth == "ok"`, and a valid
 finalized `getSlot`. Redirects are refused so a configured HTTPS endpoint cannot
 downgrade the scan to plain HTTP. Failed identity checks cannot inherit a previous successful
 connection timestamp. A normal catalog build includes only verified recent nodes.
-SPL tokens inherit their explicit platform's verified nodes.
+SPL tokens inherit their explicit platform's verified nodes. RPC source URLs must
+use canonical lowercase `https://`, a valid port, and no userinfo, fragments,
+whitespace, control characters or backslashes, so scanners and native/browser
+outputs agree on the same endpoint.
 
 ## Isolated generated fixtures
 
@@ -64,11 +67,13 @@ ticker suffixes.
 
 ## Validation recorded
 
-The 35 scanner/generator regression tests pass, including an offline requests
+The 37 scanner/generator regression tests pass, including an offline requests
 adapter that returns an HTTPS-to-HTTP 307 redirect and verifies it is never
 followed. Fixture tests verify the committed snapshot bytes and hashes, four
 assets surviving full generation with a verified parent, and unchanged EVM/Tron
-protocol/node generation. The swap fixture tests also verify curated MARTY metadata,
+protocol/node generation. Validation also rejects malformed or ambiguously parsed
+RPC URLs and checks that the chain-ID scan locates this repository independently
+of the caller's working directory. The swap fixture tests also verify curated MARTY metadata,
 SSL/WSS node preservation, rejected unreviewed/disabled nodes and testnet-only scope.
 
 A separate read-only probe on 2026-11-08 passed both public development endpoints:
