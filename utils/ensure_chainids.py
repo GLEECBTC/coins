@@ -28,7 +28,7 @@ supported_platforms = {
     "IRIS": 6688,
 }
 
-exclude_protocols = ['UTXO', 'QRC20', "ZHTLC", "QTUM", "tQTUM"]
+exclude_protocols = ['UTXO', 'QRC20', "ZHTLC", "QTUM", "tQTUM", "SOLANA", "SOLANATOKEN"]
 
 def ensure_chainids():
     url = "https://chainid.network/chains_mini.json"
