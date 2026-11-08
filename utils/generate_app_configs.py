@@ -151,7 +151,10 @@ class CoinConfig:
         self.uptime_tracker = uptime_tracker
         self.data = {}
         self.is_testnet = self.is_testnet_network()
-        self.ticker = self.coin_data["coin"].replace("-TEST", "")
+        self.coin_type = coin_data["protocol"]["type"]
+        self.ticker = self.coin_data["coin"]
+        if self.coin_type not in SOLANA_PROTOCOLS:
+            self.ticker = self.ticker.replace("-TEST", "")
         self.base_ticker = self.ticker.split("-")[0]
         self.protocols = {
             "GLEEC": "GRC-20",
@@ -192,7 +195,6 @@ class CoinConfig:
             "NUCLEUSTEST": "TENDERMINT",
             "TRXT": "TRX",
         }
-        self.coin_type = coin_data["protocol"]["type"]
         self.data.update(
             {
                 self.ticker: {

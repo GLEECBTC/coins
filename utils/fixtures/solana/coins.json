@@ -16,7 +16,7 @@
     "derivation_path": "m/44'/501'"
   },
   {
-    "coin": "SOL-DEV",
+    "coin": "TESTSOL",
     "name": "solana_devnet",
     "fname": "Solana (Devnet)",
     "mm2": 1,
@@ -52,7 +52,7 @@
     "derivation_path": "m/44'/501'"
   },
   {
-    "coin": "USDC-SOL-DEV",
+    "coin": "TESTUSDC-TESTSOL",
     "name": "usdc_sol_devnet",
     "fname": "USD Coin (Solana Devnet)",
     "mm2": 1,
@@ -63,7 +63,7 @@
     "protocol": {
       "type": "SOLANATOKEN",
       "protocol_data": {
-        "platform": "SOL-DEV",
+        "platform": "TESTSOL",
         "decimals": 6,
         "mint_address": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
         "program_id": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"

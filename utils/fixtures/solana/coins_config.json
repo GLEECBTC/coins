@@ -31,13 +31,13 @@
     ],
     "explorer_block_url": "block/{BLOCK}"
   },
-  "SOL-DEV": {
-    "coin": "SOL-DEV",
+  "TESTSOL": {
+    "coin": "TESTSOL",
     "type": "SOLANA",
     "name": "Solana (Devnet)",
     "coinpaprika_id": "",
     "coingecko_id": "",
-    "livecoinwatch_id": "SOL",
+    "livecoinwatch_id": "",
     "explorer_url": "https://explorer.solana.com/",
     "explorer_tx_url": "tx/{TX}?cluster=devnet",
     "explorer_address_url": "address/{ADDRESS}?cluster=devnet",
@@ -101,13 +101,13 @@
     ],
     "explorer_block_url": "block/{BLOCK}"
   },
-  "USDC-SOL-DEV": {
-    "coin": "USDC-SOL-DEV",
+  "TESTUSDC-TESTSOL": {
+    "coin": "TESTUSDC-TESTSOL",
     "type": "SOLANATOKEN",
     "name": "USD Coin (Solana Devnet)",
     "coinpaprika_id": "",
     "coingecko_id": "",
-    "livecoinwatch_id": "USDC",
+    "livecoinwatch_id": "",
     "explorer_url": "https://explorer.solana.com/",
     "explorer_tx_url": "tx/{TX}?cluster=devnet",
     "explorer_address_url": "address/{ADDRESS}?cluster=devnet",
@@ -123,14 +123,14 @@
     "protocol": {
       "type": "SOLANATOKEN",
       "protocol_data": {
-        "platform": "SOL-DEV",
+        "platform": "TESTSOL",
         "decimals": 6,
         "mint_address": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
         "program_id": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
       }
     },
     "derivation_path": "m/44'/501'",
-    "parent_coin": "SOL-DEV",
+    "parent_coin": "TESTSOL",
     "decimals": 6,
     "nodes": [
       {

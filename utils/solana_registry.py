@@ -66,7 +66,14 @@ def validate_registry_coins(coins):
                     if coin.get("protocol", {}).get("type") in SOLANA_PROTOCOLS]
     native = {coin["coin"]: coin for coin in solana_coins
               if coin["protocol"]["type"] == "SOLANA"}
+    mainnet_pricing_prefixes = {coin["coin"].split("-")[0] for coin in coins
+                               if not coin.get("is_testnet", False)}
     for coin in solana_coins:
+        if coin["coin"].count("-") > 1:
+            raise ValueError("Solana registry tickers may contain at most one hyphen")
+        if (coin.get("is_testnet") is True
+                and coin["coin"].split("-")[0] in mainnet_pricing_prefixes):
+            raise ValueError("Solana testnet tickers must not share a mainnet pricing prefix")
         parent = native.get(platform_for(coin))
         if parent is None:
             raise ValueError("SPL token parent must exist as a native Solana registry entry")

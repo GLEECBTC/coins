@@ -3,7 +3,10 @@
 This branch adds native SOL and classic USDC on mainnet and devnet. All four Solana source
 registry entries remain `wallet_only: true`. Token-2022 is represented by protocol
 metadata validation but has no public catalog entry while KDF transfer/rent fixes
-are pending.
+are pending. Mainnet uses `SOL` and `USDC-SOL`; devnet uses `TESTSOL` and
+`TESTUSDC-TESTSOL`. Devnet pricing prefixes are separate from mainnet, and catalog
+tickers contain at most one hyphen, following the KDF maintainer's requirement. The generator preserves
+Solana tickers exactly, including the `-TESTSOL` platform suffix.
 
 The Solana node source files in `solana/` keep `cluster` and `genesis_hash` scanner
 metadata separate from `rpc_nodes`. Generated KDF activation nodes contain only
@@ -67,13 +70,15 @@ ticker suffixes.
 
 ## Validation recorded
 
-The 37 scanner/generator regression tests pass, including an offline requests
+The 40 scanner/generator regression tests pass, including an offline requests
 adapter that returns an HTTPS-to-HTTP 307 redirect and verifies it is never
 followed. Fixture tests verify the committed snapshot bytes and hashes, four
 assets surviving full generation with a verified parent, and unchanged EVM/Tron
 protocol/node generation. Validation also rejects malformed or ambiguously parsed
 RPC URLs and checks that the chain-ID scan locates this repository independently
-of the caller's working directory. The swap fixture tests also verify curated MARTY metadata,
+of the caller's working directory. Ticker regressions check the KDF separator
+limit, exact generated identities and absence of mainnet price identifiers on
+devnet. The swap fixture tests also verify curated MARTY metadata,
 SSL/WSS node preservation, rejected unreviewed/disabled nodes and testnet-only scope.
 
 A separate read-only probe on 2026-11-08 passed both public development endpoints:

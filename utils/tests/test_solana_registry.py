@@ -38,7 +38,7 @@ def successful_post(genesis=DEVNET, slot=42):
     return Mock(side_effect=[rpc_response(genesis), rpc_response("ok"), rpc_response(slot)])
 
 
-def valid_report(platform="SOL-DEV", url=URL, genesis=DEVNET):
+def valid_report(platform="TESTSOL", url=URL, genesis=DEVNET):
     return {platform: {"tcp": {}, "wss": {}, "ssl": {url: {
         "result": "Passed", "last_connection": NOW, "genesis_hash": genesis, "slot": 42,
     }}}}
@@ -140,7 +140,7 @@ class NodeProbeTests(unittest.TestCase):
             result = {"getGenesisHash": genesis, "getHealth": "ok", "getSlot": 42}[json["method"]]
             return rpc_response(result)
         result = scan_solana(REPO, post, NOW)
-        self.assertEqual(set(result), {"SOL", "SOL-DEV"})
+        self.assertEqual(set(result), {"SOL", "TESTSOL"})
         for report in result.values():
             self.assertEqual(report["nodes_total_all"], 1)
             self.assertEqual(report["nodes_working_all"], 1)
@@ -151,9 +151,11 @@ class NodeProbeTests(unittest.TestCase):
 class RegistryTests(unittest.TestCase):
     def test_four_asset_candidate_matches_kdf_metadata(self):
         coins, catalog = candidate_catalog()
-        self.assertEqual(set(catalog), {"SOL", "SOL-DEV", "USDC-SOL", "USDC-SOL-DEV"})
+        self.assertEqual(set(catalog), {"SOL", "TESTSOL", "USDC-SOL", "TESTUSDC-TESTSOL"})
         for coin in coins:
             entry = catalog[coin["coin"]]
+            self.assertEqual(entry["coin"], coin["coin"])
+            self.assertLessEqual(entry["coin"].count("-"), 1)
             self.assertEqual(entry["protocol"], coin["protocol"])
             self.assertEqual(entry["type"], coin["protocol"]["type"])
             self.assertEqual(entry["derivation_path"], "m/44'/501'")
@@ -168,65 +170,95 @@ class RegistryTests(unittest.TestCase):
             else:
                 self.assertEqual(entry["decimals"], 9)
 
+    def test_registry_rejects_multiple_ticker_separators(self):
+        token = deepcopy(COINS["TESTUSDC-TESTSOL"])
+        token["coin"] = "TEST-USDC-TESTSOL"
+        with self.assertRaisesRegex(ValueError, "at most one hyphen"):
+            validate_registry_coins([COINS["TESTSOL"], token])
+
+    def test_registry_rejects_mainnet_pricing_prefixes_for_testnet(self):
+        for ticker, replacement in [("TESTSOL", "SOL-DEV"),
+                                    ("TESTUSDC-TESTSOL", "USDC-TESTSOL")]:
+            source = deepcopy(list(COINS.values()))
+            for coin in source:
+                if coin["coin"] == ticker:
+                    coin["coin"] = replacement
+            with self.subTest(ticker=ticker), self.assertRaisesRegex(
+                    ValueError, "mainnet pricing prefix"):
+                validate_registry_coins(source)
+
+    def test_devnet_tickers_preserve_identity_without_mainnet_pricing_ids(self):
+        _, catalog = candidate_catalog()
+        for ticker in ["TESTSOL", "TESTUSDC-TESTSOL"]:
+            with self.subTest(ticker=ticker):
+                entry = catalog[ticker]
+                self.assertEqual(entry["coin"], ticker)
+                for field in ["coinpaprika_id", "coingecko_id", "livecoinwatch_id",
+                              "binance_id", "forex_id"]:
+                    self.assertFalse(entry.get(field), field)
+        self.assertEqual(catalog["TESTUSDC-TESTSOL"]["parent_coin"], "TESTSOL")
+        self.assertEqual(catalog["SOL"]["livecoinwatch_id"], "SOL")
+        self.assertEqual(catalog["USDC-SOL"]["livecoinwatch_id"], "USDC")
+
     def test_token_parent_is_explicit_not_inferred_from_ticker(self):
-        token = deepcopy(COINS["USDC-SOL-DEV"])
+        token = deepcopy(COINS["TESTUSDC-TESTSOL"])
         token["coin"] = "ARBITRARY-NAME"
-        self.assertEqual(platform_for(token), "SOL-DEV")
+        self.assertEqual(platform_for(token), "TESTSOL")
         self.assertEqual(nodes_for_coin(token, REPO, valid_report(), NOW), [{"url": URL}])
 
     def test_missing_platform_node_file_is_an_error(self):
-        token = deepcopy(COINS["USDC-SOL-DEV"])
+        token = deepcopy(COINS["TESTUSDC-TESTSOL"])
         token["protocol"]["protocol_data"]["platform"] = "NOT-A-PLATFORM"
         with self.assertRaises(FileNotFoundError):
             nodes_for_coin(token, REPO, {}, NOW)
 
     def test_missing_parent_in_registry_is_an_error(self):
-        fake_registry = [COINS["USDC-SOL-DEV"]]
+        fake_registry = [COINS["TESTUSDC-TESTSOL"]]
         with patch("generate_solana_candidate.json.load", return_value=fake_registry):
             with self.assertRaisesRegex(ValueError, "parent must exist"):
                 candidate_catalog()
 
     def test_regular_catalog_generation_rejects_missing_parent(self):
         with patch.object(generator, "ensure_chainids"), patch.object(
-                generator.json, "load", return_value=[COINS["USDC-SOL-DEV"]]):
+                generator.json, "load", return_value=[COINS["TESTUSDC-TESTSOL"]]):
             with self.assertRaisesRegex(ValueError, "parent must exist"):
                 generator.parse_coins_repo({})
 
     def test_registry_requires_native_precision_and_matching_parent_network(self):
         for field, value in [("decimals", 8), ("decimals", True), ("is_testnet", False)]:
-            coins = deepcopy([COINS["SOL-DEV"], COINS["USDC-SOL-DEV"]])
+            coins = deepcopy([COINS["TESTSOL"], COINS["TESTUSDC-TESTSOL"]])
             coins[0][field] = value
             with self.subTest(field=field, value=value), self.assertRaises(ValueError):
                 validate_registry_coins(coins)
 
     def test_token_2022_fixture_preserves_metadata_without_public_listing(self):
-        fixture = deepcopy(COINS["USDC-SOL-DEV"])
-        fixture["coin"] = "TOKEN-2022-FIXTURE"
+        fixture = deepcopy(COINS["TESTUSDC-TESTSOL"])
+        fixture["coin"] = "TESTTOKEN2022-TESTSOL"
         data = fixture["protocol"]["protocol_data"]
         data["program_id"] = "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb"
         with patch("solana_registry.time.time", return_value=NOW):
             entry = generator.CoinConfig(fixture, valid_report()).generate()
         self.assertEqual(entry["protocol"]["protocol_data"], data)
-        self.assertEqual(entry["parent_coin"], "SOL-DEV")
+        self.assertEqual(entry["parent_coin"], "TESTSOL")
         self.assertTrue(entry["wallet_only"])
-        self.assertNotIn("TOKEN-2022-FIXTURE", candidate_catalog()[1])
+        self.assertNotIn("TESTTOKEN2022-TESTSOL", candidate_catalog()[1])
 
     def test_malformed_scan_cache_does_not_admit_unverified_nodes(self):
-        for report in [None, [], {"SOL-DEV": None}, {"SOL-DEV": {"ssl": []}},
-                       {"SOL-DEV": {"ssl": {URL: None}}}]:
+        for report in [None, [], {"TESTSOL": None}, {"TESTSOL": {"ssl": []}},
+                       {"TESTSOL": {"ssl": {URL: None}}}]:
             with self.subTest(report=report):
-                self.assertEqual(nodes_for_coin(COINS["SOL-DEV"], REPO, report, NOW), [])
+                self.assertEqual(nodes_for_coin(COINS["TESTSOL"], REPO, report, NOW), [])
 
     def test_wrong_cluster_and_stale_scan_never_enable_nodes(self):
         for report in [{}, valid_report(genesis=MAINNET), valid_report()]:
             effective_now = NOW + 604801 if report == valid_report() else NOW
-            self.assertEqual(nodes_for_coin(COINS["SOL-DEV"], REPO, report, effective_now), [])
+            self.assertEqual(nodes_for_coin(COINS["TESTSOL"], REPO, report, effective_now), [])
         report = valid_report()
-        report["SOL-DEV"]["ssl"][URL]["result"] = "Wrong Solana cluster genesis hash"
-        self.assertEqual(nodes_for_coin(COINS["SOL-DEV"], REPO, report, NOW), [])
+        report["TESTSOL"]["ssl"][URL]["result"] = "Wrong Solana cluster genesis hash"
+        self.assertEqual(nodes_for_coin(COINS["TESTSOL"], REPO, report, NOW), [])
 
     def test_token_network_must_match_platform(self):
-        token = deepcopy(COINS["USDC-SOL-DEV"])
+        token = deepcopy(COINS["TESTUSDC-TESTSOL"])
         token["is_testnet"] = False
         with self.assertRaisesRegex(ValueError, "network does not match"):
             nodes_for_coin(token, REPO, valid_report(), NOW)
@@ -236,13 +268,13 @@ class RegistryTests(unittest.TestCase):
                              ("decimals", True), ("decimals", -1), ("decimals", 256),
                              ("platform", "../SOL"), ("platform", "..")]:
             with self.subTest(field=field, value=value):
-                token = deepcopy(COINS["USDC-SOL-DEV"])
+                token = deepcopy(COINS["TESTUSDC-TESTSOL"])
                 token["protocol"]["protocol_data"][field] = value
                 with self.assertRaises(ValueError):
                     platform_for(token)
 
     def test_node_schema_rejects_wrong_identity_and_extra_wire_fields(self):
-        source = load_node_config(REPO, "SOL-DEV")
+        source = load_node_config(REPO, "TESTSOL")
         for change in [{"genesis_hash": MAINNET}, {"cluster": "unknown"}, {"rpc_nodes": []},
                        {"rpc_nodes": [{"url": URL, "komodo_proxy": True}]},
                        {"rpc_nodes": [{"url": "http://localhost"}]},
@@ -252,7 +284,7 @@ class RegistryTests(unittest.TestCase):
                     validate_node_config({**source, **change})
 
     def test_node_schema_requires_canonical_public_https_urls(self):
-        source = load_node_config(REPO, "SOL-DEV")
+        source = load_node_config(REPO, "TESTSOL")
         invalid_urls = [
             "https://api.devnet.solana.com:bad",
             "https://api.devnet.solana.com:65536",
@@ -287,21 +319,21 @@ class RegistryTests(unittest.TestCase):
                 os.chdir(previous_directory)
 
     def test_generation_filters_failed_solana_nodes_instead_of_using_fallback(self):
-        config = generator.CoinConfig(COINS["SOL-DEV"], {})
+        config = generator.CoinConfig(COINS["TESTSOL"], {})
         entry = config.generate()
         self.assertTrue(entry["delisted"])
         self.assertEqual(entry["nodes"], [])
 
     def test_verified_generation_accepts_matching_healthy_nodes(self):
         with patch("solana_registry.time.time", return_value=NOW):
-            entry = generator.CoinConfig(COINS["USDC-SOL-DEV"], valid_report()).generate()
+            entry = generator.CoinConfig(COINS["TESTUSDC-TESTSOL"], valid_report()).generate()
         self.assertEqual(entry["nodes"], [{"url": URL}])
         self.assertFalse(entry.get("delisted", False))
 
     def test_full_generator_keeps_verified_native_and_token_entries_listed(self):
         native_mainnet = valid_report("SOL", "https://api.mainnet-beta.solana.com", MAINNET)
         report = {**native_mainnet, **valid_report()}
-        source = [COINS[ticker] for ticker in ["SOL", "SOL-DEV", "USDC-SOL", "USDC-SOL-DEV"]]
+        source = [COINS[ticker] for ticker in ["SOL", "TESTSOL", "USDC-SOL", "TESTUSDC-TESTSOL"]]
         original_load = json.load
         def load(handle):
             return source if str(handle.name).endswith("/coins") else original_load(handle)
@@ -309,14 +341,14 @@ class RegistryTests(unittest.TestCase):
                 generator, "ensure_chainids"), patch.object(generator.json, "load", side_effect=load), patch.object(
                 generator, "script_path", directory), patch("solana_registry.time.time", return_value=NOW):
             catalog, delisted = generator.parse_coins_repo(report)
-        self.assertEqual(set(catalog), {"SOL", "SOL-DEV", "USDC-SOL", "USDC-SOL-DEV"})
+        self.assertEqual(set(catalog), {"SOL", "TESTSOL", "USDC-SOL", "TESTUSDC-TESTSOL"})
         self.assertEqual(delisted, [])
         for ticker, entry in catalog.items():
             self.assertTrue(entry["nodes"])
             self.assertFalse(entry.get("delisted", False))
 
     def test_mainnet_and_devnet_explorer_query_placement(self):
-        for ticker in ["SOL-DEV", "USDC-SOL-DEV"]:
+        for ticker in ["TESTSOL", "TESTUSDC-TESTSOL"]:
             fields = explorer_fields(COINS[ticker])
             self.assertEqual(fields["explorer_tx_url"].replace("{TX}", "caseSensitiveSignature"),
                              "tx/caseSensitiveSignature?cluster=devnet")
@@ -328,7 +360,7 @@ class RegistryTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory, patch.object(generator, "script_path", directory):
             filtered = generator.filter_wss(deepcopy(catalog))
         self.assertEqual(set(filtered), set(catalog))
-        self.assertEqual(filtered["USDC-SOL-DEV"]["nodes"], [{"url": URL}])
+        self.assertEqual(filtered["TESTUSDC-TESTSOL"]["nodes"], [{"url": URL}])
 
     def test_existing_evm_and_tron_generation_keeps_protocol_and_nodes(self):
         for ticker, kind in [("ETH", "ERC-20"), ("TRX", "TRX"), ("USDT-TRC20", "TRC-20")]:
@@ -350,7 +382,7 @@ class RegistryTests(unittest.TestCase):
             self.assertFalse(manifest["nodes_verified_during_generation"])
             self.assertTrue(manifest["requires_isolated_storage_namespace"])
             swap = json.loads(first["swap_coins_config.json"])
-            self.assertEqual(set(swap), {"SOL-DEV", "USDC-SOL-DEV", "MARTY"})
+            self.assertEqual(set(swap), {"TESTSOL", "TESTUSDC-TESTSOL", "MARTY"})
             for coin in swap.values():
                 self.assertTrue(coin["is_testnet"])
                 self.assertFalse(coin["wallet_only"])
@@ -407,11 +439,11 @@ class RegistryTests(unittest.TestCase):
             native = generator.filter_ssl(deepcopy(catalog))
             browser = generator.filter_wss(deepcopy(catalog))
             wallet = json.loads((Path(directory) / "coins_config.json").read_text())
-        self.assertEqual(set(native), {"SOL-DEV", "USDC-SOL-DEV", "MARTY"})
+        self.assertEqual(set(native), {"TESTSOL", "TESTUSDC-TESTSOL", "MARTY"})
         self.assertEqual(set(browser), set(native))
         self.assertTrue(all(node["protocol"] == "SSL" for node in native["MARTY"]["electrum"]))
         self.assertTrue(all(node["protocol"] == "WSS" for node in browser["MARTY"]["electrum"]))
-        self.assertEqual(set(wallet), {"SOL", "USDC-SOL", "SOL-DEV", "USDC-SOL-DEV"})
+        self.assertEqual(set(wallet), {"SOL", "USDC-SOL", "TESTSOL", "TESTUSDC-TESTSOL"})
         self.assertTrue(all(coin["wallet_only"] for coin in wallet.values()))
 
     def test_verification_manifest_does_not_claim_utxo_snapshot_was_live_checked(self):
