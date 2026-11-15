@@ -177,6 +177,8 @@
     "LDO-PLG20": "LDO",
     "LINK-ERC20": "LINK",
     "LINK-AVX20": "LINK",
+    "LINK-ARB20": "LINK",
+    "LINK-BASE": "LINK",
     "LINK-BEP20": "LINK",
     "LINK-KRC20": "LINK",
     "LINK-PLG20": "LINK",
