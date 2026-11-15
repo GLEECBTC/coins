@@ -330,6 +330,8 @@
     "LEASH-ERC20": "leash-doge-killer",
     "LEO-ERC20": "leo-leo-token",
     "LINK-AVX20": "link-chainlink",
+    "LINK-ARB20": "link-chainlink",
+    "LINK-BASE": "link-chainlink",
     "LINK-BEP20": "link-chainlink",
     "LINK-ERC20": "link-chainlink",
     "LINK-KRC20": "link-chainlink",

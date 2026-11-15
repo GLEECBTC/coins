@@ -7994,6 +7994,44 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "LINK-ARB20",
+    "name": "link_arb20",
+    "fname": "Chainlink",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "LINK-BASE",
+    "name": "link_base",
+    "fname": "Chainlink",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 8453,
+    "decimals": 18,
+    "avg_blocktime": 0.2,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-BASE",
+        "contract_address": "0x88Fb150BDc53A65fe94Dea0c9BA0a6dAf8C6e196"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "LINK-BEP20",
     "name": "link_bep20",
     "fname": "Chainlink",
@@ -10774,6 +10812,7 @@
     "mm2": 1,
     "required_confirmations": 4,
     "avg_blocktime": 64,
+    "mature_confirmations": 500,
     "protocol": {
       "type": "UTXO"
     },

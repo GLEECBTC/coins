@@ -315,6 +315,8 @@
     "LEASH-ERC20": "leash",
     "LEO-ERC20": "leo-token",
     "LINK-AVX20": "chainlink",
+    "LINK-ARB20": "chainlink",
+    "LINK-BASE": "chainlink",
     "LINK-BEP20": "chainlink",
     "LINK-ERC20": "chainlink",
     "LINK-KRC20": "chainlink",
