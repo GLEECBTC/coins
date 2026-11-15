@@ -1790,5 +1790,9 @@
   "bca.png": {
     "original": "1641016dd75c1998b59d78403a57e34ba454e594d27a59a38f93ce6eb822a3d0",
     "processed": "c19d892b90a9a7fef8ea02f8de49c2f7df2a1fa1b002916194d9563cee9d927e"
+  },
+  "qvnc.png": {
+    "original": "740a55d5048ace31bd5db541d46243b2239e73ab4af7a6dd51a407796dd803f2",
+    "processed": "5925227a3d31c8e0866283509176a2b5902a83841071f1f48d63efadb5142bc1"
   }
 }
