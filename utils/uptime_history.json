@@ -750,7 +750,8 @@
       "bitnet.outsidethebox.top:50002": {
         "1792993807": "offline",
         "1793717199": "online",
-        "1794656334": "offline"
+        "1794656334": "offline",
+        "1794733077": "online"
       },
       "bitnet.outsidethebox.top:50004": {
         "1792993807": "offline",
@@ -5721,6 +5722,31 @@
       }
     }
   },
+  "QVNC": {
+    "all": {
+      "1794733077": "online"
+    },
+    "by_server": {
+      "seed1.quavence.com:50001": {
+        "1794733077": "online"
+      },
+      "seed1.quavence.com:50002": {
+        "1794733077": "online"
+      },
+      "seed1.quavence.com:50004": {
+        "1794733077": "online"
+      },
+      "seed2.quavence.com:50001": {
+        "1794733077": "online"
+      },
+      "seed2.quavence.com:50002": {
+        "1794733077": "online"
+      },
+      "seed2.quavence.com:50004": {
+        "1794733077": "offline"
+      }
+    }
+  },
   "RAPH": {
     "all": {
       "1792993807": "online"
@@ -6586,7 +6612,8 @@
         "1794359738": "offline",
         "1794380539": "online",
         "1794616783": "offline",
-        "1794657132": "online"
+        "1794657132": "online",
+        "1794733077": "offline"
       },
       "https://tron.rpc.sentio.xyz": {
         "1792993807": "offline",
@@ -6611,7 +6638,8 @@
         "1794359738": "offline",
         "1794380539": "online",
         "1794616783": "offline",
-        "1794657132": "online"
+        "1794657132": "online",
+        "1794733077": "offline"
       },
       "wss://tron.rpc.sentio.xyz": {
         "1793026562": "online",
