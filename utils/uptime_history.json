@@ -6286,7 +6286,8 @@
       },
       "wss://bittensor.web3cdn.rest": {
         "1794293453": "offline",
-        "1794724948": "online"
+        "1794724948": "online",
+        "1794729603": "offline"
       },
       "wss://rpc.blockmachine.io": {
         "1794293453": "online"
@@ -6839,7 +6840,8 @@
       },
       "wss://bittensor.web3cdn.rest": {
         "1794293453": "offline",
-        "1794724948": "online"
+        "1794724948": "online",
+        "1794729603": "offline"
       },
       "wss://rpc.blockmachine.io": {
         "1794293453": "online"
