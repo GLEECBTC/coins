@@ -1,0 +1,18 @@
+[
+  {
+    "url": "seed1.quavence.com:50002",
+    "protocol": "SSL",
+    "ws_url": "seed1.quavence.com:50004"
+  },
+  {
+    "url": "seed1.quavence.com:50001"
+  },
+  {
+    "url": "seed2.quavence.com:50002",
+    "protocol": "SSL",
+    "ws_url": "seed2.quavence.com:50004"
+  },
+  {
+    "url": "seed2.quavence.com:50001"
+  }
+]
