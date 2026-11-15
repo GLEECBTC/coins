@@ -757,7 +757,8 @@
         "1793625583": "online",
         "1794100527": "offline",
         "1794104145": "online",
-        "1794471816": "offline"
+        "1794471816": "offline",
+        "1794724948": "online"
       }
     }
   },
@@ -3160,7 +3161,8 @@
       "electrumx2.runonflux.io:50001": {
         "1792993807": "offline",
         "1793026562": "online",
-        "1793553574": "offline"
+        "1793553574": "offline",
+        "1794724948": "online"
       },
       "electrumx2.runonflux.io:50004": {
         "1792993807": "offline"
@@ -3312,13 +3314,15 @@
         "1792993807": "online"
       },
       "https://moonbeam.drpc.org": {
-        "1793625583": "online"
+        "1793625583": "online",
+        "1794724948": "offline"
       },
       "wss://moonbeam.api.onfinality.io/public-ws": {
         "1792993807": "online"
       },
       "wss://moonbeam.drpc.org": {
-        "1793625583": "online"
+        "1793625583": "online",
+        "1794724948": "offline"
       }
     }
   },
@@ -5538,11 +5542,13 @@
   },
   "PINK": {
     "all": {
-      "1792993807": "online"
+      "1792993807": "online",
+      "1794724948": "offline"
     },
     "by_server": {
       "pink-one.ewm-cx.net:50001": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1794724948": "offline"
       },
       "pink-two.ewm-cx.net:50001": {
         "1792993807": "offline"
@@ -6279,7 +6285,8 @@
         "1794293453": "online"
       },
       "wss://bittensor.web3cdn.rest": {
-        "1794293453": "offline"
+        "1794293453": "offline",
+        "1794724948": "online"
       },
       "wss://rpc.blockmachine.io": {
         "1794293453": "online"
@@ -6765,13 +6772,15 @@
         "1792993807": "online",
         "1793516861": "offline",
         "1793625583": "online",
-        "1794656334": "offline"
+        "1794656334": "offline",
+        "1794724948": "online"
       },
       "uno-bkp.coinmunity.gold:50003": {
         "1792993807": "online",
         "1793516861": "offline",
         "1793625583": "online",
-        "1794656334": "offline"
+        "1794656334": "offline",
+        "1794724948": "online"
       },
       "uno-ex-one.ewmci.online:50001": {
         "1792993807": "online"
@@ -6829,7 +6838,8 @@
         "1794293453": "online"
       },
       "wss://bittensor.web3cdn.rest": {
-        "1794293453": "offline"
+        "1794293453": "offline",
+        "1794724948": "online"
       },
       "wss://rpc.blockmachine.io": {
         "1794293453": "online"
