@@ -122,7 +122,7 @@
   {
     "coin": "AAVE-AVX20",
     "name": "aave_avx20",
-    "fname": "AAVE",
+    "fname": "Aave",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 43114,
@@ -139,9 +139,47 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "AAVE-ARB20",
+    "name": "aave_arb20",
+    "fname": "Aave",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0xba5DdD1f9d7F570dc94a51479a000E3BCE967196"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "AAVE-BASE",
+    "name": "aave_base",
+    "fname": "Aave",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 8453,
+    "decimals": 18,
+    "avg_blocktime": 0.2,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-BASE",
+        "contract_address": "0x63706e401c06ac8513145b7687A14804d17f814b"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "AAVE-BEP20",
     "name": "aave_bep20",
-    "fname": "AAVE",
+    "fname": "Aave",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 56,
@@ -165,7 +203,7 @@
   {
     "coin": "AAVE-ERC20",
     "name": "aave_erc20",
-    "fname": "AAVE",
+    "fname": "Aave",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
@@ -189,7 +227,7 @@
   {
     "coin": "AAVE-KRC20",
     "name": "aave_krc20",
-    "fname": "AAVE",
+    "fname": "Aave",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 321,
@@ -208,7 +246,7 @@
   {
     "coin": "AAVE-PLG20",
     "name": "aave_plg20",
-    "fname": "AAVE",
+    "fname": "Aave",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 137,
