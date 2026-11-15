@@ -2527,39 +2527,20 @@
     "derivation_path": "m/44'/60'"
   },
   {
-    "coin": "CADC-ARB20",
-    "name": "cadc_arb20",
-    "fname": "CAD Coin",
-    "rpcport": 80,
-    "mm2": 1,
-    "chain_id": 42161,
-    "decimals": 18,
-    "avg_blocktime": 0.25,
-    "required_confirmations": 10,
-    "protocol": {
-      "type": "ERC20",
-      "protocol_data": {
-        "platform": "ETH-ARB20",
-        "contract_address": "0x2b28E826b55e399F4d4699b85f68666AC51e6f70"
-      }
-    },
-    "derivation_path": "m/44'/60'"
-  },
-  {
     "coin": "CADC-BASE",
     "name": "cadc_base",
     "fname": "CAD Coin",
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 8453,
-    "decimals": 18,
+    "decimals": 6,
     "avg_blocktime": 0.2,
     "required_confirmations": 10,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
         "platform": "ETH-BASE",
-        "contract_address": "0x043eB4B75d0805c43D7C834902E335621983Cf03"
+        "contract_address": "0x5e63E9C06c3F2c779EF29a8071F94F5a724eB5e4"
       }
     },
     "derivation_path": "m/44'/60'"
@@ -2571,14 +2552,14 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 1,
-    "decimals": 18,
+    "decimals": 6,
     "avg_blocktime": 15,
     "required_confirmations": 3,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
         "platform": "ETH",
-        "contract_address": "0xcaDC0acd4B445166f12d2C07EAc6E2544FbE2Eef"
+        "contract_address": "0x49A6F6aeAB68eA001bEaa4815186eb22FBDcCF2A"
       }
     },
     "derivation_path": "m/44'/60'"
@@ -2590,14 +2571,14 @@
     "rpcport": 80,
     "mm2": 1,
     "chain_id": 137,
-    "decimals": 18,
+    "decimals": 6,
     "avg_blocktime": 1.8,
     "required_confirmations": 20,
     "protocol": {
       "type": "ERC20",
       "protocol_data": {
         "platform": "POL",
-        "contract_address": "0x9de41aFF9f55219D5bf4359F167d1D0c772A396D"
+        "contract_address": "0x74D9423a2886618522F7C992Edf647ea707A38eb"
       }
     },
     "derivation_path": "m/44'/60'"
@@ -4926,7 +4907,7 @@
       "type": "ERC20",
       "protocol_data": {
         "platform": "ETH",
-        "contract_address": "0x3231Cb76718CDeF2155FC47b5286d82e6eDA273f"
+        "contract_address": "0x39b8B6385416f4cA36a20319F70D28621895279D"
       }
     },
     "derivation_path": "m/44'/60'"
@@ -4964,16 +4945,10 @@
       "type": "ERC20",
       "protocol_data": {
         "platform": "POL",
-        "contract_address": "0x18ec0A6E18E5bc3784fDd3a3634b31245ab704F6"
+        "contract_address": "0xE0aEa583266584DafBB3f9C3211d5588c73fEa8d"
       }
     },
-    "derivation_path": "m/44'/60'",
-    "gas_limit": {
-      "eth_send_erc20": 110000,
-      "erc20_payment": 170000,
-      "erc20_receiver_spend": 140000,
-      "erc20_sender_refund": 140000
-    }
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "EURS-ERC20",
