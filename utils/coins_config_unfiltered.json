@@ -6297,6 +6297,18 @@
         },
         "electrum": [
             {
+                "url": "blackie.c3-soft.com:57001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "blackie.c3-soft.com:57002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "blackie.c3-soft.com:57004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "btc.electrum1.cipig.net:10000",
                 "contact": [
                     {
@@ -6415,6 +6427,18 @@
             "homepage": "https://bitcoin.org"
         },
         "electrum": [
+            {
+                "url": "blackie.c3-soft.com:57001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "blackie.c3-soft.com:57002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "blackie.c3-soft.com:57004",
+                "protocol": "WSS"
+            },
             {
                 "url": "btc.electrum1.cipig.net:10000",
                 "contact": [
@@ -20651,9 +20675,6 @@
         "derivation_path": "m/44'/118'",
         "rpc_urls": [
             {
-                "url": "https://mainnet-iris-rpc.konsortech.xyz"
-            },
-            {
                 "url": "https://rpc-iris.keplr.app"
             },
             {
@@ -24232,6 +24253,14 @@
         },
         "electrum": [
             {
+                "url": "0xrpc.io:60002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "0xrpc.io:60004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "ltc.electrum1.cipig.net:10063",
                 "contact": [
                     {
@@ -24350,6 +24379,14 @@
             "homepage": "https://litecoin.org"
         },
         "electrum": [
+            {
+                "url": "0xrpc.io:60002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "0xrpc.io:60004",
+                "protocol": "WSS"
+            },
             {
                 "url": "ltc.electrum1.cipig.net:10063",
                 "contact": [
@@ -48010,11 +48047,8 @@
             }
         },
         "derivation_path": "m/44'/118'",
-        "rpc_urls": [
-            {
-                "url": "https://lcd.nyancat.irisnet.org"
-            }
-        ],
+        "rpc_urls": [],
+        "delisted": true,
         "explorer_block_url": "#/blocks/"
     },
     "NUCLEUSTEST": {
