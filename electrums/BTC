@@ -46,5 +46,18 @@
         "discord": "cipi#4502"
       }
     ]
+  },
+  {
+    "url": "blackie.c3-soft.com:57001"
+  },
+  {
+    "url": "blackie.c3-soft.com:57002",
+    "protocol": "SSL",
+    "ws_url": "blackie.c3-soft.com:57004"
+  },
+  {
+    "url": "0xrpc.io:50002",
+    "protocol": "SSL",
+    "ws_url": "0xrpc.io:50004"
   }
 ]
