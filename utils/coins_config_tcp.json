@@ -5606,6 +5606,10 @@
         },
         "electrum": [
             {
+                "url": "0xrpc.io:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "blackie.c3-soft.com:57002",
                 "protocol": "SSL"
             },
@@ -5680,6 +5684,10 @@
             "homepage": "https://bitcoin.org"
         },
         "electrum": [
+            {
+                "url": "0xrpc.io:50002",
+                "protocol": "SSL"
+            },
             {
                 "url": "blackie.c3-soft.com:57002",
                 "protocol": "SSL"
@@ -31590,6 +31598,10 @@
             },
             {
                 "url": "https://tron.api.pocket.network"
+            },
+            {
+                "url": "https://tron.drpc.org",
+                "ws_url": "wss://tron.drpc.org"
             },
             {
                 "url": "https://tron.rpc.sentio.xyz",

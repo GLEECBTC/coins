@@ -919,7 +919,8 @@
     },
     "by_server": {
       "0xrpc.io:50002": {
-        "1794807245": "offline"
+        "1794807245": "offline",
+        "1794816829": "online"
       },
       "0xrpc.io:50004": {
         "1794807245": "offline"
@@ -959,7 +960,8 @@
     },
     "by_server": {
       "0xrpc.io:50002": {
-        "1794807245": "offline"
+        "1794807245": "offline",
+        "1794816829": "online"
       },
       "0xrpc.io:50004": {
         "1794807245": "offline"
@@ -6658,7 +6660,8 @@
         "1794380539": "online",
         "1794616783": "offline",
         "1794657132": "online",
-        "1794733077": "offline"
+        "1794733077": "offline",
+        "1794816829": "online"
       },
       "https://tron.rpc.sentio.xyz": {
         "1792993807": "offline",
@@ -6684,7 +6687,8 @@
         "1794380539": "online",
         "1794616783": "offline",
         "1794657132": "online",
-        "1794733077": "offline"
+        "1794733077": "offline",
+        "1794816829": "online"
       },
       "wss://tron.rpc.sentio.xyz": {
         "1793026562": "online",
