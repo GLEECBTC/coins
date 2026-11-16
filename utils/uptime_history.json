@@ -3657,7 +3657,8 @@
         "1793625583": "online",
         "1794100527": "offline",
         "1794236238": "online",
-        "1794807245": "offline"
+        "1794807245": "offline",
+        "1794828354": "online"
       }
     }
   },
@@ -6360,7 +6361,8 @@
       "wss://bittensor.web3cdn.rest": {
         "1794293453": "offline",
         "1794724948": "online",
-        "1794729603": "offline"
+        "1794729603": "offline",
+        "1794828354": "online"
       },
       "wss://rpc.blockmachine.io": {
         "1794293453": "online"
@@ -6661,7 +6663,8 @@
         "1794616783": "offline",
         "1794657132": "online",
         "1794733077": "offline",
-        "1794816829": "online"
+        "1794816829": "online",
+        "1794828354": "offline"
       },
       "https://tron.rpc.sentio.xyz": {
         "1792993807": "offline",
@@ -6688,7 +6691,8 @@
         "1794616783": "offline",
         "1794657132": "online",
         "1794733077": "offline",
-        "1794816829": "online"
+        "1794816829": "online",
+        "1794828354": "offline"
       },
       "wss://tron.rpc.sentio.xyz": {
         "1793026562": "online",
@@ -6918,7 +6922,8 @@
       "wss://bittensor.web3cdn.rest": {
         "1794293453": "offline",
         "1794724948": "online",
-        "1794729603": "offline"
+        "1794729603": "offline",
+        "1794828354": "online"
       },
       "wss://rpc.blockmachine.io": {
         "1794293453": "online"
@@ -7583,6 +7588,15 @@
       },
       "electrumx-dex-02.neuraiexplorer.com:50002": {
         "1792993807": "offline"
+      },
+      "electrumx1.neurai.top:50001": {
+        "1794828354": "online"
+      },
+      "electrumx1.neurai.top:50002": {
+        "1794828354": "online"
+      },
+      "electrumx1.neurai.top:50004": {
+        "1794828354": "online"
       },
       "electrumx3.neurai.top:50001": {
         "1792993807": "online"
