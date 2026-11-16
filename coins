@@ -4149,31 +4149,6 @@
     }
   },
   {
-    "coin": "DEV",
-    "name": "dogecoinev",
-    "fname": "DogecoinEV",
-    "rpcport": 42069,
-    "pubtype": 30,
-    "p2shtype": 22,
-    "wiftype": 158,
-    "segwit": false,
-    "txfee": 1000000,
-    "dingo_fee": true,
-    "dust": 1000000,
-    "mm2": 1,
-    "sign_message_prefix": "DogecoinEV Signed Message:\n",
-    "required_confirmations": 5,
-    "avg_blocktime": 60,
-    "protocol": {
-      "type": "UTXO"
-    },
-    "derivation_path": "m/44'/1420'",
-    "links": {
-      "github": "https://github.com/DogecoinEV-Foundation/DogecoinEV",
-      "homepage": "https://dogecoinev.com"
-    }
-  },
-  {
     "coin": "MYDOGE",
     "name": "mydogecoin",
     "fname": "Mydogecoin",
