@@ -702,7 +702,8 @@
         "1794293453": "offline",
         "1794359738": "online",
         "1794616783": "offline",
-        "1794657132": "online"
+        "1794657132": "online",
+        "1794958134": "offline"
       },
       "bit-e.minethepla.net:50004": {
         "1792993807": "offline",
@@ -730,7 +731,8 @@
         "1794293453": "offline",
         "1794359738": "online",
         "1794616783": "offline",
-        "1794657132": "online"
+        "1794657132": "online",
+        "1794958134": "offline"
       },
       "bitn-electrumx.wattxchange.app:50011": {
         "1792993807": "online",
@@ -3170,7 +3172,8 @@
       },
       "https://rpc.au.cc/flare": {
         "1792993807": "online",
-        "1794900461": "offline"
+        "1794900461": "offline",
+        "1794958134": "online"
       },
       "https://stylish-light-theorem.flare-mainnet.quiknode.pro/ext/bc/C/rpc": {
         "1792993807": "online"
@@ -6365,7 +6368,8 @@
         "1794293453": "offline",
         "1794724948": "online",
         "1794729603": "offline",
-        "1794828354": "online"
+        "1794828354": "online",
+        "1794958134": "offline"
       },
       "wss://rpc.blockmachine.io": {
         "1794293453": "online"
@@ -6926,7 +6930,8 @@
         "1794293453": "offline",
         "1794724948": "online",
         "1794729603": "offline",
-        "1794828354": "online"
+        "1794828354": "online",
+        "1794958134": "offline"
       },
       "wss://rpc.blockmachine.io": {
         "1794293453": "online"
@@ -6976,7 +6981,8 @@
       },
       "https://rpc.au.cc/flare": {
         "1792993807": "online",
-        "1794900461": "offline"
+        "1794900461": "offline",
+        "1794958134": "online"
       },
       "https://stylish-light-theorem.flare-mainnet.quiknode.pro/ext/bc/C/rpc": {
         "1792993807": "online"

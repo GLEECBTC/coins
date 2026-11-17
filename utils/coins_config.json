@@ -1645,7 +1645,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "light_wallet_d_servers": [
             "https://lightwalletd1.cryptoforge.cc:443",
             "https://lightwalletd2.cryptoforge.cc:443",
@@ -4696,15 +4696,6 @@
         },
         "electrum": [
             {
-                "url": "bit-e.minethepla.net:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
                 "url": "bit-e.minethepla.net:50004",
                 "protocol": "WSS",
                 "contact": [
@@ -4716,15 +4707,6 @@
             {
                 "url": "bit-e.outsidethebox.top:50002",
                 "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
-                "url": "bit-e.outsidethebox.top:50004",
-                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "def#4726"
@@ -16493,6 +16475,9 @@
             },
             {
                 "url": "https://flare.rpc.thirdweb.com"
+            },
+            {
+                "url": "https://rpc.au.cc/flare"
             },
             {
                 "url": "https://stylish-light-theorem.flare-mainnet.quiknode.pro/ext/bc/C/rpc",
@@ -40663,6 +40648,9 @@
                 "url": "https://flare.rpc.thirdweb.com"
             },
             {
+                "url": "https://rpc.au.cc/flare"
+            },
+            {
                 "url": "https://stylish-light-theorem.flare-mainnet.quiknode.pro/ext/bc/C/rpc",
                 "ws_url": "wss://stylish-light-theorem.flare-mainnet.quiknode.pro/ext/bc/C/ws"
             }
@@ -45628,7 +45616,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "sign_message_prefix": "Zcash Signed Message:\n",
         "fname": "Zcash",
         "is_privacy_coin": true,

@@ -1429,7 +1429,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "light_wallet_d_servers": [
             "https://lightwalletd1.cryptoforge.cc:443",
             "https://lightwalletd2.cryptoforge.cc:443",
@@ -3709,15 +3709,6 @@
         "electrum": [
             {
                 "url": "bit-e.minethepla.net:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
-                "url": "bit-e.outsidethebox.top:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -35288,7 +35279,7 @@
         "active": false,
         "is_testnet": false,
         "currently_enabled": false,
-        "wallet_only": false,
+        "wallet_only": true,
         "sign_message_prefix": "Zcash Signed Message:\n",
         "fname": "Zcash",
         "is_privacy_coin": true,
