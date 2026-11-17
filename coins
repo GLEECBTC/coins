@@ -9791,6 +9791,25 @@
     }
   },
   {
+    "coin": "PAXG-BASE",
+    "name": "paxg_base",
+    "fname": "PAX Gold",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 8453,
+    "decimals": 18,
+    "avg_blocktime": 0.2,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-BASE",
+        "contract_address": "0xe904AEA5E1b110c9174728fA2efFc8aeD19E98Ef"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "PAXG-PLG20",
     "name": "paxg_plg20",
     "fname": "PAX Gold",
