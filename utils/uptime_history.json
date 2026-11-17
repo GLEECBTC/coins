@@ -923,7 +923,8 @@
         "1794816829": "online"
       },
       "0xrpc.io:50004": {
-        "1794807245": "offline"
+        "1794807245": "offline",
+        "1794900461": "online"
       },
       "blackie.c3-soft.com:57001": {
         "1794807245": "online"
@@ -964,7 +965,8 @@
         "1794816829": "online"
       },
       "0xrpc.io:50004": {
-        "1794807245": "offline"
+        "1794807245": "offline",
+        "1794900461": "online"
       },
       "blackie.c3-soft.com:57001": {
         "1794807245": "online"
@@ -3167,7 +3169,8 @@
         "1792993807": "online"
       },
       "https://rpc.au.cc/flare": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1794900461": "offline"
       },
       "https://stylish-light-theorem.flare-mainnet.quiknode.pro/ext/bc/C/rpc": {
         "1792993807": "online"
@@ -6972,7 +6975,8 @@
         "1792993807": "online"
       },
       "https://rpc.au.cc/flare": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1794900461": "offline"
       },
       "https://stylish-light-theorem.flare-mainnet.quiknode.pro/ext/bc/C/rpc": {
         "1792993807": "online"
