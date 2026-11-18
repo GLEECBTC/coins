@@ -4625,10 +4625,12 @@
     },
     "by_server": {
       "0xrpc.io:60002": {
-        "1794807245": "online"
+        "1794807245": "online",
+        "1794991108": "offline"
       },
       "0xrpc.io:60004": {
-        "1794807245": "online"
+        "1794807245": "online",
+        "1794991108": "offline"
       },
       "ltc.electrum1.cipig.net:10063": {
         "1792993807": "online"
@@ -4656,10 +4658,12 @@
     },
     "by_server": {
       "0xrpc.io:60002": {
-        "1794807245": "online"
+        "1794807245": "online",
+        "1794991108": "offline"
       },
       "0xrpc.io:60004": {
-        "1794807245": "online"
+        "1794807245": "online",
+        "1794991108": "offline"
       },
       "ltc.electrum1.cipig.net:10063": {
         "1792993807": "online"
@@ -6369,7 +6373,8 @@
         "1794724948": "online",
         "1794729603": "offline",
         "1794828354": "online",
-        "1794958134": "offline"
+        "1794958134": "offline",
+        "1794991108": "online"
       },
       "wss://rpc.blockmachine.io": {
         "1794293453": "online"
@@ -6671,7 +6676,8 @@
         "1794657132": "online",
         "1794733077": "offline",
         "1794816829": "online",
-        "1794828354": "offline"
+        "1794828354": "offline",
+        "1794991108": "online"
       },
       "https://tron.rpc.sentio.xyz": {
         "1792993807": "offline",
@@ -6699,7 +6705,8 @@
         "1794657132": "online",
         "1794733077": "offline",
         "1794816829": "online",
-        "1794828354": "offline"
+        "1794828354": "offline",
+        "1794991108": "online"
       },
       "wss://tron.rpc.sentio.xyz": {
         "1793026562": "online",
@@ -6931,7 +6938,8 @@
         "1794724948": "online",
         "1794729603": "offline",
         "1794828354": "online",
-        "1794958134": "offline"
+        "1794958134": "offline",
+        "1794991108": "online"
       },
       "wss://rpc.blockmachine.io": {
         "1794293453": "online"
@@ -7607,6 +7615,18 @@
       },
       "electrumx1.neurai.top:50004": {
         "1794828354": "online"
+      },
+      "electrumx2.neurai.top:40002": {
+        "1794991108": "online"
+      },
+      "electrumx2.neurai.top:40004": {
+        "1794991108": "online"
+      },
+      "electrumx3.neurai.top:30002": {
+        "1794991108": "online"
+      },
+      "electrumx3.neurai.top:30004": {
+        "1794991108": "online"
       },
       "electrumx3.neurai.top:50001": {
         "1792993807": "online"
