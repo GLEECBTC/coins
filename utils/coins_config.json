@@ -37017,10 +37017,6 @@
                 "url": "https://tron.api.pocket.network"
             },
             {
-                "url": "https://tron.drpc.org",
-                "ws_url": "wss://tron.drpc.org"
-            },
-            {
                 "url": "https://tron.rpc.sentio.xyz",
                 "ws_url": "wss://tron.rpc.sentio.xyz"
             }
