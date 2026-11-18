@@ -194,7 +194,7 @@ class RegistryTests(unittest.TestCase):
             self.assertEqual(entry["type"], coin["protocol"]["type"])
             self.assertEqual(entry["derivation_path"], "m/44'/501'")
             self.assertEqual(entry["required_confirmations"], 1)
-            self.assertTrue(entry["wallet_only"])
+            self.assertEqual(entry["wallet_only"], not coin["is_testnet"])
             self.assertFalse(entry.get("delisted", False))
             self.assertEqual(set(entry["nodes"][0]), {"url"})
             if entry["type"] == "SOLANATOKEN":
@@ -268,7 +268,7 @@ class RegistryTests(unittest.TestCase):
             entry = generator.CoinConfig(fixture, valid_report()).generate()
         self.assertEqual(entry["protocol"]["protocol_data"], data)
         self.assertEqual(entry["parent_coin"], "TESTSOL")
-        self.assertTrue(entry["wallet_only"])
+        self.assertEqual(entry["wallet_only"], fixture["wallet_only"])
         self.assertNotIn("TESTTOKEN2022-TESTSOL", generated_solana_catalog())
 
     def test_malformed_scan_cache_does_not_admit_unverified_nodes(self):
