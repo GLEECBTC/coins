@@ -1,27 +1,5 @@
 [
   {
-    "url": "electrumx-dex-01.neuraiexplorer.com:50001",
-    "protocol": "SSL",
-    "contact": [
-      { "email": "alarm@neurai.org" },
-      { "discord": "456566604809895947" }
-    ],
-    "ws_url": "electrumx-dex-01.neuraiexplorer.com:50002"
-  },
-  {
-    "url": "electrumx-dex-02.neuraiexplorer.com:50001",
-    "protocol": "SSL",
-    "contact": [
-      { "email": "alarm@neurai.org" },
-      { "discord": "456566604809895947" }
-    ],
-    "ws_url": "electrumx-dex-02.neuraiexplorer.com:50002"
-  },
-  {
-    "url": "electrumx1.neurai.top:50001",
-    "protocol": "TCP"
-  },
-  {
     "url": "electrumx1.neurai.top:50002",
     "protocol": "SSL",
     "contact": [
@@ -29,5 +7,23 @@
       { "discord": "456566604809895947" }
     ],
     "ws_url": "electrumx1.neurai.top:50004"
+  },
+  {
+    "url": "electrumx2.neurai.top:40002",
+    "protocol": "SSL",
+    "contact": [
+      { "email": "alarm@neurai.org" },
+      { "discord": "456566604809895947" }
+    ],
+    "ws_url": "electrumx2.neurai.top:40004"
+  },
+  {
+    "url": "electrumx3.neurai.top:30002",
+    "protocol": "SSL",
+    "contact": [
+      { "email": "alarm@neurai.org" },
+      { "discord": "456566604809895947" }
+    ],
+    "ws_url": "electrumx3.neurai.top:30004"
   }
 ]
