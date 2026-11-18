@@ -1,7 +1,8 @@
 # Solana integration candidate
 
-This branch adds native SOL and classic USDC on mainnet and devnet. All four Solana source
-registry entries remain `wallet_only: true`. Token-2022 is represented by protocol
+This branch adds native SOL and classic USDC on mainnet and devnet. The mainnet source
+registry entries remain `wallet_only: true`; the devnet ones are `wallet_only: false`, so
+swaps can be tested ahead of mainnet (KDF keeps mainnet Solana wallet-only regardless). Token-2022 is represented by protocol
 metadata validation but has no public catalog entry while KDF transfer/rent fixes
 are pending. Mainnet uses `SOL` and `USDC-SOL`; devnet uses `TESTSOL` and
 `TESTUSDC-TESTSOL`. Devnet pricing prefixes are separate from mainnet, and catalog
@@ -42,7 +43,7 @@ Use `--verify-nodes` to require live Solana identity/health checks before genera
 The manifest records Solana and UTXO verification separately; reusing the UTXO
 snapshot does not claim fresh node validation.
 
-`coins.json` and `coins_config.json` contain all four wallet-only entries.
+`coins.json` and `coins_config.json` contain all four entries, the two mainnet ones wallet-only.
 `swap_coins.json` and `swap_coins_config.json` contain the two Solana devnet entries
 with explicit `wallet_only: false`, plus the existing `MARTY` UTXO testnet for
 SOL/SPL ↔ UTXO swap testing. MARTY is copied from the reviewed generated registry

@@ -160,7 +160,8 @@ class RegistryTests(unittest.TestCase):
             self.assertEqual(entry["type"], coin["protocol"]["type"])
             self.assertEqual(entry["derivation_path"], "m/44'/501'")
             self.assertEqual(entry["required_confirmations"], 1)
-            self.assertTrue(entry["wallet_only"])
+            # Mainnet stays wallet-only; the devnet coins trade, to test swaps ahead of mainnet.
+            self.assertEqual(entry["wallet_only"], not coin["is_testnet"])
             self.assertFalse(entry.get("delisted", False))
             self.assertEqual(set(entry["nodes"][0]), {"url"})
             if entry["type"] == "SOLANATOKEN":
@@ -240,7 +241,7 @@ class RegistryTests(unittest.TestCase):
             entry = generator.CoinConfig(fixture, valid_report()).generate()
         self.assertEqual(entry["protocol"]["protocol_data"], data)
         self.assertEqual(entry["parent_coin"], "TESTSOL")
-        self.assertTrue(entry["wallet_only"])
+        self.assertEqual(entry["wallet_only"], fixture["wallet_only"])
         self.assertNotIn("TESTTOKEN2022-TESTSOL", candidate_catalog()[1])
 
     def test_malformed_scan_cache_does_not_admit_unverified_nodes(self):
@@ -432,7 +433,7 @@ class RegistryTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, "configured native SSL and browser WSS"):
                     curated_utxo_catalog()
 
-    def test_swap_fixture_keeps_utxo_on_native_and_browser_and_wallet_solana_gated(self):
+    def test_swap_fixture_keeps_utxo_on_native_and_browser_and_mainnet_solana_gated(self):
         with tempfile.TemporaryDirectory() as directory, patch.object(generator, "script_path", directory):
             write_candidate(directory)
             catalog = json.loads((Path(directory) / "swap_coins_config.json").read_text())
@@ -444,7 +445,7 @@ class RegistryTests(unittest.TestCase):
         self.assertTrue(all(node["protocol"] == "SSL" for node in native["MARTY"]["electrum"]))
         self.assertTrue(all(node["protocol"] == "WSS" for node in browser["MARTY"]["electrum"]))
         self.assertEqual(set(wallet), {"SOL", "USDC-SOL", "TESTSOL", "TESTUSDC-TESTSOL"})
-        self.assertTrue(all(coin["wallet_only"] for coin in wallet.values()))
+        self.assertTrue(all(coin["wallet_only"] != coin["is_testnet"] for coin in wallet.values()))
 
     def test_verification_manifest_does_not_claim_utxo_snapshot_was_live_checked(self):
         report = {**valid_report("SOL", "https://api.mainnet-beta.solana.com", MAINNET), **valid_report()}
