@@ -12,6 +12,7 @@ from datetime import datetime, timezone
 from urllib.parse import urlparse
 from websockets.asyncio.client import connect
 from logger import logger
+from solana_registry import scan_solana
 
 
 ignore_list = []
@@ -32,7 +33,6 @@ failed_ethereum_wss = {}
 socket.setdefaulttimeout(10)
 script_path = os.path.abspath(os.path.dirname(__file__))
 repo_path = script_path.replace("/utils", "")
-os.chdir(script_path)
 
 
 
@@ -914,7 +914,7 @@ def get_repo_ethereum():
 
 def get_existing_report():
     # Load existing electrum scan report for connection history
-    if os.path.exists("electrum_scan_report.json"):
+    if os.path.exists(f"{script_path}/electrum_scan_report.json"):
         with open(f"{script_path}/electrum_scan_report.json", "r") as f:
             return json.load(f)
     return {}
@@ -1437,6 +1437,9 @@ def get_electrums_report():
             
             legacy_results[coin]["nodes_total_all"] = total_nodes
             legacy_results[coin]["nodes_working_all"] = working_nodes
+
+    # Solana is HTTP polling with explicit genesis identity, never eth_blockNumber.
+    legacy_results.update(scan_solana(repo_path))
 
     with open(f"{script_path}/electrum_scan_report.json", "w+") as f:
         f.write(json.dumps(legacy_results, indent=4))

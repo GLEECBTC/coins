@@ -9,6 +9,8 @@ import requests
 from PIL import Image
 from scan_electrums import get_electrums_report
 from ensure_chainids import ensure_chainids
+from solana_registry import (SOLANA_PROTOCOLS, platform_for, nodes_for_coin,
+                             explorer_fields, validate_registry_coins)
 from logger import logger
 from uptime_tracker import UptimeTracker, format_contact_info
 
@@ -16,7 +18,6 @@ from uptime_tracker import UptimeTracker, format_contact_info
 current_time = time.time()
 script_path = os.path.abspath(os.path.dirname(__file__))
 repo_path = script_path.replace("/utils", "")
-os.chdir(script_path)
 
 BINANCE_DELISTED_COINS = [
     "AGIX",
@@ -143,13 +144,17 @@ with open(f"{repo_path}/api_ids/coinpaprika_ids.json", "r") as f:
 
 
 class CoinConfig:
-    def __init__(self, coin_data: dict, electrum_scan_report: dict, uptime_tracker: UptimeTracker = None):
+    def __init__(self, coin_data: dict, electrum_scan_report: dict, uptime_tracker: UptimeTracker = None, allow_unverified_solana=False):
         self.coin_data = coin_data
+        self.allow_unverified_solana = allow_unverified_solana
         self.electrum_scan_report = electrum_scan_report
         self.uptime_tracker = uptime_tracker
         self.data = {}
         self.is_testnet = self.is_testnet_network()
-        self.ticker = self.coin_data["coin"].replace("-TEST", "")
+        self.coin_type = coin_data["protocol"]["type"]
+        self.ticker = self.coin_data["coin"]
+        if self.coin_type not in SOLANA_PROTOCOLS:
+            self.ticker = self.ticker.replace("-TEST", "")
         self.base_ticker = self.ticker.split("-")[0]
         self.protocols = {
             "GLEEC": "GRC-20",
@@ -190,7 +195,6 @@ class CoinConfig:
             "NUCLEUSTEST": "TENDERMINT",
             "TRXT": "TRX",
         }
-        self.coin_type = coin_data["protocol"]["type"]
         self.data.update(
             {
                 self.ticker: {
@@ -246,7 +250,36 @@ class CoinConfig:
         elif self.coin_type in ["SIA"]:
             self.data[self.ticker].update({"nodes": ["SIA"]})
 
+    def generate(self):
+        self.get_generics()
+        self.get_protocol_info()
+        self.clean_name()
+        self.get_swap_contracts()
+        self.get_electrums()
+        self.get_explorers()
+        self.is_smartchain()
+        self.is_wallet_only()
+        self.get_address_format()
+        self.get_rewards_info()
+        self.get_alias_ticker()
+        self.get_asset()
+        self.get_forex_id()
+        self.get_coinpaprika_id()
+        self.get_coingecko_id()
+        self.get_livecoinwatch_id()
+        self.get_binance_id()
+        self.get_hd_info()
+        self.get_links()
+        return self.data[self.ticker]
+
     def get_protocol_info(self):
+        if self.coin_type in SOLANA_PROTOCOLS:
+            self.parent_coin = platform_for(self.coin_data)
+            self.data[self.ticker]["type"] = self.coin_type
+            if self.parent_coin != self.ticker:
+                self.data[self.ticker]["parent_coin"] = self.parent_coin
+                self.data[self.ticker]["decimals"] = self.coin_data["protocol"]["protocol_data"]["decimals"]
+            return
         if "protocol_data" in self.coin_data["protocol"]:
             protocol_data = self.coin_data["protocol"]["protocol_data"]
             if "consensus_params" in protocol_data:
@@ -397,6 +430,8 @@ class CoinConfig:
         Get the coin name to check in electrum_scan_report for connectivity status.
         For token coins, this returns the parent chain coin.
         """
+        if self.coin_type in SOLANA_PROTOCOLS:
+            return platform_for(self.coin_data)
         # For token coins, we need to check parent chain status
         if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-KRC20", "-ARB20", "-AVX20", "-GRC20", "-FLR", "-HYPE", "-MON", "-MNT", "-TAO", "-TRC20", "-XDC", "-XPL")):
             if self.ticker.endswith("-QRC20"):
@@ -448,6 +483,8 @@ class CoinConfig:
 
     def get_parent_coin(self):
         """Used for getting filename for related coins/ethereum folder"""
+        if self.coin_type in SOLANA_PROTOCOLS:
+            return platform_for(self.coin_data)
         token_type = self.data[self.ticker]["type"]
         if self.ticker == "RBTC":
             return "RSK"
@@ -591,6 +628,15 @@ class CoinConfig:
         # For non-electrum coins (EVM, Tendermint), nodes are handled in get_swap_contracts()
 
     def get_swap_contracts(self):
+        if self.coin_type in SOLANA_PROTOCOLS:
+            nodes = nodes_for_coin(
+                self.coin_data, repo_path, self.electrum_scan_report,
+                allow_unverified=self.allow_unverified_solana,
+            )
+            self.data[self.ticker]["nodes"] = nodes
+            if not nodes:
+                self.data[self.ticker]["delisted"] = True
+            return
         contract_data = None
 
         if self.ticker in ethereum_coins:
@@ -626,13 +672,13 @@ class CoinConfig:
                 scan_coin = self.get_scan_coin_for_status_check()
                 valid_nodes = []
                 
-                if scan_coin in electrum_scan_report:
+                if scan_coin in self.electrum_scan_report:
                     # If parent chain is working, inherit all configured nodes for token
                     if self.ticker.endswith(("-QRC20", "-ERC20", "-BEP20", "-BASE", "-GNO", "-PLG20", "-ARB20", "-AVX20", "-GRC20", "-MNT", "-MON", "-HYPE", "-TRC20", "-XPL")):
                         # For token coins, check if parent chain has working nodes
                         parent_has_working_nodes = False
                         for protocol in ["ssl", "wss", "tcp"]:
-                            for node_url, node_data in electrum_scan_report[scan_coin][protocol].items():
+                            for node_url, node_data in self.electrum_scan_report[scan_coin][protocol].items():
                                 if (current_time - node_data["last_connection"] < 604800):
                                     parent_has_working_nodes = True
                                     break
@@ -653,8 +699,8 @@ class CoinConfig:
                             node_found_working = False
                             
                             # Check in ssl section (HTTPS nodes)
-                            if node_url in electrum_scan_report[scan_coin]["ssl"]:
-                                node_data = electrum_scan_report[scan_coin]["ssl"][node_url]
+                            if node_url in self.electrum_scan_report[scan_coin]["ssl"]:
+                                node_data = self.electrum_scan_report[scan_coin]["ssl"][node_url]
                                 if (current_time - node_data["last_connection"] < 604800):  # 1 week grace period
                                     valid_nodes.append(node)
                                     node_found_working = True
@@ -662,15 +708,15 @@ class CoinConfig:
                             # Check in wss section (WSS nodes) 
                             if not node_found_working and "ws_url" in node:
                                 ws_url = node["ws_url"]
-                                if ws_url in electrum_scan_report[scan_coin]["wss"]:
-                                    node_data = electrum_scan_report[scan_coin]["wss"][ws_url]
+                                if ws_url in self.electrum_scan_report[scan_coin]["wss"]:
+                                    node_data = self.electrum_scan_report[scan_coin]["wss"][ws_url]
                                     if (current_time - node_data["last_connection"] < 604800):  # 1 week grace period
                                         valid_nodes.append(node)
                                         node_found_working = True
                             
                             # Check in tcp section (HTTP nodes)
-                            if not node_found_working and node_url in electrum_scan_report[scan_coin]["tcp"]:
-                                node_data = electrum_scan_report[scan_coin]["tcp"][node_url]
+                            if not node_found_working and node_url in self.electrum_scan_report[scan_coin]["tcp"]:
+                                node_data = self.electrum_scan_report[scan_coin]["tcp"][node_url]
                                 if (current_time - node_data["last_connection"] < 604800):  # 1 week grace period
                                     valid_nodes.append(node)
                                     node_found_working = True
@@ -685,8 +731,8 @@ class CoinConfig:
                                 # Also track WSS URL if present
                                 if "ws_url" in node:
                                     ws_url = node["ws_url"]
-                                    ws_working = ws_url in electrum_scan_report[scan_coin]["wss"] and \
-                                               (current_time - electrum_scan_report[scan_coin]["wss"][ws_url]["last_connection"] < 604800)
+                                    ws_working = ws_url in self.electrum_scan_report[scan_coin]["wss"] and \
+                                               (current_time - self.electrum_scan_report[scan_coin]["wss"][ws_url]["last_connection"] < 604800)
                                     self.uptime_tracker.update_server_status(
                                         self.ticker, ws_url, ws_working, contact_info
                                     )
@@ -706,6 +752,9 @@ class CoinConfig:
                     self.data[self.ticker].update({key: [], "delisted": True})
 
     def get_explorers(self):
+        if self.coin_type in SOLANA_PROTOCOLS:
+            self.data[self.ticker].update(explorer_fields(self.coin_data))
+            return
         explorers = None
         coin = self.ticker.replace("-segwit", "")
         if coin in explorer_coins:
@@ -741,29 +790,11 @@ def parse_coins_repo(electrum_scan_report, uptime_tracker=None):
     coins_config = {}
     with open(f"{repo_path}/coins", "r") as f:
         coins_data = json.load(f)
+    validate_registry_coins(coins_data)
 
     for item in coins_data:
         config = CoinConfig(item, electrum_scan_report, uptime_tracker)
-        config.get_generics()
-        config.get_protocol_info()
-        config.clean_name()
-        config.get_swap_contracts()
-        config.get_electrums()
-        config.get_explorers()
-        config.is_smartchain()
-        config.is_wallet_only()
-        config.get_address_format()
-        config.get_rewards_info()
-        config.get_alias_ticker()
-        config.get_asset()
-        config.get_forex_id()
-        config.get_coinpaprika_id()
-        config.get_coingecko_id()
-        config.get_livecoinwatch_id()
-        config.get_binance_id()
-        config.get_hd_info()
-        config.get_links()
-        coins_config.update(config.data)
+        coins_config[config.ticker] = config.generate()
 
     delisted_coins = []
     working_coins = []
@@ -952,6 +983,14 @@ def filter_wss(coins_config):
             if len(electrums) > 0:
                 coins_config_wss.update({coin: coins_config[coin]})
                 coins_config_wss[coin]["electrum"] = electrums
+        elif (coins_config[coin].get("type") in SOLANA_PROTOCOLS
+              and "nodes" in coins_config[coin]):
+            # KDF's Solana transport uses HTTPS polling on native and web.
+            nodes = [node for node in coins_config[coin]["nodes"]
+                     if node["url"].startswith("https://")]
+            if nodes:
+                coins_config_wss[coin] = deepcopy(coins_config[coin])
+                coins_config_wss[coin]["nodes"] = nodes
         elif "nodes" in coins_config[coin]:
             nodes = []
             for node in coins_config[coin]["nodes"]:
@@ -1316,6 +1355,7 @@ def generate_spritemap():
 
 
 if __name__ == "__main__":
+    os.chdir(script_path)
     generate_spritemap_only = len(sys.argv) > 1 and "spritemap" in sys.argv
     
     # If only generating spritemap, try to use existing config files to avoid long electrum scan

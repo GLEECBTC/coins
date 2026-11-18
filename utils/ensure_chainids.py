@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import requests
 import json
+from pathlib import Path
 
 supported_networks = {
     "GRC20": 11169,
@@ -28,13 +29,13 @@ supported_platforms = {
     "IRIS": 6688,
 }
 
-exclude_protocols = ['UTXO', 'QRC20', "ZHTLC", "QTUM", "tQTUM"]
+exclude_protocols = ['UTXO', 'QRC20', "ZHTLC", "QTUM", "tQTUM", "SOLANA", "SOLANATOKEN"]
 
 def ensure_chainids():
     url = "https://chainid.network/chains_mini.json"
     networks = requests.get(url).json()
 
-    with open('../coins', 'r') as f:
+    with (Path(__file__).resolve().parents[1] / 'coins').open() as f:
         coins = json.load(f)
 
     for i in coins:
