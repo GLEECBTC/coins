@@ -713,7 +713,8 @@
         "1794293453": "offline",
         "1794359738": "online",
         "1794616783": "offline",
-        "1794657132": "online"
+        "1794657132": "online",
+        "1795134881": "offline"
       },
       "bit-e.outsidethebox.top:50002": {
         "1792993807": "offline",
@@ -721,7 +722,8 @@
         "1793516861": "offline",
         "1794100527": "online",
         "1794616783": "offline",
-        "1794657132": "online"
+        "1794657132": "online",
+        "1795134881": "offline"
       },
       "bit-e.outsidethebox.top:50004": {
         "1792993807": "offline",
@@ -753,7 +755,8 @@
         "1792993807": "offline",
         "1793717199": "online",
         "1794656334": "offline",
-        "1794733077": "online"
+        "1794733077": "online",
+        "1795134881": "offline"
       },
       "bitnet.outsidethebox.top:50004": {
         "1792993807": "offline",
@@ -761,7 +764,8 @@
         "1794100527": "offline",
         "1794104145": "online",
         "1794471816": "offline",
-        "1794724948": "online"
+        "1794724948": "online",
+        "1795134881": "offline"
       }
     }
   },
@@ -922,11 +926,13 @@
     "by_server": {
       "0xrpc.io:50002": {
         "1794807245": "offline",
-        "1794816829": "online"
+        "1794816829": "online",
+        "1795134881": "offline"
       },
       "0xrpc.io:50004": {
         "1794807245": "offline",
-        "1794900461": "online"
+        "1794900461": "online",
+        "1795134881": "offline"
       },
       "blackie.c3-soft.com:57001": {
         "1794807245": "online"
@@ -964,11 +970,13 @@
     "by_server": {
       "0xrpc.io:50002": {
         "1794807245": "offline",
-        "1794816829": "online"
+        "1794816829": "online",
+        "1795134881": "offline"
       },
       "0xrpc.io:50004": {
         "1794807245": "offline",
-        "1794900461": "online"
+        "1794900461": "online",
+        "1795134881": "offline"
       },
       "blackie.c3-soft.com:57001": {
         "1794807245": "online"
@@ -2709,7 +2717,8 @@
       "wss://eth.api.pocket.network": {
         "1792993807": "online",
         "1794359738": "offline",
-        "1794380539": "online"
+        "1794380539": "online",
+        "1795134881": "offline"
       },
       "wss://eth.drpc.org": {
         "1792993807": "online"
@@ -3347,7 +3356,8 @@
         "1793516861": "online"
       },
       "https://moonbeam.api.onfinality.io/public": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1795134881": "offline"
       },
       "https://moonbeam.api.pocket.network": {
         "1792993807": "online"
@@ -3357,7 +3367,8 @@
         "1794724948": "offline"
       },
       "wss://moonbeam.api.onfinality.io/public-ws": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1795134881": "offline"
       },
       "wss://moonbeam.drpc.org": {
         "1793625583": "online",
@@ -4626,11 +4637,13 @@
     "by_server": {
       "0xrpc.io:60002": {
         "1794807245": "online",
-        "1794991108": "offline"
+        "1794991108": "offline",
+        "1795134881": "online"
       },
       "0xrpc.io:60004": {
         "1794807245": "online",
-        "1794991108": "offline"
+        "1794991108": "offline",
+        "1795134881": "online"
       },
       "ltc.electrum1.cipig.net:10063": {
         "1792993807": "online"
@@ -4659,11 +4672,13 @@
     "by_server": {
       "0xrpc.io:60002": {
         "1794807245": "online",
-        "1794991108": "offline"
+        "1794991108": "offline",
+        "1795134881": "online"
       },
       "0xrpc.io:60004": {
         "1794807245": "online",
-        "1794991108": "offline"
+        "1794991108": "offline",
+        "1795134881": "online"
       },
       "ltc.electrum1.cipig.net:10063": {
         "1792993807": "online"
@@ -5679,7 +5694,8 @@
         "1792993807": "online"
       },
       "wss://poly.api.pocket.network": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1795134881": "offline"
       },
       "wss://polygon-bor-rpc.publicnode.com": {
         "1792993807": "online"
@@ -7347,7 +7363,8 @@
         "1792993807": "online"
       },
       "wss://gnosis.api.pocket.network": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1795134881": "offline"
       },
       "wss://rpc.gnosischain.com/wss": {
         "1792993807": "online"
