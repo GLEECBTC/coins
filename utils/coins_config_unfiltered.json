@@ -4696,24 +4696,6 @@
         },
         "electrum": [
             {
-                "url": "bit-e.minethepla.net:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
-                "url": "bit-e.outsidethebox.top:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
                 "url": "bitn-electrumx.wattxchange.app:50011",
                 "contact": [
                     {
@@ -4737,24 +4719,6 @@
                 "contact": [
                     {
                         "discord": "nucash"
-                    }
-                ]
-            },
-            {
-                "url": "bitnet.outsidethebox.top:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
-                "url": "bitnet.outsidethebox.top:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "def#4726"
                     }
                 ]
             }
@@ -6279,14 +6243,6 @@
         },
         "electrum": [
             {
-                "url": "0xrpc.io:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "0xrpc.io:50004",
-                "protocol": "WSS"
-            },
-            {
                 "url": "blackie.c3-soft.com:57001",
                 "protocol": "TCP"
             },
@@ -6417,14 +6373,6 @@
             "homepage": "https://bitcoin.org"
         },
         "electrum": [
-            {
-                "url": "0xrpc.io:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "0xrpc.io:50004",
-                "protocol": "WSS"
-            },
             {
                 "url": "blackie.c3-soft.com:57001",
                 "protocol": "TCP"
@@ -24211,6 +24159,14 @@
         },
         "electrum": [
             {
+                "url": "0xrpc.io:60002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "0xrpc.io:60004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "ltc.electrum1.cipig.net:10063",
                 "contact": [
                     {
@@ -24329,6 +24285,14 @@
             "homepage": "https://litecoin.org"
         },
         "electrum": [
+            {
+                "url": "0xrpc.io:60002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "0xrpc.io:60004",
+                "protocol": "WSS"
+            },
             {
                 "url": "ltc.electrum1.cipig.net:10063",
                 "contact": [
@@ -26905,10 +26869,6 @@
         "swap_contract_address": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "nodes": [
-            {
-                "url": "https://moonbeam.api.onfinality.io/public",
-                "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
-            },
             {
                 "url": "https://moonbeam.api.pocket.network"
             }
