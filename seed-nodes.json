@@ -1,7 +1,7 @@
 [
     {
-        "name": "seed-cipig-2",
-        "host": "seed02.cipig.net",
+        "name": "seed-cipig-1",
+        "host": "seed01.cipig.net",
         "type": "domain",
         "wss": true,
         "netid": 6133,
@@ -12,8 +12,8 @@
         ]
     },
     {
-        "name": "seed-kmdefi-3",
-        "host": "seed03.kmdefi.net",
+        "name": "seed-cipig-2",
+        "host": "seed02.cipig.net",
         "type": "domain",
         "wss": true,
         "netid": 6133,
