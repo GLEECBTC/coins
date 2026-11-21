@@ -1,0 +1,17 @@
+[
+  {
+    "url": "electrum-kerrigan.jskitty.cat:50001",
+    "protocol": "TCP",
+    "contact": [
+      { "discord": "notjskitty" }
+    ]
+  },
+  {
+    "url": "electrum-kerrigan.jskitty.cat:50002",
+    "ws_url": "electrum-kerrigan.jskitty.cat:50003",
+    "protocol": "SSL",
+    "contact": [
+      { "discord": "notjskitty" }
+    ]
+  }
+]
