@@ -2962,6 +2962,25 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "CHZ-BASE",
+    "name": "chz_base",
+    "fname": "Chiliz",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 8453,
+    "decimals": 18,
+    "avg_blocktime": 0.2,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-BASE",
+        "contract_address": "0x70c8392DE9b39a1E48d12A70Af6FF4Be25D6D0A2"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "CHZ-ERC20",
     "name": "chz_erc20",
     "fname": "Chiliz",
@@ -15406,6 +15425,25 @@
       "protocol_data": {
         "platform": "AVAX",
         "contract_address": "0x9eAaC1B23d935365bD7b542Fe22cEEe2922f52dc"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "YFI-BASE",
+    "name": "yfi_base",
+    "fname": "yearn.finance",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 8453,
+    "decimals": 18,
+    "avg_blocktime": 0.2,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-BASE",
+        "contract_address": "0x9EaF8C1E34F05a589EDa6BAfdF391Cf6Ad3CB239"
       }
     },
     "derivation_path": "m/44'/60'"
