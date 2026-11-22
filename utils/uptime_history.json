@@ -454,6 +454,22 @@
       "1792993807": "online"
     },
     "by_server": {
+      "_metadata": {
+        "bitcoinii.ddns.net:50010": {
+          "contact": [
+            {
+              "discord": "1391871602127540236"
+            }
+          ]
+        },
+        "infra1.bitcoin-ii.org:50010": {
+          "contact": [
+            {
+              "discord": "1391871602127540236"
+            }
+          ]
+        }
+      },
       "bitcoinii.ddns.net:50008": {
         "1792993807": "online"
       },
@@ -461,7 +477,8 @@
         "1792993807": "online"
       },
       "bitcoinii.ddns.net:50010": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1795345289": "offline"
       },
       "infra1.bitcoin-ii.org:50008": {
         "1792993807": "online"
@@ -470,7 +487,8 @@
         "1792993807": "online"
       },
       "infra1.bitcoin-ii.org:50010": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1795345289": "offline"
       }
     }
   },
@@ -479,6 +497,22 @@
       "1792993807": "online"
     },
     "by_server": {
+      "_metadata": {
+        "bitcoinii.ddns.net:50010": {
+          "contact": [
+            {
+              "discord": "1391871602127540236"
+            }
+          ]
+        },
+        "infra1.bitcoin-ii.org:50010": {
+          "contact": [
+            {
+              "discord": "1391871602127540236"
+            }
+          ]
+        }
+      },
       "bitcoinii.ddns.net:50008": {
         "1792993807": "online"
       },
@@ -486,7 +520,8 @@
         "1792993807": "online"
       },
       "bitcoinii.ddns.net:50010": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1795345289": "offline"
       },
       "infra1.bitcoin-ii.org:50008": {
         "1792993807": "online"
@@ -495,7 +530,8 @@
         "1792993807": "online"
       },
       "infra1.bitcoin-ii.org:50010": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1795345289": "offline"
       }
     }
   },
@@ -505,7 +541,8 @@
     },
     "by_server": {
       "bca-main-2.swaps.org:54002": {
-        "1794616783": "online"
+        "1794616783": "online",
+        "1795345289": "offline"
       },
       "bca-main.swaps.org:54002": {
         "1794616783": "online"
@@ -521,7 +558,8 @@
     },
     "by_server": {
       "bca-main-2.swaps.org:54002": {
-        "1794616783": "online"
+        "1794616783": "online",
+        "1795345289": "offline"
       },
       "bca-main.swaps.org:54002": {
         "1794616783": "online"
@@ -3357,7 +3395,8 @@
       },
       "https://moonbeam.api.onfinality.io/public": {
         "1792993807": "online",
-        "1795134881": "offline"
+        "1795134881": "offline",
+        "1795345289": "online"
       },
       "https://moonbeam.api.pocket.network": {
         "1792993807": "online"
@@ -3368,7 +3407,8 @@
       },
       "wss://moonbeam.api.onfinality.io/public-ws": {
         "1792993807": "online",
-        "1795134881": "offline"
+        "1795134881": "offline",
+        "1795345289": "online"
       },
       "wss://moonbeam.drpc.org": {
         "1793625583": "online",
@@ -4638,12 +4678,14 @@
       "0xrpc.io:60002": {
         "1794807245": "online",
         "1794991108": "offline",
-        "1795134881": "online"
+        "1795134881": "online",
+        "1795345289": "offline"
       },
       "0xrpc.io:60004": {
         "1794807245": "online",
         "1794991108": "offline",
-        "1795134881": "online"
+        "1795134881": "online",
+        "1795345289": "offline"
       },
       "ltc.electrum1.cipig.net:10063": {
         "1792993807": "online"
@@ -4673,12 +4715,14 @@
       "0xrpc.io:60002": {
         "1794807245": "online",
         "1794991108": "offline",
-        "1795134881": "online"
+        "1795134881": "online",
+        "1795345289": "offline"
       },
       "0xrpc.io:60004": {
         "1794807245": "online",
         "1794991108": "offline",
-        "1795134881": "online"
+        "1795134881": "online",
+        "1795345289": "offline"
       },
       "ltc.electrum1.cipig.net:10063": {
         "1792993807": "online"
@@ -4915,11 +4959,29 @@
       "1792993807": "online"
     },
     "by_server": {
+      "_metadata": {
+        "electrs.mewccrypto.com:50002": {
+          "contact": [
+            {
+              "discord": "Meowmancer#2099"
+            }
+          ]
+        },
+        "electrs.mewccrypto.com:50004": {
+          "contact": [
+            {
+              "discord": "Meowmancer#2099"
+            }
+          ]
+        }
+      },
       "electrs.mewccrypto.com:50002": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1795345289": "offline"
       },
       "electrs.mewccrypto.com:50004": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1795345289": "offline"
       },
       "electrs2.mewccrypto.com:50002": {
         "1792993807": "online"
@@ -5442,21 +5504,25 @@
         "1792993807": "online",
         "1793203949": "offline",
         "1793312302": "online",
-        "1794471816": "offline"
+        "1794471816": "offline",
+        "1795345289": "online"
       },
       "https://api.s0.t.hmny.io": {
         "1792993807": "online",
         "1793203949": "offline",
         "1793312302": "online",
-        "1794471816": "offline"
+        "1794471816": "offline",
+        "1795345289": "online"
       },
       "https://harmony-0.drpc.org": {
         "1793026562": "online",
-        "1794471816": "offline"
+        "1794471816": "offline",
+        "1795345289": "online"
       },
       "wss://harmony-0.drpc.org": {
         "1793026562": "online",
-        "1794471816": "offline"
+        "1794471816": "offline",
+        "1795345289": "online"
       }
     }
   },
@@ -5588,19 +5654,22 @@
         "1792993807": "offline",
         "1793312302": "online",
         "1794100527": "offline",
-        "1794236238": "online"
+        "1794236238": "online",
+        "1795345289": "offline"
       },
       "electrum.pepeblocks.com:50002": {
         "1792993807": "offline",
         "1793312302": "online",
         "1794100527": "offline",
-        "1794236238": "online"
+        "1794236238": "online",
+        "1795345289": "offline"
       },
       "electrum.pepeblocks.com:50004": {
         "1792993807": "offline",
         "1793312302": "online",
         "1794100527": "offline",
-        "1794236238": "online"
+        "1794236238": "online",
+        "1795345289": "offline"
       },
       "electrum.pepecoinservice.org:50001": {
         "1794471816": "online"
@@ -6116,13 +6185,16 @@
         "1792993807": "online"
       },
       "x2.raptoreum.com:50001": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1795345289": "offline"
       },
       "x2.raptoreum.com:50002": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1795345289": "offline"
       },
       "x2.raptoreum.com:50004": {
-        "1792993807": "online"
+        "1792993807": "online",
+        "1795345289": "offline"
       }
     }
   },
@@ -6391,7 +6463,8 @@
         "1794828354": "online",
         "1794958134": "offline",
         "1794991108": "online",
-        "1795014970": "offline"
+        "1795014970": "offline",
+        "1795345289": "online"
       },
       "wss://rpc.blockmachine.io": {
         "1794293453": "online"
@@ -6410,7 +6483,8 @@
         "1793312302": "online"
       },
       "node1.electrum.tarcoin.org:50002": {
-        "1793312302": "online"
+        "1793312302": "online",
+        "1795345289": "offline"
       }
     }
   },
@@ -6426,7 +6500,8 @@
         "1793312302": "online"
       },
       "node1.electrum.tarcoin.org:50002": {
-        "1793312302": "online"
+        "1793312302": "online",
+        "1795345289": "offline"
       }
     }
   },
@@ -6888,14 +6963,16 @@
         "1793516861": "offline",
         "1793625583": "online",
         "1794656334": "offline",
-        "1794724948": "online"
+        "1794724948": "online",
+        "1795345289": "offline"
       },
       "uno-bkp.coinmunity.gold:50003": {
         "1792993807": "online",
         "1793516861": "offline",
         "1793625583": "online",
         "1794656334": "offline",
-        "1794724948": "online"
+        "1794724948": "online",
+        "1795345289": "offline"
       },
       "uno-ex-one.ewmci.online:50001": {
         "1792993807": "online"
@@ -6959,7 +7036,8 @@
         "1794828354": "online",
         "1794958134": "offline",
         "1794991108": "online",
-        "1795014970": "offline"
+        "1795014970": "offline",
+        "1795345289": "online"
       },
       "wss://rpc.blockmachine.io": {
         "1794293453": "online"

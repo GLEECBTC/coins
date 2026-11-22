@@ -3577,10 +3577,6 @@
         },
         "electrum": [
             {
-                "url": "bca-main-2.swaps.org:54002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "bca-main.swaps.org:54002",
                 "protocol": "SSL"
             },
@@ -3634,10 +3630,6 @@
             "homepage": "https://bitcoinatom.io"
         },
         "electrum": [
-            {
-                "url": "bca-main-2.swaps.org:54002",
-                "protocol": "SSL"
-            },
             {
                 "url": "bca-main.swaps.org:54002",
                 "protocol": "SSL"
@@ -7466,6 +7458,58 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
+    "CHZ-BASE": {
+        "coin": "CHZ-BASE",
+        "type": "Base",
+        "name": "Chiliz",
+        "coinpaprika_id": "chz-chiliz",
+        "coingecko_id": "chiliz",
+        "livecoinwatch_id": "CHZ",
+        "explorer_url": "https://basescan.org/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Chiliz",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 8453,
+        "decimals": 18,
+        "avg_blocktime": 0.2,
+        "required_confirmations": 10,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH-BASE",
+                "contract_address": "0x70c8392DE9b39a1E48d12A70Af6FF4Be25D6D0A2"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x70c8392DE9b39a1E48d12A70Af6FF4Be25D6D0A2",
+        "parent_coin": "ETH-BASE",
+        "swap_contract_address": "0x4C54808911817402a0871c3C93D8790c19CAe75b",
+        "fallback_swap_contract": "0x4C54808911817402a0871c3C93D8790c19CAe75b",
+        "nodes": [
+            {
+                "url": "https://base-rpc.publicnode.com",
+                "ws_url": "wss://base-rpc.publicnode.com"
+            },
+            {
+                "url": "https://base.api.pocket.network",
+                "ws_url": "wss://base.api.pocket.network"
+            },
+            {
+                "url": "https://base.public.blockpi.network/v1/rpc/public"
+            },
+            {
+                "url": "https://mainnet.base.org"
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "CHZ-ERC20": {
@@ -20464,10 +20508,6 @@
         },
         "electrum": [
             {
-                "url": "0xrpc.io:60002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "ltc.electrum1.cipig.net:20063",
                 "protocol": "SSL",
                 "contact": [
@@ -20538,10 +20578,6 @@
             "homepage": "https://litecoin.org"
         },
         "electrum": [
-            {
-                "url": "0xrpc.io:60002",
-                "protocol": "SSL"
-            },
             {
                 "url": "ltc.electrum1.cipig.net:20063",
                 "protocol": "SSL",
@@ -21568,15 +21604,6 @@
             "homepage": "https://www.mewccrypto.com/"
         },
         "electrum": [
-            {
-                "url": "electrs.mewccrypto.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "Meowmancer#2099"
-                    }
-                ]
-            },
             {
                 "url": "electrs2.mewccrypto.com:50002",
                 "protocol": "SSL",
@@ -22825,6 +22852,10 @@
         "swap_contract_address": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "fallback_swap_contract": "0x6d9ce4BD298DE38bAfEFD15f5C6f5c95313B1d94",
         "nodes": [
+            {
+                "url": "https://moonbeam.api.onfinality.io/public",
+                "ws_url": "wss://moonbeam.api.onfinality.io/public-ws"
+            },
             {
                 "url": "https://moonbeam.api.pocket.network"
             }
@@ -24090,6 +24121,52 @@
         ],
         "explorer_block_url": "block/"
     },
+    "ONE": {
+        "coin": "ONE",
+        "type": "HRC-20",
+        "name": "Harmony",
+        "coinpaprika_id": "one-harmony",
+        "coingecko_id": "harmony",
+        "livecoinwatch_id": "ONE",
+        "explorer_url": "https://explorer.harmony.one/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Harmony",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 1666600000,
+        "max_eth_tx_type": 2,
+        "required_confirmations": 3,
+        "avg_blocktime": 15,
+        "protocol": {
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 1666600000
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
+        "nodes": [
+            {
+                "url": "https://api.harmony.one"
+            },
+            {
+                "url": "https://api.s0.t.hmny.io"
+            },
+            {
+                "url": "https://harmony-0.drpc.org",
+                "ws_url": "wss://harmony-0.drpc.org"
+            }
+        ],
+        "explorer_block_url": "block/",
+        "binance_id": "ONE"
+    },
     "ONT-BEP20": {
         "coin": "ONT-BEP20",
         "type": "BEP-20",
@@ -24488,15 +24565,6 @@
             "homepage": "https://pepecoin.org"
         },
         "electrum": [
-            {
-                "url": "electrum.pepeblocks.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "realmasterkush"
-                    }
-                ]
-            },
             {
                 "url": "electrum.pepecoinservice.org:50002",
                 "protocol": "SSL",
@@ -28038,10 +28106,6 @@
         "electrum": [
             {
                 "url": "x1.raptoreum.com:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "x2.raptoreum.com:50002",
                 "protocol": "SSL"
             }
         ],
@@ -32894,10 +32958,6 @@
             "homepage": "https://unobtanium.uno"
         },
         "electrum": [
-            {
-                "url": "uno-bkp.coinmunity.gold:50002",
-                "protocol": "SSL"
-            },
             {
                 "url": "uno-ex-one.ewmci.online:50002",
                 "protocol": "SSL"
@@ -38611,6 +38671,58 @@
         ],
         "explorer_block_url": "block/"
     },
+    "YFI-BASE": {
+        "coin": "YFI-BASE",
+        "type": "Base",
+        "name": "yearn.finance",
+        "coinpaprika_id": "yfi-yearnfinance",
+        "coingecko_id": "yearn-finance",
+        "livecoinwatch_id": "YFI",
+        "explorer_url": "https://basescan.org/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "yearn.finance",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 8453,
+        "decimals": 18,
+        "avg_blocktime": 0.2,
+        "required_confirmations": 10,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "ETH-BASE",
+                "contract_address": "0x9EaF8C1E34F05a589EDa6BAfdF391Cf6Ad3CB239"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "contract_address": "0x9EaF8C1E34F05a589EDa6BAfdF391Cf6Ad3CB239",
+        "parent_coin": "ETH-BASE",
+        "swap_contract_address": "0x4C54808911817402a0871c3C93D8790c19CAe75b",
+        "fallback_swap_contract": "0x4C54808911817402a0871c3C93D8790c19CAe75b",
+        "nodes": [
+            {
+                "url": "https://base-rpc.publicnode.com",
+                "ws_url": "wss://base-rpc.publicnode.com"
+            },
+            {
+                "url": "https://base.api.pocket.network",
+                "ws_url": "wss://base.api.pocket.network"
+            },
+            {
+                "url": "https://base.public.blockpi.network/v1/rpc/public"
+            },
+            {
+                "url": "https://mainnet.base.org"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "YFI-BEP20": {
         "coin": "YFI-BEP20",
         "type": "BEP-20",
@@ -42004,10 +42116,6 @@
             {
                 "url": "electrum.tarcoin.org:50002",
                 "protocol": "SSL"
-            },
-            {
-                "url": "node1.electrum.tarcoin.org:50002",
-                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/"
@@ -42055,10 +42163,6 @@
         "electrum": [
             {
                 "url": "electrum.tarcoin.org:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "node1.electrum.tarcoin.org:50002",
                 "protocol": "SSL"
             }
         ],
