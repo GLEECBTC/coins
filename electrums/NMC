@@ -1,15 +1,25 @@
 [
-    {
-        "url": "nmc2.bitcoins.sk:57001",
-        "protocol": "TCP"
-    },
-    {
-        "url": "nmc2.bitcoins.sk:57002",
-        "protocol": "SSL",
-        "disable_cert_verification": true
-    },
-    {
-        "url": "namecoin.stackwallet.com:57002",
-        "protocol": "SSL"
-    }
+   {
+      "url" : "nmc.electrum1.cipig.net:20052",
+      "protocol" : "SSL",
+      "ws_url" : "nmc.electrum1.cipig.net:30052"
+   },
+   {
+      "url" : "nmc.electrum2.cipig.net:20052",
+      "protocol" : "SSL",
+      "ws_url" : "nmc.electrum2.cipig.net:30052"
+   },
+   {
+      "url" : "nmc2.bitcoins.sk:57001",
+      "protocol" : "TCP"
+   },
+   {
+      "url" : "nmc2.bitcoins.sk:57002",
+      "protocol" : "SSL",
+      "disable_cert_verification" : true
+   },
+   {
+      "url" : "namecoin.stackwallet.com:57002",
+      "protocol" : "SSL"
+   }
 ]
