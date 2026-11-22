@@ -741,7 +741,8 @@
         "1794359738": "online",
         "1794616783": "offline",
         "1794657132": "online",
-        "1794958134": "offline"
+        "1794958134": "offline",
+        "1795347363": "online"
       },
       "bit-e.minethepla.net:50004": {
         "1792993807": "offline",
@@ -752,7 +753,8 @@
         "1794359738": "online",
         "1794616783": "offline",
         "1794657132": "online",
-        "1795134881": "offline"
+        "1795134881": "offline",
+        "1795347363": "online"
       },
       "bit-e.outsidethebox.top:50002": {
         "1792993807": "offline",
@@ -761,7 +763,8 @@
         "1794100527": "online",
         "1794616783": "offline",
         "1794657132": "online",
-        "1795134881": "offline"
+        "1795134881": "offline",
+        "1795347363": "online"
       },
       "bit-e.outsidethebox.top:50004": {
         "1792993807": "offline",
@@ -772,7 +775,8 @@
         "1794359738": "online",
         "1794616783": "offline",
         "1794657132": "online",
-        "1794958134": "offline"
+        "1794958134": "offline",
+        "1795347363": "online"
       },
       "bitn-electrumx.wattxchange.app:50011": {
         "1792993807": "online",
@@ -5427,6 +5431,18 @@
       "namecoin.stackwallet.com:57002": {
         "1792993807": "online"
       },
+      "nmc.electrum1.cipig.net:20052": {
+        "1795347363": "online"
+      },
+      "nmc.electrum1.cipig.net:30052": {
+        "1795347363": "online"
+      },
+      "nmc.electrum2.cipig.net:20052": {
+        "1795347363": "online"
+      },
+      "nmc.electrum2.cipig.net:30052": {
+        "1795347363": "online"
+      },
       "nmc2.bitcoins.sk:57001": {
         "1792993807": "online"
       },
@@ -5442,6 +5458,18 @@
     "by_server": {
       "namecoin.stackwallet.com:57002": {
         "1792993807": "online"
+      },
+      "nmc.electrum1.cipig.net:20052": {
+        "1795347363": "online"
+      },
+      "nmc.electrum1.cipig.net:30052": {
+        "1795347363": "online"
+      },
+      "nmc.electrum2.cipig.net:20052": {
+        "1795347363": "online"
+      },
+      "nmc.electrum2.cipig.net:30052": {
+        "1795347363": "online"
       },
       "nmc2.bitcoins.sk:57001": {
         "1792993807": "online"
@@ -6770,7 +6798,8 @@
         "1794816829": "online",
         "1794828354": "offline",
         "1794991108": "online",
-        "1795014970": "offline"
+        "1795014970": "offline",
+        "1795347363": "online"
       },
       "https://tron.rpc.sentio.xyz": {
         "1792993807": "offline",
@@ -6800,7 +6829,8 @@
         "1794816829": "online",
         "1794828354": "offline",
         "1794991108": "online",
-        "1795014970": "offline"
+        "1795014970": "offline",
+        "1795347363": "online"
       },
       "wss://tron.rpc.sentio.xyz": {
         "1793026562": "online",

@@ -4297,6 +4297,24 @@
         },
         "electrum": [
             {
+                "url": "bit-e.minethepla.net:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
+                "url": "bit-e.outsidethebox.top:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "def#4726"
+                    }
+                ]
+            },
+            {
                 "url": "bitn-electrumx.wattxchange.app:50012",
                 "protocol": "SSL",
                 "contact": [
@@ -23514,6 +23532,14 @@
                 "protocol": "SSL"
             },
             {
+                "url": "nmc.electrum1.cipig.net:20052",
+                "protocol": "SSL"
+            },
+            {
+                "url": "nmc.electrum2.cipig.net:20052",
+                "protocol": "SSL"
+            },
+            {
                 "url": "nmc2.bitcoins.sk:57002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -23564,6 +23590,14 @@
         "electrum": [
             {
                 "url": "namecoin.stackwallet.com:57002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "nmc.electrum1.cipig.net:20052",
+                "protocol": "SSL"
+            },
+            {
+                "url": "nmc.electrum2.cipig.net:20052",
                 "protocol": "SSL"
             },
             {
@@ -31675,6 +31709,10 @@
             },
             {
                 "url": "https://tron.api.pocket.network"
+            },
+            {
+                "url": "https://tron.drpc.org",
+                "ws_url": "wss://tron.drpc.org"
             },
             {
                 "url": "https://tron.rpc.sentio.xyz",
