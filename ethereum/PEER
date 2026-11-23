@@ -1,0 +1,9 @@
+{
+    "swap_contract_address": "0x1de5c61E89475786Ea03667540a44FdC81A9cc3f",
+    "fallback_swap_contract": "0xcf5E4dD53A7F914898b09d451040E78175125aa2",
+    "rpc_nodes": [
+        {
+            "url": "https://rpc.peercash.io"
+        }
+    ]
+}
