@@ -16873,5 +16873,28 @@
       "github": "https://github.com/gamgsp/gspcoin",
       "homepage": "https://gspcoin.us"
     }
+  },
+  {
+    "coin": "PEER",
+    "name": "peercash",
+    "fname": "PeerCash",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 620156,
+    "max_eth_tx_type": 0,
+    "sign_message_prefix": "Ethereum Signed Message:\n",
+    "required_confirmations": 3,
+    "avg_blocktime": 13,
+    "protocol": {
+      "type": "ETH",
+      "protocol_data": {
+        "chain_id": 620156
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "github": "https://github.com/PeerCashChain/PeerCashChain",
+      "homepage": "https://peercash.io"
+    }
   }
 ]
