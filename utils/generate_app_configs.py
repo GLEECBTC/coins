@@ -10,7 +10,7 @@ from PIL import Image
 from scan_electrums import get_electrums_report
 from ensure_chainids import ensure_chainids
 from solana_registry import (SOLANA_PROTOCOLS, platform_for, nodes_for_coin,
-                             explorer_fields, validate_registry_coins)
+                             validate_registry_coins)
 from logger import logger
 from uptime_tracker import UptimeTracker, format_contact_info
 
@@ -752,9 +752,6 @@ class CoinConfig:
                     self.data[self.ticker].update({key: [], "delisted": True})
 
     def get_explorers(self):
-        if self.coin_type in SOLANA_PROTOCOLS:
-            self.data[self.ticker].update(explorer_fields(self.coin_data))
-            return
         explorers = None
         coin = self.ticker.replace("-segwit", "")
         if coin in explorer_coins:
@@ -772,16 +769,18 @@ class CoinConfig:
                         self.data[self.ticker].update(explorer_paths[p])
                         break
 
-            self.data[self.ticker].update({"explorer_url": explorers[0]})
-            for i in [
+            entry = self.data[self.ticker]
+            entry["explorer_url"] = explorers[0]
+            is_solana_devnet = self.coin_type in SOLANA_PROTOCOLS and self.is_testnet
+            for field, default in [
                 ("explorer_tx_url", "tx/"),
                 ("explorer_address_url", "address/"),
                 ("explorer_block_url", "block/"),
             ]:
-                if i[0] not in self.data[self.ticker]:
-                    self.data[self.ticker].update({i[0]: i[1]})
-                elif self.data[self.ticker][i[0]] == "":
-                    self.data[self.ticker].update({i[0]: i[1]})
+                if entry.get(field, "") == "":
+                    entry[field] = default
+                if is_solana_devnet:
+                    entry[field] += "?cluster=devnet"
 
 
 def parse_coins_repo(electrum_scan_report, uptime_tracker=None):

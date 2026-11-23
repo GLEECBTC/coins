@@ -155,17 +155,6 @@ def nodes_for_coin(coin, repo_path, report, now=None, allow_unverified=False):
     return nodes
 
 
-def explorer_fields(coin):
-    platform_for(coin)
-    query = "?cluster=devnet" if coin.get("is_testnet", False) else ""
-    return {
-        "explorer_url": "https://explorer.solana.com/",
-        "explorer_tx_url": "tx/{TX}" + query,
-        "explorer_address_url": "address/{ADDRESS}" + query,
-        "explorer_block_url": "block/{BLOCK}" + query,
-    }
-
-
 class SolanaRpcError(ValueError):
     pass
 

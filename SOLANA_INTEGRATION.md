@@ -8,6 +8,11 @@ are pending. Mainnet uses `SOL` and `USDC-SOL`; devnet uses `TESTSOL` and
 tickers contain at most one hyphen, following the KDF maintainer's requirement. The generator preserves
 Solana tickers exactly, including the `-TESTSOL` platform suffix.
 
+Devnet SOL and USDC are test assets with no financial value. Their catalog
+entries leave price-provider IDs empty. Devnet swaps can still quote a rate
+between test assets. [Solana devnet guide](https://solana.com/docs/tokens/quickstart)
+· [Circle testnet USDC](https://developers.circle.com/stablecoins/usdc-contract-addresses#testnet)
+
 The Solana node source files in `solana/` keep `cluster` and `genesis_hash` scanner
 metadata separate from `rpc_nodes`. Generated KDF activation nodes contain only
 `url`. These public endpoints are development defaults, not a production provider

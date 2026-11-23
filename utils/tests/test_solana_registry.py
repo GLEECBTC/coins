@@ -16,7 +16,7 @@ REPO = UTILS.parent
 sys.path.insert(0, str(UTILS))
 import generate_app_configs as generator
 from generate_solana_candidate import candidate_catalog, curated_utxo_catalog, write_candidate
-from solana_registry import (CLUSTER_GENESIS_HASHES, explorer_fields, load_node_config,
+from solana_registry import (CLUSTER_GENESIS_HASHES, load_node_config,
                              nodes_for_coin, platform_for, probe_node, scan_solana,
                              validate_node_config, validate_registry_coins)
 
@@ -348,12 +348,19 @@ class RegistryTests(unittest.TestCase):
             self.assertFalse(entry.get("delisted", False))
 
     def test_mainnet_and_devnet_explorer_query_placement(self):
-        for ticker in ["TESTSOL", "TESTUSDC-TESTSOL"]:
-            fields = explorer_fields(COINS[ticker])
-            self.assertEqual(fields["explorer_tx_url"].replace("{TX}", "caseSensitiveSignature"),
-                             "tx/caseSensitiveSignature?cluster=devnet")
-            self.assertEqual(fields["explorer_address_url"], "address/{ADDRESS}?cluster=devnet")
-        self.assertEqual(explorer_fields(COINS["SOL"])["explorer_tx_url"], "tx/{TX}")
+        _, catalog = candidate_catalog()
+        for ticker, suffix in [
+            ("SOL", ""),
+            ("USDC-SOL", ""),
+            ("TESTSOL", "?cluster=devnet"),
+            ("TESTUSDC-TESTSOL", "?cluster=devnet"),
+        ]:
+            with self.subTest(ticker=ticker):
+                entry = catalog[ticker]
+                self.assertEqual(entry["explorer_url"], "https://explorer.solana.com/")
+                self.assertEqual(entry["explorer_tx_url"], "tx/{TX}" + suffix)
+                self.assertEqual(entry["explorer_address_url"], "address/{ADDRESS}" + suffix)
+                self.assertEqual(entry["explorer_block_url"], "block/{BLOCK}" + suffix)
 
     def test_https_solana_survives_web_filter_without_websocket(self):
         _, catalog = candidate_catalog()
