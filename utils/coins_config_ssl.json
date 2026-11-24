@@ -4306,20 +4306,20 @@
                 ]
             },
             {
-                "url": "bit-e.outsidethebox.top:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
                 "url": "bitn-electrumx.wattxchange.app:50012",
                 "protocol": "SSL",
                 "contact": [
                     {
                         "discord": "nucash"
+                    }
+                ]
+            },
+            {
+                "url": "bitnet.outsidethebox.top:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "def#4726"
                     }
                 ]
             }
@@ -4588,15 +4588,6 @@
         "electrum": [
             {
                 "url": "electrum1.blackcoin.nl:10012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.blackcoin.nl:20012",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -5589,6 +5580,10 @@
         },
         "electrum": [
             {
+                "url": "0xrpc.io:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "blackie.c3-soft.com:57002",
                 "protocol": "SSL"
             },
@@ -5663,6 +5658,10 @@
             "homepage": "https://bitcoin.org"
         },
         "electrum": [
+            {
+                "url": "0xrpc.io:50002",
+                "protocol": "SSL"
+            },
             {
                 "url": "blackie.c3-soft.com:57002",
                 "protocol": "SSL"
@@ -13649,6 +13648,108 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "FLC": {
+        "coin": "FLC",
+        "type": "UTXO",
+        "name": "Flokicoin",
+        "coinpaprika_id": "flc-flokicoin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "_____FLC",
+        "explorer_url": "https://flokichain.info/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Flokicoin Signed Message:\n",
+        "fname": "Flokicoin",
+        "rpcport": 15213,
+        "pubtype": 35,
+        "p2shtype": 5,
+        "wiftype": 128,
+        "segwit": true,
+        "bech32_hrp": "fc",
+        "txfee": 0,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "dust": 1000,
+        "derivation_path": "m/44'/0'",
+        "links": {
+            "github": "https://github.com/flokiorg/go-flokicoin",
+            "homepage": "https://flokicoin.org"
+        },
+        "electrum": [
+            {
+                "url": "electrum.myfloki.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "electrum@myfloki.com"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "FLC-segwit": {
+        "coin": "FLC-segwit",
+        "type": "UTXO",
+        "name": "Flokicoin",
+        "coinpaprika_id": "flc-flokicoin",
+        "coingecko_id": "",
+        "livecoinwatch_id": "_____FLC",
+        "explorer_url": "https://flokichain.info/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Flokicoin Signed Message:\n",
+        "fname": "Flokicoin",
+        "rpcport": 15213,
+        "pubtype": 35,
+        "p2shtype": 5,
+        "wiftype": 128,
+        "segwit": true,
+        "bech32_hrp": "fc",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "FLC",
+        "txfee": 0,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "dust": 1000,
+        "derivation_path": "m/84'/0'",
+        "links": {
+            "github": "https://github.com/flokiorg/go-flokicoin",
+            "homepage": "https://flokicoin.org"
+        },
+        "electrum": [
+            {
+                "url": "electrum.myfloki.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "electrum@myfloki.com"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "FLOKI-BEP20": {
         "coin": "FLOKI-BEP20",
         "type": "BEP-20",
@@ -21623,6 +21724,15 @@
         },
         "electrum": [
             {
+                "url": "electrs.mewccrypto.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "Meowmancer#2099"
+                    }
+                ]
+            },
+            {
                 "url": "electrs2.mewccrypto.com:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -23377,6 +23487,18 @@
                         "discord": "biigbang0001"
                     }
                 ]
+            },
+            {
+                "url": "electrum1.nitopool.online:50003",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "biigbang0001@zemzar.net"
+                    },
+                    {
+                        "discord": "biigbang0001"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -23425,6 +23547,18 @@
         "electrum": [
             {
                 "url": "electrum1.nito.network:50003",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "biigbang0001@zemzar.net"
+                    },
+                    {
+                        "discord": "biigbang0001"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.nitopool.online:50003",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -28140,6 +28274,10 @@
         "electrum": [
             {
                 "url": "x1.raptoreum.com:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "x2.raptoreum.com:50002",
                 "protocol": "SSL"
             }
         ],
@@ -32997,11 +33135,11 @@
         },
         "electrum": [
             {
-                "url": "uno-ex-one.ewmci.online:50002",
+                "url": "uno-bkp.coinmunity.gold:50002",
                 "protocol": "SSL"
             },
             {
-                "url": "uno-main.coinmunity.gold:50002",
+                "url": "uno-ex-one.ewmci.online:50002",
                 "protocol": "SSL"
             }
         ],
@@ -42154,6 +42292,10 @@
             {
                 "url": "electrum.tarcoin.org:50002",
                 "protocol": "SSL"
+            },
+            {
+                "url": "node1.electrum.tarcoin.org:50002",
+                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/"
@@ -42201,6 +42343,10 @@
         "electrum": [
             {
                 "url": "electrum.tarcoin.org:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "node1.electrum.tarcoin.org:50002",
                 "protocol": "SSL"
             }
         ],
