@@ -3,6 +3,9 @@
   "genesis_hash": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
   "rpc_nodes": [
     {
+      "url": "https://solana-rpc.publicnode.com"
+    },
+    {
       "url": "https://api.mainnet-beta.solana.com"
     }
   ]

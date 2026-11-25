@@ -164,11 +164,22 @@ class NodeProbeTests(unittest.TestCase):
             return rpc_response(result)
         result = scan_solana(REPO, post, NOW)
         self.assertEqual(set(result), {"SOL", "TESTSOL"})
-        for report in result.values():
-            self.assertEqual(report["nodes_total_all"], 1)
-            self.assertEqual(report["nodes_working_all"], 1)
+        for platform, report in result.items():
+            configured = {node["url"] for node in load_node_config(REPO, platform)["rpc_nodes"]}
+            self.assertEqual(set(report["ssl"]), configured)
+            self.assertEqual(report["nodes_total_all"], len(configured))
+            self.assertEqual(report["nodes_working_all"], len(configured))
             self.assertFalse(report["tcp"])
             self.assertFalse(report["wss"])
+
+    def test_mainnet_lists_a_browser_usable_node_first(self):
+        # api.mainnet-beta.solana.com answers 403 to any request carrying an
+        # Origin header, so browsers cannot use it. KDF starts with the first
+        # node and only falls back in list order, so web wallets need another
+        # node ahead of it.
+        nodes = [node["url"] for node in load_node_config(REPO, "SOL")["rpc_nodes"]]
+        self.assertGreater(len(nodes), 1)
+        self.assertNotEqual(nodes[0], "https://api.mainnet-beta.solana.com")
 
 
 class RegistryTests(unittest.TestCase):
