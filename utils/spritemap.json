@@ -3,10 +3,10 @@
         "icon_size": 128,
         "grid_cols": 22,
         "grid_rows": 19,
-        "total_icons": 400,
+        "total_icons": 402,
         "spritemap_width": 2816,
         "spritemap_height": 2432,
-        "generated_at": 1794139621
+        "generated_at": 1795627509
     },
     "coordinates": {
         "1inch": {
@@ -1935,476 +1935,488 @@
             "width": 128,
             "height": 128
         },
-        "tft": {
+        "testsol": {
             "x": 1664,
+            "y": 1792,
+            "width": 128,
+            "height": 128
+        },
+        "testusdc": {
+            "x": 1792,
+            "y": 1792,
+            "width": 128,
+            "height": 128
+        },
+        "tft": {
+            "x": 1920,
             "y": 1792,
             "width": 128,
             "height": 128
         },
         "thc": {
-            "x": 1792,
+            "x": 2048,
             "y": 1792,
             "width": 128,
             "height": 128
         },
         "tkl": {
-            "x": 1920,
+            "x": 2176,
             "y": 1792,
             "width": 128,
             "height": 128
         },
         "ton": {
-            "x": 2048,
+            "x": 2304,
             "y": 1792,
             "width": 128,
             "height": 128
         },
         "tqtum": {
-            "x": 2176,
+            "x": 2432,
             "y": 1792,
             "width": 128,
             "height": 128
         },
         "trac": {
-            "x": 2304,
+            "x": 2560,
             "y": 1792,
             "width": 128,
             "height": 128
         },
         "trc": {
-            "x": 2432,
+            "x": 2688,
             "y": 1792,
             "width": 128,
             "height": 128
         },
         "trmp": {
-            "x": 2560,
-            "y": 1792,
+            "x": 0,
+            "y": 1920,
             "width": 128,
             "height": 128
         },
         "trx": {
-            "x": 2688,
-            "y": 1792,
+            "x": 128,
+            "y": 1920,
             "width": 128,
             "height": 128
         },
         "tryb": {
-            "x": 0,
+            "x": 256,
             "y": 1920,
             "width": 128,
             "height": 128
         },
         "tusd": {
-            "x": 128,
+            "x": 384,
             "y": 1920,
             "width": 128,
             "height": 128
         },
         "twt": {
-            "x": 256,
+            "x": 512,
             "y": 1920,
             "width": 128,
             "height": 128
         },
         "ubt": {
-            "x": 384,
+            "x": 640,
             "y": 1920,
             "width": 128,
             "height": 128
         },
         "ufo": {
-            "x": 512,
+            "x": 768,
             "y": 1920,
             "width": 128,
             "height": 128
         },
         "uis": {
-            "x": 640,
+            "x": 896,
             "y": 1920,
             "width": 128,
             "height": 128
         },
         "uma": {
-            "x": 768,
+            "x": 1024,
             "y": 1920,
             "width": 128,
             "height": 128
         },
         "uni": {
-            "x": 896,
+            "x": 1152,
             "y": 1920,
             "width": 128,
             "height": 128
         },
         "uno": {
-            "x": 1024,
+            "x": 1280,
             "y": 1920,
             "width": 128,
             "height": 128
         },
         "uos": {
-            "x": 1152,
+            "x": 1408,
             "y": 1920,
             "width": 128,
             "height": 128
         },
         "uqc": {
-            "x": 1280,
+            "x": 1536,
             "y": 1920,
             "width": 128,
             "height": 128
         },
         "usd1": {
-            "x": 1408,
+            "x": 1664,
             "y": 1920,
             "width": 128,
             "height": 128
         },
         "usdc": {
-            "x": 1536,
+            "x": 1792,
             "y": 1920,
             "width": 128,
             "height": 128
         },
         "usdd": {
-            "x": 1664,
+            "x": 1920,
             "y": 1920,
             "width": 128,
             "height": 128
         },
         "usde": {
-            "x": 1792,
+            "x": 2048,
             "y": 1920,
             "width": 128,
             "height": 128
         },
         "usdp": {
-            "x": 1920,
+            "x": 2176,
             "y": 1920,
             "width": 128,
             "height": 128
         },
         "usds": {
-            "x": 2048,
+            "x": 2304,
             "y": 1920,
             "width": 128,
             "height": 128
         },
         "usdt": {
-            "x": 2176,
+            "x": 2432,
             "y": 1920,
             "width": 128,
             "height": 128
         },
         "utk": {
-            "x": 2304,
+            "x": 2560,
             "y": 1920,
             "width": 128,
             "height": 128
         },
         "utopia": {
-            "x": 2432,
+            "x": 2688,
             "y": 1920,
             "width": 128,
             "height": 128
         },
         "val": {
-            "x": 2560,
-            "y": 1920,
+            "x": 0,
+            "y": 2048,
             "width": 128,
             "height": 128
         },
         "varrr": {
-            "x": 2688,
-            "y": 1920,
+            "x": 128,
+            "y": 2048,
             "width": 128,
             "height": 128
         },
         "vdex": {
-            "x": 0,
+            "x": 256,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "vet": {
-            "x": 128,
+            "x": 384,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "vgx": {
-            "x": 256,
+            "x": 512,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "via": {
-            "x": 384,
+            "x": 640,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "virtual": {
-            "x": 512,
+            "x": 768,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "vite": {
-            "x": 640,
+            "x": 896,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "vra": {
-            "x": 768,
+            "x": 1024,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "vrm": {
-            "x": 896,
+            "x": 1152,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "vrsc": {
-            "x": 1024,
+            "x": 1280,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "vtc": {
-            "x": 1152,
+            "x": 1408,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "vvv": {
-            "x": 1280,
+            "x": 1536,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "wam": {
-            "x": 1408,
+            "x": 1664,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "waves": {
-            "x": 1536,
+            "x": 1792,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "wbtc": {
-            "x": 1664,
+            "x": 1920,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "whive": {
-            "x": 1792,
+            "x": 2048,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "wjk": {
-            "x": 1920,
+            "x": 2176,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "wld": {
-            "x": 2048,
+            "x": 2304,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "woo": {
-            "x": 2176,
+            "x": 2432,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "xaut": {
-            "x": 2304,
+            "x": 2560,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "xcn": {
-            "x": 2432,
+            "x": 2688,
             "y": 2048,
             "width": 128,
             "height": 128
         },
         "xdai": {
-            "x": 2560,
-            "y": 2048,
+            "x": 0,
+            "y": 2176,
             "width": 128,
             "height": 128
         },
         "xdc": {
-            "x": 2688,
-            "y": 2048,
+            "x": 128,
+            "y": 2176,
             "width": 128,
             "height": 128
         },
         "xec": {
-            "x": 0,
+            "x": 256,
             "y": 2176,
             "width": 128,
             "height": 128
         },
         "xep": {
-            "x": 128,
+            "x": 384,
             "y": 2176,
             "width": 128,
             "height": 128
         },
         "xidr": {
-            "x": 256,
-            "y": 2176,
-            "width": 128,
-            "height": 128
-        },
-        "xlm": {
-            "x": 384,
-            "y": 2176,
-            "width": 128,
-            "height": 128
-        },
-        "xmy": {
             "x": 512,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xna": {
+        "xlm": {
             "x": 640,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xor": {
+        "xmy": {
             "x": 768,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xpl": {
+        "xna": {
             "x": 896,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xpm": {
+        "xor": {
             "x": 1024,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xrg": {
+        "xpl": {
             "x": 1152,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xrp": {
+        "xpm": {
             "x": 1280,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xsgd": {
+        "xrg": {
             "x": 1408,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xtz": {
+        "xrp": {
             "x": 1536,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xvc": {
+        "xsgd": {
             "x": 1664,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xvg": {
+        "xtz": {
             "x": 1792,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "xvs": {
+        "xvc": {
             "x": 1920,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "yfi": {
+        "xvg": {
             "x": 2048,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "yfii": {
+        "xvs": {
             "x": 2176,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "ytn": {
+        "yfi": {
             "x": 2304,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "zama": {
+        "yfii": {
             "x": 2432,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "zchf": {
+        "ytn": {
             "x": 2560,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "zec": {
+        "zama": {
             "x": 2688,
             "y": 2176,
             "width": 128,
             "height": 128
         },
-        "zer": {
+        "zchf": {
             "x": 0,
             "y": 2304,
             "width": 128,
             "height": 128
         },
-        "zet": {
+        "zec": {
             "x": 128,
             "y": 2304,
             "width": 128,
             "height": 128
         },
-        "zil": {
+        "zer": {
             "x": 256,
             "y": 2304,
             "width": 128,
             "height": 128
         },
-        "zrx": {
+        "zet": {
             "x": 384,
+            "y": 2304,
+            "width": 128,
+            "height": 128
+        },
+        "zil": {
+            "x": 512,
+            "y": 2304,
+            "width": 128,
+            "height": 128
+        },
+        "zrx": {
+            "x": 640,
             "y": 2304,
             "width": 128,
             "height": 128

@@ -371,5 +371,7 @@
     "XEC": "XEC",
     "OSMO": "OSMO",
     "ATOM-IBC_NUCLEUSTEST": "ATOM",
-    "OSMO-IBC_NUCLEUSTEST": "OSMO"
+    "OSMO-IBC_NUCLEUSTEST": "OSMO",
+    "SOL": "SOL",
+    "USDC-SOL": "USDC"
 }

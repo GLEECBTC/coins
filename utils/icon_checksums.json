@@ -1786,5 +1786,13 @@
   "gspc.png": {
     "original": "e837fee8cbea4bb5b7a98652db52d4cebe1faf8b0a8403e39503dc618ef7b0f4",
     "processed": "c63d4eb8e3e7d2636419b2d0b0c25b2262c1e4e1e4ad1043b2b8fe747f361585"
+  },
+  "testsol.png": {
+    "original": "c9fcb30a2867c97442124f0ba4cca997a634cbe33d1e90e9c58c102fb9b6959f",
+    "processed": "eef45750b560df0210e7b622dd9cacb9870d835916f4a4ef60cd5fdebe98fe15"
+  },
+  "testusdc.png": {
+    "original": "c967ba7d5a34cd2ab72520cb1abfba9232902682677aa13c242d9eb6176908d6",
+    "processed": "30b3d155011ff42cf200d1a5c3e34d7340e0cfdafef1567d85b30d01cbdd9dc6"
   }
 }

@@ -4523,42 +4523,6 @@
         },
         "electrum": [
             {
-                "url": "bit-e.minethepla.net:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
-                "url": "bit-e.minethepla.net:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
-                "url": "bit-e.outsidethebox.top:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
-                "url": "bit-e.outsidethebox.top:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
                 "url": "bitn-electrumx.wattxchange.app:50011",
                 "contact": [
                     {
@@ -4582,24 +4546,6 @@
                 "contact": [
                     {
                         "discord": "nucash"
-                    }
-                ]
-            },
-            {
-                "url": "bitnet.outsidethebox.top:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "def#4726"
-                    }
-                ]
-            },
-            {
-                "url": "bitnet.outsidethebox.top:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "def#4726"
                     }
                 ]
             }
@@ -4995,35 +4941,6 @@
             },
             {
                 "url": "electrum1.blackcoin.nl:10014",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.blackcoin.nl:20011",
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum2.blackcoin.nl:20012",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "discord": "michelvankessel#7656"
-                    }
-                ]
-            },
-            {
-                "url": "electrum2.blackcoin.nl:20014",
                 "protocol": "WSS",
                 "disable_cert_verification": true,
                 "contact": [
@@ -16381,8 +16298,21 @@
             "github": "https://github.com/Flopcoin/Flopcoin",
             "homepage": "https://flopcoin.net"
         },
-        "electrum": [],
-        "delisted": true,
+        "electrum": [
+            {
+                "url": "electrumx1.flopcoin.net:10001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx1.flopcoin.net:10004",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "technovision"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "FLOW-BEP20": {
@@ -16542,6 +16472,10 @@
         "electrum": [
             {
                 "url": "electrumx.runonflux.io:50001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx2.runonflux.io:50001",
                 "protocol": "TCP"
             }
         ],
@@ -20643,9 +20577,6 @@
         },
         "derivation_path": "m/44'/118'",
         "rpc_urls": [
-            {
-                "url": "https://mainnet-iris-rpc.konsortech.xyz"
-            },
             {
                 "url": "https://rpc-iris.keplr.app"
             }
@@ -26787,10 +26718,6 @@
             },
             {
                 "url": "https://moonbeam.api.pocket.network"
-            },
-            {
-                "url": "https://moonbeam.drpc.org",
-                "ws_url": "wss://moonbeam.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -29182,12 +29109,8 @@
             "github": "https://github.com/Pink2Dev/Pink2",
             "homepage": "https://getstarted.with.pink"
         },
-        "electrum": [
-            {
-                "url": "pink-one.ewm-cx.net:50001",
-                "protocol": "TCP"
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block.dws?"
     },
     "PIVX": {
@@ -29243,33 +29166,6 @@
             },
             {
                 "url": "electrum01.chainster.org:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "312541186793406465"
-                    }
-                ]
-            },
-            {
-                "url": "electrum02.chainster.org:50001",
-                "contact": [
-                    {
-                        "discord": "312541186793406465"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrum02.chainster.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "312541186793406465"
-                    }
-                ]
-            },
-            {
-                "url": "electrum02.chainster.org:50003",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -36735,8 +36631,8 @@
                 "url": "https://tron.api.pocket.network"
             },
             {
-                "url": "https://tron.drpc.org",
-                "ws_url": "wss://tron.drpc.org"
+                "url": "https://tron.rpc.sentio.xyz",
+                "ws_url": "wss://tron.rpc.sentio.xyz"
             }
         ],
         "explorer_block_url": "#/block/",
@@ -38113,16 +38009,6 @@
             {
                 "url": "uno-ex-one.ewmci.online:50002",
                 "protocol": "SSL"
-            },
-            {
-                "url": "uno-main.coinmunity.gold:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true
-            },
-            {
-                "url": "uno-main.coinmunity.gold:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -43418,20 +43304,8 @@
             "github": "https://github.com/NeuraiProject/Neurai",
             "homepage": "https://neurai.org"
         },
-        "electrum": [
-            {
-                "url": "electrumx3.neurai.top:50001",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "alarm@neurai.org"
-                    },
-                    {
-                        "discord": "456566604809895947"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "XPL": {
@@ -47811,8 +47685,11 @@
             }
         },
         "derivation_path": "m/44'/118'",
-        "rpc_urls": [],
-        "delisted": true,
+        "rpc_urls": [
+            {
+                "url": "https://lcd.nyancat.irisnet.org"
+            }
+        ],
         "explorer_block_url": "#/blocks/"
     },
     "NUCLEUSTEST": {
@@ -48361,5 +48238,151 @@
             }
         ],
         "explorer_block_url": "block/"
+    },
+    "SOL": {
+        "coin": "SOL",
+        "type": "SOLANA",
+        "name": "Solana",
+        "coinpaprika_id": "sol-solana",
+        "coingecko_id": "solana",
+        "livecoinwatch_id": "SOL",
+        "explorer_url": "https://explorer.solana.com/",
+        "explorer_tx_url": "tx/{TX}",
+        "explorer_address_url": "address/{ADDRESS}",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "fname": "Solana",
+        "mm2": 1,
+        "decimals": 9,
+        "avg_blocktime": 0.4,
+        "required_confirmations": 1,
+        "protocol": {
+            "type": "SOLANA",
+            "protocol_data": {}
+        },
+        "derivation_path": "m/44'/501'",
+        "nodes": [
+            {
+                "url": "https://solana-rpc.publicnode.com"
+            },
+            {
+                "url": "https://api.mainnet-beta.solana.com"
+            }
+        ],
+        "explorer_block_url": "block/{BLOCK}"
+    },
+    "TESTSOL": {
+        "coin": "TESTSOL",
+        "type": "SOLANA",
+        "name": "Solana (Devnet)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.solana.com/",
+        "explorer_tx_url": "tx/{TX}?cluster=devnet",
+        "explorer_address_url": "address/{ADDRESS}?cluster=devnet",
+        "supported": [],
+        "active": false,
+        "is_testnet": true,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Solana (Devnet)",
+        "mm2": 1,
+        "decimals": 9,
+        "avg_blocktime": 0.4,
+        "required_confirmations": 1,
+        "protocol": {
+            "type": "SOLANA",
+            "protocol_data": {}
+        },
+        "derivation_path": "m/44'/501'",
+        "nodes": [
+            {
+                "url": "https://api.devnet.solana.com"
+            }
+        ],
+        "explorer_block_url": "block/{BLOCK}?cluster=devnet"
+    },
+    "USDC-SOL": {
+        "coin": "USDC-SOL",
+        "type": "SOLANATOKEN",
+        "name": "USD Coin (Solana)",
+        "coinpaprika_id": "usdc-usd-coin",
+        "coingecko_id": "usd-coin",
+        "livecoinwatch_id": "USDC",
+        "explorer_url": "https://explorer.solana.com/",
+        "explorer_tx_url": "tx/{TX}",
+        "explorer_address_url": "address/{ADDRESS}",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "fname": "USD Coin (Solana)",
+        "mm2": 1,
+        "avg_blocktime": 0.4,
+        "required_confirmations": 1,
+        "protocol": {
+            "type": "SOLANATOKEN",
+            "protocol_data": {
+                "platform": "SOL",
+                "decimals": 6,
+                "mint_address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                "program_id": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+            }
+        },
+        "derivation_path": "m/44'/501'",
+        "parent_coin": "SOL",
+        "decimals": 6,
+        "nodes": [
+            {
+                "url": "https://solana-rpc.publicnode.com"
+            },
+            {
+                "url": "https://api.mainnet-beta.solana.com"
+            }
+        ],
+        "explorer_block_url": "block/{BLOCK}"
+    },
+    "TESTUSDC-TESTSOL": {
+        "coin": "TESTUSDC-TESTSOL",
+        "type": "SOLANATOKEN",
+        "name": "USD Coin (Solana Devnet)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.solana.com/",
+        "explorer_tx_url": "tx/{TX}?cluster=devnet",
+        "explorer_address_url": "address/{ADDRESS}?cluster=devnet",
+        "supported": [],
+        "active": false,
+        "is_testnet": true,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "USD Coin (Solana Devnet)",
+        "mm2": 1,
+        "avg_blocktime": 0.4,
+        "required_confirmations": 1,
+        "protocol": {
+            "type": "SOLANATOKEN",
+            "protocol_data": {
+                "platform": "TESTSOL",
+                "decimals": 6,
+                "mint_address": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+                "program_id": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+            }
+        },
+        "derivation_path": "m/44'/501'",
+        "parent_coin": "TESTSOL",
+        "decimals": 6,
+        "nodes": [
+            {
+                "url": "https://api.devnet.solana.com"
+            }
+        ],
+        "explorer_block_url": "block/{BLOCK}?cluster=devnet"
     }
 }
