@@ -233,6 +233,11 @@ class RegistryTests(unittest.TestCase):
         self.assertEqual(catalog["TESTUSDC-TESTSOL"]["parent_coin"], "TESTSOL")
         self.assertEqual(catalog["SOL"]["livecoinwatch_id"], "SOL")
         self.assertEqual(catalog["USDC-SOL"]["livecoinwatch_id"], "USDC")
+        # Mainnet keeps price feeds that do not depend on Binance.
+        self.assertEqual(catalog["SOL"]["coingecko_id"], "solana")
+        self.assertEqual(catalog["SOL"]["coinpaprika_id"], "sol-solana")
+        self.assertEqual(catalog["USDC-SOL"]["coingecko_id"], "usd-coin")
+        self.assertEqual(catalog["USDC-SOL"]["coinpaprika_id"], "usdc-usd-coin")
 
     def test_token_parent_is_explicit_not_inferred_from_ticker(self):
         token = deepcopy(COINS["TESTUSDC-TESTSOL"])
