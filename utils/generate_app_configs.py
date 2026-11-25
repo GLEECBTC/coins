@@ -144,9 +144,8 @@ with open(f"{repo_path}/api_ids/coinpaprika_ids.json", "r") as f:
 
 
 class CoinConfig:
-    def __init__(self, coin_data: dict, electrum_scan_report: dict, uptime_tracker: UptimeTracker = None, allow_unverified_solana=False):
+    def __init__(self, coin_data: dict, electrum_scan_report: dict, uptime_tracker: UptimeTracker = None):
         self.coin_data = coin_data
-        self.allow_unverified_solana = allow_unverified_solana
         self.electrum_scan_report = electrum_scan_report
         self.uptime_tracker = uptime_tracker
         self.data = {}
@@ -629,10 +628,7 @@ class CoinConfig:
 
     def get_swap_contracts(self):
         if self.coin_type in SOLANA_PROTOCOLS:
-            nodes = nodes_for_coin(
-                self.coin_data, repo_path, self.electrum_scan_report,
-                allow_unverified=self.allow_unverified_solana,
-            )
+            nodes = nodes_for_coin(self.coin_data, repo_path, self.electrum_scan_report)
             self.data[self.ticker]["nodes"] = nodes
             if not nodes:
                 self.data[self.ticker]["delisted"] = True

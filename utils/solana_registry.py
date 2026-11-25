@@ -127,7 +127,7 @@ def load_node_config(repo_path, platform):
         return validate_node_config(json.load(handle))
 
 
-def nodes_for_coin(coin, repo_path, report, now=None, allow_unverified=False):
+def nodes_for_coin(coin, repo_path, report, now=None):
     platform = platform_for(coin)
     config = load_node_config(repo_path, platform)
     if coin.get("is_testnet", False) != (config["cluster"] == "devnet"):
@@ -150,7 +150,7 @@ def nodes_for_coin(coin, repo_path, report, now=None, allow_unverified=False):
             and 0 < last_connection <= now
             and now - last_connection < 604800
         )
-        if verified or allow_unverified:
+        if verified:
             nodes.append({"url": node["url"]})
     return nodes
 

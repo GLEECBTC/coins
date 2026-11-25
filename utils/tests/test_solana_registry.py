@@ -1,5 +1,4 @@
 from copy import deepcopy
-import hashlib
 import json
 import os
 from pathlib import Path
@@ -15,7 +14,6 @@ UTILS = Path(__file__).resolve().parents[1]
 REPO = UTILS.parent
 sys.path.insert(0, str(UTILS))
 import generate_app_configs as generator
-from generate_solana_candidate import candidate_catalog, curated_utxo_catalog, write_candidate
 from solana_registry import (CLUSTER_GENESIS_HASHES, load_node_config,
                              nodes_for_coin, platform_for, probe_node, scan_solana,
                              validate_node_config, validate_registry_coins)
@@ -42,6 +40,31 @@ def valid_report(platform="TESTSOL", url=URL, genesis=DEVNET):
     return {platform: {"tcp": {}, "wss": {}, "ssl": {url: {
         "result": "Passed", "last_connection": NOW, "genesis_hash": genesis, "slot": 42,
     }}}}
+
+
+def valid_solana_report():
+    report = {}
+    for ticker in ("SOL", "TESTSOL"):
+        source = load_node_config(REPO, ticker)
+        report[ticker] = {"tcp": {}, "wss": {}, "ssl": {
+            node["url"]: {
+                "result": "Passed",
+                "last_connection": NOW,
+                "genesis_hash": source["genesis_hash"],
+                "slot": 42,
+            }
+            for node in source["rpc_nodes"]
+        }}
+    return report
+
+
+def generated_solana_catalog():
+    report = valid_solana_report()
+    with patch("solana_registry.time.time", return_value=NOW):
+        return {
+            coin["coin"]: generator.CoinConfig(coin, report).generate()
+            for coin in validate_registry_coins(COINS.values())
+        }
 
 
 class NodeProbeTests(unittest.TestCase):
@@ -149,11 +172,11 @@ class NodeProbeTests(unittest.TestCase):
 
 
 class RegistryTests(unittest.TestCase):
-    def test_four_asset_candidate_matches_kdf_metadata(self):
-        coins, catalog = candidate_catalog()
+    def test_four_asset_catalog_matches_kdf_metadata(self):
+        catalog = generated_solana_catalog()
         self.assertEqual(set(catalog), {"SOL", "TESTSOL", "USDC-SOL", "TESTUSDC-TESTSOL"})
-        for coin in coins:
-            entry = catalog[coin["coin"]]
+        for ticker, entry in catalog.items():
+            coin = COINS[ticker]
             self.assertEqual(entry["coin"], coin["coin"])
             self.assertLessEqual(entry["coin"].count("-"), 1)
             self.assertEqual(entry["protocol"], coin["protocol"])
@@ -188,7 +211,7 @@ class RegistryTests(unittest.TestCase):
                 validate_registry_coins(source)
 
     def test_devnet_tickers_preserve_identity_without_mainnet_pricing_ids(self):
-        _, catalog = candidate_catalog()
+        catalog = generated_solana_catalog()
         for ticker in ["TESTSOL", "TESTUSDC-TESTSOL"]:
             with self.subTest(ticker=ticker):
                 entry = catalog[ticker]
@@ -211,12 +234,6 @@ class RegistryTests(unittest.TestCase):
         token["protocol"]["protocol_data"]["platform"] = "NOT-A-PLATFORM"
         with self.assertRaises(FileNotFoundError):
             nodes_for_coin(token, REPO, {}, NOW)
-
-    def test_missing_parent_in_registry_is_an_error(self):
-        fake_registry = [COINS["TESTUSDC-TESTSOL"]]
-        with patch("generate_solana_candidate.json.load", return_value=fake_registry):
-            with self.assertRaisesRegex(ValueError, "parent must exist"):
-                candidate_catalog()
 
     def test_regular_catalog_generation_rejects_missing_parent(self):
         with patch.object(generator, "ensure_chainids"), patch.object(
@@ -241,7 +258,7 @@ class RegistryTests(unittest.TestCase):
         self.assertEqual(entry["protocol"]["protocol_data"], data)
         self.assertEqual(entry["parent_coin"], "TESTSOL")
         self.assertTrue(entry["wallet_only"])
-        self.assertNotIn("TESTTOKEN2022-TESTSOL", candidate_catalog()[1])
+        self.assertNotIn("TESTTOKEN2022-TESTSOL", generated_solana_catalog())
 
     def test_malformed_scan_cache_does_not_admit_unverified_nodes(self):
         for report in [None, [], {"TESTSOL": None}, {"TESTSOL": {"ssl": []}},
@@ -331,8 +348,7 @@ class RegistryTests(unittest.TestCase):
         self.assertFalse(entry.get("delisted", False))
 
     def test_full_generator_keeps_verified_native_and_token_entries_listed(self):
-        native_mainnet = valid_report("SOL", "https://api.mainnet-beta.solana.com", MAINNET)
-        report = {**native_mainnet, **valid_report()}
+        report = valid_solana_report()
         source = [COINS[ticker] for ticker in ["SOL", "TESTSOL", "USDC-SOL", "TESTUSDC-TESTSOL"]]
         original_load = json.load
         def load(handle):
@@ -348,7 +364,7 @@ class RegistryTests(unittest.TestCase):
             self.assertFalse(entry.get("delisted", False))
 
     def test_mainnet_and_devnet_explorer_query_placement(self):
-        _, catalog = candidate_catalog()
+        catalog = generated_solana_catalog()
         for ticker, suffix in [
             ("SOL", ""),
             ("USDC-SOL", ""),
@@ -362,12 +378,15 @@ class RegistryTests(unittest.TestCase):
                 self.assertEqual(entry["explorer_address_url"], "address/{ADDRESS}" + suffix)
                 self.assertEqual(entry["explorer_block_url"], "block/{BLOCK}" + suffix)
 
-    def test_https_solana_survives_web_filter_without_websocket(self):
-        _, catalog = candidate_catalog()
+    def test_https_solana_survives_native_and_browser_filters(self):
+        catalog = generated_solana_catalog()
         with tempfile.TemporaryDirectory() as directory, patch.object(generator, "script_path", directory):
-            filtered = generator.filter_wss(deepcopy(catalog))
-        self.assertEqual(set(filtered), set(catalog))
-        self.assertEqual(filtered["TESTUSDC-TESTSOL"]["nodes"], [{"url": URL}])
+            ssl = generator.filter_ssl(deepcopy(catalog))
+            tcp = generator.filter_tcp(deepcopy(catalog), ssl)
+            wss = generator.filter_wss(deepcopy(catalog))
+        for filtered in (ssl, tcp, wss):
+            self.assertEqual(set(filtered), set(catalog))
+            self.assertEqual(filtered["TESTUSDC-TESTSOL"]["nodes"], [{"url": URL}])
 
     def test_existing_evm_and_tron_generation_keeps_protocol_and_nodes(self):
         for ticker, kind in [("ETH", "ERC-20"), ("TRX", "TRX"), ("USDT-TRC20", "TRC-20")]:
@@ -378,95 +397,6 @@ class RegistryTests(unittest.TestCase):
                 self.assertTrue(entry["nodes"])
                 self.assertEqual(entry["protocol"], COINS[ticker]["protocol"])
                 self.assertNotIn("genesis_hash", entry)
-
-    def test_candidate_outputs_are_reproducible_and_do_not_enable_mainnet_trading(self):
-        with tempfile.TemporaryDirectory() as directory:
-            manifest = write_candidate(directory)
-            first = {path.name: path.read_bytes() for path in Path(directory).iterdir()}
-            committed = {path.name: path.read_bytes()
-                         for path in (UTILS / "fixtures/solana").iterdir()}
-            self.assertEqual(first, committed, "Regenerate the immutable candidate fixtures")
-            self.assertFalse(manifest["nodes_verified_during_generation"])
-            self.assertTrue(manifest["requires_isolated_storage_namespace"])
-            swap = json.loads(first["swap_coins_config.json"])
-            self.assertEqual(set(swap), {"TESTSOL", "TESTUSDC-TESTSOL", "MARTY"})
-            for coin in swap.values():
-                self.assertTrue(coin["is_testnet"])
-                self.assertFalse(coin["wallet_only"])
-            for name, digest in manifest["sha256"].items():
-                self.assertEqual(hashlib.sha256(first[name]).hexdigest(), digest)
-            write_candidate(directory)
-            self.assertEqual(first, {path.name: path.read_bytes() for path in Path(directory).iterdir()})
-
-    def test_curated_utxo_uses_existing_testnet_metadata_and_nodes(self):
-        coins, configs = curated_utxo_catalog()
-        self.assertEqual(coins, [COINS["MARTY"]])
-        with (UTILS / "coins_config.json").open() as handle:
-            existing = json.load(handle)["MARTY"]
-        self.assertEqual(configs, {"MARTY": existing})
-        self.assertTrue(configs["MARTY"]["is_testnet"])
-        self.assertEqual(configs["MARTY"]["protocol"]["type"], "UTXO")
-
-    def test_curated_utxo_rejects_missing_or_wrong_network_metadata(self):
-        _, configs = curated_utxo_catalog()
-        cases = [([], configs), ([COINS["MARTY"]], {})]
-        for field, value in [("is_testnet", False), ("wallet_only", True),
-                             ("protocol", {"type": "ETH"}), ("pubtype", 0)]:
-            config = deepcopy(configs)
-            config["MARTY"][field] = value
-            cases.append(([COINS["MARTY"]], config))
-        for registry, generated in cases:
-            with self.subTest(registry=registry, generated=generated), patch(
-                    "generate_solana_candidate.json.load", side_effect=[registry, generated]):
-                with self.assertRaises(ValueError):
-                    curated_utxo_catalog()
-
-    def test_curated_utxo_rejects_unknown_disabled_or_missing_browser_nodes(self):
-        _, configs = curated_utxo_catalog()
-        with (REPO / "electrums/MARTY").open() as handle:
-            source_nodes = json.load(handle)
-        unknown = deepcopy(configs)
-        unknown["MARTY"]["electrum"][0]["url"] = "unreviewed.example:20021"
-        missing_web = deepcopy(configs)
-        missing_web["MARTY"]["electrum"] = [node for node in missing_web["MARTY"]["electrum"]
-                                               if node["protocol"] != "WSS"]
-        disabled = deepcopy(source_nodes)
-        for node in disabled:
-            node["disabled"] = ["WSS"]
-        for generated, nodes in [(unknown, source_nodes), (missing_web, source_nodes), (configs, disabled)]:
-            with self.subTest(generated=generated, nodes=nodes), patch(
-                    "generate_solana_candidate.json.load", side_effect=[[COINS["MARTY"]], generated, nodes]):
-                with self.assertRaisesRegex(ValueError, "configured native SSL and browser WSS"):
-                    curated_utxo_catalog()
-
-    def test_swap_fixture_keeps_utxo_on_native_and_browser_and_wallet_solana_gated(self):
-        with tempfile.TemporaryDirectory() as directory, patch.object(generator, "script_path", directory):
-            write_candidate(directory)
-            catalog = json.loads((Path(directory) / "swap_coins_config.json").read_text())
-            native = generator.filter_ssl(deepcopy(catalog))
-            browser = generator.filter_wss(deepcopy(catalog))
-            wallet = json.loads((Path(directory) / "coins_config.json").read_text())
-        self.assertEqual(set(native), {"TESTSOL", "TESTUSDC-TESTSOL", "MARTY"})
-        self.assertEqual(set(browser), set(native))
-        self.assertTrue(all(node["protocol"] == "SSL" for node in native["MARTY"]["electrum"]))
-        self.assertTrue(all(node["protocol"] == "WSS" for node in browser["MARTY"]["electrum"]))
-        self.assertEqual(set(wallet), {"SOL", "USDC-SOL", "TESTSOL", "TESTUSDC-TESTSOL"})
-        self.assertTrue(all(coin["wallet_only"] for coin in wallet.values()))
-
-    def test_verification_manifest_does_not_claim_utxo_snapshot_was_live_checked(self):
-        report = {**valid_report("SOL", "https://api.mainnet-beta.solana.com", MAINNET), **valid_report()}
-        with tempfile.TemporaryDirectory() as directory, patch(
-                "generate_solana_candidate.scan_solana", return_value=report), patch(
-                "solana_registry.time.time", return_value=NOW):
-            manifest = write_candidate(directory, verify_nodes=True)
-        self.assertTrue(manifest["solana_nodes_verified_during_generation"])
-        self.assertFalse(manifest["utxo_nodes_verified_during_generation"])
-        self.assertFalse(manifest["nodes_verified_during_generation"])
-
-    def test_candidate_verify_nodes_refuses_failed_live_probe(self):
-        with patch("generate_solana_candidate.scan_solana", return_value={}):
-            with self.assertRaisesRegex(ValueError, "node validation failed"):
-                candidate_catalog(verify_nodes=True)
 
 
 if __name__ == "__main__":
