@@ -172,14 +172,17 @@ class NodeProbeTests(unittest.TestCase):
             self.assertFalse(report["tcp"])
             self.assertFalse(report["wss"])
 
-    def test_mainnet_lists_a_browser_usable_node_first(self):
-        # api.mainnet-beta.solana.com answers 403 to any request carrying an
-        # Origin header, so browsers cannot use it. KDF starts with the first
-        # node and only falls back in list order, so web wallets need another
-        # node ahead of it.
+    def test_mainnet_lists_the_archival_node_first_and_a_browser_node(self):
+        # KDF uses the first node that answers and moves on only when a
+        # request fails at the transport level. A pruned node answers with
+        # empty history instead of failing, so the archival Foundation node
+        # goes first to give native wallets full history. Browsers get 403
+        # from it, because it refuses any request with an Origin header. KDF
+        # treats the 403 as a failed node, so web wallets fall through to
+        # PublicNode.
         nodes = [node["url"] for node in load_node_config(REPO, "SOL")["rpc_nodes"]]
-        self.assertGreater(len(nodes), 1)
-        self.assertNotEqual(nodes[0], "https://api.mainnet-beta.solana.com")
+        self.assertEqual(nodes[0], "https://api.mainnet-beta.solana.com")
+        self.assertIn("https://solana-rpc.publicnode.com", nodes[1:])
 
 
 class RegistryTests(unittest.TestCase):
