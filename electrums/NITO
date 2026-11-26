@@ -10,7 +10,6 @@
     {
         "url": "electrum1.nito.network:50003",
         "protocol": "SSL",
-        "disable_cert_verification": false,
         "contact": [
             {"email": "biigbang0001@zemzar.net"},
             {"discord": "biigbang0001"}
@@ -18,7 +17,7 @@
         "ws_url": "electrum1.nito.network:50005"
     },
     {
-        "url": "electrum1.nitopool.fr:50001",
+        "url": "electrum1.nitopool.online:50006",
         "protocol": "TCP",
         "contact": [
             {"email": "biigbang0001@zemzar.net"},
@@ -26,13 +25,12 @@
         ]
     },
     {
-        "url": "electrum1.nitopool.fr:50003",
+        "url": "electrum1.nitopool.online:50003",
         "protocol": "SSL",
-        "disable_cert_verification": false,
         "contact": [
             {"email": "biigbang0001@zemzar.net"},
             {"discord": "biigbang0001"}
         ],
-        "ws_url": "electrum1.nitopool.fr:50005"
+        "ws_url": "electrum1.nitopool.online:50005"
     }
 ]
