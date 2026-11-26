@@ -3199,7 +3199,8 @@
   },
   "FLOP": {
     "all": {
-      "1792993807": "offline"
+      "1792993807": "offline",
+      "1795699887": "online"
     },
     "by_server": {
       "_metadata": {
@@ -3219,10 +3220,12 @@
         }
       },
       "electrumx1.flopcoin.net:10001": {
-        "1792993807": "offline"
+        "1792993807": "offline",
+        "1795699887": "online"
       },
       "electrumx1.flopcoin.net:10004": {
-        "1792993807": "offline"
+        "1792993807": "offline",
+        "1795699887": "online"
       },
       "flop-electrum.wattxchange.app:443": {
         "1792993807": "offline"
@@ -7064,13 +7067,15 @@
         "1792993807": "online",
         "1793516861": "offline",
         "1793625583": "online",
-        "1795547916": "offline"
+        "1795547916": "offline",
+        "1795699887": "online"
       },
       "uno-main.coinmunity.gold:50003": {
         "1792993807": "online",
         "1793516861": "offline",
         "1793625583": "online",
-        "1795547916": "offline"
+        "1795547916": "offline",
+        "1795699887": "online"
       }
     }
   },

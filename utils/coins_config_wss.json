@@ -29694,6 +29694,10 @@
             {
                 "url": "uno-bkp.coinmunity.gold:50003",
                 "protocol": "WSS"
+            },
+            {
+                "url": "uno-main.coinmunity.gold:50003",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
