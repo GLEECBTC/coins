@@ -16421,8 +16421,21 @@
             "github": "https://github.com/Flopcoin/Flopcoin",
             "homepage": "https://flopcoin.net"
         },
-        "electrum": [],
-        "delisted": true,
+        "electrum": [
+            {
+                "url": "electrumx1.flopcoin.net:10001",
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx1.flopcoin.net:10004",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "technovision"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "FLOW-BEP20": {
@@ -38546,6 +38559,14 @@
             {
                 "url": "uno-ex-one.ewmci.online:50002",
                 "protocol": "SSL"
+            },
+            {
+                "url": "uno-main.coinmunity.gold:50002",
+                "protocol": "SSL"
+            },
+            {
+                "url": "uno-main.coinmunity.gold:50003",
+                "protocol": "WSS"
             }
         ],
         "explorer_block_url": "block.dws?"
