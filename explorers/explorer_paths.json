@@ -241,5 +241,10 @@
 		"explorer_tx_url": "#/transaction/",
 		"explorer_address_url": "#/address/",
 		"explorer_block_url": "#/block/"
+	},
+	"https://explorer.solana.com/": {
+		"explorer_tx_url": "tx/{TX}",
+		"explorer_address_url": "address/{ADDRESS}",
+		"explorer_block_url": "block/{BLOCK}"
 	}
 }
